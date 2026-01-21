@@ -125,7 +125,9 @@
     "cta": "Mo Tai Khoan Tuong Lai",
     "verified": "Da Xac Minh & Hoat Dong",
     "lastUpdated": "Kiem tra: Thang 1/2026",
-    "spainNote": "Hoat dong o Tay Ban Nha noi CFD bi cam"
+    "spainNote": "Hoat dong o Tay Ban Nha noi CFD bi cam",
+    "tradingviewTitle": "Giao Dịch Trực Tiếp trên TradingView",
+    "tradingviewDesc": "AvaFutures tích hợp liền mạch với TradingView, cho phép bạn truy cập biểu đồ nâng cao và giao dịch tương lai chỉ với một cú nhấp chuột."
   },
   "xm": {
     "badge": "Doi Tac Chinh Thuc",

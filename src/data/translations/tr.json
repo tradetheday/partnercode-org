@@ -125,7 +125,9 @@
     "cta": "Vadeli Islem Hesabi Ac",
     "verified": "Dogrulanmis ve Calisiyor",
     "lastUpdated": "Kontrol Edildi: Ocak 2026",
-    "spainNote": "CFD'lerin yasak oldugu Ispanya'da calisir"
+    "spainNote": "CFD'lerin yasak oldugu Ispanya'da calisir",
+    "tradingviewTitle": "Doğrudan TradingView'da İşlem Yapın",
+    "tradingviewDesc": "AvaFutures, TradingView ile sorunsuz bir şekilde entegre olur ve size gelişmiş grafiklere ve tek tıklamayla vadeli işlem ticaretine erişim sağlar."
   },
   "xm": {
     "badge": "Resmi Partner",

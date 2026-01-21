@@ -125,7 +125,9 @@
     "cta": "開立期貨帳戶",
     "verified": "驗證有效",
     "lastUpdated": "驗證時間：2026 年 1 月",
-    "spainNote": "適用於禁止 CFD 的西班牙地區"
+    "spainNote": "適用於禁止 CFD 的西班牙地區",
+    "tradingviewTitle": "直接在 TradingView 上交易",
+    "tradingviewDesc": "AvaFutures 與 TradingView 無縫整合，讓您獲得進階圖表和一鍵期貨交易功能。"
   },
   "xm": {
     "badge": "官方合作夥伴",

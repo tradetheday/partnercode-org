@@ -125,7 +125,9 @@
     "cta": "Buka Akun Futures",
     "verified": "Terverifikasi & Berfungsi",
     "lastUpdated": "Diperiksa: Januari 2026",
-    "spainNote": "Berfungsi di Spanyol yang melarang CFD"
+    "spainNote": "Berfungsi di Spanyol yang melarang CFD",
+    "tradingviewTitle": "Trading Langsung di TradingView",
+    "tradingviewDesc": "AvaFutures terintegrasi dengan mulus ke TradingView, memberi Anda akses ke grafik canggih dan trading futures dengan satu klik."
   },
   "xm": {
     "badge": "Partner Resmi",

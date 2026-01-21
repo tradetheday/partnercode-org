@@ -125,7 +125,9 @@
     "cta": "开设期货账户",
     "verified": "已验证有效",
     "lastUpdated": "检查时间：2026年1月",
-    "spainNote": "适用于CFD被禁止的西班牙"
+    "spainNote": "适用于CFD被禁止的西班牙",
+    "tradingviewTitle": "直接在TradingView上交易",
+    "tradingviewDesc": "AvaFutures与TradingView无缝集成，让您获得高级图表和一键期货交易功能。"
   },
   "xm": {
     "badge": "官方合作伙伴",

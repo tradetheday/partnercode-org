@@ -125,7 +125,9 @@
     "cta": "先物口座を開設",
     "verified": "検証済み＆有効",
     "lastUpdated": "確認日：2026年1月",
-    "spainNote": "CFDが禁止されているスペインでも利用可能"
+    "spainNote": "CFDが禁止されているスペインでも利用可能",
+    "tradingviewTitle": "TradingViewで直接取引",
+    "tradingviewDesc": "AvaFuturesはTradingViewとシームレスに統合され、高度なチャートとワンクリック先物取引にアクセスできます。"
   },
   "xm": {
     "badge": "公式パートナー",

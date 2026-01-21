@@ -125,7 +125,9 @@
     "cta": "Oppna Futureskonto",
     "verified": "Verifierad & Fungerar",
     "lastUpdated": "Kontrollerad: Januari 2026",
-    "spainNote": "Fungerar i Spanien dar CFD:er ar forbjudna"
+    "spainNote": "Fungerar i Spanien dar CFD:er ar forbjudna",
+    "tradingviewTitle": "Handla Direkt på TradingView",
+    "tradingviewDesc": "AvaFutures integreras sömlöst med TradingView och ger dig tillgång till avancerade diagram och ett-klicks futureshandel."
   },
   "xm": {
     "badge": "Officiell Partner",

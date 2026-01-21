@@ -125,7 +125,9 @@
     "cta": "Abn Futures Konto",
     "verified": "Verificeret & Fungerer",
     "lastUpdated": "Tjekket: Januar 2026",
-    "spainNote": "Virker i Spanien, hvor CFD'er er forbudt"
+    "spainNote": "Virker i Spanien, hvor CFD'er er forbudt",
+    "tradingviewTitle": "Handel Direkte på TradingView",
+    "tradingviewDesc": "AvaFutures integreres problemfrit med TradingView og giver dig adgang til avancerede diagrammer og et-klik futures-handel."
   },
   "xm": {
     "badge": "Officiel Partner",

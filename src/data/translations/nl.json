@@ -125,7 +125,9 @@
     "cta": "Futures Account Openen",
     "verified": "Geverifieerd & Werkend",
     "lastUpdated": "Gecontroleerd: januari 2026",
-    "spainNote": "Werkt in Spanje waar CFD's verboden zijn"
+    "spainNote": "Werkt in Spanje waar CFD's verboden zijn",
+    "tradingviewTitle": "Handel Direct op TradingView",
+    "tradingviewDesc": "AvaFutures integreert naadloos met TradingView, waardoor u toegang krijgt tot geavanceerde grafieken en futures trading met één klik."
   },
   "xm": {
     "badge": "Officiele Partner",

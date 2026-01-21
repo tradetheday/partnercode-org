@@ -125,7 +125,9 @@
     "cta": "Otworz Konto Futures",
     "verified": "Zweryfikowany i Dzialajacy",
     "lastUpdated": "Sprawdzono: Styczen 2026",
-    "spainNote": "Dziala w Hiszpanii, gdzie CFD sa zakazane"
+    "spainNote": "Dziala w Hiszpanii, gdzie CFD sa zakazane",
+    "tradingviewTitle": "Handluj Bezpośrednio na TradingView",
+    "tradingviewDesc": "AvaFutures bezproblemowo integruje się z TradingView, dając Ci dostęp do zaawansowanych wykresów i handlu futures jednym kliknięciem."
   },
   "xm": {
     "badge": "Oficjalny Partner",

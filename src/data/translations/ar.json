@@ -125,7 +125,9 @@
     "cta": "افتح حساب عقود آجلة",
     "verified": "موثق وفعال",
     "lastUpdated": "تم الفحص: يناير 2026",
-    "spainNote": "يعمل في اسبانيا حيث CFD محظور"
+    "spainNote": "يعمل في اسبانيا حيث CFD محظور",
+    "tradingviewTitle": "تداول مباشرة على TradingView",
+    "tradingviewDesc": "يتكامل AvaFutures بسلاسة مع TradingView، مما يمنحك الوصول إلى الرسوم البيانية المتقدمة وتداول العقود الآجلة بنقرة واحدة."
   },
   "xm": {
     "badge": "شريك رسمي",

@@ -125,7 +125,9 @@
     "cta": "Apne Futures Konto",
     "verified": "Verifisert & Fungerer",
     "lastUpdated": "Sjekket: Januar 2026",
-    "spainNote": "Fungerer i Spania hvor CFD-er er forbudt"
+    "spainNote": "Fungerer i Spania hvor CFD-er er forbudt",
+    "tradingviewTitle": "Handle Direkte på TradingView",
+    "tradingviewDesc": "AvaFutures integreres sømløst med TradingView, og gir deg tilgang til avanserte diagrammer og ett-klikks futures-handel."
   },
   "xm": {
     "badge": "Offisiell Partner",

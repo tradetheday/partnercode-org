@@ -126,7 +126,9 @@
     "verified": "Verifiziert & Funktioniert",
     "lastUpdated": "Geprüft: Januar 2026",
     "spainNote": "Funktioniert in Spanien, wo CFDs verboten sind",
-    "bonusShort": "Bis zu $10.000 Willkommensbonus"
+    "bonusShort": "Bis zu $10.000 Willkommensbonus",
+    "tradingviewTitle": "Handeln Sie direkt auf TradingView",
+    "tradingviewDesc": "AvaFutures integriert sich nahtlos mit TradingView und bietet Ihnen Zugang zu fortschrittlichen Charts und Ein-Klick-Futures-Handel."
   },
   "xm": {
     "badge": "Offizieller Partner",

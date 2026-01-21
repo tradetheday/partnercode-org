@@ -125,7 +125,9 @@
     "cta": "Abrir Conta de Futuros",
     "verified": "Verificado e Funcionando",
     "lastUpdated": "Verificado: Janeiro 2026",
-    "spainNote": "Funciona na Espanha onde CFDs sao proibidos"
+    "spainNote": "Funciona na Espanha onde CFDs sao proibidos",
+    "tradingviewTitle": "Negocie Diretamente no TradingView",
+    "tradingviewDesc": "AvaFutures integra-se perfeitamente com o TradingView, dando-lhe acesso a gráficos avançados e negociação de futuros com um clique."
   },
   "xm": {
     "badge": "Parceiro Oficial",
