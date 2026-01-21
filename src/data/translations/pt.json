@@ -54,6 +54,22 @@
       "a": "Um codigo que voce insere ao se cadastrar em uma nova conta de trading. Ele vincula seu cadastro a um parceiro e desbloqueia um bonus de boas-vindas que voce nao conseguiria de outra forma."
     },
     {
+      "q": "Qual e o seu codigo de parceiro?",
+      "a": "Nosso codigo de parceiro em destaque e 128979 para AvaTrade (ate $14.000 de bonus), QK44F para XM ($30 gratis + 100% de correspondencia), e 128979 para AvaFutures (trading de futuros). Todos os codigos sao verificados e funcionam."
+    },
+    {
+      "q": "O que significa codigo de parceiro?",
+      "a": "Um codigo de parceiro e um identificador unico que conecta o registro da sua conta de corretora a um parceiro afiliado. Quando voce o insere durante o cadastro, obtem acesso a bonus de boas-vindas exclusivos - geralmente correspondencias de deposito ou credito de trading gratis que cadastros normais nao recebem."
+    },
+    {
+      "q": "Qual e o codigo de parceiro da AvaTrade?",
+      "a": "O codigo de parceiro da AvaTrade e 128979. Insira este codigo ao abrir sua conta para obter ate $14.000 em bonus de boas-vindas. Esta verificado e funcionando em janeiro de 2026."
+    },
+    {
+      "q": "E gratis obter um codigo de parceiro?",
+      "a": "Sim, codigos de parceiro sao completamente gratis para usar. Nao custam nada, nao aumentam suas taxas de trading e nao mudam seus spreads ou condicoes. Voce simplesmente recebe dinheiro de bonus adicionado a sua conta."
+    },
+    {
       "q": "Como eles funcionam?",
       "a": "Durante o registro, procure um campo chamado 'Codigo de Parceiro' ou 'Codigo de Indicacao'. Coloque o codigo ali, finalize o cadastro, e o bonus sera aplicado a sua conta."
     },

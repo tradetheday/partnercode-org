@@ -54,6 +54,22 @@
       "a": "Yeni bir islem hesabina kaydolurken girdiginiz bir koddur. Kaydinizi bir ortaga baglar ve aksi takdirde alamayacaginiz bir hosgeldin bonusunu acar."
     },
     {
+      "q": "Partner kodunuz nedir?",
+      "a": "One cikan partner kodumuz AvaTrade icin 128979 ($14,000'a kadar bonus), XM icin QK44F ($30 ucretsiz + %100 eslestirme) ve AvaFutures icin 128979'dur (vadeli islem ticareti). Tum kodlar dogrulanmis ve calisiyor."
+    },
+    {
+      "q": "Partner kodu ne anlama gelir?",
+      "a": "Partner kodu, broker hesap kaydininizi bir ortakla baglayan benzersiz bir tanimlayicidir. Kayit sirasinda girdiginizde, normal kayitlarin alamadigi ozel hosgeldin bonuslarina erisim elde edersiniz - genellikle depozito eslestirmesi veya ucretsiz islem kredisi."
+    },
+    {
+      "q": "AvaTrade icin partner kodu nedir?",
+      "a": "AvaTrade partner kodu 128979'dur. Bu kodu hesap acerken girerek $14,000'a kadar hosgeldin bonusu alin. Ocak 2026 itibariyle dogrulanmis ve calisiyor."
+    },
+    {
+      "q": "Partner kodu almak ucretsiz mi?",
+      "a": "Evet, partner kodlari kullanimi tamamen ucretsizdir. Hicbir maliyeti yoktur, islem ucretlerinizi artirmaz ve spreadlerinizi veya kosullarinizi degistirmez. Sadece hesabiniza bonus parasi eklenir."
+    },
+    {
       "q": "Nasil calisirlar?",
       "a": "Kayit sirasinda 'Partner Kodu' veya 'Referans Kodu' adinda bir alan arayin. Kodu oraya girin, kaydi tamamlayin ve bonus hesabiniza uygulanir."
     },

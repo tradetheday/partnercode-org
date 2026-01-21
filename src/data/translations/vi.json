@@ -54,6 +54,22 @@
       "a": "Day la ma ban nhap khi dang ky tai khoan giao dich moi. No lien ket dang ky cua ban voi doi tac va mo khoa thuong chao mung ma ban khong nhan duoc neu dang ky binh thuong."
     },
     {
+      "q": "Ma doi tac cua ban la gi?",
+      "a": "Ma doi tac noi bat cua chung toi la 128979 cho AvaTrade (thuong len den $14,000), QK44F cho XM ($30 mien phi + 100% khop), va 128979 cho AvaFutures (giao dich tuong lai). Tat ca cac ma da duoc xac minh va dang hoat dong."
+    },
+    {
+      "q": "Ma doi tac co nghia la gi?",
+      "a": "Ma doi tac la dinh danh duy nhat ket noi dang ky tai khoan moi gioi cua ban voi doi tac lien ket. Khi nhap trong qua trinh dang ky, ban se nhan duoc thuong chao mung doc quyen - thuong la khop tien gui hoac tin dung giao dich mien phi ma dang ky thong thuong khong nhan duoc."
+    },
+    {
+      "q": "Ma doi tac cho AvaTrade la gi?",
+      "a": "Ma doi tac AvaTrade la 128979. Nhap ma nay khi mo tai khoan de nhan thuong chao mung len den $14,000. Da xac minh va dang hoat dong tinh den thang 1/2026."
+    },
+    {
+      "q": "Nhan ma doi tac co mien phi khong?",
+      "a": "Co, ma doi tac hoan toan mien phi su dung. Khong mat phi, khong tang phi giao dich, va khong thay doi spread hoac dieu kien cua ban. Ban chi don gian nhan tien thuong vao tai khoan."
+    },
+    {
       "q": "Chung hoat dong nhu the nao?",
       "a": "Trong qua trinh dang ky, tim truong 'Ma Doi Tac' hoac 'Ma Gioi Thieu'. Nhap ma vao do, hoan thanh dang ky, va thuong se duoc ap dung vao tai khoan cua ban."
     },

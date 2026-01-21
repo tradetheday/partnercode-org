@@ -54,6 +54,22 @@
       "a": "Ein Code, den Sie bei der Anmeldung für ein neues Handelskonto eingeben. Er verknüpft Ihre Anmeldung mit einem Partner und schaltet einen Willkommensbonus frei, den Sie sonst nicht bekommen würden."
     },
     {
+      "q": "Was ist Ihr Partnercode?",
+      "a": "Unser empfohlener Partnercode ist 128979 für AvaTrade (bis zu $14.000 Bonus), QK44F für XM ($30 gratis + 100% Match), und 128979 für AvaFutures (Futures-Handel). Alle Codes sind verifiziert und funktionieren."
+    },
+    {
+      "q": "Was bedeutet Partnercode?",
+      "a": "Ein Partnercode ist eine eindeutige Kennung, die Ihre Broker-Kontoregistrierung mit einem Affiliate-Partner verbindet. Wenn Sie ihn bei der Anmeldung eingeben, erhalten Sie Zugang zu exklusiven Willkommensboni - oft Einzahlungs-Matches oder kostenloses Handelsguthaben, das normale Anmeldungen nicht erhalten."
+    },
+    {
+      "q": "Was ist der Partnercode für AvaTrade?",
+      "a": "Der AvaTrade Partnercode ist 128979. Geben Sie diesen Code bei der Kontoeröffnung ein, um bis zu $14.000 an Willkommensboni zu erhalten. Er ist verifiziert und funktioniert ab Januar 2026."
+    },
+    {
+      "q": "Ist es kostenlos, einen Partnercode zu bekommen?",
+      "a": "Ja, Partnercodes sind völlig kostenlos zu nutzen. Sie kosten nichts, erhöhen nicht Ihre Handelsgebühren und ändern nicht Ihre Spreads oder Bedingungen. Sie erhalten einfach Bonusgeld auf Ihr Konto."
+    },
+    {
       "q": "Wie funktionieren sie?",
       "a": "Suchen Sie bei der Registrierung nach einem Feld namens 'Partnercode' oder 'Empfehlungscode'. Geben Sie den Code dort ein, schließen Sie die Anmeldung ab, und der Bonus wird auf Ihr Konto angewendet."
     },

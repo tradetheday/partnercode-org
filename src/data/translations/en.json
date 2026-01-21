@@ -43,6 +43,22 @@
       "a": "A code you enter when signing up for a new trading account. It links your signup to a partner and unlocks a welcome bonus you wouldn't get otherwise."
     },
     {
+      "q": "What is your partner code?",
+      "a": "Our featured partner code is 128979 for AvaTrade (up to $14,000 bonus), QK44F for XM ($30 free + 100% match), and 128979 for AvaFutures (futures trading). All codes are verified and working."
+    },
+    {
+      "q": "What is meant by partner code?",
+      "a": "A partner code is a unique identifier that connects your broker account registration to an affiliate partner. When you enter one during signup, you get access to exclusive welcome bonuses - often deposit matches or free trading credit that regular signups don't receive."
+    },
+    {
+      "q": "What is the partner code for AvaTrade?",
+      "a": "The AvaTrade partner code is 128979. Enter this code when opening your account to get up to $14,000 in welcome bonuses. It's verified and working as of January 2026."
+    },
+    {
+      "q": "Is it free to get a partner code?",
+      "a": "Yes, partner codes are completely free to use. They don't cost anything, don't increase your trading fees, and don't change your spreads or conditions. You simply get bonus money added to your account."
+    },
+    {
       "q": "How do they work?",
       "a": "During registration, look for a field called 'Partner Code' or 'Referral Code'. Put the code in there, finish signing up, and the bonus gets applied to your account."
     },

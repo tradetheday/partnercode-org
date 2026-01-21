@@ -54,6 +54,22 @@
       "a": "Kod, ktory wpisujesz podczas rejestracji nowego konta handlowego. Laczy Twoja rejestracje z partnerem i odblokowuje bonus powitalny, ktorego inaczej byc nie otrzymal."
     },
     {
+      "q": "Jaki jest Wasz kod partnerski?",
+      "a": "Nasz polecany kod partnerski to 128979 dla AvaTrade (do $14,000 bonusu), QK44F dla XM ($30 za darmo + 100% dopasowania), i 128979 dla AvaFutures (handel futures). Wszystkie kody sa zweryfikowane i dzialaja."
+    },
+    {
+      "q": "Co oznacza kod partnerski?",
+      "a": "Kod partnerski to unikalny identyfikator, ktory laczy rejestracje Twojego konta brokerskiego z partnerem afiliacyjnym. Gdy wpiszesz go podczas rejestracji, otrzymujesz dostep do ekskluzywnych bonusow powitalnych - czesto dopasowania depozytu lub darmowy kredyt handlowy, ktorego zwykle rejestracje nie otrzymuja."
+    },
+    {
+      "q": "Jaki jest kod partnerski AvaTrade?",
+      "a": "Kod partnerski AvaTrade to 128979. Wpisz ten kod podczas otwierania konta, aby otrzymac do $14,000 w bonusach powitalnych. Jest zweryfikowany i dziala na styczen 2026."
+    },
+    {
+      "q": "Czy uzyskanie kodu partnerskiego jest darmowe?",
+      "a": "Tak, kody partnerskie sa calkowicie darmowe w uzyciu. Nic nie kosztuja, nie zwiekszaja Twoich oplat handlowych i nie zmieniaja Twoich spreadow ani warunkow. Po prostu otrzymujesz pieniadze bonusowe dodane do Twojego konta."
+    },
+    {
       "q": "Jak one dzialaja?",
       "a": "Podczas rejestracji poszukaj pola 'Kod Partnerski' lub 'Kod Polecajacy'. Wpisz tam kod, dokoncz rejestracje, a bonus zostanie dodany do Twojego konta."
     },

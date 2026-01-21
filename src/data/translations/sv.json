@@ -54,6 +54,22 @@
       "a": "En kod du anger nar du registrerar dig for ett nytt handelskonto. Den kopplar din registrering till en partner och laser upp en valkomstbonus du inte skulle fa annars."
     },
     {
+      "q": "Vad ar er partnerkod?",
+      "a": "Var rekommenderade partnerkod ar 128979 for AvaTrade (upp till $14,000 bonus), QK44F for XM ($30 gratis + 100% matchning), och 128979 for AvaFutures (terminshandel). Alla koder ar verifierade och fungerar."
+    },
+    {
+      "q": "Vad menas med partnerkod?",
+      "a": "En partnerkod ar en unik identifierare som kopplar din maklarkontoregistrering till en affiliate-partner. Nar du anger den under registrering far du tillgang till exklusiva valkomstbonusar - ofta insattningsmatchningar eller gratis handelskredit som vanliga registreringar inte far."
+    },
+    {
+      "q": "Vad ar partnerkoden for AvaTrade?",
+      "a": "AvaTradeS partnerkod ar 128979. Ange denna kod nar du oppnar ditt konto for att fa upp till $14,000 i valkomstbonusar. Verifierad och fungerande fran januari 2026."
+    },
+    {
+      "q": "Ar det gratis att fa en partnerkod?",
+      "a": "Ja, partnerkoder ar helt gratis att anvanda. De kostar ingenting, okar inte dina handelsavgifter, och andrar inte dina spreadar eller villkor. Du far helt enkelt bonuspengar till ditt konto."
+    },
+    {
       "q": "Hur fungerar de?",
       "a": "Under registreringen, leta efter ett falt som heter 'Partnerkod' eller 'Hanvisningskod'. Skriv in koden dar, slutfor registreringen, och bonusen laggs till pa ditt konto."
     },
