@@ -35,7 +35,18 @@
       "bonus": "Do 14 000 $ Bonusu Powitalnego",
       "cta": "Odbierz Swoj Bonus"
     },
-    "faqTitle": "Najczesciej Zadawane Pytania o Kody Partnerskie"
+    "faqTitle": "Najczesciej Zadawane Pytania o Kody Partnerskie",
+    "partnerCodesTitle": "Kody Partnerskie",
+    "partnerCodesSubtitle": "Zweryfikowane kody dla najlepszych brokerów z ekskluzywnymi bonusami powitalnymi",
+    "verifiedBadge": "Zweryfikowany i Działający - Styczeń 2026",
+    "getBonus": "Odbierz Bonus",
+    "readyToTrade": "Gotowy, Aby Zacząć Handlować?",
+    "ctaSubtitle": "Wybierz brokera i użyj naszych kodów partnerskich, aby odblokować ekskluzywne bonusy powitalne.",
+    "brokerHighlights": {
+      "avatrade": "Handel CFD i Forex",
+      "xm": "Darmowy Bonus $30",
+      "avafutures": "Futures na TradingView"
+    }
   },
   "homeFaq": [
     {

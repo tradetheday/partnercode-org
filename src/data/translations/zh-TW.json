@@ -35,7 +35,18 @@
       "bonus": "開戶獎勵高達 $14,000 美元",
       "cta": "領取您的獎勵"
     },
-    "faqTitle": "合作夥伴代碼常見問題"
+    "faqTitle": "合作夥伴代碼常見問題",
+    "partnerCodesTitle": "合作夥伴代碼",
+    "partnerCodesSubtitle": "頂級券商的驗證代碼，享受獨家開戶獎勵",
+    "verifiedBadge": "已驗證且有效 - 2026年1月",
+    "getBonus": "領取獎勵",
+    "readyToTrade": "準備好開始交易了嗎？",
+    "ctaSubtitle": "選擇一個券商，使用我們的合作夥伴代碼解鎖獨家開戶獎勵。",
+    "brokerHighlights": {
+      "avatrade": "CFD和外匯交易",
+      "xm": "$30免費獎勵",
+      "avafutures": "TradingView期貨交易"
+    }
   },
   "homeFaq": [
     {

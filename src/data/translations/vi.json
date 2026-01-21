@@ -35,7 +35,18 @@
       "bonus": "Thuong Chao Mung Len Den $14,000",
       "cta": "Nhan Thuong Cua Ban"
     },
-    "faqTitle": "Cau Hoi Thuong Gap Ve Ma Doi Tac"
+    "faqTitle": "Cau Hoi Thuong Gap Ve Ma Doi Tac",
+    "partnerCodesTitle": "Mã Đối Tác",
+    "partnerCodesSubtitle": "Mã đã xác minh cho các sàn giao dịch hàng đầu với thưởng chào mừng độc quyền",
+    "verifiedBadge": "Đã Xác Minh và Hoạt Động - Tháng 1 2026",
+    "getBonus": "Nhận Thưởng",
+    "readyToTrade": "Sẵn Sàng Bắt Đầu Giao Dịch?",
+    "ctaSubtitle": "Chọn một sàn giao dịch và sử dụng mã đối tác của chúng tôi để mở khóa thưởng chào mừng độc quyền.",
+    "brokerHighlights": {
+      "avatrade": "Giao Dịch CFD & Forex",
+      "xm": "Thưởng Miễn Phí $30",
+      "avafutures": "Futures trên TradingView"
+    }
   },
   "homeFaq": [
     {

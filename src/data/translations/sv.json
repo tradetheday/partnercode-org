@@ -35,7 +35,18 @@
       "bonus": "Upp till $14 000 Valkomstbonus",
       "cta": "Hamta Din Bonus"
     },
-    "faqTitle": "Vanliga Fragor om Partnerkoder"
+    "faqTitle": "Vanliga Fragor om Partnerkoder",
+    "partnerCodesTitle": "Partnerkoder",
+    "partnerCodesSubtitle": "Verifierade koder för toppmäklare med exklusiva välkomstbonusar",
+    "verifiedBadge": "Verifierad och Fungerar - Januari 2026",
+    "getBonus": "Hämta Bonus",
+    "readyToTrade": "Redo att Börja Handla?",
+    "ctaSubtitle": "Välj en mäklare och använd våra partnerkoder för att låsa upp exklusiva välkomstbonusar.",
+    "brokerHighlights": {
+      "avatrade": "CFD & Forex Trading",
+      "xm": "$30 Gratis Bonus",
+      "avafutures": "Terminer på TradingView"
+    }
   },
   "homeFaq": [
     {

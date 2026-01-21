@@ -35,7 +35,18 @@
       "bonus": "최대 $14,000 환영 보너스",
       "cta": "보너스 받기"
     },
-    "faqTitle": "파트너 코드에 대한 자주 묻는 질문"
+    "faqTitle": "파트너 코드에 대한 자주 묻는 질문",
+    "partnerCodesTitle": "파트너 코드",
+    "partnerCodesSubtitle": "독점 환영 보너스가 포함된 최고의 브로커 인증 코드",
+    "verifiedBadge": "인증됨 및 작동 중 - 2026년 1월",
+    "getBonus": "보너스 받기",
+    "readyToTrade": "거래를 시작할 준비가 되셨나요?",
+    "ctaSubtitle": "브로커를 선택하고 파트너 코드를 사용하여 독점 환영 보너스를 잠금 해제하세요.",
+    "brokerHighlights": {
+      "avatrade": "CFD & 외환 거래",
+      "xm": "$30 무료 보너스",
+      "avafutures": "TradingView에서 선물 거래"
+    }
   },
   "homeFaq": [
     {

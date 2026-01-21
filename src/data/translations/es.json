@@ -35,7 +35,18 @@
       "bonus": "Hasta $14,000 Bono de Bienvenida",
       "cta": "Reclama Tu Bono"
     },
-    "faqTitle": "Preguntas Frecuentes Sobre Codigos Partner"
+    "faqTitle": "Preguntas Frecuentes Sobre Codigos Partner",
+    "partnerCodesTitle": "Códigos de Socio",
+    "partnerCodesSubtitle": "Códigos verificados para los mejores brokers con bonos de bienvenida exclusivos",
+    "verifiedBadge": "Verificado y Funcionando - Enero 2026",
+    "getBonus": "Obtener Bono",
+    "readyToTrade": "¿Listo para Empezar a Operar?",
+    "ctaSubtitle": "Elige un broker y usa nuestros códigos de socio para desbloquear bonos de bienvenida exclusivos.",
+    "brokerHighlights": {
+      "avatrade": "Trading CFD y Forex",
+      "xm": "Bono Gratis de $30",
+      "avafutures": "Futuros en TradingView"
+    }
   },
   "homeFaq": [
     {
@@ -114,7 +125,8 @@
     "cta": "Abrir Cuenta de Futuros",
     "verified": "Verificado y Funcionando",
     "lastUpdated": "Verificado: Enero 2026",
-    "spainNote": "Funciona en Espana donde los CFDs estan prohibidos"
+    "spainNote": "Funciona en Espana donde los CFDs estan prohibidos",
+    "bonusShort": "Hasta $10,000 de Bono de Bienvenida"
   },
   "xm": {
     "badge": "Socio Oficial",
@@ -123,7 +135,8 @@
     "cta": "Reclama $30 Gratis",
     "verified": "Verificado y Funcionando",
     "lastUpdated": "Verificado: Enero 2026",
-    "noDeposit": "Bono de $30 Sin Deposito"
+    "noDeposit": "Bono de $30 Sin Deposito",
+    "bonusShort": "$30 Sin Depósito + 100% de Igualación"
   },
   "exness": {
     "badge": "Spreads Ajustados",

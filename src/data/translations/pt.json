@@ -35,7 +35,18 @@
       "bonus": "Ate $14.000 de Bonus de Boas-vindas",
       "cta": "Reivindique Seu Bonus"
     },
-    "faqTitle": "Perguntas Frequentes Sobre Codigos de Parceiro"
+    "faqTitle": "Perguntas Frequentes Sobre Codigos de Parceiro",
+    "partnerCodesTitle": "Códigos de Parceiro",
+    "partnerCodesSubtitle": "Códigos verificados para os melhores corretores com bônus de boas-vindas exclusivos",
+    "verifiedBadge": "Verificado e Funcionando - Janeiro 2026",
+    "getBonus": "Obter Bônus",
+    "readyToTrade": "Pronto para Começar a Negociar?",
+    "ctaSubtitle": "Escolha um corretor e use nossos códigos de parceiro para desbloquear bônus de boas-vindas exclusivos.",
+    "brokerHighlights": {
+      "avatrade": "Trading CFD e Forex",
+      "xm": "Bônus Grátis de $30",
+      "avafutures": "Futuros no TradingView"
+    }
   },
   "homeFaq": [
     {

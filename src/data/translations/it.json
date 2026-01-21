@@ -35,7 +35,18 @@
       "bonus": "Fino a $14.000 di Bonus di Benvenuto",
       "cta": "Richiedi il Tuo Bonus"
     },
-    "faqTitle": "Domande Frequenti sui Codici Partner"
+    "faqTitle": "Domande Frequenti sui Codici Partner",
+    "partnerCodesTitle": "Codici Partner",
+    "partnerCodesSubtitle": "Codici verificati per i migliori broker con bonus di benvenuto esclusivi",
+    "verifiedBadge": "Verificato e Funzionante - Gennaio 2026",
+    "getBonus": "Ottieni Bonus",
+    "readyToTrade": "Pronto per Iniziare a Fare Trading?",
+    "ctaSubtitle": "Scegli un broker e usa i nostri codici partner per sbloccare bonus di benvenuto esclusivi.",
+    "brokerHighlights": {
+      "avatrade": "Trading CFD e Forex",
+      "xm": "Bonus Gratis di $30",
+      "avafutures": "Futures su TradingView"
+    }
   },
   "homeFaq": [
     {
@@ -114,7 +125,8 @@
     "cta": "Apri Conto Futures",
     "verified": "Verificato e Funzionante",
     "lastUpdated": "Verificato: Gennaio 2026",
-    "spainNote": "Funziona in Spagna dove i CFD sono vietati"
+    "spainNote": "Funziona in Spagna dove i CFD sono vietati",
+    "bonusShort": "Fino a $10.000 di Bonus di Benvenuto"
   },
   "xm": {
     "badge": "Partner Ufficiale",
@@ -123,7 +135,8 @@
     "cta": "Richiedi $30 Bonus Gratis",
     "verified": "Verificato e Funzionante",
     "lastUpdated": "Verificato: Gennaio 2026",
-    "noDeposit": "$30 Bonus Senza Deposito"
+    "noDeposit": "$30 Bonus Senza Deposito",
+    "bonusShort": "$30 Senza Deposito + 100% di Corrispondenza"
   },
   "exness": {
     "badge": "Spread Stretti",

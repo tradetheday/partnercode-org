@@ -35,7 +35,18 @@
       "bonus": "Tot $14.000 Welkomstbonus",
       "cta": "Claim Je Bonus"
     },
-    "faqTitle": "Veelgestelde Vragen over Partnercodes"
+    "faqTitle": "Veelgestelde Vragen over Partnercodes",
+    "partnerCodesTitle": "Partnercodes",
+    "partnerCodesSubtitle": "Geverifieerde codes voor topbrokers met exclusieve welkomstbonussen",
+    "verifiedBadge": "Geverifieerd en Werkend - Januari 2026",
+    "getBonus": "Bonus Krijgen",
+    "readyToTrade": "Klaar om te Beginnen met Handelen?",
+    "ctaSubtitle": "Kies een broker en gebruik onze partnercodes om exclusieve welkomstbonussen te ontgrendelen.",
+    "brokerHighlights": {
+      "avatrade": "CFD & Forex Trading",
+      "xm": "$30 Gratis Bonus",
+      "avafutures": "Futures op TradingView"
+    }
   },
   "homeFaq": [
     {

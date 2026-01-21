@@ -35,7 +35,18 @@
       "bonus": "Jusqu'a 14 000 $ de Bonus de Bienvenue",
       "cta": "Reclamez Votre Bonus"
     },
-    "faqTitle": "Questions Frequentes sur les Codes Partenaires"
+    "faqTitle": "Questions Frequentes sur les Codes Partenaires",
+    "partnerCodesTitle": "Codes Partenaires",
+    "partnerCodesSubtitle": "Codes vérifiés pour les meilleurs courtiers avec des bonus de bienvenue exclusifs",
+    "verifiedBadge": "Vérifié & Fonctionnel - Janvier 2026",
+    "getBonus": "Obtenir le Bonus",
+    "readyToTrade": "Prêt à Commencer à Trader?",
+    "ctaSubtitle": "Choisissez un courtier et utilisez nos codes partenaires pour débloquer des bonus de bienvenue exclusifs.",
+    "brokerHighlights": {
+      "avatrade": "Trading CFD & Forex",
+      "xm": "Bonus Gratuit de $30",
+      "avafutures": "Futures sur TradingView"
+    }
   },
   "homeFaq": [
     {
@@ -114,7 +125,8 @@
     "cta": "Ouvrir un Compte Futures",
     "verified": "Verifie et Fonctionnel",
     "lastUpdated": "Verifie: Janvier 2026",
-    "spainNote": "Fonctionne en Espagne ou les CFD sont interdits"
+    "spainNote": "Fonctionne en Espagne ou les CFD sont interdits",
+    "bonusShort": "Jusqu'à $10,000 de Bonus de Bienvenue"
   },
   "xm": {
     "badge": "Partenaire Officiel",
@@ -123,7 +135,8 @@
     "cta": "Reclamez 30 $ de Bonus Gratuit",
     "verified": "Verifie et Fonctionnel",
     "lastUpdated": "Verifie: Janvier 2026",
-    "noDeposit": "Bonus de 30 $ Sans Depot"
+    "noDeposit": "Bonus de 30 $ Sans Depot",
+    "bonusShort": "$30 Sans Dépôt + 100% de Correspondance"
   },
   "exness": {
     "badge": "Spreads Serres",

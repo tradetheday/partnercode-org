@@ -35,7 +35,18 @@
       "bonus": "14.000 $'a Kadar Hosgeldin Bonusu",
       "cta": "Bonusunuzu Talep Edin"
     },
-    "faqTitle": "Partner Kodlari Hakkinda Sik Sorulan Sorular"
+    "faqTitle": "Partner Kodlari Hakkinda Sik Sorulan Sorular",
+    "partnerCodesTitle": "Partner Kodları",
+    "partnerCodesSubtitle": "Özel hoşgeldin bonusları ile en iyi brokerler için doğrulanmış kodlar",
+    "verifiedBadge": "Doğrulanmış ve Çalışıyor - Ocak 2026",
+    "getBonus": "Bonus Al",
+    "readyToTrade": "Ticarete Başlamaya Hazır mısınız?",
+    "ctaSubtitle": "Bir broker seçin ve özel hoşgeldin bonuslarının kilidini açmak için partner kodlarımızı kullanın.",
+    "brokerHighlights": {
+      "avatrade": "CFD ve Forex Ticareti",
+      "xm": "$30 Ücretsiz Bonus",
+      "avafutures": "TradingView'da Vadeli İşlemler"
+    }
   },
   "homeFaq": [
     {

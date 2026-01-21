@@ -35,7 +35,18 @@
       "bonus": "最大$14,000ウェルカムボーナス",
       "cta": "ボーナスを受け取る"
     },
-    "faqTitle": "パートナーコードに関するよくある質問"
+    "faqTitle": "パートナーコードに関するよくある質問",
+    "partnerCodesTitle": "パートナーコード",
+    "partnerCodesSubtitle": "独占的なウェルカムボーナス付きトップブローカーの認証済みコード",
+    "verifiedBadge": "認証済み・動作確認済み - 2026年1月",
+    "getBonus": "ボーナスを獲得",
+    "readyToTrade": "取引を始める準備はできましたか？",
+    "ctaSubtitle": "ブローカーを選んで、パートナーコードを使用して独占的なウェルカムボーナスをアンロックしましょう。",
+    "brokerHighlights": {
+      "avatrade": "CFD & FX取引",
+      "xm": "$30無料ボーナス",
+      "avafutures": "TradingViewで先物取引"
+    }
   },
   "homeFaq": [
     {

@@ -35,7 +35,18 @@
       "bonus": "Op til $14.000 Velkomstbonus",
       "cta": "Krav Din Bonus"
     },
-    "faqTitle": "Almindelige Sporsmal om Partnerkoder"
+    "faqTitle": "Almindelige Sporsmal om Partnerkoder",
+    "partnerCodesTitle": "Partnerkoder",
+    "partnerCodesSubtitle": "Verificerede koder til topmæglere med eksklusive velkomstbonusser",
+    "verifiedBadge": "Verificeret og Fungerer - Januar 2026",
+    "getBonus": "Få Bonus",
+    "readyToTrade": "Klar til at Begynde at Handle?",
+    "ctaSubtitle": "Vælg en mægler og brug vores partnerkoder for at låse op for eksklusive velkomstbonusser.",
+    "brokerHighlights": {
+      "avatrade": "CFD & Forex Trading",
+      "xm": "$30 Gratis Bonus",
+      "avafutures": "Futures på TradingView"
+    }
   },
   "homeFaq": [
     {

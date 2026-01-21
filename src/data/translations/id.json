@@ -35,7 +35,18 @@
       "bonus": "Bonus Selamat Datang Hingga $14.000",
       "cta": "Klaim Bonus Anda"
     },
-    "faqTitle": "Pertanyaan Umum Tentang Kode Partner"
+    "faqTitle": "Pertanyaan Umum Tentang Kode Partner",
+    "partnerCodesTitle": "Kode Partner",
+    "partnerCodesSubtitle": "Kode terverifikasi untuk broker top dengan bonus selamat datang eksklusif",
+    "verifiedBadge": "Terverifikasi dan Berfungsi - Januari 2026",
+    "getBonus": "Dapatkan Bonus",
+    "readyToTrade": "Siap Mulai Trading?",
+    "ctaSubtitle": "Pilih broker dan gunakan kode partner kami untuk membuka bonus selamat datang eksklusif.",
+    "brokerHighlights": {
+      "avatrade": "Trading CFD & Forex",
+      "xm": "Bonus Gratis $30",
+      "avafutures": "Futures di TradingView"
+    }
   },
   "homeFaq": [
     {

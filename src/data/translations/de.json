@@ -35,7 +35,18 @@
       "bonus": "Bis zu $14.000 Willkommensbonus",
       "cta": "Bonus Beanspruchen"
     },
-    "faqTitle": "Häufige Fragen zu Partnercodes"
+    "faqTitle": "Häufige Fragen zu Partnercodes",
+    "partnerCodesTitle": "Partner-Codes",
+    "partnerCodesSubtitle": "Verifizierte Codes für Top-Broker mit exklusiven Willkommensboni",
+    "verifiedBadge": "Verifiziert & Funktioniert - Januar 2026",
+    "getBonus": "Bonus Holen",
+    "readyToTrade": "Bereit zum Handeln?",
+    "ctaSubtitle": "Wählen Sie einen Broker und nutzen Sie unsere Partner-Codes, um exklusive Willkommensboni freizuschalten.",
+    "brokerHighlights": {
+      "avatrade": "CFD & Forex Trading",
+      "xm": "$30 Gratis Bonus",
+      "avafutures": "Futures auf TradingView"
+    }
   },
   "homeFaq": [
     {
@@ -114,7 +125,8 @@
     "cta": "Futures-Konto Eröffnen",
     "verified": "Verifiziert & Funktioniert",
     "lastUpdated": "Geprüft: Januar 2026",
-    "spainNote": "Funktioniert in Spanien, wo CFDs verboten sind"
+    "spainNote": "Funktioniert in Spanien, wo CFDs verboten sind",
+    "bonusShort": "Bis zu $10.000 Willkommensbonus"
   },
   "xm": {
     "badge": "Offizieller Partner",
@@ -123,7 +135,8 @@
     "cta": "$30 Gratis-Bonus Beanspruchen",
     "verified": "Verifiziert & Funktioniert",
     "lastUpdated": "Geprüft: Januar 2026",
-    "noDeposit": "$30 Bonus Ohne Einzahlung"
+    "noDeposit": "$30 Bonus Ohne Einzahlung",
+    "bonusShort": "$30 Ohne Einzahlung + 100% Match"
   },
   "exness": {
     "badge": "Enge Spreads",

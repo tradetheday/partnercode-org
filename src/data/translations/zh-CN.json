@@ -35,7 +35,18 @@
       "bonus": "最高$14,000欢迎奖金",
       "cta": "领取您的奖金"
     },
-    "faqTitle": "合作伙伴代码常见问题"
+    "faqTitle": "合作伙伴代码常见问题",
+    "partnerCodesTitle": "合作伙伴代码",
+    "partnerCodesSubtitle": "顶级经纪商的验证代码，享受独家欢迎奖金",
+    "verifiedBadge": "已验证并有效 - 2026年1月",
+    "getBonus": "获取奖金",
+    "readyToTrade": "准备好开始交易了吗？",
+    "ctaSubtitle": "选择一个经纪商，使用我们的合作伙伴代码解锁独家欢迎奖金。",
+    "brokerHighlights": {
+      "avatrade": "CFD和外汇交易",
+      "xm": "$30免费奖金",
+      "avafutures": "TradingView期货交易"
+    }
   },
   "homeFaq": [
     {
