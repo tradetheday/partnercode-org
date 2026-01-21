@@ -1,0 +1,174 @@
+---
+interface HowToStep {
+  title: string;
+  desc: string;
+}
+
+interface FAQItem {
+  q: string;
+  a: string;
+}
+
+interface Props {
+  type: 'HowTo' | 'Offer' | 'BreadcrumbList' | 'FAQPage' | 'PartnerCode' | 'WebPage';
+  data: {
+    // HowTo
+    name?: string;
+    description?: string;
+    steps?: HowToStep[];
+    // Offer
+    offerName?: string;
+    offerDescription?: string;
+    price?: string;
+    priceCurrency?: string;
+    availability?: string;
+    url?: string;
+    seller?: string;
+    // BreadcrumbList
+    breadcrumbs?: { name: string; url: string }[];
+    // FAQPage
+    faqs?: FAQItem[];
+    // PartnerCode (for AI citability)
+    brokerName?: string;
+    partnerCode?: string;
+    codeDescription?: string;
+    maxBonus?: string;
+    affiliateUrl?: string;
+    validFrom?: string;
+    validUntil?: string;
+    // WebPage
+    pageTitle?: string;
+    pageDescription?: string;
+    pageUrl?: string;
+    pageType?: 'WebPage' | 'AboutPage' | 'FAQPage' | 'CollectionPage';
+    inLanguage?: string;
+    datePublished?: string;
+    dateModified?: string;
+  };
+}
+
+const { type, data } = Astro.props;
+
+function generateSchema() {
+  switch (type) {
+    case 'HowTo':
+      return {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": data.name,
+        "description": data.description,
+        "step": data.steps?.map((step, index) => ({
+          "@type": "HowToStep",
+          "position": index + 1,
+          "name": step.title,
+          "text": step.desc
+        }))
+      };
+
+    case 'Offer':
+      return {
+        "@context": "https://schema.org",
+        "@type": "Offer",
+        "name": data.offerName,
+        "description": data.offerDescription,
+        "price": data.price || "0",
+        "priceCurrency": data.priceCurrency || "USD",
+        "availability": data.availability || "https://schema.org/InStock",
+        "url": data.url,
+        "seller": {
+          "@type": "Organization",
+          "name": data.seller
+        }
+      };
+
+    case 'BreadcrumbList':
+      return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": data.breadcrumbs?.map((crumb, index) => ({
+          "@type": "ListItem",
+          "position": index + 1,
+          "name": crumb.name,
+          "item": crumb.url
+        }))
+      };
+
+    case 'FAQPage':
+      return {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": data.faqs?.map((faq) => ({
+          "@type": "Question",
+          "name": faq.q,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.a
+          }
+        }))
+      };
+
+    case 'PartnerCode':
+      // Schema for AI/LLM citability - helps ChatGPT and Google AI extract the partner code
+      return {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": `${data.brokerName} Partner Code`,
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Web",
+        "description": data.codeDescription,
+        "offers": {
+          "@type": "Offer",
+          "name": `${data.brokerName} Welcome Bonus`,
+          "description": `Use partner code ${data.partnerCode} to receive ${data.maxBonus} welcome bonus when opening a new ${data.brokerName} account`,
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": data.validFrom || "2026-01-01",
+          "priceValidUntil": data.validUntil || "2026-12-31",
+          "url": data.affiliateUrl,
+          "seller": {
+            "@type": "Organization",
+            "name": data.brokerName,
+            "url": data.affiliateUrl
+          }
+        },
+        "identifier": {
+          "@type": "PropertyValue",
+          "name": "Partner Code",
+          "value": data.partnerCode
+        }
+      };
+
+    case 'WebPage':
+      return {
+        "@context": "https://schema.org",
+        "@type": data.pageType || "WebPage",
+        "name": data.pageTitle,
+        "description": data.pageDescription,
+        "url": data.pageUrl,
+        "inLanguage": data.inLanguage || "en",
+        ...(data.datePublished && { "datePublished": data.datePublished }),
+        ...(data.dateModified && { "dateModified": data.dateModified }),
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "PartnerCode.org",
+          "url": "https://partnercode.org"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "PartnerCode.org",
+          "url": "https://partnercode.org"
+        }
+      };
+
+    default:
+      return null;
+  }
+}
+
+const schema = generateSchema();
+---
+
+{schema && (
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+)}

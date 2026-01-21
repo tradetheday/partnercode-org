@@ -1,0 +1,62 @@
+---
+interface Props {
+  available: boolean;
+  message?: string;
+  type?: 'info' | 'warning';
+}
+
+const {
+  available,
+  message,
+  type = available ? 'info' : 'warning'
+} = Astro.props;
+
+const defaultMessage = available
+  ? 'AvaTrade is available in your region.'
+  : 'AvaTrade may not be available in your country. Please verify availability before signing up.';
+
+const displayMessage = message || defaultMessage;
+---
+
+<div class:list={['availability-notice', { 'availability-notice--warning': type === 'warning' }]}>
+  {type === 'warning' ? (
+    <svg class="availability-notice__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+      <line x1="12" y1="9" x2="12" y2="13"/>
+      <line x1="12" y1="17" x2="12.01" y2="17"/>
+    </svg>
+  ) : (
+    <svg class="availability-notice__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="10"/>
+      <line x1="12" y1="16" x2="12" y2="12"/>
+      <line x1="12" y1="8" x2="12.01" y2="8"/>
+    </svg>
+  )}
+  <span>{displayMessage}</span>
+</div>
+
+<style>
+  .availability-notice {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    padding: var(--space-4);
+    background: var(--color-primary-50);
+    border: 1px solid var(--color-primary-200);
+    border-radius: var(--radius-lg);
+    font-size: var(--text-sm);
+    color: var(--color-primary-800);
+  }
+
+  .availability-notice--warning {
+    background: #fef2f2;
+    border-color: #fecaca;
+    color: #991b1b;
+  }
+
+  .availability-notice__icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+  }
+</style>

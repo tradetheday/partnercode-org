@@ -1,0 +1,168 @@
+---
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
+
+// Import translation dynamically
+const translations = await import(`../data/translations/${lang}.json`);
+const t = translations.default || translations;
+
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__brand">
+        <a href={lang === 'en' ? '/' : `/${lang}/`} class="footer__logo">
+          <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="8" fill="currentColor" class="logo-bg"/>
+            <path d="M8 16L14 10L20 16L14 22L8 16Z" fill="white"/>
+            <path d="M14 16L20 10L26 16L20 22L14 16Z" fill="white" fill-opacity="0.6"/>
+          </svg>
+          <span>PartnerCode.org</span>
+        </a>
+        <p class="footer__about">
+          {t.footer?.about || 'PartnerCode.org helps traders find verified partner codes for leading brokers.'}
+        </p>
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__links-group">
+          <h4>{t.footer?.codes || 'Partner Codes'}</h4>
+          <a href={lang === 'en' ? '/avatrade/' : `/${lang}/avatrade/`}>AvaTrade</a>
+          <a href={lang === 'en' ? '/xm/' : `/${lang}/xm/`}>XM</a>
+          <a href={lang === 'en' ? '/avafutures/' : `/${lang}/avafutures/`}>AvaFutures</a>
+          <a href={lang === 'en' ? '/exness/' : `/${lang}/exness/`}>Exness</a>
+        </div>
+        <div class="footer__links-group">
+          <h4>{t.footer?.resources || 'Resources'}</h4>
+          <a href={lang === 'en' ? '/about/' : `/${lang}/about/`}>{t.footer?.aboutUs || 'About PartnerCode'}</a>
+          <a href={lang === 'en' ? '/' : `/${lang}/`}>{t.footer?.whatIsPartnerCode || 'What is a Partner Code?'}</a>
+          <a href="/broker-partner-code/">{t.footer?.brokerPartnerCode || 'Broker Partner Codes'}</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__disclaimer">
+      <p>
+        {t.footer?.disclaimer || 'Risk Warning: Trading CFDs and forex involves significant risk and can result in the loss of your invested capital. You should not invest more than you can afford to lose. Please ensure you fully understand the risks involved and seek independent advice if necessary. Partner codes provide welcome bonuses and do not affect trading conditions.'}
+      </p>
+      <p>
+        {t.footer?.affiliate || 'Affiliate Disclosure: PartnerCode.org may receive compensation when you sign up through links on this site. This does not affect our recommendations or the bonuses you receive.'}
+      </p>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; {currentYear} PartnerCode.org. {t.footer?.rights || 'All rights reserved.'}</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    margin-top: auto;
+    background: var(--color-neutral-900);
+    color: var(--color-neutral-300);
+    padding: var(--space-12) 0 var(--space-6);
+  }
+
+  .footer__content {
+    display: grid;
+    gap: var(--space-8);
+    margin-bottom: var(--space-8);
+  }
+
+  @media (min-width: 768px) {
+    .footer__content {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .footer__brand {
+    max-width: 300px;
+  }
+
+  .footer__logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: #fff;
+    text-decoration: none;
+    font-weight: var(--font-bold);
+    margin-bottom: var(--space-3);
+  }
+
+  .footer__logo:hover {
+    text-decoration: none;
+  }
+
+  .footer__logo .logo-bg {
+    color: var(--color-primary-500);
+  }
+
+  .footer__about {
+    font-size: var(--text-sm);
+    color: var(--color-neutral-400);
+    margin: 0;
+    line-height: var(--leading-relaxed);
+  }
+
+  .footer__links {
+    display: flex;
+    gap: var(--space-12);
+  }
+
+  .footer__links-group h4 {
+    color: #fff;
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    margin-bottom: var(--space-3);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .footer__links-group a {
+    display: block;
+    color: var(--color-neutral-400);
+    font-size: var(--text-sm);
+    text-decoration: none;
+    padding: var(--space-1) 0;
+    transition: color var(--transition-fast);
+  }
+
+  .footer__links-group a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer__disclaimer {
+    padding: var(--space-6) 0;
+    border-top: 1px solid var(--color-neutral-800);
+    border-bottom: 1px solid var(--color-neutral-800);
+  }
+
+  .footer__disclaimer p {
+    font-size: var(--text-xs);
+    color: var(--color-neutral-500);
+    margin-bottom: var(--space-3);
+    line-height: var(--leading-relaxed);
+  }
+
+  .footer__disclaimer p:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer__bottom {
+    padding-top: var(--space-6);
+    text-align: center;
+  }
+
+  .footer__bottom p {
+    font-size: var(--text-sm);
+    color: var(--color-neutral-500);
+    margin: 0;
+  }
+</style>

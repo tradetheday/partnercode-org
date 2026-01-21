@@ -1,0 +1,17 @@
+{
+  "name": "partnercode-org",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Multi-language AvaTrade partner code affiliate site",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.0",
+    "astro": "^5.0.0"
+  }
+}

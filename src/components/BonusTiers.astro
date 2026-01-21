@@ -1,0 +1,102 @@
+---
+interface BonusTier {
+  min: string;
+  max?: string;
+  bonus: string;
+}
+
+interface Props {
+  title?: string;
+  depositLabel?: string;
+  bonusLabel?: string;
+  tiers: BonusTier[];
+}
+
+const {
+  title = 'Welcome Bonus Tiers',
+  depositLabel = 'Deposit Amount',
+  bonusLabel = 'Welcome Bonus',
+  tiers
+} = Astro.props;
+---
+
+<div class="bonus-tiers">
+  <h3 class="bonus-tiers__title" id="bonus-table-title">{title}</h3>
+  <div class="table-wrapper">
+    <table aria-labelledby="bonus-table-title">
+      <thead>
+        <tr>
+          <th>{depositLabel}</th>
+          <th>{bonusLabel}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {tiers.map((tier, index) => (
+          <tr class={index === tiers.length - 1 ? 'highlight' : ''}>
+            <td>
+              {tier.max ? `${tier.min} - ${tier.max}` : `${tier.min}+`}
+            </td>
+            <td class="bonus-amount">{tier.bonus}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<style>
+  .bonus-tiers {
+    margin: var(--space-8) 0;
+  }
+
+  .bonus-tiers__title {
+    margin-bottom: var(--space-4);
+    font-size: var(--text-xl);
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th {
+    padding: var(--space-4);
+    background: var(--color-bg-secondary);
+    font-weight: var(--font-semibold);
+    text-align: left;
+    border-bottom: 2px solid var(--color-border);
+    font-size: var(--text-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-secondary);
+  }
+
+  td {
+    padding: var(--space-4);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  tr.highlight {
+    background: var(--color-accent-50);
+  }
+
+  tr.highlight td {
+    font-weight: var(--font-semibold);
+  }
+
+  .bonus-amount {
+    color: var(--color-success-600);
+    font-weight: var(--font-bold);
+    font-size: var(--text-lg);
+  }
+</style>

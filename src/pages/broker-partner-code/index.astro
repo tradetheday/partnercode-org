@@ -1,0 +1,527 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FAQ from '../../components/FAQ.astro';
+import HowToSteps from '../../components/HowToSteps.astro';
+import TrustBadges from '../../components/TrustBadges.astro';
+import { avatrade, xm, avafutures, exness } from '../../data/brokers';
+
+const lang = 'en';
+const t = await import('../../data/translations/en.json');
+const translations = t.default || t;
+
+const brokerCodes = [
+  {
+    name: 'AvaTrade',
+    code: avatrade.partnerCode,
+    bonus: 'Up to $10,000 Welcome Bonus',
+    minDeposit: '$100',
+    regulators: '9 Global',
+    url: '/avatrade/',
+    color: 'primary',
+    highlight: 'Most Popular'
+  },
+  {
+    name: 'XM',
+    code: xm.partnerCode,
+    bonus: '$30 No Deposit + Up to $10,600',
+    minDeposit: '$5',
+    regulators: '4 Global',
+    url: '/xm/',
+    color: 'success',
+    highlight: 'No Deposit Bonus'
+  },
+  {
+    name: 'AvaFutures',
+    code: avafutures.partnerCode,
+    bonus: 'Up to $10,000 Welcome Bonus',
+    minDeposit: '$100',
+    regulators: 'NFA/CFTC',
+    url: '/avafutures/',
+    color: 'accent',
+    highlight: 'Futures Trading'
+  },
+  {
+    name: 'Exness',
+    code: exness.partnerCode,
+    bonus: 'Tight Spreads (No Bonus)',
+    minDeposit: '$10',
+    regulators: '7+ Global',
+    url: '/exness/',
+    color: 'primary',
+    highlight: '0.0 Spreads'
+  }
+];
+
+const brokerPartnerCodeFaq = [
+  {
+    q: "What is a broker partner code?",
+    a: "A broker partner code is a special referral code that connects new traders to verified partners when opening a trading account. When you enter a broker partner code during registration, you unlock exclusive welcome bonuses, promotional offers, and benefits that aren't available through standard signup. These codes are free to use and don't affect your trading conditions."
+  },
+  {
+    q: "How do broker partner codes work?",
+    a: "Broker partner codes work through affiliate tracking. When you use a partner code during registration, the broker recognizes you as a referred customer. This triggers special bonus offers for you while compensating the partner. You get better bonuses, the partner gets a commission, and the broker gets a new customer - everyone benefits."
+  },
+  {
+    q: "What are the best broker partner codes in 2026?",
+    a: "The best broker partner codes in 2026 are: AvaTrade partner code 128979 (up to $10,000 bonus), XM partner code QK44F ($30 no deposit + 100% match), AvaFutures partner code 128979 (futures trading bonus), and Exness partner code xxv8puyog3 (tight spreads, no traditional bonus). Each code is verified and working."
+  },
+  {
+    q: "Are broker partner codes legitimate?",
+    a: "Yes, broker partner codes from reputable sources are completely legitimate. They are an official part of broker affiliate and referral programs. All partner codes on PartnerCode.org are verified and from regulated brokers including AvaTrade (9 regulators), XM (4 regulators), and Exness (7+ regulators)."
+  },
+  {
+    q: "Do broker partner codes cost anything?",
+    a: "No, broker partner codes are completely free to use. There are no fees, charges, or hidden costs. You simply enter the code during registration and receive your bonus. The partner code adds benefits without any extra cost to you."
+  },
+  {
+    q: "Can I use multiple broker partner codes?",
+    a: "You can only use one partner code per broker account. However, you can open accounts with different brokers and use their respective partner codes. For example, use code 128979 for AvaTrade and code QK44F for XM to get bonuses from both."
+  },
+  {
+    q: "Where do I enter a broker partner code?",
+    a: "During the broker's registration process, look for a field labeled 'Partner Code', 'Referral Code', 'Promo Code', or 'Affiliate Code'. This is typically on the signup form. Some brokers have a separate 'Have a code?' link to expand the field."
+  },
+  {
+    q: "What bonuses can I get with broker partner codes?",
+    a: "Broker partner code bonuses vary by broker: AvaTrade offers tiered deposit bonuses up to $10,000. XM provides $30 free (no deposit required) plus 100% deposit match up to $10,600. AvaFutures has similar bonuses to AvaTrade. Exness focuses on trading conditions rather than bonuses."
+  },
+  {
+    q: "Do broker partner codes affect trading conditions?",
+    a: "No, broker partner codes do not affect your trading conditions. You get the same spreads, leverage, execution speed, and platform access as any other trader. The partner code only adds bonus benefits on top of standard account features."
+  },
+  {
+    q: "Can I use a broker partner code on an existing account?",
+    a: "No, broker partner codes can only be used when opening a new trading account. The code must be entered during the initial registration process. You cannot apply a code retroactively to an existing account."
+  },
+  {
+    q: "Which broker has the best partner code bonus?",
+    a: "For maximum bonus value, AvaTrade partner code 128979 offers up to $10,000 in welcome bonuses. For a no-deposit option, XM code QK44F gives $30 free plus deposit matching. For professional traders who prioritize conditions over bonuses, Exness offers the tightest spreads."
+  },
+  {
+    q: "Are broker partner code bonuses withdrawable?",
+    a: "Broker partner code bonuses typically have terms and conditions, including trading volume requirements. The bonus itself may not be directly withdrawable, but profits earned while trading with the bonus can usually be withdrawn after meeting the broker's requirements."
+  }
+];
+
+const howToSteps = [
+  {
+    title: "Choose a Broker",
+    desc: "Select a regulated broker from our list - AvaTrade, XM, AvaFutures, or Exness"
+  },
+  {
+    title: "Copy the Partner Code",
+    desc: "Copy the broker's partner code: 128979 (AvaTrade/AvaFutures), QK44F (XM), or use our Exness link"
+  },
+  {
+    title: "Register & Enter Code",
+    desc: "Visit the broker's site, start registration, and enter the partner code in the designated field"
+  },
+  {
+    title: "Get Your Bonus",
+    desc: "Complete your deposit and your welcome bonus is automatically credited to your account"
+  }
+];
+---
+
+<BaseLayout
+  title="Broker Partner Codes 2026 - Best Trading Bonuses & Verified Codes"
+  description="Find the best broker partner codes for 2026. Verified partner codes for AvaTrade, XM, AvaFutures & Exness with exclusive welcome bonuses up to $10,000."
+  lang={lang}
+  canonicalPath="/broker-partner-code/"
+>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <span class="badge badge-primary">Verified 2026</span>
+        <h1 class="hero__title">Broker Partner Codes</h1>
+        <p class="hero__subtitle">Get exclusive welcome bonuses with verified broker partner codes. Use our codes to unlock the best trading bonuses available in 2026.</p>
+        <a href="#codes" class="btn btn-primary btn-lg">View Partner Codes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What is a Broker Partner Code -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <div class="content-block">
+        <h2>What is a Broker Partner Code?</h2>
+        <p>A <strong>broker partner code</strong> (also called referral code or affiliate code) is a special code you enter when opening a new trading account with a forex or CFD broker. These codes are provided by verified partners and unlock exclusive welcome bonuses that aren't available through regular registration.</p>
+        <p>Broker partner codes are <strong>completely free to use</strong> and don't affect your trading conditions - you get the same spreads, leverage, and features as any other trader, plus additional bonus funds to boost your trading capital.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partner Codes List -->
+  <section class="section" id="codes">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Best Broker Partner Codes 2026</h2>
+        <p class="section-header__subtitle">Verified codes for regulated brokers with exclusive welcome bonuses</p>
+      </div>
+
+      <div class="broker-grid">
+        {brokerCodes.map((broker) => (
+          <div class={`broker-card broker-card--${broker.color}`}>
+            <span class="broker-card__highlight">{broker.highlight}</span>
+            <h3 class="broker-card__name">{broker.name}</h3>
+
+            <div class="broker-card__code">
+              <span class="broker-card__code-label">Broker Partner Code</span>
+              <span class="broker-card__code-value">{broker.code}</span>
+            </div>
+
+            <div class="broker-card__details">
+              <div class="broker-card__detail">
+                <span class="broker-card__detail-label">Bonus</span>
+                <span class="broker-card__detail-value">{broker.bonus}</span>
+              </div>
+              <div class="broker-card__detail">
+                <span class="broker-card__detail-label">Min Deposit</span>
+                <span class="broker-card__detail-value">{broker.minDeposit}</span>
+              </div>
+              <div class="broker-card__detail">
+                <span class="broker-card__detail-label">Regulators</span>
+                <span class="broker-card__detail-value">{broker.regulators}</span>
+              </div>
+            </div>
+
+            <a href={broker.url} class={`btn btn-${broker.color} btn-lg broker-card__cta`}>
+              Use Partner Code
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Use -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <HowToSteps
+        title="How to Use Broker Partner Codes"
+        steps={howToSteps}
+      />
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Benefits of Using Broker Partner Codes</h2>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <h3>Welcome Bonuses</h3>
+          <p>Get deposit bonuses up to $10,000+ that you wouldn't receive through regular signup</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
+          <h3>Verified & Safe</h3>
+          <p>All our broker partner codes are verified and from regulated, reputable brokers</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="16"/>
+              <line x1="8" y1="12" x2="16" y2="12"/>
+            </svg>
+          </div>
+          <h3>Completely Free</h3>
+          <p>Partner codes are 100% free - no cost, no catch, just extra benefits</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+            </svg>
+          </div>
+          <h3>Same Trading Conditions</h3>
+          <p>Your spreads, leverage, and execution are unaffected - just extra bonus funds</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Badges -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <TrustBadges
+        title="Our Brokers Are Regulated"
+        regulators={[...avatrade.regulators.slice(0, 2), ...xm.regulators.slice(0, 2)]}
+      />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <FAQ
+        title="Broker Partner Code FAQ"
+        items={brokerPartnerCodeFaq}
+      />
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Start Trading with Broker Partner Codes</h2>
+        <p>Choose a broker and use our verified partner codes to get the best welcome bonuses available.</p>
+        <div class="cta-buttons">
+          <a href="/avatrade/" class="btn btn-primary btn-lg">AvaTrade (128979)</a>
+          <a href="/xm/" class="btn btn-success btn-lg">XM (QK44F)</a>
+          <a href="/avafutures/" class="btn btn-accent btn-lg">AvaFutures</a>
+          <a href="/exness/" class="btn btn-primary btn-lg">Exness</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .content-block {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .content-block h2 {
+    margin-bottom: var(--space-6);
+  }
+
+  .content-block p {
+    margin-bottom: var(--space-4);
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: var(--space-8);
+  }
+
+  .section-header__subtitle {
+    color: var(--color-text-muted);
+    margin-top: var(--space-2);
+  }
+
+  .broker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .broker-card {
+    background: var(--color-bg);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 2px solid var(--color-border);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .broker-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .broker-card--primary {
+    border-color: var(--color-primary-200);
+  }
+
+  .broker-card--success {
+    border-color: var(--color-success-200);
+  }
+
+  .broker-card--accent {
+    border-color: var(--color-accent-200);
+  }
+
+  .broker-card__highlight {
+    display: inline-block;
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-full);
+    margin-bottom: var(--space-2);
+  }
+
+  .broker-card--primary .broker-card__highlight {
+    background: var(--color-primary-100);
+    color: var(--color-primary-700);
+  }
+
+  .broker-card--success .broker-card__highlight {
+    background: var(--color-success-100);
+    color: var(--color-success-700);
+  }
+
+  .broker-card--accent .broker-card__highlight {
+    background: var(--color-accent-100);
+    color: var(--color-accent-700);
+  }
+
+  .broker-card__name {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-4);
+  }
+
+  .broker-card__code {
+    background: var(--color-bg-secondary);
+    border-radius: var(--radius-lg);
+    padding: var(--space-4);
+    margin-bottom: var(--space-4);
+  }
+
+  .broker-card__code-label {
+    display: block;
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-1);
+  }
+
+  .broker-card__code-value {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    font-family: var(--font-mono);
+    color: var(--color-text);
+  }
+
+  .broker-card__details {
+    margin-bottom: var(--space-4);
+  }
+
+  .broker-card__detail {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space-2) 0;
+    border-bottom: 1px solid var(--color-border);
+    font-size: var(--text-sm);
+  }
+
+  .broker-card__detail:last-child {
+    border-bottom: none;
+  }
+
+  .broker-card__detail-label {
+    color: var(--color-text-muted);
+  }
+
+  .broker-card__detail-value {
+    font-weight: var(--font-semibold);
+  }
+
+  .broker-card__cta {
+    width: 100%;
+  }
+
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .benefit-card {
+    text-align: center;
+    padding: var(--space-6);
+  }
+
+  .benefit-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    background: var(--color-primary-100);
+    color: var(--color-primary-600);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--space-4);
+  }
+
+  .benefit-card h3 {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-2);
+  }
+
+  .benefit-card p {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  .btn-success {
+    background: var(--color-success-500);
+    color: #fff;
+  }
+
+  .btn-success:hover {
+    background: var(--color-success-600);
+  }
+
+  .btn-accent {
+    background: var(--color-accent-500);
+    color: #fff;
+  }
+
+  .btn-accent:hover {
+    background: var(--color-accent-600);
+  }
+
+  .cta-section {
+    background: linear-gradient(135deg, var(--color-primary-900), var(--color-primary-800));
+    color: #fff;
+  }
+
+  .cta-box {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .cta-box h2 {
+    color: #fff;
+    margin-bottom: var(--space-4);
+  }
+
+  .cta-box p {
+    color: var(--color-primary-200);
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-6);
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-3);
+  }
+
+  @media (max-width: 640px) {
+    .cta-buttons {
+      flex-direction: column;
+    }
+
+    .cta-buttons .btn {
+      width: 100%;
+    }
+  }
+</style>

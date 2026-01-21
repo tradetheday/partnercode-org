@@ -1,0 +1,401 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CodeBox from '../components/CodeBox.astro';
+import HowToSteps from '../components/HowToSteps.astro';
+import FAQ from '../components/FAQ.astro';
+import TrustBadges from '../components/TrustBadges.astro';
+import SEOSchema from '../components/SEOSchema.astro';
+import { avatrade, avafutures, xm } from '../data/brokers';
+
+const lang = 'en';
+const t = await import('../data/translations/en.json');
+const translations = t.default || t;
+
+// Schema data
+const breadcrumbSchema = {
+  breadcrumbs: [
+    { name: 'Home', url: 'https://partnercode.org/' }
+  ]
+};
+
+const webPageSchema = {
+  pageTitle: translations.meta.homeTitle,
+  pageDescription: translations.meta.homeDescription,
+  pageUrl: 'https://partnercode.org/',
+  pageType: 'CollectionPage' as const,
+  inLanguage: 'en'
+};
+
+const faqSchema = { faqs: translations.homeFaq };
+
+const brokerCards = [
+  {
+    name: 'AvaTrade',
+    code: avatrade.partnerCode,
+    bonus: 'Up to $10,000 Welcome Bonus',
+    highlight: 'CFD & Forex Trading',
+    url: '/avatrade/',
+    color: 'primary'
+  },
+  {
+    name: 'XM',
+    code: xm.partnerCode,
+    bonus: '$30 No Deposit + 100% Match',
+    highlight: '$30 Free Bonus',
+    url: '/xm/',
+    color: 'success'
+  },
+  {
+    name: 'AvaFutures',
+    code: avafutures.partnerCode,
+    bonus: 'Up to $10,000 Welcome Bonus',
+    highlight: 'Futures on TradingView',
+    url: '/avafutures/',
+    color: 'accent'
+  }
+];
+---
+
+<BaseLayout
+  title={translations.meta.homeTitle}
+  description={translations.meta.homeDescription}
+  lang={lang}
+  canonicalPath="/"
+>
+  <SEOSchema type="BreadcrumbList" data={breadcrumbSchema} />
+  <SEOSchema type="WebPage" data={webPageSchema} />
+  <SEOSchema type="FAQPage" data={faqSchema} />
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <span class="badge badge-primary">{translations.home.badge}</span>
+        <h1 class="hero__title">{translations.home.title}</h1>
+        <p class="hero__subtitle">{translations.home.subtitle}</p>
+        <div class="hero__cta-wrapper">
+          <a href="/avatrade/" class="btn btn-primary btn-lg">{translations.home.cta}</a>
+          <span class="hero__bonus-note">Up to {avatrade.maxBonus} Welcome Bonus</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What is a Partner Code -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <div class="content-block">
+        <h2>{translations.home.whatIs.title}</h2>
+        <p>{translations.home.whatIs.p1}</p>
+        <p>{translations.home.whatIs.p2}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partner Codes -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Partner Codes</h2>
+        <p class="section-header__subtitle">Verified codes for top brokers with exclusive welcome bonuses</p>
+        <div class="verified-badge-container">
+          <span class="verified-badge-pulse">
+            <svg class="verified-badge__shield" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="M9 12l2 2 4-4"/>
+            </svg>
+            Verified & Working - January 2026
+          </span>
+        </div>
+      </div>
+
+      <div class="broker-grid">
+        {brokerCards.map((broker) => (
+          <div class={`broker-card broker-card--${broker.color}`}>
+            <div class="broker-card__header">
+              <span class="broker-card__highlight">{broker.highlight}</span>
+              <h3 class="broker-card__name">{broker.name}</h3>
+              <p class="broker-card__bonus">{broker.bonus}</p>
+            </div>
+
+            <div class="broker-card__code">
+              <span class="broker-card__code-label">Partner Code</span>
+              <span class="broker-card__code-value">{broker.code}</span>
+            </div>
+
+            <a href={broker.url} class={`btn btn-${broker.color} btn-lg broker-card__cta`}>
+              Get Bonus
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- How Partner Codes Work -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <HowToSteps
+        title={translations.howTo.title}
+        steps={translations.howTo.steps}
+      />
+    </div>
+  </section>
+
+  <!-- Trust Badges -->
+  <section class="section">
+    <div class="container">
+      <TrustBadges
+        title={translations.trust.title}
+        regulators={avatrade.regulators.slice(0, 4)}
+      />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <FAQ
+        title={translations.home.faqTitle}
+        items={translations.homeFaq}
+        generateSchema={false}
+      />
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Ready to Start Trading?</h2>
+        <p>Choose a broker and use our partner codes to unlock exclusive welcome bonuses.</p>
+        <div class="cta-buttons">
+          <a href="/avatrade/" class="btn btn-primary btn-lg">AvaTrade</a>
+          <a href="/xm/" class="btn btn-success btn-lg">XM</a>
+          <a href="/avafutures/" class="btn btn-accent btn-lg">AvaFutures</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .content-block {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .content-block h2 {
+    margin-bottom: var(--space-6);
+  }
+
+  .hero__cta-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .hero__bonus-note {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+  }
+
+  .section-header__subtitle {
+    color: var(--color-text-muted);
+    margin-top: var(--space-2);
+  }
+
+  .verified-badge-container {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-4);
+  }
+
+  .verified-badge-pulse {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    background: linear-gradient(135deg, var(--color-success-500), var(--color-success-600));
+    color: #fff;
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    border-radius: var(--radius-full);
+    animation: pulse-glow 2s ease-in-out infinite;
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  }
+
+  .verified-badge__shield {
+    flex-shrink: 0;
+  }
+
+  @keyframes pulse-glow {
+    0% {
+      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 20px 10px rgba(34, 197, 94, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+    }
+  }
+
+  .broker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-6);
+    margin-top: var(--space-8);
+  }
+
+  .broker-card {
+    background: var(--color-bg);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 2px solid var(--color-border);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .broker-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .broker-card--primary {
+    border-color: var(--color-primary-200);
+  }
+
+  .broker-card--success {
+    border-color: var(--color-success-200);
+  }
+
+  .broker-card--accent {
+    border-color: var(--color-accent-200);
+  }
+
+  .broker-card__header {
+    margin-bottom: var(--space-4);
+  }
+
+  .broker-card__highlight {
+    display: inline-block;
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-full);
+    margin-bottom: var(--space-2);
+  }
+
+  .broker-card--primary .broker-card__highlight {
+    background: var(--color-primary-100);
+    color: var(--color-primary-700);
+  }
+
+  .broker-card--success .broker-card__highlight {
+    background: var(--color-success-100);
+    color: var(--color-success-700);
+  }
+
+  .broker-card--accent .broker-card__highlight {
+    background: var(--color-accent-100);
+    color: var(--color-accent-700);
+  }
+
+  .broker-card__name {
+    font-size: var(--text-2xl);
+    margin: var(--space-2) 0;
+  }
+
+  .broker-card__bonus {
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+  }
+
+  .broker-card__code {
+    background: var(--color-bg-secondary);
+    border-radius: var(--radius-lg);
+    padding: var(--space-4);
+    margin: var(--space-4) 0;
+  }
+
+  .broker-card__code-label {
+    display: block;
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-1);
+  }
+
+  .broker-card__code-value {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    font-family: var(--font-mono);
+    color: var(--color-text);
+  }
+
+  .broker-card__cta {
+    width: 100%;
+  }
+
+  .btn-success {
+    background: var(--color-success-500);
+    color: #fff;
+  }
+
+  .btn-success:hover {
+    background: var(--color-success-600);
+  }
+
+  .btn-accent {
+    background: var(--color-accent-500);
+    color: #fff;
+  }
+
+  .btn-accent:hover {
+    background: var(--color-accent-600);
+  }
+
+  .cta-section {
+    background: linear-gradient(135deg, var(--color-primary-900), var(--color-primary-800));
+    color: #fff;
+  }
+
+  .cta-box {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .cta-box h2 {
+    color: #fff;
+    margin-bottom: var(--space-4);
+  }
+
+  .cta-box p {
+    color: var(--color-primary-200);
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-6);
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-3);
+  }
+
+  @media (max-width: 640px) {
+    .cta-buttons {
+      flex-direction: column;
+    }
+
+    .cta-buttons .btn {
+      width: 100%;
+    }
+  }
+</style>

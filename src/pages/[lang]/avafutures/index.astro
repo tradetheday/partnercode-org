@@ -1,0 +1,379 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import CodeBox from '../../../components/CodeBox.astro';
+import BonusTiers from '../../../components/BonusTiers.astro';
+import HowToSteps from '../../../components/HowToSteps.astro';
+import FAQ from '../../../components/FAQ.astro';
+import TrustBadges from '../../../components/TrustBadges.astro';
+import SEOSchema from '../../../components/SEOSchema.astro';
+import { avafutures } from '../../../data/brokers';
+import { languages, getNonEnglishLanguageCodes } from '../../../data/languages';
+
+export function getStaticPaths() {
+  const langCodes = getNonEnglishLanguageCodes();
+  return langCodes.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const langConfig = languages.find(l => l.code === lang);
+
+// Dynamic import of translation
+const t = await import(`../../../data/translations/${lang}.json`);
+const translations = t.default || t;
+
+// Use English fallback for AvaFutures-specific content if not translated yet
+const enT = await import('../../../data/translations/en.json');
+const enTranslations = enT.default || enT;
+
+const avafuturesContent = translations.avafutures || enTranslations.avafutures;
+const avafuturesBonusTiers = translations.avafuturesBonusTiers || enTranslations.avafuturesBonusTiers;
+const avafuturesHowTo = translations.avafuturesHowTo || enTranslations.avafuturesHowTo;
+const avafuturesFaq = translations.avafuturesFaq || enTranslations.avafuturesFaq;
+const avafuturesAbout = translations.avafuturesAbout || enTranslations.avafuturesAbout;
+const metaAvafutures = translations.meta?.avafuturesTitle ? translations.meta : enTranslations.meta;
+
+// HowTo Schema data
+const howToSchema = {
+  name: avafuturesHowTo.title,
+  description: `${avafuturesContent.subtitle}`,
+  steps: avafuturesHowTo.steps
+};
+
+// Partner Code Schema for AI citability
+const partnerCodeSchema = {
+  brokerName: 'AvaFutures',
+  partnerCode: avafutures.partnerCode,
+  codeDescription: `${metaAvafutures.avafuturesDescription}`,
+  maxBonus: avafutures.maxBonus,
+  affiliateUrl: avafutures.affiliateUrl
+};
+
+// FAQ Schema
+const faqSchema = { faqs: avafuturesFaq };
+
+// Breadcrumb Schema
+const breadcrumbSchema = {
+  breadcrumbs: [
+    { name: translations.nav?.home || 'Home', url: `https://partnercode.org/${lang}/` },
+    { name: 'AvaFutures', url: `https://partnercode.org/${lang}/avafutures/` }
+  ]
+};
+---
+
+<BaseLayout
+  title={metaAvafutures.avafuturesTitle}
+  description={metaAvafutures.avafuturesDescription}
+  lang={lang}
+  canonicalPath={`/${lang}/avafutures/`}
+>
+  <SEOSchema type="HowTo" data={howToSchema} />
+  <SEOSchema type="PartnerCode" data={partnerCodeSchema} />
+  <SEOSchema type="FAQPage" data={faqSchema} />
+  <SEOSchema type="BreadcrumbList" data={breadcrumbSchema} />
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <span class="badge badge-accent">{avafuturesContent.badge}</span>
+        <h1 class="hero__title">{avafuturesContent.title}</h1>
+        <p class="hero__subtitle">{avafuturesContent.subtitle}</p>
+
+        <!-- Spain/CFD Restriction Notice -->
+        <div class="spain-notice-inline">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="16" x2="12" y2="12"/>
+            <line x1="12" y1="8" x2="12.01" y2="8"/>
+          </svg>
+          <span>{avafuturesContent.spainNote || 'Available for traders in Spain where CFDs are restricted'}</span>
+        </div>
+
+        <CodeBox
+          code={avafutures.partnerCode}
+          label={translations.code.label}
+          copyText={translations.code.copy}
+          copiedText={translations.code.copied}
+          targetUrl={avafutures.affiliateUrl}
+        />
+
+        <div class="hero__meta">
+          <span class="verified-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            {avafuturesContent.verified}
+          </span>
+          <span class="last-updated">{avafuturesContent.lastUpdated}</span>
+        </div>
+
+        <a href={avafutures.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg">
+          {avafuturesContent.cta}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TradingView Integration Highlight -->
+  <section class="section">
+    <div class="container">
+      <div class="tradingview-card">
+        <div class="tradingview-card__icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+          </svg>
+        </div>
+        <div class="tradingview-card__content">
+          <h3>TradingView Integration</h3>
+          <p>{avafuturesContent.description || 'Trade futures directly on TradingView with advanced charting and one-click trading.'}</p>
+        </div>
+      </div>
+
+      <BonusTiers
+        title={avafuturesBonusTiers.title}
+        depositLabel={avafuturesBonusTiers.deposit}
+        bonusLabel={avafuturesBonusTiers.bonus}
+        tiers={avafuturesBonusTiers.tiers}
+      />
+    </div>
+  </section>
+
+  <!-- How To Use -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <HowToSteps
+        title={avafuturesHowTo.title}
+        steps={avafuturesHowTo.steps}
+      />
+
+      <div class="cta-center">
+        <a href={avafutures.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg">
+          {avafuturesContent.cta}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About AvaFutures -->
+  <section class="section">
+    <div class="container">
+      <div class="about-section">
+        <h2>{avafuturesAbout.title}</h2>
+        <p>{avafuturesAbout.p1}</p>
+        <p>{avafuturesAbout.p2}</p>
+
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat__label">{avafuturesAbout.stats.founded}</span>
+            <span class="stat__value">{avafuturesAbout.stats.foundedValue}</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">{avafuturesAbout.stats.regulators}</span>
+            <span class="stat__value">{avafuturesAbout.stats.regulatorsValue}</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">{avafuturesAbout.stats.instruments}</span>
+            <span class="stat__value">{avafuturesAbout.stats.instrumentsValue}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Badges -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <TrustBadges
+        title={translations.trust.title}
+        regulators={avafutures.regulators}
+      />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <FAQ
+        title={translations.home?.faqTitle || "FAQ"}
+        items={avafuturesFaq}
+      />
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>{avafuturesContent.title}</h2>
+        <p>{avafuturesContent.subtitle}</p>
+
+        <CodeBox
+          code={avafutures.partnerCode}
+          label={translations.code.label}
+          copyText={translations.code.copy}
+          copiedText={translations.code.copied}
+          targetUrl={avafutures.affiliateUrl}
+        />
+
+        <a href={avafutures.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg mt-6">
+          {avafuturesContent.cta}
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero__meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-4);
+    margin: var(--space-6) 0;
+    font-size: var(--text-sm);
+  }
+
+  .verified-badge {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-success-600);
+    font-weight: var(--font-semibold);
+  }
+
+  .last-updated {
+    color: var(--color-text-muted);
+  }
+
+  .spain-notice-inline {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    background: var(--color-accent-50);
+    color: var(--color-accent-700);
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-lg);
+    font-size: var(--text-sm);
+    margin: var(--space-4) 0;
+    border: 1px solid var(--color-accent-200);
+  }
+
+  .tradingview-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-4);
+    background: linear-gradient(135deg, var(--color-primary-50), var(--color-primary-100));
+    border: 2px solid var(--color-primary-200);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    margin-bottom: var(--space-8);
+  }
+
+  .tradingview-card__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background: var(--color-primary-500);
+    color: #fff;
+    border-radius: var(--radius-lg);
+  }
+
+  .tradingview-card__content {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .tradingview-card__content h3 {
+    margin: 0 0 var(--space-2);
+    color: var(--color-primary-700);
+  }
+
+  .tradingview-card__content p {
+    margin: 0;
+    color: var(--color-primary-600);
+  }
+
+  .cta-center {
+    text-align: center;
+    margin-top: var(--space-8);
+  }
+
+  .about-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-section h2 {
+    margin-bottom: var(--space-6);
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+    margin-top: var(--space-8);
+    padding: var(--space-6);
+    background: var(--color-bg-secondary);
+    border-radius: var(--radius-xl);
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat__label {
+    display: block;
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-2);
+  }
+
+  .stat__value {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-primary-600);
+  }
+
+  .cta-section {
+    background: linear-gradient(135deg, var(--color-primary-900), var(--color-primary-800));
+    color: #fff;
+  }
+
+  .cta-box {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .cta-box h2 {
+    color: #fff;
+    margin-bottom: var(--space-4);
+  }
+
+  .cta-box p {
+    color: var(--color-primary-200);
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-6);
+  }
+
+  .cta-box :global(.code-box) {
+    margin: var(--space-6) 0;
+  }
+
+  @media (max-width: 640px) {
+    .stats-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .tradingview-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>

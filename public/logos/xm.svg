@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 100">
+  <!-- Red triangle pointing right -->
+  <polygon points="0,0 45,50 0,100" fill="#ED1C24"/>
+
+  <!-- X letter -->
+  <path d="M35,5 L75,50 L35,95 L60,95 L90,55 L120,95 L145,95 L105,50 L145,5 L120,5 L90,45 L60,5 Z" fill="currentColor" class="xm-dark"/>
+
+  <!-- M letter -->
+  <path d="M155,5 L155,95 L180,95 L180,40 L205,75 L230,40 L230,95 L245,95 L245,5 L220,5 L205,35 L190,5 Z" fill="currentColor" class="xm-dark"/>
+</svg>

@@ -1,0 +1,446 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import HowToSteps from '../../components/HowToSteps.astro';
+import FAQ from '../../components/FAQ.astro';
+import TrustBadges from '../../components/TrustBadges.astro';
+import SEOSchema from '../../components/SEOSchema.astro';
+import BrokerCrossLinks from '../../components/BrokerCrossLinks.astro';
+import { exness } from '../../data/brokers';
+
+const lang = 'en';
+const t = await import('../../data/translations/en.json');
+const translations = t.default || t;
+
+// HowTo Schema data
+const howToSchema = {
+  name: translations.exnessHowTo.title,
+  description: `Learn how to open an Exness account with partner code ${exness.partnerCode} and start trading with ultra-tight spreads`,
+  steps: translations.exnessHowTo.steps
+};
+
+// Partner Code Schema for AI citability
+const partnerCodeSchema = {
+  brokerName: 'Exness',
+  partnerCode: exness.partnerCode,
+  codeDescription: `Official Exness partner code ${exness.partnerCode} for ultra-tight spreads from 0.0 pips, instant withdrawals, and $10 minimum deposit`,
+  maxBonus: 'Tight Spreads (No Traditional Bonus)',
+  affiliateUrl: exness.affiliateUrl
+};
+
+// FAQ Schema
+const faqSchema = { faqs: translations.exnessFaq };
+
+// Breadcrumb Schema
+const breadcrumbSchema = {
+  breadcrumbs: [
+    { name: 'Home', url: 'https://partnercode.org/' },
+    { name: 'Exness Partner Code', url: 'https://partnercode.org/exness/' }
+  ]
+};
+---
+
+<BaseLayout
+  title={translations.meta.exnessTitle}
+  description={translations.meta.exnessDescription}
+  lang={lang}
+  canonicalPath="/exness/"
+>
+  <SEOSchema type="HowTo" data={howToSchema} />
+  <SEOSchema type="PartnerCode" data={partnerCodeSchema} />
+  <SEOSchema type="FAQPage" data={faqSchema} />
+  <SEOSchema type="BreadcrumbList" data={breadcrumbSchema} />
+
+  <!-- Hero Section -->
+  <section class="hero hero--broker">
+    <div class="container">
+      <div class="hero__content">
+        <img src="/logos/exness.png" alt="Exness" class="hero__logo hero__logo--large hero__logo--trimmed hero__logo--yellow-dark" width="400" height="115" />
+        <span class="badge badge-accent">{translations.exness.badge}</span>
+        <h1 class="hero__title">{translations.exness.title}</h1>
+        <p class="hero__subtitle">{translations.exness.subtitle}</p>
+
+        <!-- Key Stats -->
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat__value">0.0</span>
+            <span class="hero-stat__label">Pips Spread</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat__value">$10</span>
+            <span class="hero-stat__label">Min Deposit</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat__value">7+</span>
+            <span class="hero-stat__label">Regulators</span>
+          </div>
+        </div>
+
+        <div class="hero__meta">
+          <span class="verified-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            {translations.exness.verified}
+          </span>
+          <span class="last-updated">{translations.exness.lastUpdated}</span>
+        </div>
+
+        <a href={exness.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg">
+          {translations.exness.cta}
+        </a>
+
+        <p class="no-bonus-note">{translations.exness.noBonus}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">{translations.exnessFeatures.title}</h2>
+      </div>
+
+      <div class="features-grid">
+        {translations.exnessFeatures.features.map((feature: {title: string, desc: string}, index: number) => (
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              {index === 0 && (
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                </svg>
+              )}
+              {index === 1 && (
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              )}
+              {index === 2 && (
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              )}
+              {index === 3 && (
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+              )}
+            </div>
+            <h3 class="feature-card__title">{feature.title}</h3>
+            <p class="feature-card__desc">{feature.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- How To Open Account -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <HowToSteps
+        title={translations.exnessHowTo.title}
+        steps={translations.exnessHowTo.steps}
+      />
+
+      <div class="cta-center">
+        <a href={exness.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg">
+          {translations.exness.cta}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Exness -->
+  <section class="section">
+    <div class="container">
+      <div class="about-section">
+        <h2>{translations.exnessAbout.title}</h2>
+        <p>{translations.exnessAbout.p1}</p>
+        <p>{translations.exnessAbout.p2}</p>
+        {translations.exnessAbout.p3 && <p>{translations.exnessAbout.p3}</p>}
+
+        <figure class="platform-screenshot">
+          <img src="/screenshots/exness-platform.png" alt="Exness trading platform" loading="lazy" />
+        </figure>
+
+        {translations.exnessAbout.p4 && <p>{translations.exnessAbout.p4}</p>}
+        {translations.exnessAbout.p5 && <p>{translations.exnessAbout.p5}</p>}
+        {translations.exnessAbout.p6 && <p>{translations.exnessAbout.p6}</p>}
+        {translations.exnessAbout.p7 && <p>{translations.exnessAbout.p7}</p>}
+        {translations.exnessAbout.p8 && <p>{translations.exnessAbout.p8}</p>}
+
+        <div class="stats-grid stats-grid--4">
+          <div class="stat">
+            <span class="stat__label">{translations.exnessAbout.stats.founded}</span>
+            <span class="stat__value">{translations.exnessAbout.stats.foundedValue}</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">{translations.exnessAbout.stats.regulators}</span>
+            <span class="stat__value">{translations.exnessAbout.stats.regulatorsValue}</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">{translations.exnessAbout.stats.instruments}</span>
+            <span class="stat__value">{translations.exnessAbout.stats.instrumentsValue}</span>
+          </div>
+          {translations.exnessAbout.stats.volume && (
+            <div class="stat">
+              <span class="stat__label">{translations.exnessAbout.stats.volume}</span>
+              <span class="stat__value">{translations.exnessAbout.stats.volumeValue}</span>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Badges -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <TrustBadges
+        title={translations.trust.title}
+        regulators={exness.regulators}
+      />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <FAQ
+        title="Frequently Asked Questions"
+        items={translations.exnessFaq}
+      />
+
+      <BrokerCrossLinks currentBroker="exness" lang={lang} />
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Start Trading with Exness Today</h2>
+        <p>Experience ultra-tight spreads, instant withdrawals, and world-class trading conditions.</p>
+
+        <div class="cta-features">
+          <span class="cta-feature">0.0 Pips Spreads</span>
+          <span class="cta-feature">Instant Withdrawals</span>
+          <span class="cta-feature">$10 Minimum</span>
+        </div>
+
+        <a href={exness.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg mt-6">
+          {translations.exness.cta}
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero__meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-4);
+    margin: var(--space-6) 0;
+    font-size: var(--text-sm);
+  }
+
+  .verified-badge {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-success-600);
+    font-weight: var(--font-semibold);
+  }
+
+  .last-updated {
+    color: var(--color-text-muted);
+  }
+
+  .hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-8);
+    margin: var(--space-6) 0;
+    flex-wrap: wrap;
+  }
+
+  .hero-stat {
+    text-align: center;
+  }
+
+  .hero-stat__value {
+    display: block;
+    font-size: var(--text-4xl);
+    font-weight: var(--font-bold);
+    color: var(--color-primary-600);
+    line-height: 1;
+  }
+
+  .hero-stat__label {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .no-bonus-note {
+    margin-top: var(--space-4);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-6);
+    margin-top: var(--space-8);
+  }
+
+  .feature-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .feature-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: var(--color-primary-100);
+    color: var(--color-primary-600);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--space-4);
+  }
+
+  .feature-card__title {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-2);
+  }
+
+  .feature-card__desc {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  .cta-center {
+    text-align: center;
+    margin-top: var(--space-8);
+  }
+
+  .about-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-section h2 {
+    margin-bottom: var(--space-6);
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+    margin-top: var(--space-8);
+    padding: var(--space-6);
+    background: var(--color-bg-secondary);
+    border-radius: var(--radius-xl);
+  }
+
+  .stats-grid--4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (max-width: 768px) {
+    .stats-grid--4 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat__label {
+    display: block;
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-2);
+  }
+
+  .stat__value {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-primary-600);
+  }
+
+  .cta-section {
+    background: linear-gradient(135deg, var(--color-primary-900), var(--color-primary-800));
+    color: #fff;
+  }
+
+  .cta-box {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .cta-box h2 {
+    color: #fff;
+    margin-bottom: var(--space-4);
+  }
+
+  .cta-box p {
+    color: var(--color-primary-200);
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-6);
+  }
+
+  .cta-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-6);
+  }
+
+  .cta-feature {
+    display: inline-block;
+    padding: var(--space-2) var(--space-4);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    color: var(--color-primary-100);
+  }
+
+  @media (max-width: 640px) {
+    .stats-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-stats {
+      gap: var(--space-4);
+    }
+
+    .hero-stat__value {
+      font-size: var(--text-3xl);
+    }
+  }
+</style>

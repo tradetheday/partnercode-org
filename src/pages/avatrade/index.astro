@@ -1,0 +1,320 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CodeBox from '../../components/CodeBox.astro';
+import BonusTiers from '../../components/BonusTiers.astro';
+import HowToSteps from '../../components/HowToSteps.astro';
+import FAQ from '../../components/FAQ.astro';
+import TrustBadges from '../../components/TrustBadges.astro';
+import SEOSchema from '../../components/SEOSchema.astro';
+import SpainDetector from '../../components/SpainDetector.astro';
+import BrokerCrossLinks from '../../components/BrokerCrossLinks.astro';
+import { avatrade, avafutures } from '../../data/brokers';
+
+const lang = 'en';
+const t = await import('../../data/translations/en.json');
+const translations = t.default || t;
+
+// HowTo Schema data
+const howToSchema = {
+  name: translations.howTo.title,
+  description: `Learn how to use AvaTrade partner code ${avatrade.partnerCode} to get a welcome bonus up to ${avatrade.maxBonus}`,
+  steps: translations.howTo.steps
+};
+
+// Partner Code Schema for AI citability
+const partnerCodeSchema = {
+  brokerName: 'AvaTrade',
+  partnerCode: avatrade.partnerCode,
+  codeDescription: `Official AvaTrade partner code ${avatrade.partnerCode} for welcome bonuses up to ${avatrade.maxBonus}`,
+  maxBonus: avatrade.maxBonus,
+  affiliateUrl: avatrade.affiliateUrl
+};
+
+// FAQ Schema
+const faqSchema = { faqs: translations.faq };
+
+// Breadcrumb Schema
+const breadcrumbSchema = {
+  breadcrumbs: [
+    { name: 'Home', url: 'https://partnercode.org/' },
+    { name: 'AvaTrade Partner Code', url: 'https://partnercode.org/avatrade/' }
+  ]
+};
+---
+
+<BaseLayout
+  title={translations.meta.avatradeTitle}
+  description={translations.meta.avatradeDescription}
+  lang={lang}
+  canonicalPath="/avatrade/"
+>
+  <SEOSchema type="HowTo" data={howToSchema} />
+  <SEOSchema type="PartnerCode" data={partnerCodeSchema} />
+  <SEOSchema type="FAQPage" data={faqSchema} />
+  <SEOSchema type="BreadcrumbList" data={breadcrumbSchema} />
+  <SpainDetector avafuturesUrl={avafutures.affiliateUrl} />
+
+  <!-- Hero Section -->
+  <section class="hero hero--broker">
+    <div class="container">
+      <div class="hero__content">
+        <img src="/logos/avatrade.svg" alt="AvaTrade" class="hero__logo" width="191" height="37" />
+        <span class="badge badge-success">{translations.avatrade.badge}</span>
+        <h1 class="hero__title">{translations.avatrade.title}</h1>
+        <p class="hero__subtitle">{translations.avatrade.subtitle}</p>
+
+        <CodeBox
+          code={avatrade.partnerCode}
+          label={translations.code.label}
+          copyText={translations.code.copy}
+          copiedText={translations.code.copied}
+          targetUrl={avatrade.affiliateUrl}
+        />
+
+        <div class="hero__meta">
+          <span class="verified-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            {translations.avatrade.verified}
+          </span>
+          <span class="last-updated">{translations.avatrade.lastUpdated}</span>
+        </div>
+
+        <a href={avatrade.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg" data-swap-spain>
+          {translations.avatrade.cta}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bonus Tiers -->
+  <section class="section">
+    <div class="container">
+      <BonusTiers
+        title={translations.bonusTiers.title}
+        depositLabel={translations.bonusTiers.deposit}
+        bonusLabel={translations.bonusTiers.bonus}
+        tiers={translations.bonusTiers.tiers}
+      />
+    </div>
+  </section>
+
+  <!-- How To Use -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <HowToSteps
+        title={translations.howTo.title}
+        steps={translations.howTo.steps}
+      />
+
+      <div class="cta-center">
+        <a href={avatrade.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg" data-swap-spain>
+          {translations.avatrade.cta}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About AvaTrade -->
+  <section class="section">
+    <div class="container">
+      <div class="about-section">
+        <h2>{translations.about.title}</h2>
+        <p>{translations.about.p1}</p>
+        <p>{translations.about.p2}</p>
+        <p>{translations.about.p3}</p>
+        <p>{translations.about.p4}</p>
+
+        <figure class="platform-screenshot">
+          <img src="/screenshots/avatrade-platform.png" alt="AvaTrade trading platform" loading="lazy" />
+        </figure>
+
+        <p>{translations.about.p5}</p>
+        {translations.about.p6 && <p>{translations.about.p6}</p>}
+        {translations.about.p7 && <p>{translations.about.p7}</p>}
+        {translations.about.p8 && <p>{translations.about.p8}</p>}
+
+        <div class="stats-grid stats-grid--5">
+          <div class="stat">
+            <span class="stat__label">{translations.about.stats.founded}</span>
+            <span class="stat__value">{translations.about.stats.foundedValue}</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">{translations.about.stats.regulators}</span>
+            <span class="stat__value">{translations.about.stats.regulatorsValue}</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">{translations.about.stats.instruments}</span>
+            <span class="stat__value">{translations.about.stats.instrumentsValue}</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">{translations.about.stats.clients}</span>
+            <span class="stat__value">{translations.about.stats.clientsValue}</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">{translations.about.stats.awards}</span>
+            <span class="stat__value">{translations.about.stats.awardsValue}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Badges -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <TrustBadges
+        title={translations.trust.title}
+        regulators={avatrade.regulators}
+      />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <FAQ
+        title="Frequently Asked Questions"
+        items={translations.faq}
+      />
+
+      <BrokerCrossLinks currentBroker="avatrade" lang={lang} />
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Start Trading with AvaTrade Today</h2>
+        <p>Use partner code <strong>{avatrade.partnerCode}</strong> to get your welcome bonus up to {avatrade.maxBonus}.</p>
+
+        <CodeBox
+          code={avatrade.partnerCode}
+          label={translations.code.label}
+          copyText={translations.code.copy}
+          copiedText={translations.code.copied}
+          targetUrl={avatrade.affiliateUrl}
+        />
+
+        <a href={avatrade.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg mt-6" data-swap-spain>
+          {translations.avatrade.cta}
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero__meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-4);
+    margin: var(--space-6) 0;
+    font-size: var(--text-sm);
+  }
+
+  .verified-badge {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-success-600);
+    font-weight: var(--font-semibold);
+  }
+
+  .last-updated {
+    color: var(--color-text-muted);
+  }
+
+  .cta-center {
+    text-align: center;
+    margin-top: var(--space-8);
+  }
+
+  .about-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-section h2 {
+    margin-bottom: var(--space-6);
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+    margin-top: var(--space-8);
+    padding: var(--space-6);
+    background: var(--color-bg-secondary);
+    border-radius: var(--radius-xl);
+  }
+
+  .stats-grid--5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  @media (max-width: 768px) {
+    .stats-grid--5 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .stats-grid--5 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat__label {
+    display: block;
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-2);
+  }
+
+  .stat__value {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-primary-600);
+  }
+
+  .cta-section {
+    background: linear-gradient(135deg, var(--color-primary-900), var(--color-primary-800));
+    color: #fff;
+  }
+
+  .cta-box {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .cta-box h2 {
+    color: #fff;
+    margin-bottom: var(--space-4);
+  }
+
+  .cta-box p {
+    color: var(--color-primary-200);
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-6);
+  }
+
+  .cta-box strong {
+    color: var(--color-accent-400);
+  }
+
+  .cta-box :global(.code-box) {
+    margin: var(--space-6) 0;
+  }
+</style>

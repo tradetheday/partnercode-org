@@ -1,0 +1,175 @@
+---
+/**
+ * Spain Notice Component
+ * Shows AvaFutures option for Spanish IP users (CFDs restricted by CNMV)
+ * Uses client-side geo detection
+ */
+
+interface Props {
+  avafuturesUrl: string;
+  avatradeUrl: string;
+  translations: {
+    notice: string;
+    avafuturesTitle: string;
+    avafuturesSubtitle: string;
+    avafuturesCta: string;
+    avafuturesCode: string;
+  };
+  avatradeCta: string;
+}
+
+const { avafuturesUrl, avatradeUrl, translations, avatradeCta } = Astro.props;
+---
+
+<!-- Spain Notice - Hidden by default, shown via JS for Spanish IPs -->
+<div id="spain-notice" class="spain-notice" style="display: none;">
+  <div class="spain-notice__warning">
+    <svg class="spain-notice__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="10"/>
+      <line x1="12" y1="8" x2="12" y2="12"/>
+      <line x1="12" y1="16" x2="12.01" y2="16"/>
+    </svg>
+    <p>{translations.notice}</p>
+  </div>
+
+  <div class="spain-notice__cta">
+    <div class="spain-notice__header">
+      <span class="badge badge-accent">{translations.avafuturesTitle}</span>
+      <p>{translations.avafuturesSubtitle}</p>
+    </div>
+    <a href={avafuturesUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg" id="spain-cta">
+      {translations.avafuturesCta}
+    </a>
+    <p class="spain-notice__code">{translations.avafuturesCode}</p>
+  </div>
+</div>
+
+<!-- Default CTAs - Hidden for Spanish IPs -->
+<div id="default-ctas" class="default-ctas">
+  <a href={avatradeUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg" id="avatrade-cta">
+    {avatradeCta}
+  </a>
+
+  <!-- AvaFutures alternative shown for everyone -->
+  <div class="avafutures-alt">
+    <p class="avafutures-alt__text">
+      <span>In Spain?</span> Try <a href={avafuturesUrl} target="_blank" rel="noopener sponsored">AvaFutures</a> instead
+    </p>
+  </div>
+</div>
+
+<style>
+  .spain-notice {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border: 2px solid #f59e0b;
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    margin: var(--space-6) 0;
+    text-align: center;
+  }
+
+  .spain-notice__warning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-4);
+    color: #92400e;
+  }
+
+  .spain-notice__icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  .spain-notice__warning p {
+    margin: 0;
+    font-weight: var(--font-semibold);
+  }
+
+  .spain-notice__cta {
+    padding-top: var(--space-4);
+    border-top: 1px solid #fbbf24;
+  }
+
+  .spain-notice__header {
+    margin-bottom: var(--space-4);
+  }
+
+  .spain-notice__header p {
+    margin: var(--space-2) 0 0;
+    color: #78350f;
+  }
+
+  .spain-notice__code {
+    margin-top: var(--space-3);
+    font-size: var(--text-sm);
+    color: #92400e;
+  }
+
+  .default-ctas {
+    text-align: center;
+  }
+
+  .avafutures-alt {
+    margin-top: var(--space-4);
+  }
+
+  .avafutures-alt__text {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+  }
+
+  .avafutures-alt__text span {
+    font-weight: var(--font-semibold);
+  }
+
+  .avafutures-alt__text a {
+    color: var(--color-primary-600);
+    font-weight: var(--font-semibold);
+  }
+
+  /* When Spain is detected, hide default and show Spain notice */
+  .spain-detected #default-ctas {
+    display: none !important;
+  }
+
+  .spain-detected #spain-notice {
+    display: block !important;
+  }
+</style>
+
+<script>
+  // Client-side Spain IP detection
+  async function detectSpain() {
+    try {
+      // Use a free geo API (ipapi.co)
+      const response = await fetch('https://ipapi.co/json/', {
+        cache: 'force-cache'
+      });
+      const data = await response.json();
+
+      if (data.country_code === 'ES') {
+        // User is in Spain - show AvaFutures notice
+        document.body.classList.add('spain-detected');
+
+        // Also swap any other AvaTrade CTAs to AvaFutures
+        document.querySelectorAll('[data-swap-spain]').forEach(el => {
+          const avafuturesUrl = el.getAttribute('data-avafutures-url');
+          if (avafuturesUrl) {
+            el.setAttribute('href', avafuturesUrl);
+          }
+        });
+      }
+    } catch (error) {
+      // If geo detection fails, show default (AvaTrade)
+      console.log('Geo detection unavailable');
+    }
+  }
+
+  // Run on page load
+  if (typeof window !== 'undefined') {
+    detectSpain();
+  }
+</script>

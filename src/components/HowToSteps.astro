@@ -1,0 +1,108 @@
+---
+interface Step {
+  title: string;
+  desc: string;
+}
+
+interface Props {
+  title?: string;
+  steps: Step[];
+}
+
+const {
+  title = 'How to Use the Partner Code',
+  steps
+} = Astro.props;
+
+const stepCount = steps.length;
+const gridClass = stepCount === 4 ? 'steps steps--4' : stepCount === 2 ? 'steps steps--2' : 'steps';
+---
+
+<div class="how-to">
+  <h3 class="how-to__title">{title}</h3>
+  <div class={gridClass}>
+    {steps.map((step, index) => (
+      <div class="step">
+        <div class="step__number">{index + 1}</div>
+        <h4 class="step__title">{step.title}</h4>
+        <p class="step__desc">{step.desc}</p>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+  .how-to {
+    margin: var(--space-8) 0;
+  }
+
+  .how-to__title {
+    text-align: center;
+    margin-bottom: var(--space-8);
+    font-size: var(--text-2xl);
+  }
+
+  .steps {
+    display: grid;
+    gap: var(--space-6);
+  }
+
+  @media (min-width: 768px) {
+    .steps {
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-8);
+    }
+
+    .steps--4 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .steps--2 {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .steps--4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: var(--space-6);
+    background: var(--color-bg-secondary);
+    border-radius: var(--radius-xl);
+  }
+
+  .step__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: var(--space-4);
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    color: #fff;
+    background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-700));
+    border-radius: var(--radius-full);
+  }
+
+  .step__title {
+    margin-bottom: var(--space-2);
+    font-size: var(--text-lg);
+    font-weight: var(--font-semibold);
+  }
+
+  .step__desc {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+</style>

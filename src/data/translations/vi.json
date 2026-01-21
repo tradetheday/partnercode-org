@@ -1,0 +1,659 @@
+{
+  "meta": {
+    "homeTitle": "Ma Doi Tac - Thuong Chao Mung Nha Moi Gioi 2026",
+    "homeDescription": "Ma doi tac dang hoat dong cho AvaTrade, XM, AvaFutures, Exness. Thuong len den $14,000. Tat ca ma da xac minh thang 1/2026.",
+    "avatradeTitle": "Ma Doi Tac AvaTrade 128979 - Thuong Chao Mung 2026",
+    "avatradeDescription": "Ma doi tac AvaTrade 128979 giup ban nhan thuong len den $14,000. Da xac minh thang 1/2026. Nhap ma khi dang ky.",
+    "avafuturesTitle": "Ma Doi Tac AvaFutures 128979 - Thuong Giao Dich Tuong Lai 2026",
+    "avafuturesDescription": "Ma doi tac AvaFutures 128979 nhan thuong len den $10,000. Giao dich tuong lai tren TradingView. Hoat dong o Tay Ban Nha noi CFD bi cam.",
+    "xmTitle": "Ma Doi Tac XM QK44F - $30 Mien Phi + 100% Thuong 2026",
+    "xmDescription": "Ma doi tac XM QK44F: $30 mien phi (khong can nap tien) cong them 100% khop den $10,600. Da xac minh thang 1/2026.",
+    "exnessTitle": "Ma Doi Tac Exness xxv8puyog3 - Spread 0.0 Nam 2026",
+    "exnessDescription": "Ma doi tac Exness xxv8puyog3. Spread tu 0.0 pip, rut tien ngay lap tuc, toi thieu $10. Khong thuong nhung dieu kien giao dich tuyet voi."
+  },
+  "nav": {
+    "home": "Trang Chu",
+    "avatrade": "AvaTrade",
+    "avafutures": "AvaFutures",
+    "xm": "XM",
+    "exness": "Exness"
+  },
+  "home": {
+    "badge": "Da Xac Minh Thang 1/2026",
+    "title": "Ma Doi Tac Nha Moi Gioi 2026",
+    "subtitle": "Ma doi tac dang hoat dong cho AvaTrade, XM, AvaFutures va Exness. Thuong len den $14,000.",
+    "cta": "Nhan Thuong AvaTrade",
+    "whatIs": {
+      "title": "Ma Doi Tac La Gi?",
+      "p1": "Day la ma ban nhap khi mo tai khoan giao dich moi. Giong nhu ma gioi thieu - no cho nha moi gioi biet ban den tu trang doi tac, va ban nhan duoc thuong chao mung ma nguoi dang ky thong thuong khong co.",
+      "p2": "Su dung ma hoan toan mien phi va khong thay doi dieu kien giao dich cua ban. Cung spread, cung don bay, cung tat ca - ban chi nhan them tien thuong."
+    },
+    "featured": {
+      "title": "Ma Doi Tac Noi Bat",
+      "broker": "AvaTrade",
+      "code": "128979",
+      "bonus": "Thuong Chao Mung Len Den $14,000",
+      "cta": "Nhan Thuong Cua Ban"
+    },
+    "faqTitle": "Cau Hoi Thuong Gap Ve Ma Doi Tac"
+  },
+  "homeFaq": [
+    {
+      "q": "Ma doi tac la gi?",
+      "a": "Day la ma ban nhap khi dang ky tai khoan giao dich moi. No lien ket dang ky cua ban voi doi tac va mo khoa thuong chao mung ma ban khong nhan duoc neu dang ky binh thuong."
+    },
+    {
+      "q": "Chung hoat dong nhu the nao?",
+      "a": "Trong qua trinh dang ky, tim truong 'Ma Doi Tac' hoac 'Ma Gioi Thieu'. Nhap ma vao do, hoan thanh dang ky, va thuong se duoc ap dung vao tai khoan cua ban."
+    },
+    {
+      "q": "Co mat phi gi khong?",
+      "a": "Khong. Mien phi su dung, khong tang phi, khong thay doi spread hay don bay. Chi them thuong thoi."
+    },
+    {
+      "q": "Ma doi tac va ma khuyen mai - khac nhau the nao?",
+      "a": "Co ban la giong nhau. Ma doi tac thuong ton tai lau hon vi chung gan voi doi tac lien ket. Ma khuyen mai co the la chuong trinh ngan han. Nha moi gioi dung ca hai thuat ngu thay the cho nhau."
+    },
+    {
+      "q": "No co thay doi dieu kien giao dich cua toi khong?",
+      "a": "Khong. Cung spread, don bay va thuc hien lenh nhu moi nguoi khac. Ma chi them tien thuong."
+    },
+    {
+      "q": "Toi co the them vao tai khoan hien co khong?",
+      "a": "Rat tiec la khong. Ma doi tac chi hoat dong khi mo tai khoan moi. Khong the ap dung sau khi da tao tai khoan."
+    },
+    {
+      "q": "Toi tim truong nhap ma o dau?",
+      "a": "Thuong o trang dau tien hoac trang thu hai cua bieu mau dang ky. Tim 'Ma Doi Tac', 'Ma Gioi Thieu', hoac 'Ma Khuyen Mai'. Mot so nha moi gioi an no sau lien ket 'Co ma?'."
+    },
+    {
+      "q": "Cac ma nay cho thuong gi?",
+      "a": "Tuy thuoc vao nha moi gioi. Co the la phan tram khop voi tien nap, tin dung giao dich mien phi khong can nap, spread thap hon, hoac cac uu dai khac. Moi trang nha moi gioi o day co chi tiet cu the."
+    },
+    {
+      "q": "Cac ma nay co hop phap khong?",
+      "a": "Co - chung la mot phan cua chuong trinh doi tac lien ket chinh thuc cua nha moi gioi. Chung toi chi liet ke ma tu cac nha moi gioi duoc quan ly va xac minh chung hoat dong."
+    },
+    {
+      "q": "Lam sao toi biet ma cua toi da hoat dong?",
+      "a": "Ban se thay xac nhan khi nhap ma. Sau khi nap tien, thuong thuong xuat hien trong vong 24 gio. Neu khong, lien he ho tro nha moi gioi."
+    },
+    {
+      "q": "Toi co the dung nhieu ma cung luc khong?",
+      "a": "Khong, mot ma cho moi tai khoan, mot tai khoan cho moi nha moi gioi. Muon khuyen mai khac? Ban can tai khoan voi nha moi gioi khac."
+    },
+    {
+      "q": "Cac ma nay co het han khong?",
+      "a": "Mot so co, mot so khong. Cac ma tren trang nay duoc xac minh thuong xuyen - chung toi hien thi khi moi ma duoc kiem tra lan cuoi."
+    },
+    {
+      "q": "Toi nen dung ma nao?",
+      "a": "Tuy thuoc vao ban muon gi. Ma AvaTrade 128979 co thuong lon nhat (len den $14k). Ma XM QK44F cho ban $30 mien phi khong can nap. Exness tap trung vao spread chat thay vi thuong."
+    },
+    {
+      "q": "Tai sao nen dung ma doi tac?",
+      "a": "Co ban la tien mien phi. Cung tai khoan, cung dieu kien, nhung co thuong ma ban khong nhan duoc khi dang ky binh thuong."
+    },
+    {
+      "q": "Toi co the rut thuong khong?",
+      "a": "Thuong khong rut duoc chinh thuong, nhung loi nhuan ban kiem duoc khi giao dich voi no - co. Tuy nhien can dat yeu cau khoi luong truoc. Kiem tra dieu khoan cua tung nha moi gioi."
+    }
+  ],
+  "avatrade": {
+    "badge": "Doi Tac Chinh Thuc",
+    "title": "Ma Doi Tac AvaTrade 128979",
+    "subtitle": "Ma 128979 giup ban nhan thuong chao mung len den $14,000",
+    "cta": "Mo Tai Khoan Voi Thuong",
+    "verified": "Da Xac Minh & Hoat Dong",
+    "lastUpdated": "Kiem tra: Thang 1/2026"
+  },
+  "avafutures": {
+    "badge": "Giao Dich Tuong Lai",
+    "title": "Ma Doi Tac AvaFutures 128979",
+    "subtitle": "Ma 128979 cho giao dich tuong lai tren TradingView. Thuong len den $10,000",
+    "cta": "Mo Tai Khoan Tuong Lai",
+    "verified": "Da Xac Minh & Hoat Dong",
+    "lastUpdated": "Kiem tra: Thang 1/2026",
+    "spainNote": "Hoat dong o Tay Ban Nha noi CFD bi cam"
+  },
+  "xm": {
+    "badge": "Doi Tac Chinh Thuc",
+    "title": "Ma Doi Tac XM QK44F",
+    "subtitle": "Ma QK44F: $30 mien phi, khong can nap. Cong them 100% khop len den $10,600",
+    "cta": "Nhan $30 Thuong Mien Phi",
+    "verified": "Da Xac Minh & Hoat Dong",
+    "lastUpdated": "Kiem tra: Thang 1/2026",
+    "noDeposit": "Thuong $30 Khong Can Nap"
+  },
+  "exness": {
+    "badge": "Spread Chat",
+    "title": "Ma Doi Tac Exness xxv8puyog3",
+    "subtitle": "Ma xxv8puyog3 cho spread 0.0 pip va rut tien ngay lap tuc",
+    "cta": "Mo Tai Khoan Exness",
+    "verified": "Da Xac Minh & Hoat Dong",
+    "lastUpdated": "Kiem tra: Thang 1/2026",
+    "noBonus": "Khong thuong - Exness canh tranh bang spread va rut tien thay the"
+  },
+  "code": {
+    "label": "Ma Doi Tac",
+    "copy": "Sao Chep",
+    "copied": "Da Sao Chep!"
+  },
+  "bonusTiers": {
+    "title": "Cap Do Thuong Chao Mung",
+    "deposit": "So Tien Nap",
+    "bonus": "Thuong Chao Mung",
+    "tiers": [
+      { "min": "$1,000", "max": "$1,999", "bonus": "$200" },
+      { "min": "$2,000", "max": "$2,999", "bonus": "$400" },
+      { "min": "$3,000", "max": "$4,999", "bonus": "$600" },
+      { "min": "$5,000", "max": "$9,999", "bonus": "$1,000" },
+      { "min": "$10,000", "max": "$19,999", "bonus": "$2,000" },
+      { "min": "$20,000", "max": "$49,999", "bonus": "$4,000" },
+      { "min": "$50,000", "max": "$99,999", "bonus": "$10,000" },
+      { "min": "$100,000", "bonus": "Lien He Nha Moi Gioi" }
+    ]
+  },
+  "howTo": {
+    "title": "Cach Su Dung Ma Doi Tac",
+    "steps": [
+      {
+        "title": "Nhan Lien Ket Cua Chung Toi",
+        "desc": "Su dung nut cua chung toi de truy cap trang dang ky chinh thuc cua AvaTrade"
+      },
+      {
+        "title": "Nhap Ma 128979",
+        "desc": "Nhap ma doi tac 128979 vao truong ma gioi thieu/doi tac khi dang ky"
+      },
+      {
+        "title": "Nhan Thuong Cua Ban",
+        "desc": "Hoan thanh nap tien va thuong chao mung se duoc cap tu dong"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Ma doi tac AvaTrade la gi?",
+      "a": "128979. Ban se thay truong nhap ma trong qua trinh dang ky - co the goi la 'Ma Doi Tac', 'Ma Gioi Thieu', hoac 'Ma Khuyen Mai' tuy vao bieu mau dang ky. Nhap ma do truoc khi gui. Do la cach mo khoa thuong chao mung, len den $14,000 tuy vao so tien ban nap."
+    },
+    {
+      "q": "Ma 128979 con hoat dong khong?",
+      "a": "Chung toi da kiem tra vao thang 1/2026 va no van con hoat dong. Ma doi tac gan voi lien ket thuong ton tai lau hon ma khuyen mai co ngay het han. Ma nay da hoat dong nhieu nam roi."
+    },
+    {
+      "q": "Toi se nhan duoc bao nhieu thuong?",
+      "a": "No duoc chia theo cap dua tren tien nap cua ban. Cu the: nap $1,000 nhan $200 thuong (20%), $2,000 nhan $400, $3,000 nhan $600, $5,000 nhan $1,000, $10,000 nhan $2,000, $20,000 nhan $4,000, $50,000 nhan $10,000. Tren $100,000 ban nen lien he truc tiep AvaTrade - ho doi khi co uu dai dac biet cho tai khoan lon."
+    },
+    {
+      "q": "Ma doi tac co thay doi gi trong tai khoan cua toi khong?",
+      "a": "Khong gi ngoai viec them tien thuong. Cung spread nhu moi nguoi, cung tuy chon don bay, cung truy cap nen tang, cung quy trinh rut tien. Ma chi danh dau tai khoan cua ban la den tu doi tac, trig thuong. Dieu kien giao dich thuc te cua ban giong het nguoi dang ky khong co ma."
+    },
+    {
+      "q": "Toi co the ap dung cho tai khoan hien tai khong?",
+      "a": "Rat tiec la khong - ma doi tac chi hoat dong trong qua trinh dang ky ban dau. Sau khi tai khoan ton tai, khong co cach nao them ma sau do. Neu ban da co tai khoan va muon thuong, ban can lien he AvaTrade ve viec dong va mo tai khoan moi, nhung ho co the khong cho phep."
+    },
+    {
+      "q": "AvaTrade co duoc quan ly khong?",
+      "a": "Co, va kha nghiem ngat. Chin co quan quan ly khac nhau: Ngan hang Trung uong Ireland (noi ho dat tru so), ASIC o Uc, FSCA o Nam Phi, FSA o Nhat, ADGM o Abu Dhabi, CySEC o Sip, ISA o Israel, KNF o Ba Lan, IIROC o Canada. Do la nhieu co quan quan ly hon hau het cac nha moi gioi. Cac thuc the khac nhau phuc vu cac khu vuc khac nhau, nhung su giam sat la thuc."
+    },
+    {
+      "q": "Toi co the giao dich gi?",
+      "a": "Khoang 1,250 cong cu tong cong. Bao gom 55+ cap forex gom chinh, phu va mot so exotic. Hon 600 CFD co phieu tu cac san My, Chau Au va Chau A. Cac chi so lon nhu S&P 500, FTSE, DAX. Hang hoa tu vang va dau den cac san pham nong nghiep nhu ca phe va duong. Cap tien dien tu voi don bay han che. ETF. Trai phieu. Quyen chon vanilla qua AvaOptions. Du da dang cho hau het cac phong cach giao dich."
+    },
+    {
+      "q": "Nap toi thieu bao nhieu de nhan thuong?",
+      "a": "$1,000 la nguong. Nap it hon ban van co tai khoan, chi la khong co thuong chao mung. Cau truc theo cap bat dau tu $1,000 cho cap thuong dau tien. Neu ban da dinh nap, thi dat $1,000 de nhan them $200."
+    },
+    {
+      "q": "Thuong xuat hien khi nao?",
+      "a": "Thuong trong vong 24 gio sau khi tien nap duoc xu ly. Doi khi nhanh hon. Neu khong thay sau mot ngay, kiem tra xem ban da nhap dung ma doi tac khi dang ky chua, sau do lien he ho tro AvaTrade. Ho thuong co the giai quyet."
+    },
+    {
+      "q": "Toi co the rut thuong ngay duoc khong?",
+      "a": "Khong - co yeu cau khoi luong giao dich truoc. Day la tieu chuan cho thuong nha moi gioi. Thuong hoat dong nhu tin dung giao dich; ban co the dung no de mo vi the, nhung de rut tien mat can dat yeu cau lot nhat dinh. Kiem tra dieu khoan va dieu kien thuong cua AvaTrade de biet so cu the. Loi nhuan ban kiem duoc khi giao dich voi thuong co the rut khi ban dat yeu cau."
+    },
+    {
+      "q": "Toi nen dung nen tang nao?",
+      "a": "Tuy ban lam gi. MT4 neu ban muon chay Expert Advisors - no co he sinh thai cong cu ben thu ba lon nhat. MT5 neu ban muon nhieu khung thoi gian hon va tinh nang bieu do tot hon. AvaTradeGO cho giao dich di dong - no kha nang khien cho mot ung dung nha moi gioi. WebTrader neu ban chi muon giao dich tu trinh duyet ma khong can cai dat gi. AvaOptions danh rieng cho giao dich quyen chon. Hau het moi nguoi bat dau voi MT4 hoac MT5."
+    },
+    {
+      "q": "Nap toi thieu khong co thuong la bao nhieu?",
+      "a": "$100 cho hau het loai tai khoan, cho phep ban bat dau ma khong cam ket nhieu. Ban chi khong nhan thuong chao mung o muc do. Muc toi thieu $1,000 chi quan trong neu ban muon du dieu kien nhan thuong theo cap. Khong gi ngan ban nap $100, thu nghiem nen tang mot thoi gian, roi them sau - ban chi khong nhan thuong nap moi tren tai khoan da nap tien."
+    },
+    {
+      "q": "Ho co tai khoan demo khong?",
+      "a": "Co - demo mien phi voi tien ao, khong gioi han thoi gian, dieu nay quan trong vi mot so nha moi gioi cat truy cap demo sau 30 ngay. Ban co the luyen tap bao lau tuy thich. No phan anh dieu kien thi truong thuc de ban co the thu nghiem chien luoc, lam quen nen tang va thoai mai truoc khi mao hiem tien that. Khong co ly do gi khong bat dau tu do."
+    },
+    {
+      "q": "Don bay co san la bao nhieu?",
+      "a": "Thay doi nhieu tuy vao vi tri cua ban va ban giao dich gi. Khach hang EU bi gioi han 1:30 tren cac cap forex chinh theo quy dinh ESMA - do la quy dinh, khong phai lua chon cua AvaTrade. Khach hang ngoai EU co the truy cap don bay cao hon, co the len den 1:400 tren forex. Don bay tien dien tu bi gioi han thap hon o moi noi. Ban thuong co the dieu chinh muc don bay trong cai dat tai khoan."
+    },
+    {
+      "q": "Rut tien nhanh nhu the nao?",
+      "a": "AvaTrade xu ly rut tien trong vong 24 gio vao ngay lam viec - do la thoi gian xu ly noi bo cua ho. Tien thuc su den nhanh nhu the nao tuy vao phuong thuc. Vi dien tu nhu Skrill va Neteller nhan trong vai gio. Rut the mat 3-5 ngay lam viec tuy ngan hang cua ban. Chuyen khoan ngan hang co the mat 3-7 ngay lam viec."
+    },
+    {
+      "q": "Co phi rut tien khong?",
+      "a": "AvaTrade khong tinh phi rut tien o phia ho. Tuy nhien, ngan hang hoac nha cung cap thanh toan cua ban co the co phi rieng - phi chuyen khoan quoc te, phi doi tien, nhung thu kieu do. Nhung thu do nam ngoai tam kiem soat cua AvaTrade."
+    },
+    {
+      "q": "Tien cua toi co an toan khong?",
+      "a": "An toan nhu bat ky nha moi gioi nao khac. Tien khach hang duoc giu trong tai khoan tach biet tai cac ngan hang lon nhu Barclays, hoan toan tach biet khoi tien hoat dong cua AvaTrade. Nhieu co quan quan ly kiem toan ho thuong xuyen. Neu AvaTrade bi sap, tien cua ban khong bi tron lan voi tai san cong ty. Do la toan bo muc dich cua tai khoan tach biet."
+    },
+    {
+      "q": "Toi co the su dung Expert Advisors khong?",
+      "a": "Co, ca MT4 va MT5 deu ho tro Expert Advisors day du. Ban co the chay chien luoc tu dong, he thong copy trading, chi bao tuy chinh - toan bo he sinh thai MT. AvaTrade khong han che su dung EA. VPS hosting co san neu ban muon EA chay 24/7 ma khong can bat may tinh."
+    }
+  ],
+  "about": {
+    "title": "Ve AvaTrade",
+    "p1": "AvaTrade thanh lap o Dublin vao nam 2006, ngay truoc khi khung hoang tai chinh xay ra. Ho song sot qua do, dieu do noi len dieu gi do. Gan hai thap ky sau, ho da phat trien len khoang 400,000 trader dang hoat dong trai khap hau het the gioi. Khong phai nha moi gioi lon nhat - do la IG hoac Saxo - nhung ho nam vung chac o tang trung voi lich su sach se. Khong be boi lon, khong hanh dong quan ly, khong mat tien khach hang. Trong nganh nay, nham chan la tot.",
+    "p2": "Tinh hinh quan ly thuc su an tuong. Chin co quan khac nhau giam sat ho: Ngan hang Trung uong Ireland (noi ho dat tru so), ASIC o Uc, FSCA o Nam Phi, FSA o Nhat, ADGM o Abu Dhabi, CySEC o Sip, ISA o Israel, KNF o Ba Lan, va IIROC o Canada. Do la nhieu chi phi quan ly. Hau het nha moi gioi quan ly hai hoac ba giay phep va goi la xong. Tien cua ban vao tai khoan tach biet tai cac ngan hang nhu Barclays, tach biet khoi quy hoat dong cua AvaTrade. Neu dieu gi tham hoa xay ra voi cong ty, von giao dich cua ban van duoc bao ve.",
+    "p3": "Ve nen tang, ho da di rong hon la sau. MetaTrader 4 co san - do la cai ma hau het forex trader bat dau, chay Expert Advisors, co nhieu nam chi bao va script ben thu ba. MT5 them hedging, nhieu khung thoi gian hon va bieu do tot hon neu ban muon nang cap. AvaTradeGO la ung dung di dong cua ho, va no thuc su kha - khong chi la suy nghi sau. WebTrader xu ly giao dich tren trinh duyet ma khong can cai dat gi. AvaOptions rieng cho quyen chon vanilla. Tich hop DupliTrade va ZuluTrade neu ban muon copy trader khac. Nhieu lua chon, co the qua nhieu neu ban moi bat dau.",
+    "p4": "Tai nguyen giao duc cua ho tot hon hau het. Khoa hoc video bao gom tu pip la gi den cac mau ky thuat nang cao. Webinar hang tuan voi phan tich thi truong. Huong dan viet khong doc nhu duoc dich may. Lich kinh te day du. Tai khoan demo khong gioi han thoi gian, dieu nay quan trong - mot so nha moi gioi cat ban sau 30 ngay. Ban co the luyen tap hang thang neu can.",
+    "p5": "Ho tro khach hang hoat dong 24/5 bang 14 ngon ngu. Chat truc tiep thuong ket noi trong mot hoac hai phut. Ho co so dien thoai dia phuong cho cac khu vuc khac nhau. Email tra loi trong ngay, thuong la vay. Trong 18 nam ho da thu thap 60+ giai thuong nganh tu cac an pham va trien lam khac nhau - Nha Moi Gioi Forex Tot Nhat, Ung Dung Giao Dich Tot Nhat, Tai Nguyen Giao Duc Tot Nhat. Giai thuong mot phan la tiep thi, nhung so luong cho thay ho dang lam dung dieu gi do.",
+    "p6": "Ve chi phi, AvaTrade khong co gang la re nhat. Spread tren EUR/USD thuong khoang 0.9 pip, tot nhung khong xuat sac. Khong hoa hong tren hau het loai tai khoan - no duoc tinh vao spread. Ho kiem tien tu spread va swap qua dem nhu hau het market maker. Neu ban scalping hoac giao dich khoi luong lon, co nhung lua chon re hon. Neu ban muon nha moi gioi duoc quan ly voi nen tang tot va ho tro thuc su khi moi thu sai, spread rong hon mot chut co the dang gia.",
+    "p7": "Danh sach cong cu bao gom hau het: 55+ cap forex bao gom exotic, 600+ CFD co phieu tu cac san My, Chau Au va Chau A, cac chi so chinh, hang hoa tu vang den ca cao, cap tien dien tu (voi don bay han che), ETF, trai phieu va quyen chon vanilla. Khoang 1,250 cong cu tong cong. Ban khong co 10,000+ ma Interactive Brokers cung cap, nhung tru khi ban giao dich co phieu thi truong moi noi mo mit, ban se tim duoc nhung gi can.",
+    "p8": "Mot dieu dang biet: AvaTrade la market maker, khong phai nha moi gioi ECN. Ho la doi tac cua giao dich cua ban. Mot so trader thich ECN vi minh bach hon, nguoi khac khong quan tam. Market maker co the cung cap spread co dinh va stop dam bao, ma ECN khong the. Do la danh doi, khong nhat thiet tot hon hay te hon.",
+    "stats": {
+      "founded": "Thanh Lap",
+      "foundedValue": "2006",
+      "regulators": "Co Quan Quan Ly",
+      "regulatorsValue": "9 Toan Cau",
+      "instruments": "Cong Cu",
+      "instrumentsValue": "1,250+",
+      "clients": "Khach Hang",
+      "clientsValue": "400,000+",
+      "awards": "Giai Thuong",
+      "awardsValue": "60+"
+    }
+  },
+  "trust": {
+    "title": "Duoc Quan Ly & An Toan"
+  },
+  "footer": {
+    "aboutTitle": "Ve Chung Toi",
+    "about": "PartnerCode.org giup trader tim ma doi tac da xac minh cho cac nha moi gioi hang dau. Chung toi tu kiem tra va xac minh moi ma, de ban biet ban dang nhan thuong thuc tu cac nha moi gioi duoc quan ly. Khong ma gia, khong uu dai het han.",
+    "tagline": "Ma doi tac nha moi gioi da xac minh",
+    "codes": "Ma Doi Tac",
+    "resources": "Tai Nguyen",
+    "aboutUs": "Ve PartnerCode",
+    "whatIsPartnerCode": "Ma Doi Tac La Gi?",
+    "disclaimer": "Canh Bao Rui Ro: Giao dich CFD va forex co the khien ban mat tien. Khong giao dich voi nhieu hon muc ban co the mat. Hay tim tu van doc lap neu ban khong chac chan. Ma doi tac cho thuong nhung khong thay doi dieu kien giao dich.",
+    "affiliate": "Tiet Lo Lien Ket: Chung toi co the nhan thanh toan khi ban dang ky qua lien ket cua chung toi. Dieu nay khong thay doi thuong cua ban hoac khuyen nghi cua chung toi.",
+    "rights": "Bao luu moi quyen."
+  },
+  "availability": {
+    "available": "AvaTrade co san tai khu vuc cua ban.",
+    "notAvailable": "AvaTrade co the khong co san tai quoc gia cua ban. Vui long xac minh truoc khi dang ky."
+  },
+  "xmBonusTiers": {
+    "title": "Cap Do Thuong Chao Mung XM",
+    "deposit": "So Tien Nap",
+    "bonus": "Thuong",
+    "tiers": [
+      { "min": "$5", "max": "$500", "bonus": "100% (len den $500)" },
+      { "min": "$501", "max": "$5,000", "bonus": "50% (len den $2,500)" },
+      { "min": "$5,001", "bonus": "20% (len den $10,600)" }
+    ],
+    "noDeposit": {
+      "title": "Thuong $30 Khong Can Nap",
+      "desc": "Tai khoan moi nhan $30 tin dung giao dich mien phi - khong can nap tien!"
+    }
+  },
+  "xmHowTo": {
+    "title": "Cach Su Dung Ma Doi Tac XM",
+    "steps": [
+      {
+        "title": "Nhan Lien Ket Cua Chung Toi",
+        "desc": "Su dung nut cua chung toi de truy cap trang dang ky chinh thuc cua XM voi ma doi tac QK44F"
+      },
+      {
+        "title": "Tao Tai Khoan",
+        "desc": "Hoan thanh bieu mau dang ky - ma doi tac tu dong duoc ap dung"
+      },
+      {
+        "title": "Nhan $30 Mien Phi",
+        "desc": "Xac minh tai khoan de nhan thuong $30 khong can nap ngay lap tuc"
+      },
+      {
+        "title": "Nap De Nhan Them",
+        "desc": "Nap tien de mo khoa thuong khop 100% len den $10,600"
+      }
+    ]
+  },
+  "xmFaq": [
+    {
+      "q": "Ma doi tac XM la gi?",
+      "a": "QK44F. Khi ban dang ky qua lien ket cua chung toi, ma duoc ap dung tu dong - ban khong can nhap thu cong. Ma do la cai kich hoat thuong $30 khong can nap va mo khoa cac thuong khop nap. Khong co no, ban se co tai khoan tieu chuan khong co loi ich khuyen mai."
+    },
+    {
+      "q": "Lam sao de nhan thuong $30 khong can nap?",
+      "a": "Dang ky qua lien ket cua chung toi, hoan thanh bieu mau dang ky, sau do xac minh danh tinh bang cach tai len giay to tuy than. Sau khi xac minh duoc chap thuan (thuong trong vai gio, doi khi ngay lap tuc), $30 xuat hien trong tai khoan giao dich cua ban. Khong can nap tien - do la tien that ban co the giao dich ngay lap tuc. Dieu kien la ban khong the rut $30 truc tiep, chi loi nhuan kiem duoc tu giao dich voi no."
+    },
+    {
+      "q": "Thuong toi da voi ma QK44F la bao nhieu?",
+      "a": "Thuong $30 khong can nap chi la bat dau. Sau do, ban nhan 100% khop tren $500 dau tien nap, 50% tren $4,500 tiep theo, sau do 20% tren cac khoan nap tren $5,000. Tong thuong nap toi da la $10,600. Vay ve ly thuyet ban co the nhan $30 + $10,600 = $10,630 tien thuong neu nap du. It nguoi nap du de toi da, nhung ngay ca khoan nap nho hon cung nhan thuong dang ke."
+    },
+    {
+      "q": "XM co hop phap khong?",
+      "a": "Hoat dong tu 2009 va co giay phep tu CySEC (Sip), ASIC (Uc), IFSC (Belize), va DFSA (Dubai). Giay phep CySEC va ASIC la nhung giay co y nghia - nhung co quan quan ly do co quyen luc thuc su va kiem toan thuong xuyen. Tien khach hang nam trong tai khoan tach biet tai cac ngan hang hang dau nhu Barclays va UBS, tach biet khoi tien hoat dong cua XM. Ho da xu ly hang trieu giao dich ma khong co be boi lon hay hanh dong quan ly nao."
+    },
+    {
+      "q": "Toi co the giao dich gi tren XM?",
+      "a": "Hon 1,000 cong cu tren hau het cac loai tai san chinh. 55+ cap forex bao gom chinh, phu va exotic. 1,000+ CFD co phieu tu cac san toan cau. Cac chi so chinh nhu S&P 500, Nasdaq, FTSE, DAX. Hang hoa bao gom vang, bac, dau va san pham nong nghiep. Nang luong. Cap tien dien tu bao gom BTC, ETH va cac loai khac. Qua du cho hau het cac chien luoc giao dich."
+    },
+    {
+      "q": "Nap toi thieu la bao nhieu?",
+      "a": "$5 la tat ca nhung gi ban can de mo tai khoan da nap tien. Do la thuc su thap - hau het nha moi gioi yeu cau toi thieu $50-$200. No cho phep ban thu voi tien that ma khong cam ket nhieu. $5 khong kich hoat bat ky thuong nao vi thuong nap bat dau o muc cao hon, nhung ban van co the giao dich vi the that."
+    },
+    {
+      "q": "Ma QK44F con hoat dong trong 2026 khong?",
+      "a": "Da kiem tra thang 1/2026 - van hoat dong, van dang hoat dong, van cho ban cau truc thuong day du. Chung toi kiem tra dinh ky de dam bao no chua bi vo hieu hoa. Ma doi tac gan voi lien ket thuong ton tai lau hon ma khuyen mai co thoi han."
+    },
+    {
+      "q": "Toi co the su dung nen tang nao?",
+      "a": "MetaTrader 4, MetaTrader 5 va XM App cho di dong. MT4 la tieu chuan nganh - da ton tai mai, chay Expert Advisors, he sinh thai chi bao va script khong lo. MT5 co bieu do tot hon va nhieu khung thoi gian hon neu ban muon nang cap. XM App xu ly giao dich di dong du tot de quan ly vi the va dat lenh khi di chuyen. Tat ca nen tang dong bo vi the tren cac thiet bi."
+    },
+    {
+      "q": "Ho co tai khoan Hoi giao khong?",
+      "a": "Co - tai khoan Hoi giao khong swap co san cho trader can tranh tra lai vi ly do ton giao. Khong tinh phi swap qua dem. Ban co the yeu cau dieu nay khi mo tai khoan hoac lien he ho tro de chuyen doi tai khoan hien co. Cac dieu kien giao dich khac giong nhau."
+    },
+    {
+      "q": "Co nhung loai tai khoan nao?",
+      "a": "Tai khoan Micro cho phep ban giao dich micro lot (0.01 lot tieu chuan) - tot cho nguoi moi hoac thu nghiem chien luoc voi rui ro toi thieu. Tai khoan Standard la mac dinh cho hau het trader. XM Ultra Low co spread chat hon bat dau tu 0.6 pip nhung tinh hoa hong nho. Tai khoan Shares cho giao dich CFD co phieu voi dieu kien khac. Ma doi tac QK44F hoat dong tren tat ca loai tai khoan."
+    },
+    {
+      "q": "Toi co the rut thuong $30 khong?",
+      "a": "Ban than $30 o lai tai khoan cua ban nhu tin dung giao dich - ban khong the rut truc tiep. Tuy nhien, bat ky loi nhuan nao ban kiem duoc khi giao dich voi $30 do co the rut duoc sau khi ban dat yeu cau khoi luong giao dich (kiem tra dieu khoan cu the cua XM). Mot so nguoi bien $30 thanh $50 hoac $100 loi nhuan co the rut. Nguoi khac mat het khi hoc. Du sao, ban dang mao hiem tien cua XM, khong phai cua ban."
+    },
+    {
+      "q": "Rut tien nhanh nhu the nao?",
+      "a": "XM xu ly yeu cau rut tien trong vong 24 gio vao ngay lam viec - do la thoi gian xu ly noi bo cua ho. Vi dien tu nhu Skrill va Neteller thuong nhan trong vai gio sau khi xu ly. Rut the mat 2-5 ngay lam viec. Chuyen khoan ngan hang mat lau hon - thuong 3-5 ngay lam viec sau khi XM xu ly. Khong co su cham tre bat thuong nao duoc bao cao."
+    },
+    {
+      "q": "Co phi nap hoac rut tien khong?",
+      "a": "XM khong tinh phi nap hoac rut tien o phia ho. Ho tham chi chi tra phi chuyen khoan ngan hang cho cac khoan rut tren $200. Ngan hang hoac nha cung cap thanh toan cua ban van co the tinh phi rieng (phi chuyen khoan quoc te, doi tien, v.v.), nhung do nam ngoai tam kiem soat cua XM."
+    },
+    {
+      "q": "Toi co the nhan don bay bao nhieu?",
+      "a": "Len den 1:1000 tuy vao vi tri cua ban va loai tai khoan. Khach hang EU bi gioi han 1:30 tren cac cap forex chinh do quy dinh ESMA. Ngoai EU, ban co the truy cap don bay cao hon nhieu. Ban co the dieu chinh muc don bay trong Khu Vuc Thanh Vien - khong bi khoa voi muc ban bat dau."
+    },
+    {
+      "q": "Ma doi tac co thay doi dieu kien giao dich cua toi khong?",
+      "a": "Hoan toan khong. Cung spread, cung tuy chon don bay, cung toc do thuc hien, cung truy cap nen tang nhu bat ky khach hang XM nao khac. Ma chi danh dau tai khoan cua ban la den qua doi tac, trig thuong. Trai nghiem giao dich thuc te cua ban giong het nhau."
+    }
+  ],
+  "xmFeatures": {
+    "title": "Tai Sao Giao Dich Voi XM?",
+    "features": [
+      {
+        "title": "Thuong $30 Khong Can Nap",
+        "desc": "Nhan $30 de giao dich truoc khi ban nap bat ky thu gi"
+      },
+      {
+        "title": "Thuong Len Den $10,600",
+        "desc": "100% khop tren khoan nap dau tien cua ban, cong them tren do"
+      },
+      {
+        "title": "Nap Toi Thieu $5",
+        "desc": "Du thap de thu nghiem ma khong cam ket nhieu"
+      },
+      {
+        "title": "Thuc Hien Nhanh",
+        "desc": "99.35% giao dich duoc thuc hien trong duoi mot giay, khong requote"
+      }
+    ]
+  },
+  "xmAbout": {
+    "title": "Ve XM",
+    "p1": "XM ra mat tu Sip vao nam 2009, dung khi forex ban le dang bung no toan cau. Ho phat trien nhanh - rat nhanh. Ngay nay ho tuyen bo co hon 10 trieu khach hang dang ky tren 190 quoc gia, dieu nay se khien ho tro thanh mot trong nhung nha moi gioi forex ban le lon nhat the gioi theo so luong khach hang. Hay coi con so do voi mot chut hoai nghi (dang ky khong co nghia la hoat dong), nhung ngay ca mot phan cua do cung dang ke.",
+    "p2": "Bon co quan quan ly giam sat cac phan khac nhau cua hoat dong: CySEC o Sip xu ly khach hang Chau Au, ASIC o Uc bao gom khu vuc do, IFSC o Belize cho khach hang quoc te, va DFSA o Dubai cho Trung Dong. Giay phep CySEC va ASIC la nhung giay co y nghia - nhung co quan quan ly do thuc su co quyen luc. Tien khach hang nam trong tai khoan tach biet tai cac ngan hang hang dau bao gom Barclays, UBS va Credit Suisse. Tien duoc tach biet khoi tai khoan hoat dong cua XM.",
+    "p3": "Ho gan bo voi MetaTrader thay vi xay dung nen tang doc quyen. MT4 co san - no dang cho thay tuoi tac nhung trader biet no, EA chay tren do, va co he sinh thai chi bao va script khong lo. MT5 cung cap bieu do nang cao hon, khung thoi gian bo sung va tinh nang do sau thi truong neu ban muon. XM App xu ly giao dich di dong va dong bo vi the tren cac thiet bi. Khong co gi dot pha, nhung no hoat dong.",
+    "p4": "XM dau tu tien that vao giao duc va su kien, dieu nay khong binh thuong. Webinar hang ngay bang nhieu ngon ngu bao gom phan tich ky thuat, co ban va huong dan nen tang. Ho cung to chuc hoi thao va trien lam truc tiep tai cac thanh pho tren the gioi - Bangkok, Lagos, Dubai, bat cu noi nao ho co khach hang. Doi nghien cuu xuat ban phan tich buoi sang va hang tuan. Cho trader moi dang xay dung ky nang, do la nhung thu thuc su huu ich.",
+    "p5": "Thuong $30 khong can nap la moi nhu cua ho. Dang ky, xac minh danh tinh, nhan $30 tin dung giao dich ma khong can nap bat ky thu gi. Ban khong the rut $30 truc tiep, nhung ban co the rut bat ky loi nhuan nao (sau khi dat mot so yeu cau khoi luong giao dich). Do la cach rui ro thap de thu nghiem nha moi gioi voi tien that. Muc nap toi thieu $5 sau do giu nguong vao thap.",
+    "p6": "Tuy chon tai khoan: Tai khoan Micro cho phep ban giao dich micro lot (0.01) tot cho hoc hoac thu nghiem chien luoc voi rui ro toi thieu. Tai khoan Standard la mac dinh cho hau het trader. XM Ultra Low cung cap spread chat hon voi hoa hong nho moi giao dich - tot hon cho trader tich cuc. Tai khoan Shares de giao dich CFD co phieu thuc te voi tiep xuc giong quyen so huu. Tai khoan Hoi giao khong swap co san cho trader can chung.",
+    "p7": "Ve thuc hien, XM cong bo thong ke cua ho: 99.35% lenh thuc hien trong duoi mot giay, khong requote, khong tu choi tren lenh thi truong tieu chuan. Lieu nhung con so do co dung trong cac su kien tin tuc lon hay khong la cau hoi khac, nhung trong dieu kien binh thuong thuc hien la nhanh. Don bay len den 1:1000 cho mot so loai tai khoan o mot so khu vuc phap ly - cao hon nhieu so voi nha moi gioi duoc quan ly EU cho phep. Bao ve so du am la tieu chuan, nen ban khong the no ho tien neu vi the vo.",
+    "p8": "Spread khong phai chat nhat trong nganh. Tai khoan Standard EUR/USD thuong khoang 1.6-1.7 pip. XM Ultra Low giam xuong con 0.6-0.8 pip cong hoa hong nho. Canh tranh nhung khong dac biet. Ho khong co gang thang chi bang gia - cau truc thuong, muc toi thieu thap va giao duc la diem thu hut.",
+    "stats": {
+      "founded": "Thanh Lap",
+      "foundedValue": "2009",
+      "regulators": "Co Quan Quan Ly",
+      "regulatorsValue": "4 Toan Cau",
+      "instruments": "Cong Cu",
+      "instrumentsValue": "1,000+",
+      "clients": "Khach Hang",
+      "clientsValue": "10M+",
+      "countries": "Quoc Gia",
+      "countriesValue": "190+"
+    }
+  },
+  "avafuturesBonusTiers": {
+    "title": "Cap Do Thuong Chao Mung AvaFutures",
+    "deposit": "So Tien Nap",
+    "bonus": "Thuong Chao Mung",
+    "tiers": [
+      { "min": "$1,000", "max": "$1,999", "bonus": "$200" },
+      { "min": "$2,000", "max": "$2,999", "bonus": "$400" },
+      { "min": "$3,000", "max": "$4,999", "bonus": "$600" },
+      { "min": "$5,000", "max": "$9,999", "bonus": "$1,000" },
+      { "min": "$10,000", "max": "$19,999", "bonus": "$2,000" },
+      { "min": "$20,000", "max": "$49,999", "bonus": "$4,000" },
+      { "min": "$50,000", "max": "$99,999", "bonus": "$10,000" },
+      { "min": "$100,000", "bonus": "Lien He Nha Moi Gioi" }
+    ]
+  },
+  "avafuturesHowTo": {
+    "title": "Cach Su Dung Ma Doi Tac AvaFutures",
+    "steps": [
+      {
+        "title": "Nhan Lien Ket Cua Chung Toi",
+        "desc": "Su dung nut cua chung toi de truy cap trang dang ky chinh thuc cua AvaFutures"
+      },
+      {
+        "title": "Nhap Ma 128979",
+        "desc": "Nhap ma doi tac 128979 trong qua trinh dang ky"
+      },
+      {
+        "title": "Nhan Thuong Cua Ban",
+        "desc": "Hoan thanh nap tien va thuong chao mung se duoc cap tu dong"
+      }
+    ]
+  },
+  "avafuturesFaq": [
+    {
+      "q": "AvaFutures la gi?",
+      "a": "Nen tang giao dich tuong lai cua AvaTrade. Thay vi CFD, ban giao dich hop dong tuong lai thuc te. Diem ban chinh: no hoat dong o cac quoc gia noi CFD bi han che hoac cam, nhu Tay Ban Nha."
+    },
+    {
+      "q": "Ma doi tac AvaFutures la gi?",
+      "a": "128979 - cung ma voi AvaTrade vi ho la cung cong ty. Nhap ma khi dang ky de nhan thuong chao mung."
+    },
+    {
+      "q": "Tai sao toi nen dung AvaFutures thay vi AvaTrade?",
+      "a": "Hai ly do chinh. Thu nhat, neu ban o Tay Ban Nha hoac quoc gia khac noi CFD bi cam, tuong lai la cach cua ban de vao. Thu hai, mot so trader chi thich tuong lai - ban dang giao dich hop dong thuc te tren cac san giao dich duoc quan ly, khong phai san pham OTC."
+    },
+    {
+      "q": "Toi co the su dung no tu Tay Ban Nha khong?",
+      "a": "Co, do la mot phan lon ly do no ton tai. CNMV cua Tay Ban Nha da cam tiep thi CFD cho trader ban le. AvaFutures cho phep trader Tay Ban Nha truy cap cung thi truong thong qua tuong lai duoc quan ly thay the."
+    },
+    {
+      "q": "Toi co the giao dich thi truong nao?",
+      "a": "Tuong lai chi so (S&P 500, Nasdaq, DAX, v.v.), tuong lai hang hoa (vang, dau, khi tu nhien), tuong lai tien te, tuong lai lai suat va hop dong micro cho kich thuoc vi the nho hon."
+    },
+    {
+      "q": "Tai sao TradingView?",
+      "a": "TradingView co mot so bieu do tot nhat trong nganh. Hau het trader da su dung no de phan tich roi. Voi AvaFutures, ban co the dat lenh truc tiep tu bieu do TradingView thay vi chuyen doi giua cac nen tang."
+    },
+    {
+      "q": "Ai quan ly AvaFutures?",
+      "a": "NFA (National Futures Association) va CFTC (Commodity Futures Trading Commission) o My. Ca hai deu la co quan quan ly nghiem tuc voi yeu cau nghiem ngat."
+    },
+    {
+      "q": "Nap toi thieu la bao nhieu?",
+      "a": "Thay doi theo loai tai khoan va tuong lai ban muon giao dich. Tuong lai micro can it ky quy hon hop dong day du. Lien he ho de biet cu the dua tren nhung gi ban dinh giao dich."
+    },
+    {
+      "q": "Toi co can kinh nghiem voi tuong lai khong?",
+      "a": "Co ich, nhung khong bat buoc. Tuong lai hoat dong khac CFD - co ngay het han hop dong, yeu cau ky quy va thanh toan can hieu. AvaFutures co tai nguyen giao duc neu ban moi bat dau."
+    },
+    {
+      "q": "Con thuong chao mung thi sao?",
+      "a": "Cung thuong theo cap nhu AvaTrade. Nap $1k nhan $200, nap $5k nhan $1,000, len den $10k thuong tren cac khoan nap lon hon. Su dung ma 128979 khi dang ky."
+    },
+    {
+      "q": "Toi co the su dung Expert Advisors hoac giao dich tu dong khong?",
+      "a": "TradingView co ngon ngu kich ban rieng (Pine Script) cho chi bao va chien luoc. De tu dong hoa day du, ban co the can ket noi qua API cua ho."
+    },
+    {
+      "q": "Tuong lai khac CFD nhu the nao?",
+      "a": "Tuong lai giao dich tren cac san giao dich duoc quan ly voi hop dong tieu chuan va ngay het han. CFD la san pham OTC noi ban giao dich voi nha moi gioi. Mot so trader cam thay tuong lai minh bach hon vi gia den tu giao dich san thuc te."
+    }
+  ],
+  "avafuturesAbout": {
+    "title": "Ve AvaFutures",
+    "p1": "AvaFutures la bo phan giao dich tuong lai cua AvaTrade. Cung cong ty me, san pham khac. Trong khi AvaTrade giao dich CFD va forex, AvaFutures cho ban truy cap vao hop dong tuong lai thuc te giao dich tren cac san giao dich duoc quan ly nhu CME, NYMEX va COMEX. Su khac biet quan trong - tuong lai la hop dong tieu chuan voi gia san giao dich thuc va bu tru trung tam, khong phai san pham OTC noi nha moi gioi la doi tac cua ban.",
+    "p2": "Tich hop TradingView la diem ban chinh. Neu ban da su dung TradingView de ve bieu do (va hang trieu trader lam vay), ban co the ket noi tai khoan AvaFutures va thuc hien giao dich truc tiep tu bieu do. Ve cac muc cua ban, dat lenh, quan ly vi the - tat ca ma khong roi TradingView. Cho trader da xay dung toan bo quy trinh xung quanh cong cu cua TradingView, day la dieu lon.",
+    "p3": "AvaFutures ton tai mot phan vi thay doi quy dinh o Chau Au. CNMV cua Tay Ban Nha da cam tiep thi CFD cho trader ban le. Cac han che tuong tu xuat hien o Bi, Phap va noi khac. Tuong lai khong phai CFD - chung la loai quy dinh khac - nen chung vuot qua nhung han che do. Trader Tay Ban Nha bi khoa khoi AvaTrade van co the truy cap thi truong tuong tu thong qua AvaFutures. Do la cach vuot qua, nhung la cach hop phap.",
+    "p4": "Tuong lai co san bao gom hau het nhung gi trader tich cuc muon. Tuong lai chi so: E-mini S&P 500, E-mini Nasdaq, Euro Stoxx 50, DAX. Hang hoa: vang, bac, dau tho (WTI va Brent), khi tu nhien, dong, san pham nong nghiep. Tuong lai tien te tren cac cap chinh. Tuong lai lai suat neu ban giao dich trai phieu. Ho cung cung cap hop dong micro - E-micro S&P 500, Micro Gold, Micro Crude - yeu cau mot phan nho ky quy. Tot cho tai khoan nho hon hoac thu nghiem chien luoc voi tien that nhung rui ro han che.",
+    "p5": "Quy dinh den tu NFA (National Futures Association) va CFTC (Commodity Futures Trading Commission) o My. Day la nhung co quan quan ly nghiem tuc voi yeu cau von nghiem ngat va kiem toan thuong xuyen. Cong ty me cua AvaTrade, voi chin giay phep toan cau, cung cap su ho tro to chuc. Ky quy va quy giao dich cua ban nam trong tai khoan tach biet tai ngan hang, tach biet khoi tien hoat dong cua cong ty.",
+    "p6": "Mot dieu can hieu ve tuong lai: chung co ngay het han. Khong giong forex hay CFD ban co the giu vo thoi han, hop dong tuong lai het han hang thang hoac hang quy. Ban can roll vi the sang hop dong tiep theo hoac dong chung truoc khi het han. Cung co giao hang vat ly tren mot so hop dong (mac du hau het trader ban le khong bao gio gan den do). Neu ban den tu forex CFD, tuong lai co duong cong hoc tap. AvaFutures cung cap tai nguyen giao duc, nhung hay chuan bi danh thoi gian de hieu thong so ky thuat hop dong, yeu cau ky quy va ngay roll.",
+    "p7": "Cau truc thuong chao mung phan anh AvaTrade - cung he thong theo cap dua tren so tien nap. Nap $1,000 va nhan $200, len den $10,000 thuong tren cac khoan nap lon hon. Ma doi tac 128979 cung ap dung o day vi do la cung cong ty.",
+    "stats": {
+      "founded": "Thanh Lap",
+      "foundedValue": "2006",
+      "regulators": "Co Quan Quan Ly",
+      "regulatorsValue": "NFA/CFTC",
+      "instruments": "Cong Cu",
+      "instrumentsValue": "Tuong Lai",
+      "platform": "Nen Tang",
+      "platformValue": "TradingView"
+    }
+  },
+  "exnessFeatures": {
+    "title": "Tai Sao Giao Dich Voi Exness?",
+    "features": [
+      {
+        "title": "Spread Chat",
+        "desc": "Tu 0.0 pip tren tai khoan Raw Spread"
+      },
+      {
+        "title": "Rut Tien Ngay Lap Tuc",
+        "desc": "Xu ly tu dong 24/7 - tien vao tai khoan cua ban nhanh"
+      },
+      {
+        "title": "7+ Co Quan Quan Ly",
+        "desc": "FCA, CySEC, FSCA va nhieu hon giam sat ho"
+      },
+      {
+        "title": "Toi Thieu $10",
+        "desc": "Nguong vao thap de bat dau"
+      }
+    ]
+  },
+  "exnessHowTo": {
+    "title": "Cach Mo Tai Khoan Exness",
+    "steps": [
+      {
+        "title": "Nhan Lien Ket Cua Chung Toi",
+        "desc": "Di den trang dang ky Exness"
+      },
+      {
+        "title": "Tao Tai Khoan",
+        "desc": "Dien bieu mau dang ky"
+      },
+      {
+        "title": "Xac Minh Danh Tinh",
+        "desc": "Tai len giay to tuy than cua ban"
+      },
+      {
+        "title": "Bat Dau Giao Dich",
+        "desc": "Nap $10 hoac hon va ban da san sang"
+      }
+    ]
+  },
+  "exnessFaq": [
+    {
+      "q": "Ma doi tac Exness la gi?",
+      "a": "xxv8puyog3. Nhap ma khi dang ky de ket noi voi doi tac cua chung toi. Se khong cho ban thuong (Exness khong lam vay), nhung ban se duoc thiet lap dung cach."
+    },
+    {
+      "q": "Exness co thuong chao mung khong?",
+      "a": "Khong. Exness khong lam thuong. Chien luoc cua ho la spread chat va rut tien ngay lap tuc, khong phai chieu tro khuyen mai."
+    },
+    {
+      "q": "Nap toi thieu la bao nhieu?",
+      "a": "$10 cho tai khoan Standard. Mot so loai tai khoan can nhieu hon."
+    },
+    {
+      "q": "Exness co duoc quan ly khong?",
+      "a": "Co, boi 7+ co quan: FCA (UK), CySEC (Sip), FSCA (Nam Phi), FSA (Seychelles), CBCS (Curacao) va cac co quan khac. Mot trong nhung nha moi gioi duoc quan ly nhieu nhat."
+    },
+    {
+      "q": "Spread thuc su chat den dau?",
+      "a": "Tai khoan Raw Spread bat dau tu 0.0 pip tren cac cap chinh nhu EUR/USD, mac du ban tra hoa hong moi lot. Tai khoan Standard co spread rong hon mot chut da tinh vao nhung khong hoa hong. Du sao, canh tranh voi hau het nha moi gioi."
+    },
+    {
+      "q": "Rut tien nhanh nhu the nao?",
+      "a": "Ngay lap tuc cho hau het phuong thuc - vi dien tu, the, tien dien tu. Chay 24/7, tu dong hoa hoan toan, khong co nguoi xem xet lam cham moi thu. Day co le la diem ban lon nhat cua ho."
+    },
+    {
+      "q": "Toi co the giao dich gi?",
+      "a": "100+ cap forex, kim loai, tien dien tu (24/7), nang luong, co phieu va chi so. Pham vi kha."
+    },
+    {
+      "q": "Nhung nen tang nao co san?",
+      "a": "MT4, MT5, Exness Terminal (web), va ung dung Exness Trade cho di dong. Tat ca deu tieu chuan."
+    },
+    {
+      "q": "Don bay la bao nhieu?",
+      "a": "Len den 1:Khong gioi han tren mot so loai tai khoan neu ban dat dieu kien nhat dinh. Thuc te hon, 1:2000 thuong co san. Cao hon nhieu so voi tai khoan duoc quan ly EU cho phep."
+    },
+    {
+      "q": "Tien cua toi co an toan khong?",
+      "a": "Tien khach hang duoc tach biet khoi hoat dong cong ty. Nhieu co quan quan ly kiem toan ho. Ho cong bo bao cao tai chinh hang thang cong khai, dieu ma hau het nha moi gioi khong lam."
+    },
+    {
+      "q": "Co nhung loai tai khoan nao?",
+      "a": "Standard (khong hoa hong, spread rong hon), Standard Cent (cho vi the nho), Raw Spread (0.0 pip + hoa hong), Zero (0 spread tren 30 cong cu hang dau), va Pro (thuc hien ngay, spread chat)."
+    },
+    {
+      "q": "Ho co tai khoan khong swap khong?",
+      "a": "Co, tai khoan Hoi giao khong tinh phi qua dem. Co san theo yeu cau."
+    },
+    {
+      "q": "Tai sao khong co thuong?",
+      "a": "Exness quyet dinh canh tranh bang dieu kien giao dich thay the. Spread thap hon, rut tien nhanh hon, don bay cao hon. Mot so trader thich dieu nay hon chuong trinh thuong voi yeu cau khoi luong."
+    },
+    {
+      "q": "Exness lon co nao?",
+      "a": "Ho xu ly hon $4 nghin ty khoi luong giao dich moi thang. Do la khong lo - dat ho trong so nhung nha moi gioi forex ban le lon nhat toan cau."
+    },
+    {
+      "q": "Co phi nap tien khong?",
+      "a": "Exness khong tinh phi nap hoac rut tien. Tuy nhien, nha cung cap thanh toan co the co phi rieng."
+    }
+  ],
+  "exnessAbout": {
+    "title": "Ve Exness",
+    "p1": "Exness bat dau vao nam 2008 voi mot cuoc dat cuoc nguoc dong: bo qua thuong, bo qua chieu tro khuyen mai, va canh tranh thuan tuy bang dieu kien giao dich. Trong khi cac nha moi gioi khac lung lay thuong nap voi dieu khoan phuc tap, Exness tap trung vao spread chat, thuc hien nhanh va quan trong nhat - rut tien ngay lap tuc. Ho cho rang trader nghiem tuc se quan tam den viec lay tien ra nhanh hon la nhan thuong ma ho phai giao dich qua.",
+    "p2": "Cuoc dat cuoc do da thanh cong. Exness hien xu ly hon $4 nghin ty khoi luong giao dich moi thang. Do la nghin ty voi chu T. Theo khoi luong, ho la mot trong nhung nha moi gioi forex ban le lon nhat the gioi - co the la lon nhat, tuy vao cach ban do. Tang truong da bung no, dac biet o cac thi truong moi noi khap Chau A, Chau Phi va Trung Dong noi ho da xay dung nhan dien thuong hieu manh."
+    ,
+    "p3": "Thiet lap quy dinh la rong: FCA o UK (duoc coi la nghiem ngat nhat), CySEC o Sip, FSCA o Nam Phi, FSA o Seychelles, CBCS o Curacao, FSC o BVI, va FSC o Mauritius. Cac thuc the khac nhau phuc vu cac khu vuc khac nhau. Giay phep FCA va CySEC quan trong nhat cho uy tin. Tien khach hang nam trong tai khoan tach biet tai cac ngan hang lon, hoan toan tach biet khoi von hoat dong cua Exness.",
+    "p4": "Day la dieu khong binh thuong: Exness cong bo bao cao tai chinh chi tiet hang thang tren trang web cua ho. Khoi luong giao dich, so luong khach hang, thong ke rut tien, tai chinh cong ty - tat ca deu cong khai. Hau het nha moi gioi coi thong tin nay nhu bi mat quoc gia. Su minh bach la tuoi mat va xay dung long tin, mac du nguoi hoai nghi co the noi ho chi cong bo vi cac con so trong tot.",
+    "p5": "He thong rut tien ngay lap tuc la tinh nang giet nguoi cua ho. Yeu cau rut tien qua vi dien tu, tien dien tu hoac the, va no xu ly tu dong. Khong co nguoi xem xet, khong cho ai o van phong phia sau nhan phe duyet. No chay 24/7 bao gom cuoi tuan. Rut vi dien tu theo nghia den nhan trong vai giay. Ngay ca chuyen khoan ngan hang cung xu ly nhanh hon tieu chuan nganh vi chung khong nam trong hang doi. Trader da doi mat voi nha moi gioi rut tien cham - cho ngay hoac tuan de lay tien cua chinh minh - chuyen sang Exness va khong bao gio quay lai.",
+    "p6": "Ve spread, tai khoan Raw Spread dung voi ten goi. EUR/USD thuong xuat hien 0.0 pip trong cac phien thanh khoan. Ban tra hoa hong moi lot thay the ($3.50 moi ben tren hau het cap). Tai khoan Standard cuon chi phi vao spread rong hon mot chut, khoang 0.9-1.0 pip tren EUR/USD, khong hoa hong. Tai khoan Pro cung cap thuc hien ngay voi spread tu 0.1 pip. Tai khoan Zero dam bao 0.0 spread tren 30 cong cu hang dau trong gio cao diem, co hoa hong.",
+    "p7": "Don bay la noi Exness manh tay. Ho cung cap len den 1:Khong gioi han tren mot so loai tai khoan neu ban dat dieu kien cu the (so du nho hon, khong co vi the mo trong tin tuc lon). Thuc te, hau het trader su dung 1:2000 hoac thap hon, van cao hon nhieu so voi tai khoan duoc quan ly EU cho phep. Don bay cao la cong cu - no khong buoc ban su dung - nhung no o do neu ban muon. Bao ve so du am co nghia la ban khong the no ho tien bat ke the nao.",
+    "p8": "Tuy chon nen tang la tieu chuan: MT4, MT5, Exness Terminal rieng cua ho (web, khong can tai xuong), va ung dung di dong cho iOS va Android. MT4/MT5 ho tro Expert Advisors va giao dich tu dong. Khong co gi doc quyen hay bat thuong - ho giu don gian. Trong tam ro rang la thuc hien va dieu kien giao dich thay vi chuong gio nen tang.",
+    "stats": {
+      "founded": "Thanh Lap",
+      "foundedValue": "2008",
+      "regulators": "Co Quan Quan Ly",
+      "regulatorsValue": "7+ Toan Cau",
+      "instruments": "Cong Cu",
+      "instrumentsValue": "100+",
+      "volume": "Khoi Luong Hang Thang",
+      "volumeValue": "$4T+"
+    }
+  }
+}

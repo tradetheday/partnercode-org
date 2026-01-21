@@ -1,0 +1,111 @@
+/* RTL (Right-to-Left) Support for Arabic
+ * Applied when html[dir="rtl"] is set
+ */
+
+[dir="rtl"] {
+  /* Text alignment */
+  text-align: right;
+}
+
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+/* Flex direction reversal */
+[dir="rtl"] .faq-question {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .availability-notice {
+  flex-direction: row-reverse;
+}
+
+/* Margin/Padding adjustments */
+[dir="rtl"] .step__number {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Language switcher */
+[dir="rtl"] .lang-switcher {
+  left: var(--space-4);
+  right: auto;
+}
+
+/* Header nav */
+[dir="rtl"] .header__nav {
+  flex-direction: row-reverse;
+}
+
+/* Breadcrumbs */
+[dir="rtl"] .breadcrumb-separator {
+  transform: scaleX(-1);
+}
+
+/* Code box adjustments */
+[dir="rtl"] .code-box__code {
+  flex-direction: row-reverse;
+}
+
+/* Trust badges */
+[dir="rtl"] .trust-badges {
+  direction: rtl;
+}
+
+/* Tables - keep numbers LTR */
+[dir="rtl"] table {
+  direction: rtl;
+}
+
+[dir="rtl"] td,
+[dir="rtl"] th {
+  text-align: right;
+}
+
+/* Keep numbers and codes LTR */
+[dir="rtl"] .code-box__value,
+[dir="rtl"] .ltr-number {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* Steps layout */
+@media (min-width: 768px) {
+  [dir="rtl"] .steps {
+    direction: rtl;
+  }
+}
+
+/* Footer links */
+[dir="rtl"] .footer__links {
+  direction: rtl;
+}
+
+/* Button icons */
+[dir="rtl"] .btn svg {
+  order: 1;
+}
+
+/* Card layouts */
+[dir="rtl"] .card {
+  text-align: right;
+}
+
+/* Lists */
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  padding-right: var(--space-6);
+  padding-left: 0;
+}
+
+/* Blockquotes */
+[dir="rtl"] blockquote {
+  border-right: 4px solid var(--color-primary-500);
+  border-left: none;
+  padding-right: var(--space-4);
+  padding-left: 0;
+}

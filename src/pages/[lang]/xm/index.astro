@@ -1,0 +1,524 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import CodeBox from '../../../components/CodeBox.astro';
+import BonusTiers from '../../../components/BonusTiers.astro';
+import HowToSteps from '../../../components/HowToSteps.astro';
+import FAQ from '../../../components/FAQ.astro';
+import TrustBadges from '../../../components/TrustBadges.astro';
+import SEOSchema from '../../../components/SEOSchema.astro';
+import { xm } from '../../../data/brokers';
+import { languages, getNonEnglishLanguageCodes } from '../../../data/languages';
+
+export function getStaticPaths() {
+  const langCodes = getNonEnglishLanguageCodes();
+  return langCodes.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const langConfig = languages.find(l => l.code === lang);
+
+// Dynamic import of translation
+const t = await import(`../../../data/translations/${lang}.json`);
+const translations = t.default || t;
+
+// Use English fallback for XM-specific content if not translated yet
+const enT = await import('../../../data/translations/en.json');
+const enTranslations = enT.default || enT;
+
+const xmContent = translations.xm || enTranslations.xm;
+const xmBonusTiers = translations.xmBonusTiers || enTranslations.xmBonusTiers;
+const xmHowTo = translations.xmHowTo || enTranslations.xmHowTo;
+const xmFaq = translations.xmFaq || enTranslations.xmFaq;
+const xmAbout = translations.xmAbout || enTranslations.xmAbout;
+const xmFeatures = translations.xmFeatures || enTranslations.xmFeatures;
+const metaXm = translations.meta?.xmTitle ? translations.meta : enTranslations.meta;
+
+// HowTo Schema data
+const howToSchema = {
+  name: xmHowTo.title,
+  description: `${xmContent.subtitle}`,
+  steps: xmHowTo.steps
+};
+
+// Partner Code Schema for AI citability
+const partnerCodeSchema = {
+  brokerName: 'XM',
+  partnerCode: xm.partnerCode,
+  codeDescription: `${metaXm.xmDescription}`,
+  maxBonus: xm.maxBonus,
+  affiliateUrl: xm.affiliateUrl
+};
+
+// FAQ Schema
+const faqSchema = { faqs: xmFaq };
+
+// Breadcrumb Schema
+const breadcrumbSchema = {
+  breadcrumbs: [
+    { name: translations.nav?.home || 'Home', url: `https://partnercode.org/${lang}/` },
+    { name: 'XM', url: `https://partnercode.org/${lang}/xm/` }
+  ]
+};
+---
+
+<BaseLayout
+  title={metaXm.xmTitle}
+  description={metaXm.xmDescription}
+  lang={lang}
+  canonicalPath={`/${lang}/xm/`}
+>
+  <SEOSchema type="HowTo" data={howToSchema} />
+  <SEOSchema type="PartnerCode" data={partnerCodeSchema} />
+  <SEOSchema type="FAQPage" data={faqSchema} />
+  <SEOSchema type="BreadcrumbList" data={breadcrumbSchema} />
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <span class="badge badge-success">{xmContent.badge}</span>
+        <h1 class="hero__title">{xmContent.title}</h1>
+        <p class="hero__subtitle">{xmContent.subtitle}</p>
+
+        <!-- No Deposit Bonus Highlight -->
+        <div class="no-deposit-badge">
+          <span class="no-deposit-badge__amount">$30</span>
+          <span class="no-deposit-badge__text">{xmContent.noDeposit || 'No Deposit Bonus'}</span>
+        </div>
+
+        <CodeBox
+          code={xm.partnerCode}
+          label={translations.code.label}
+          copyText={translations.code.copy}
+          copiedText={translations.code.copied}
+          targetUrl={xm.affiliateUrl}
+        />
+
+        <div class="hero__meta">
+          <span class="verified-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            {xmContent.verified}
+          </span>
+          <span class="last-updated">{xmContent.lastUpdated}</span>
+        </div>
+
+        <a href={xm.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg">
+          {xmContent.cta}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bonus Tiers -->
+  <section class="section">
+    <div class="container">
+      <!-- No Deposit Bonus Card -->
+      <div class="no-deposit-card">
+        <div class="no-deposit-card__icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+          </svg>
+        </div>
+        <div class="no-deposit-card__content">
+          <h3>{xmBonusTiers.noDeposit.title}</h3>
+          <p>{xmBonusTiers.noDeposit.desc}</p>
+        </div>
+        <a href={xm.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-accent">
+          {xmContent.cta}
+        </a>
+      </div>
+
+      <BonusTiers
+        title={xmBonusTiers.title}
+        depositLabel={xmBonusTiers.deposit}
+        bonusLabel={xmBonusTiers.bonus}
+        tiers={xmBonusTiers.tiers}
+      />
+    </div>
+  </section>
+
+  <!-- How To Use -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <HowToSteps
+        title={xmHowTo.title}
+        steps={xmHowTo.steps}
+      />
+
+      <div class="cta-center">
+        <a href={xm.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg">
+          {xmContent.cta}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">{xmFeatures.title}</h2>
+      </div>
+
+      <div class="features-grid">
+        {xmFeatures.features.map((feature: {title: string, desc: string}, index: number) => (
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              {index === 0 && (
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+              )}
+              {index === 1 && (
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+                  <line x1="7" y1="7" x2="7.01" y2="7"/>
+                </svg>
+              )}
+              {index === 2 && (
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="4" width="20" height="16" rx="2"/>
+                  <path d="M7 15h0M2 9h20"/>
+                </svg>
+              )}
+              {index === 3 && (
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                </svg>
+              )}
+            </div>
+            <h3 class="feature-card__title">{feature.title}</h3>
+            <p class="feature-card__desc">{feature.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- About XM -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <div class="about-section">
+        <h2>{xmAbout.title}</h2>
+        <p>{xmAbout.p1}</p>
+        <p>{xmAbout.p2}</p>
+        {xmAbout.p3 && <p>{xmAbout.p3}</p>}
+        {xmAbout.p4 && <p>{xmAbout.p4}</p>}
+        {xmAbout.p5 && <p>{xmAbout.p5}</p>}
+
+        <div class={`stats-grid ${xmAbout.stats.clients ? 'stats-grid--5' : ''}`}>
+          <div class="stat">
+            <span class="stat__label">{xmAbout.stats.founded}</span>
+            <span class="stat__value">{xmAbout.stats.foundedValue}</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">{xmAbout.stats.regulators}</span>
+            <span class="stat__value">{xmAbout.stats.regulatorsValue}</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">{xmAbout.stats.instruments}</span>
+            <span class="stat__value">{xmAbout.stats.instrumentsValue}</span>
+          </div>
+          {xmAbout.stats.clients && (
+            <div class="stat">
+              <span class="stat__label">{xmAbout.stats.clients}</span>
+              <span class="stat__value">{xmAbout.stats.clientsValue}</span>
+            </div>
+          )}
+          {xmAbout.stats.countries && (
+            <div class="stat">
+              <span class="stat__label">{xmAbout.stats.countries}</span>
+              <span class="stat__value">{xmAbout.stats.countriesValue}</span>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Badges -->
+  <section class="section bg-secondary">
+    <div class="container">
+      <TrustBadges
+        title={translations.trust.title}
+        regulators={xm.regulators}
+      />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <FAQ
+        title={translations.home?.faqTitle || "FAQ"}
+        items={xmFaq}
+      />
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>{xmContent.title}</h2>
+        <p>{xmContent.subtitle}</p>
+
+        <CodeBox
+          code={xm.partnerCode}
+          label={translations.code.label}
+          copyText={translations.code.copy}
+          copiedText={translations.code.copied}
+          targetUrl={xm.affiliateUrl}
+        />
+
+        <a href={xm.affiliateUrl} target="_blank" rel="noopener sponsored" class="btn btn-primary btn-lg mt-6">
+          {xmContent.cta}
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero__meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-4);
+    margin: var(--space-6) 0;
+    font-size: var(--text-sm);
+  }
+
+  .verified-badge {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-success-600);
+    font-weight: var(--font-semibold);
+  }
+
+  .last-updated {
+    color: var(--color-text-muted);
+  }
+
+  .no-deposit-badge {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, var(--color-success-500), var(--color-success-600));
+    color: #fff;
+    padding: var(--space-4) var(--space-6);
+    border-radius: var(--radius-xl);
+    margin: var(--space-4) 0;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+  }
+
+  .no-deposit-badge__amount {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    line-height: 1;
+  }
+
+  .no-deposit-badge__text {
+    font-size: var(--text-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.9;
+  }
+
+  .no-deposit-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-4);
+    background: linear-gradient(135deg, var(--color-success-50), var(--color-success-100));
+    border: 2px solid var(--color-success-200);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    margin-bottom: var(--space-8);
+  }
+
+  .no-deposit-card__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background: var(--color-success-500);
+    color: #fff;
+    border-radius: var(--radius-lg);
+  }
+
+  .no-deposit-card__content {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .no-deposit-card__content h3 {
+    margin: 0 0 var(--space-2);
+    color: var(--color-success-700);
+  }
+
+  .no-deposit-card__content p {
+    margin: 0;
+    color: var(--color-success-600);
+  }
+
+  .btn-accent {
+    background: var(--color-success-500);
+    color: #fff;
+  }
+
+  .btn-accent:hover {
+    background: var(--color-success-600);
+  }
+
+  .cta-center {
+    text-align: center;
+    margin-top: var(--space-8);
+  }
+
+  .about-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-section h2 {
+    margin-bottom: var(--space-6);
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-6);
+    margin-top: var(--space-8);
+  }
+
+  .feature-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .feature-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: var(--color-success-100);
+    color: var(--color-success-600);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--space-4);
+  }
+
+  .feature-card__title {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-2);
+  }
+
+  .feature-card__desc {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  .section-header {
+    text-align: center;
+  }
+
+  .section-header__title {
+    margin-bottom: var(--space-2);
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+    margin-top: var(--space-8);
+    padding: var(--space-6);
+    background: var(--color-bg);
+    border-radius: var(--radius-xl);
+  }
+
+  .stats-grid--5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat__label {
+    display: block;
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-2);
+  }
+
+  .stat__value {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-primary-600);
+  }
+
+  .cta-section {
+    background: linear-gradient(135deg, var(--color-primary-900), var(--color-primary-800));
+    color: #fff;
+  }
+
+  .cta-box {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .cta-box h2 {
+    color: #fff;
+    margin-bottom: var(--space-4);
+  }
+
+  .cta-box p {
+    color: var(--color-primary-200);
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-6);
+  }
+
+  .cta-box :global(.code-box) {
+    margin: var(--space-6) 0;
+  }
+
+  @media (max-width: 768px) {
+    .stats-grid--5 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .stats-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .stats-grid--5 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .no-deposit-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>

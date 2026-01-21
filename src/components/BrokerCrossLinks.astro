@@ -1,0 +1,116 @@
+---
+import { avatrade, xm, avafutures, exness } from '../data/brokers';
+
+interface Props {
+  currentBroker: 'avatrade' | 'xm' | 'avafutures' | 'exness';
+  lang?: string;
+  title?: string;
+}
+
+const { currentBroker, lang = 'en', title = 'Other Partner Codes' } = Astro.props;
+
+const brokers = [
+  {
+    id: 'avatrade',
+    name: 'AvaTrade',
+    code: avatrade.partnerCode,
+    bonus: 'Up to $14,000 Bonus',
+    path: '/avatrade/'
+  },
+  {
+    id: 'xm',
+    name: 'XM',
+    code: xm.partnerCode,
+    bonus: '$30 Free + 100% Match',
+    path: '/xm/'
+  },
+  {
+    id: 'avafutures',
+    name: 'AvaFutures',
+    code: avafutures.partnerCode,
+    bonus: 'Futures on TradingView',
+    path: '/avafutures/'
+  },
+  {
+    id: 'exness',
+    name: 'Exness',
+    code: exness.partnerCode,
+    bonus: 'Tight Spreads from 0.0',
+    path: '/exness/'
+  }
+].filter(b => b.id !== currentBroker);
+
+function getLocalizedPath(path: string): string {
+  if (lang === 'en') return path;
+  return `/${lang}${path}`;
+}
+---
+
+<section class="cross-links">
+  <h2 class="cross-links__title">{title}</h2>
+  <div class="cross-links__grid">
+    {brokers.map((broker) => (
+      <a href={getLocalizedPath(broker.path)} class="cross-links__card">
+        <span class="cross-links__broker">{broker.name}</span>
+        <span class="cross-links__code">Code: {broker.code}</span>
+        <span class="cross-links__bonus">{broker.bonus}</span>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .cross-links {
+    padding: var(--space-8) 0;
+    border-top: 1px solid var(--color-border);
+    margin-top: var(--space-8);
+  }
+
+  .cross-links__title {
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-6);
+    text-align: center;
+  }
+
+  .cross-links__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-4);
+  }
+
+  .cross-links__card {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-4);
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  }
+
+  .cross-links__card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    text-decoration: none;
+  }
+
+  .cross-links__broker {
+    font-weight: var(--font-semibold);
+    color: var(--color-text);
+    margin-bottom: var(--space-1);
+  }
+
+  .cross-links__code {
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    color: var(--color-primary-600);
+    font-weight: var(--font-medium);
+  }
+
+  .cross-links__bonus {
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    margin-top: var(--space-2);
+  }
+</style>

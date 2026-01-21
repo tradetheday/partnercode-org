@@ -1,0 +1,658 @@
+{
+  "meta": {
+    "homeTitle": "Partner Kodlari - Broker Hosgeldin Bonuslari 2026",
+    "homeDescription": "AvaTrade, XM, AvaFutures, Exness icin calisan partner kodlari. 14.000 $'a kadar bonus. Tum kodlar Ocak 2026'da dogrulandi.",
+    "avatradeTitle": "AvaTrade Partner Kodu 128979 - Hosgeldin Bonusu 2026",
+    "avatradeDescription": "AvaTrade partner kodu 128979 ile 14.000 $'a kadar bonus alin. Ocak 2026'da dogrulandi. Kayit sirasinda kodu girin.",
+    "avafuturesTitle": "AvaFutures Partner Kodu 128979 - Vadeli Islem Bonusu 2026",
+    "avafuturesDescription": "AvaFutures partner kodu 128979 ile 10.000 $'a kadar bonus. TradingView uzerinde vadeli islem yapin. CFD'lerin yasak oldugu Ispanya'da calisir.",
+    "xmTitle": "XM Partner Kodu QK44F - 30 $ Ucretsiz + %100 Bonus 2026",
+    "xmDescription": "XM partner kodu QK44F: 30 $ ucretsiz (yatirim gerekmez) arti 10.600 $'a kadar %100 eslesme. Ocak 2026'da dogrulandi.",
+    "exnessTitle": "Exness Partner Kodu xxv8puyog3 - 0.0 Spreadler 2026",
+    "exnessDescription": "Exness partner kodu xxv8puyog3. 0.0 pip'ten baslayan spreadler, aninda cekim, 10 $ minimum. Bonus yok ama harika islem kosullari."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "avatrade": "AvaTrade",
+    "avafutures": "AvaFutures",
+    "xm": "XM",
+    "exness": "Exness"
+  },
+  "home": {
+    "badge": "Ocak 2026'da Dogrulandi",
+    "title": "Broker Partner Kodlari 2026",
+    "subtitle": "AvaTrade, XM, AvaFutures ve Exness icin calisan partner kodlari. 14.000 $'a kadar bonus.",
+    "cta": "AvaTrade Bonusu Al",
+    "whatIs": {
+      "title": "Partner Kodu Nedir?",
+      "p1": "Yeni bir islem hesabi acarken yazdaginiz bir koddur. Bir referans kodu gibi dusunun - brokera bir partner sitesinden geldiginizi soyler ve normal kayitlarin alamadigi bir hosgeldin bonusu alirsiniz.",
+      "p2": "Kullanmak ucretsizdir ve islem kosullarinizi degistirmez. Ayni spreadler, ayni kaldirec, ayni her sey - sadece ekstra bonus parasi alirsiniz."
+    },
+    "featured": {
+      "title": "One Cikan Partner Kodu",
+      "broker": "AvaTrade",
+      "code": "128979",
+      "bonus": "14.000 $'a Kadar Hosgeldin Bonusu",
+      "cta": "Bonusunuzu Talep Edin"
+    },
+    "faqTitle": "Partner Kodlari Hakkinda Sik Sorulan Sorular"
+  },
+  "homeFaq": [
+    {
+      "q": "Partner kodu nedir?",
+      "a": "Yeni bir islem hesabina kaydolurken girdiginiz bir koddur. Kaydinizi bir ortaga baglar ve aksi takdirde alamayacaginiz bir hosgeldin bonusunu acar."
+    },
+    {
+      "q": "Nasil calisirlar?",
+      "a": "Kayit sirasinda 'Partner Kodu' veya 'Referans Kodu' adinda bir alan arayin. Kodu oraya girin, kaydi tamamlayin ve bonus hesabiniza uygulanir."
+    },
+    {
+      "q": "Bir maliyeti var mi?",
+      "a": "Hayir. Kullanimi ucretsiz, ucretlerinizi artirmaz, spreadlerinizi veya kaldiracininizi degistirmez. Sadece bonus ekler."
+    },
+    {
+      "q": "Partner kodu ile promo kodu - fark nedir?",
+      "a": "Temelde ayni sey. Partner kodlari affiliate'lere bagli olduklari icin daha uzun sure kalmaya egilimlidir. Promo kodlari kisa vadeli teklifler olabilir. Brokerlar her iki terimi de birbirinin yerine kullanir."
+    },
+    {
+      "q": "Islem kosullarimi degistirir mi?",
+      "a": "Hayir. Herkes gibi ayni spreadler, kaldirec ve islem. Kod sadece bonus parasi ekler."
+    },
+    {
+      "q": "Mevcut hesabima ekleyebilir miyim?",
+      "a": "Maalesef hayir. Partner kodlari yalnizca yeni hesap acarken calisir. Sonradan uygulayamazsiniz."
+    },
+    {
+      "q": "Girmek icin alani nerede bulurum?",
+      "a": "Genellikle kayit formunun birinci veya ikinci sayfasinda. 'Partner Kodu', 'Referans Kodu' veya 'Promo Kodu' arayin. Bazi brokerlar 'Kodunuz var mi?' linkinin arkasina gizler."
+    },
+    {
+      "q": "Bu kodlar ne tur bonuslar veriyor?",
+      "a": "Brokera bagli. Yatiriminiza yuzde eslesme, yatirim gerektirmeyen ucretsiz islem kredisi, daha dusuk spreadler veya diger avantajlar olabilir. Her broker sayfasinda belirli ayrintilar var."
+    },
+    {
+      "q": "Bu kodlar gercek mi?",
+      "a": "Evet - resmi broker affiliate programlarinin parcasi. Sadece duzenlenenmis brokerlardan kodlari listeliyoruz ve calistiklarini dogruluyoruz."
+    },
+    {
+      "q": "Kodumun calisip calismadigini nasil anlarim?",
+      "a": "Girdiginizde bir onay gormalisiniz. Yatirimdan sonra bonus genellikle 24 saat icinde gosterilir. Gostermezse brokerin destegine mesaj atin."
+    },
+    {
+      "q": "Birden fazla kod yukleyebilir miyim?",
+      "a": "Hayir, hesap basina bir kod, broker basina bir hesap. Farkli promosyonlar mi istiyorsunuz? Farkli brokerlarda hesap acmaniz gerekir."
+    },
+    {
+      "q": "Bu kodlarin suresi doluyor mu?",
+      "a": "Bazi kodlar doluyor, bazilari dolmuyor. Bu sitedeki kodlar duzenli olarak dogrulanir - her birinin en son ne zaman kontrol edildigini gosteriyoruz."
+    },
+    {
+      "q": "Hangi kodu kullanmaliyim?",
+      "a": "Ne istediginize bagli. AvaTrade kodu 128979 en buyuk bonusa sahip (14.000 $'a kadar). XM kodu QK44F size yatirim olmadan 30 $ ucretsiz verir. Exness bonuslar yerine siki spreadlere odaklaniyor."
+    },
+    {
+      "q": "Neden partner kodu kullanayin?",
+      "a": "Temel olarak bedava para. Ayni hesap, ayni kosullar, ama normal sekilde kaydolarak alamayacaginiz bir bonus ile."
+    },
+    {
+      "q": "Bonusu cekebilir miyim?",
+      "a": "Genellikle bonusun kendisini cekemezsiniz, ancak onunla islem yaparak elde ettiginiz karlari - evet. Ancak once hacim gereksinimleri var. Her brokerin sartlarini kontrol edin."
+    }
+  ],
+  "avatrade": {
+    "badge": "Resmi Partner",
+    "title": "AvaTrade Partner Kodu 128979",
+    "subtitle": "128979 kodu ile 14.000 $'a kadar hosgeldin bonusu alin",
+    "cta": "Bonuslu Hesap Ac",
+    "verified": "Dogrulanmis ve Calisiyor",
+    "lastUpdated": "Kontrol Edildi: Ocak 2026"
+  },
+  "avafutures": {
+    "badge": "Vadeli Islem",
+    "title": "AvaFutures Partner Kodu 128979",
+    "subtitle": "TradingView uzerinde vadeli islem icin 128979 kodu. 10.000 $'a kadar bonus",
+    "cta": "Vadeli Islem Hesabi Ac",
+    "verified": "Dogrulanmis ve Calisiyor",
+    "lastUpdated": "Kontrol Edildi: Ocak 2026",
+    "spainNote": "CFD'lerin yasak oldugu Ispanya'da calisir"
+  },
+  "xm": {
+    "badge": "Resmi Partner",
+    "title": "XM Partner Kodu QK44F",
+    "subtitle": "QK44F kodu: 30 $ ucretsiz, yatirim yok. Arti 10.600 $'a kadar %100 eslesme",
+    "cta": "30 $ Ucretsiz Bonus Al",
+    "verified": "Dogrulanmis ve Calisiyor",
+    "lastUpdated": "Kontrol Edildi: Ocak 2026",
+    "noDeposit": "30 $ Yatirim Bonusu Yok"
+  },
+  "exness": {
+    "badge": "Siki Spreadler",
+    "title": "Exness Partner Kodu xxv8puyog3",
+    "subtitle": "0.0 pip spreadler ve aninda cekim icin xxv8puyog3 kodu",
+    "cta": "Exness Hesabi Ac",
+    "verified": "Dogrulanmis ve Calisiyor",
+    "lastUpdated": "Kontrol Edildi: Ocak 2026",
+    "noBonus": "Bonus yok - Exness bunun yerine spreadler ve cekimlerle rekabet ediyor"
+  },
+  "code": {
+    "label": "Partner Kodu",
+    "copy": "Kopyala",
+    "copied": "Kopyalandi!"
+  },
+  "bonusTiers": {
+    "title": "Hosgeldin Bonusu Seviyeleri",
+    "deposit": "Yatirim Miktari",
+    "bonus": "Hosgeldin Bonusu",
+    "tiers": [
+      { "min": "$1,000", "max": "$1,999", "bonus": "$200" },
+      { "min": "$2,000", "max": "$2,999", "bonus": "$400" },
+      { "min": "$3,000", "max": "$4,999", "bonus": "$600" },
+      { "min": "$5,000", "max": "$9,999", "bonus": "$1,000" },
+      { "min": "$10,000", "max": "$19,999", "bonus": "$2,000" },
+      { "min": "$20,000", "max": "$49,999", "bonus": "$4,000" },
+      { "min": "$50,000", "max": "$99,999", "bonus": "$10,000" },
+      { "min": "$100,000", "bonus": "Broker ile Iletisime Gecin" }
+    ]
+  },
+  "howTo": {
+    "title": "Partner Kodu Nasil Kullanilir",
+    "steps": [
+      {
+        "title": "Linkimize Tiklayin",
+        "desc": "Resmi AvaTrade kayit sayfasini ziyaret etmek icin butonumuzu kullanin"
+      },
+      {
+        "title": "128979 Kodunu Girin",
+        "desc": "Kayit sirasinda referans/partner kodu alanina 128979 partner kodunu girin"
+      },
+      {
+        "title": "Bonusunuzu Alin",
+        "desc": "Yatiriminizi tamamlayin ve hosgeldin bonusunuz otomatik olarak hesabiniza yatirilacak"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "AvaTrade partner kodu nedir?",
+      "a": "128979. Kayit sirasinda bunun icin bir alan goreceksiniz - kayit formuna bagli olarak 'Partner Kodu', 'Referans Kodu' veya 'Promo Kodu' olarak adlandirilabilir. Gondermeden once oraya girin. Hosgeldin bonusunu acan da budur, ne kadar yatirdiginiza bagli olarak 14.000 $'a kadar cikabilir."
+    },
+    {
+      "q": "128979 kodu hala calisiyor mu?",
+      "a": "Ocak 2026'da kontrol ettik ve hala aktif. Affiliate'lere bagli partner kodlari, genellikle son kullanma tarihleri olan promosyon kodlarindan daha uzun sure kalmaya egilimlidir. Bu kod yillardir calisiyor."
+    },
+    {
+      "q": "Ne kadar bonus alacagim?",
+      "a": "Yatiriminiza gore kademelendiriliyor. Nasil bolundupu: 1.000 $ yatirim 200 $ bonus (%20), 2.000 $ 400 $, 3.000 $ 600 $, 5.000 $ 1.000 $, 10.000 $ 2.000 $, 20.000 $ 4.000 $, 50.000 $ 10.000 $ aliyor. 100.000 $'in uzerinde dogrudan AvaTrade ile konusmak istersiniz - bazen daha buyuk hesaplar icin ozel anlasmalar yapiyorlar."
+    },
+    {
+      "q": "Partner kodu hesabimda bir sey degistirir mi?",
+      "a": "Bonus parasi eklemek disinda hicbir sey. Herkesle ayni spreadler, ayni kaldirec secenekleri, ayni platform erisimi, ayni cekim sureci. Kod sadece hesabinizi bir ortaktan geldigi olarak isaretler, bu da bonusu tetikler. Gercek islem kosullariniz kodsuz kaydolan biriyle ayni."
+    },
+    {
+      "q": "Mevcut hesabima uygulayabilir miyim?",
+      "a": "Maalesef hayir - partner kodlari yalnizca ilk kayit sirasinda calisir. Hesabiniz olusturuldugunda, geriye donuk olarak kod eklemenin yolu yok. Zaten bir hesabiniz varsa ve bonus istiyorsaniz, kapatip yeni bir hesap acmak icin AvaTrade ile iletisime gecmeniz gerekir, ancak buna izin vermeyebilirler."
+    },
+    {
+      "q": "AvaTrade gercekten duzenlenenmis mi?",
+      "a": "Evet, ve oldukca agir bir sekilde. Dokuz farkli duzenleyici: Irlanda Merkez Bankasi (merkezi burada), Avustralya'da ASIC, Guney Afrika'da FSCA, Japonya'da FSA, Abu Dabi'de ADGM, Kibris'ta CySEC, Israil'de ISA, Polonya'da KNF, Kanada'da IIROC. Bu cogu brokerin sagladigindan daha fazla duzenleme kapsamasi. Farkli birimler farkli bolgelere hizmet ediyor, ancak gozetim gercek."
+    },
+    {
+      "q": "Ne islem yapabilirim?",
+      "a": "Toplam yaklasik 1.250 enstuman. Bu, majör, minör ve bazi egzotikleri kapsayan 55'ten fazla forex cifti icerir. ABD, Avrupa ve Asya borsalarindan 600'den fazla hisse CFD'si. S&P 500, FTSE, DAX gibi buyuk endeksler. Altun ve petrolden kahve ve sekere kadar emtialar. Kisitli kaldirascli kripto ciftleri. ETF'ler. Tahviller. AvaOptions uzerinden vanilya opsiyonlari. Cogu islem tarzlari icin yeterli cesitlilik."
+    },
+    {
+      "q": "Bonus icin minimum yatirim nedir?",
+      "a": "Esik 1.000 $. Daha az yatirirseniz yine de hesap alirsiniz, sadece hosgeldin bonusu yok. Kademeli yapi ilk bonus seviyesi icin 1.000 $'dan basliyor. Zaten yatirim yapmayi planliyorsaniz, ekstra 200 $ almak icin o 1.000 $ minimumunu tutturmaya deger."
+    },
+    {
+      "q": "Bonus ne zaman gosterilir?",
+      "a": "Genellikle yatiriminiz islendikten sonraki 24 saat icinde. Bazen daha hizli. Bir gun sonra gostermezse, kayit sirasinda partner kodunu dogru girdiginizi kontrol edin, sonra AvaTrade destekle iletisime gecin. Genellikle cozebilirler."
+    },
+    {
+      "q": "Bonusu hemen cekebilir miyim?",
+      "a": "Hayir - once islem hacmi gereksinimleri var. Bu broker bonuslari icin standarttir. Bonus islem kredisi olarak hareket eder; pozisyon almak icin kullanabilirsiniz, ancak nakit olarak cekmek icin belirli lot gereksinimlerini karsilamaniz gerekir. Tam rakamlar icin AvaTrade bonus sartlarini ve kosullarini kontrol edin. Bonus ile islem yaparken elde ettiginiz karlar, gereksinimleri karsiladiginizda cekilebilir."
+    },
+    {
+      "q": "Hangi platformu kullanmaliyim?",
+      "a": "Ne yaptiginiza bagli. Uzman Danismanlari (EA) calistirmak istiyorsaniz MT4 - en buyuk ucuncu taraf arac ekosistemine sahip. Daha fazla zaman dilimi ve daha iyi grafik ozellikleri istiyorsaniz MT5. Mobil islem icin AvaTradeGO - bir broker uygulamasi icin sasirtici derecede yetenekli. Hicbir sey yuklemeden sadece tarayicidan islem yapmak istiyorsaniz WebTrader. Ozellikle opsyon ticareti icin AvaOptions. Cogu insan MT4 veya MT5 ile baslar."
+    },
+    {
+      "q": "Bonus olmadan minimum yatirim nedir?",
+      "a": "Cogu hesap turleri icin 100 $, fazla baglanmadan kapidan girebilirsiniz. Sadece o seviyede hosgeldin bonusu almayacaksiniz. 1.000 $ minimumu yalnizca bonus kademelerine hak kazanmak istiyorsaniz onemli. Sizi 100 $ yatirmaktan, platformu bir sure test etmekten, sonra daha fazla eklemekten alikoyan hicbir sey yok - sadece fonlanmis bir hesapta yeni yatirim bonusu almayacaksiniz."
+    },
+    {
+      "q": "Demo hesap sunuyorlar mi?",
+      "a": "Evet - sanal fonlarla ucretsiz demo, zaman siniri yok, bu onemli cunku bazi brokerlar 30 gun sonra demo erisimini kesiyor. Istediginiz kadar pratik yapabilirsiniz. Stratejileri test edebilmeniz, platformu ogrenebilmeniz ve gercek parayi riske atmadan rahat edebilmeniz icin gercek piyasa kosullarini yansitir. Oradan baslamamamak icin hicbir neden yok."
+    },
+    {
+      "q": "Hangi kaldirec mevcut?",
+      "a": "Nerede oldugunuza ve ne islem yaptiginiza bagli olarak cok degisir. AB musterileri ESMA kurallari altinda buyuk forex ciftlerinde 1:30 ile sinirli - bu duzenleme, AvaTrade'in secimi degil. AB disindaki musteriler forexte potansiyel olarak 1:400'e kadar daha yuksek kaldiraca erisebilir. Kripto kaldiraci her yerde daha dusuk sinirli. Genellikle hesap ayarlarinizda kaldirec seviyenizi ayarlayabilirsiniz."
+    },
+    {
+      "q": "Cekimler ne kadar hizli?",
+      "a": "AvaTrade cekim taleplerini is gunlerinde 24 saat icinde isler - bu dahili isleme sureleri. Paranin gercekte size ne kadar hizli ulastigi yonteme bagli. Skrill ve Neteller gibi e-cuzdanlar saatler icinde duser. Kart cekimleri bankaniza bagli olarak 3-5 is gunu surer. Banka transferleri 3-7 is gunu surebilir."
+    },
+    {
+      "q": "Cekim ucreti var mi?",
+      "a": "AvaTrade kendi tarafinda cekim ucreti talep etmez. Ancak bankaniz veya odeme saglayicinizin kendi ucretleri olabilir - uluslararasi transfer ucretleri, doviz donustume ucretleri, bu tur seyler. Bunlar AvaTrade'in kontrolu disinda."
+    },
+    {
+      "q": "Param guvenli mi?",
+      "a": "Herhangi bir broker ile olabilecegi kadar guvenli. Musteri fonlari Barclays gibi buyuk bankalarda ayriliksiz hesaplarda tutulur, AvaTrade'in isletme parasindan tamamen ayri. Birden fazla duzenleyici onlari duzenli olarak denetler. AvaTrade bir sekilde coklerse, fonlariniz sirket varliklariyla karistirilmaz. Ayrilmis hesaplarin tum amaci budur."
+    },
+    {
+      "q": "Uzman Danismanlari kullanabilir miyim?",
+      "a": "Evet, hem MT4 hem de MT5 Uzman Danismanlari tam olarak destekler. Otomatik stratejiler, kopya ticareti sistemleri, ozel gostergeler calistirabilirsiniz - tum MT ekosistemi. AvaTrade EA kullanimini kisitlamaz. EA'larinizin bilgisayarinizi acik tutmadan 7/24 calismasi istiyorsaniz VPS barindirma mevcuttur."
+    }
+  ],
+  "about": {
+    "title": "AvaTrade Hakkinda",
+    "p1": "AvaTrade 2006'da Dublin'de, finansal kriz vurmadan hemen once dukkani kurdu. Bunu atlattular, bu bir sey soyluyor. Neredeyse yirmi yil sonra, dunyanin cogu yerinde yayilmis yaklasik 400.000 aktif traderla buyuduler. En buyuk broker degil - bu IG veya Saxo gibi biri olurdu - ama temiz bir gecmisle orta katmanda saglamlar. Buyuk skandal yok, duzenleme eylemleri yok, kaybolan musteri fonlari yok. Bu sektorde sikici olmak iyi.",
+    "p2": "Duzenleme durumu aslinda etkileyici. Dokuz farkli otorite onlari izliyor: Irlanda Merkez Bankasi (merkezi burada), Avustralya'da ASIC, Guney Afrika'da FSCA, Japonya'da FSA, Abu Dabi'de ADGM, Kibris'ta CySEC, Israil'de ISA, Polonya'da KNF ve Kanada'da IIROC. Bu, cogu brokerin sagladigindan cok daha fazla duzenleme yuku. Cogu broker iki veya uc lisans yonetir ve gununu saver. Paraniz Barclays gibi bankalarda ayriliksiz hesaplara gider, AvaTrade'in isletme fonlarindan ayri. Sirkete felaket bir sey olsaydi, islem sermayeniz korumali kalir.",
+    "p3": "Platform acisindan, derin yerine genis gittiler. MetaTrader 4 var - cogu forex traderinin ilk ogrendigi platform, Uzman Danismanlar calistirir, yillarca ucuncu taraf gostergeler ve scriptler mevcut. MT5 isterseniz yukseltme icin hedging, daha fazla zaman dilimi ve daha iyi grafik ekler. AvaTradeGO onlarin mobil uygulamasi ve aslinda iyi - sadece basitlestirilmis bir seyretme degil. WebTrader hicbir sey yuklemeden tarayici tabanli ticareti halleder. AvaOptions vanilya opsiyonlari icin ayri. Diger traderlari kopyalamak istiyorsaniz DupliTrade ve ZuluTrade entegrasyonlari. Cok secenk, belki yeni basliyorsaniz cok fazla.",
+    "p4": "Egitim kaynaklari cogusundan daha iyi. Pip'in ne oldugunden ileri teknik kaliplara kadar her seyi kapsayan video kurslari. Piyasa analizi ile haftalik webinarlar. Makine cevirisi gibi okunmayan yazili rehberler. Duzgun bir ekonomik takvim. Demo hesabin zaman siniri yok, bu onemli - bazi brokerlar sizi 30 gun sonra kesiyor. Aylarca ihtiyaciniz olursa pratik yapabilirsiniz.",
+    "p5": "Musteri destegi 14 dilde 24/5 calisir. Canli sohbet genellikle bir veya iki dakika icinde baglanir. Farkli bolgeler icin yerel telefon numaralari var. E-posta yanitlari genellikle ayni gun geri geliyor. 18 yil boyunca cesitli yayinlar ve fuarlardan 60'tan fazla sektör odulu toplamlar - En Iyi Forex Brokeri, En Iyi Ticaret Uygulamasi, En Iyi Egitim Kaynaklari. Oduller kismen pazarlama, ancak miktar bir seyleri dogru yaptiklarini gosteriyor.",
+    "p6": "Maliyetler acisindan, AvaTrade en ucuz olmaya calismıyor. EUR/USD'deki spreadler genellikle yaklasik 0.9 pip civarinda calisiyor, bu iyi ama olaganustu degil. Cogu hesap turunde komisyon yok - spreade dahil. Cogu piyasa yapicilar gibi spread ve gecelik swaplardan para kazaniyorlar. Scalping yapiyorsaniz veya buyuk hacim isliyorsaniz, daha ucuz secenekler var. Isler yanlıs gittiginde iyi platformlar ve gercek destekle duzenlenenmis bir broker istiyorsaniz, biraz daha genis spreadler buna deger olabilir.",
+    "p7": "Enstuman listesi cogu temeli kapsiyor: egzotikler dahil 55'ten fazla forex cifti, ABD, Avrupa ve Asya borsalarindan 600'den fazla hisse CFD'si, buyuk endeksler, altından kakaoya emtialar, kripto ciftleri (kisitli kaldracla), ETF'ler, tahviller ve vanilya opsiyonlari. Toplam yaklasik 1.250 enstuman. Interactive Brokers'in sundugu 10.000+'yi alamıyorsunuz, ancak belirsiz gelismekte olan piyasa hisseleri islemiyorsanız, ihtiyaciniz olani bulursunuz.",
+    "p8": "Bilmeye deger bir tuhaflık: AvaTrade bir piyasa yapicisi, ECN brokeri degil. Islemlerinizde karsi taraflar. Bazi traderlar seffaflik icin ECN'i tercih eder, digerleri umursamaz. Piyasa yapicilari sabit spreadler ve garantili stoplar sunabilir, ECN'ler sunamaz. Bu bir takas, mutlaka daha iyi veya daha kotu degil.",
+    "stats": {
+      "founded": "Kurulus",
+      "foundedValue": "2006",
+      "regulators": "Duzenleyiciler",
+      "regulatorsValue": "9 Kuresel",
+      "instruments": "Enstrumanlar",
+      "instrumentsValue": "1.250+",
+      "clients": "Musteriler",
+      "clientsValue": "400.000+",
+      "awards": "Oduller",
+      "awardsValue": "60+"
+    }
+  },
+  "trust": {
+    "title": "Duzenlenenmis ve Guvenli"
+  },
+  "footer": {
+    "aboutTitle": "Hakkimizda",
+    "about": "PartnerCode.org, traderlarin onde gelen brokerlar icin dogrulanmis partner kodlarini bulmalarına yardımcı olur. Her kodu kendimiz test edip dogruluyoruz, boylece duzenlenmis brokerlardan gercek bonuslar aldigınızı biliyorsunuz. Sahte kodlar yok, suresi dolmus teklifler yok.",
+    "tagline": "Dogrulanmis broker partner kodlari",
+    "codes": "Partner Kodlari",
+    "resources": "Kaynaklar",
+    "aboutUs": "PartnerCode Hakkinda",
+    "whatIsPartnerCode": "Partner Kodu Nedir?",
+    "disclaimer": "Risk Uyarisi: CFD ve forex ticareti paranizi kaybettirebilir. Kaybetmeyi goze alamayacaginizdan fazlasini riske atmayin. Emin degilseniz bagimsiz tavsiye alin. Partner kodlari bonuslar verir ancak islem kosullarini degistirmez.",
+    "affiliate": "Affiliate Aciklamasi: Linklerimiz uzerinden kaydoldugunuzda odeme alabiliriz. Bu bonuslarinizi veya onerilerimizi degistirmez.",
+    "rights": "Tum haklari saklidir."
+  },
+  "availability": {
+    "available": "AvaTrade bolgenizde mevcuttur.",
+    "notAvailable": "AvaTrade ulkenizde mevcut olmayabilir. Lutfen kaydolmadan once musaitligi dogrulayin."
+  },
+  "xmBonusTiers": {
+    "title": "XM Hosgeldin Bonus Seviyeleri",
+    "deposit": "Yatirim Miktari",
+    "bonus": "Bonus",
+    "tiers": [
+      { "min": "$5", "max": "$500", "bonus": "%100 (500 $'a kadar)" },
+      { "min": "$501", "max": "$5,000", "bonus": "%50 (2.500 $'a kadar)" },
+      { "min": "$5,001", "bonus": "%20 (10.600 $'a kadar)" }
+    ],
+    "noDeposit": {
+      "title": "30 $ Yatirim Bonusu Yok",
+      "desc": "Yeni hesaplar 30 $ ucretsiz islem kredisi aliyor - yatirim gerekmiyor!"
+    }
+  },
+  "xmHowTo": {
+    "title": "XM Partner Kodu Nasil Kullanilir",
+    "steps": [
+      {
+        "title": "Linkimize Tiklayin",
+        "desc": "QK44F partner koduyla XM'in resmi kayit sayfasini ziyaret etmek icin butonumuzu kullanin"
+      },
+      {
+        "title": "Hesap Olusturun",
+        "desc": "Kayit formunu tamamlayin - partner kodu otomatik olarak uygulanir"
+      },
+      {
+        "title": "30 $ Ucretsiz Talep Edin",
+        "desc": "30 $ yatirim bonusunu aninda almak icin hesabinizi dogrulayin"
+      },
+      {
+        "title": "Daha Fazlasi Icin Yatirin",
+        "desc": "10.600 $'a kadar %100 bonus eslesmesini acmak icin yatirim yapin"
+      }
+    ]
+  },
+  "xmFaq": [
+    {
+      "q": "XM partner kodu nedir?",
+      "a": "QK44F. Linkimiz uzerinden kaydoldugunuzda, kod otomatik olarak uygulanir - manuel olarak yazmaniz gerekmez. Bu kod 30 $ yatirim bonusunu tetikleyen ve yatirim esleme bonuslarini acan seydir. Onsuz, promosyon avantajlari olmayan standart bir hesap alirdiniz."
+    },
+    {
+      "q": "30 $ yatirim bonusunu nasil alirim?",
+      "a": "Linkimiz uzerinden kaydolun, kayit formunu tamamlayin, sonra kimlik belgelerini yukleyerek kimliginizi dogrulayin. Dogrulama onaylandiginda (genellikle birkac saat icinde, bazen aninda), 30 $ islem hesabinizda gorunur. Yatirim gerekmiyor - hemen islem yapabileceginiz gercek para. Yakalama noktası 30 $'i dogrudan cekemezsiniz, yalnizca onunla islem yaparak elde edilen karlari."
+    },
+    {
+      "q": "QK44F koduyla maksimum bonus nedir?",
+      "a": "30 $ yatirim bonusu sadece baslangic. Bundan sonra, yatirilan ilk 500 $'inizda %100 esleme, sonraki 4.500 $'da %50, sonra 5.000 $'in uzerindeki yatirimlarda %20 alirsiniz. Maksimum toplam yatirim bonusu 10.600 $. Yani teorik olarak yeterli yatirirsan 30 $ + 10.600 $ = 10.630 $ bonus fonu alabilirsiniz. Cok az insan maksimumu dolduracak kadar yatirir, ancak daha kucuk yatirimlar bile anlamli bonuslar alir."
+    },
+    {
+      "q": "XM gercek mi?",
+      "a": "2009'dan beri var ve CySEC (Kibris), ASIC (Avustralya), IFSC (Belize) ve DFSA (Dubai) lisanslarina sahip. CySEC ve ASIC lisanslari anlamli olanlar - bu duzenleyicilerin gercek gucu var ve duzenli olarak denetler. Musteri parasi Barclays ve UBS gibi birinci sinif bankalarda ayrikmis hesaplarda, XM'in isletme parasindan ayri olarak oturuyor. Buyuk skandallar veya duzenleme eylemleri olmadan milyonlarca islemi islemlediler."
+    },
+    {
+      "q": "XM'de ne islem yapabilirim?",
+      "a": "Cogu buyuk varlik sinifinda 1.000'den fazla enstuman. Major, minor ve egzotikleri kapsayan 55'ten fazla forex cifti. Kuresel borsalardan 1.000'den fazla hisse CFD'si. S&P 500, Nasdaq, FTSE, DAX gibi buyuk endeksler. Altin, gumus, petrol ve tarimsal urunler dahil emtialar. Enerjiler. BTC, ETH ve digerleri dahil kripto ciftleri. Cogu islem stratejileri icin fazlasiyla yeterli."
+    },
+    {
+      "q": "Minimum yatirim nedir?",
+      "a": "Fonlanmis bir hesap acmak icin tek ihtiyaciniz olan 5 $. Bu gercekten dusuk - cogu broker 50-200 $ minimum gerektirir. Fazla baglanmadan gercek parayla test etmenizi saglar. 5 $ herhangi bir bonusu tetiklemez cunku yatirim bonuslari daha yuksek miktarlarda baslar, ancak yine de gercek pozisyonlar islem yapabilirsiniz."
+    },
+    {
+      "q": "QK44F kodu 2026'da hala calisiyor mu?",
+      "a": "Ocak 2026'da kontrol ettik - hala aktif, hala calisiyor, hala tam bonus yapisini veriyor. Devre disi birakilmadigindan emin olmak icin periyodik olarak test ediyoruz. Affiliate'lere bagli partner kodlari, sinirli sureli promosyon kodlarindan daha uzun sure aktif kalma egilimindedir."
+    },
+    {
+      "q": "Hangi platformlari kullanabilirim?",
+      "a": "MetaTrader 4, MetaTrader 5 ve mobil icin XM Uygulamasi. MT4 sektör standardıdır - sonsuza kadar var, Uzman Danisman calistirir, gostergeler ve scriptlerin devasa ekosistemi. MT5 yukseltmek isterseniz daha iyi grafik ve daha fazla zaman dilimine sahip. XM Uygulamasi hareket halindeyken pozisyonlari yonetmek ve emir vermek icin mobil ticareti yeterince iyi halleder. Tum platformlar pozisyonlari cihazlar arasinda senkronize eder."
+    },
+    {
+      "q": "Islami hesaplari var mi?",
+      "a": "Evet - dini nedenlerle faiz odemelerinden kacinmasi gereken traderlar icin swapsiz Islami hesaplar mevcuttur. Gecelik swap ucreti yok. Hesabinizi acarken bunu talep edebilir veya mevcut bir hesabi degistirmek icin destekle iletisime gecebilirsiniz. Diger islem kosullari ayni."
+    },
+    {
+      "q": "Hangi hesap turleri var?",
+      "a": "Mikro hesaplar mikro lotlarla (0.01 standart lot) islem yapmaniza izin verir - yeni baslayanlar veya minimum riskle stratejileri test etmek icin iyi. Standart hesaplar cogu trader icin varsayilan. XM Ultra Low 0.6 pip'ten baslayan daha siki spreadlere sahip ancak kucuk bir komisyon aliyor. Farkli kosullarla hisse CFD ticareti icin Hisse hesaplari. QK44F partner kodu tum hesap turlerinde calisir."
+    },
+    {
+      "q": "30 $ bonusu cekebilir miyim?",
+      "a": "30 $'in kendisi hesabinizda islem kredisi olarak kalir - dogrudan cekemezsiniz. Ancak, o 30 $ ile islem yaparak elde ettiginiz herhangi bir kar, islem hacmi gereksinimlerini karsiladiginizda cekilebilir (XM'in belirli sartlarini kontrol edin). Bazi insanlar 30 $'i 50 $ veya 100 $ cekilebilir kara donusturur. Digerleri ogrenirken patlatır. Her iki sekilde de, sizin paranizi degil, XM'in parasini riske atiyorsunuz."
+    },
+    {
+      "q": "Cekimler ne kadar hizli?",
+      "a": "XM cekim taleplerini is gunlerinde 24 saat icinde isler - bu dahili isleme suresi. Skrill ve Neteller gibi e-cuzdanlar genellikle islemeden sonra saatler icinde duser. Kart cekimleri 2-5 is gunu surer. Banka transferleri daha uzun surer - XM islemeden sonra genellikle 3-5 is gunu. Olagan disi gecikmeler bildirilmedi."
+    },
+    {
+      "q": "Yatirim veya cekim ucretleri var mi?",
+      "a": "XM kendi tarafinda yatirim veya cekim ucreti almaz. Hatta 200 $'in uzerindeki cekimlerde banka transfer ucretlerini bile karsiliyor. Bankaniz veya odeme saglayiciniz yine de kendi ucretlerini alabilir (uluslararasi transfer ucretleri, doviz donustume vb.), ancak bunlar XM'in kontrolu disinda."
+    },
+    {
+      "q": "Hangi kaldiraci alabilirim?",
+      "a": "Nerede oldugunuza ve hesap turune bagli olarak 1:1000'e kadar cikar. AB musterileri ESMA duzenlemeleri nedeniyle buyuk forex ciftlerinde 1:30 ile sinirli. AB disinda, cok daha yuksek kaldiraca erisebilirsiniz. Kaldirec seviyenizi Uyeler Alaninda ayarlayabilirsiniz - basladiginiz seviyeye kilitlenmezsiniz."
+    },
+    {
+      "q": "Partner kodu islem kosullarimi degistirir mi?",
+      "a": "Hic degistirmez. Diger tum XM musterileri ile ayni spreadler, ayni kaldirec secenekleri, ayni islem hizi, ayni platform erisimi. Kod sadece hesabinizi bir partner uzerinden geldigi olarak isaretler, bu da bonusu tetikler. Gercek islem deneyiminiz ayni."
+    }
+  ],
+  "xmFeatures": {
+    "title": "Neden XM ile Islem Yapmalisiniz?",
+    "features": [
+      {
+        "title": "30 $ Yatirim Bonusu Yok",
+        "desc": "Herhangi bir sey yatirmadan once islem yapmak icin 30 $ alin"
+      },
+      {
+        "title": "10.600 $'a Kadar Bonus",
+        "desc": "Ilk yatiriminizda %100 esleme, arti uzerine daha fazla"
+      },
+      {
+        "title": "5 $ Minimum Yatirim",
+        "desc": "Fazla baglanmadan suyu test etmek icin yeterince dusuk"
+      },
+      {
+        "title": "Hizli Islem",
+        "desc": "Islemlerin %99.35'i bir saniyenin altinda gerceklesir, requote yok"
+      }
+    ]
+  },
+  "xmAbout": {
+    "title": "XM Hakkinda",
+    "p1": "XM, perakende forex kuresel olarak patliyorken tam 2009'da Kibris'tan cikti. Hizli buyuduler - gercekten hizli. Bugun 190 ulkede 10 milyondan fazla kayitli musteri talep ediyorlar, bu onlari musteri sayisina gore dunyanin en buyuk perakende forex brokerlarindan biri yapar. Bu rakamı bir tutam tuzla alin (kayitli aktif anlamina gelmez), ancak bunun bir kismı bile onemli.",
+    "p2": "Dört duzenleyici operasyonun farkli kisimlarmı denetliyor: Kibris'ta CySEC Avrupa musterilerini yonetiyor, Avustralya'da ASIC o bolgeyi kapsiyor, Belize'de IFSC uluslararası musteriler icin ve Dubai'de DFSA Orta Dogu icin. CySEC ve ASIC lisanslari anlamli olanlar - bu duzenleyicilerin aslinda gucu var. Musteri fonlari Barclays, UBS ve Credit Suisse dahil birinci sinif bankalarda ayrılmis hesaplarda oturuyor. Para XM'in operasyonel hesaplarından ayri kalir.",
+    "p3": "Tescilli platformlar olusturmak yerine MetaTrader'a sadik kaldilar. MT4 mevcut - yasi gosteriyor ancak traderlar onu biliyor, EA'lar uzerinde calisiyor ve devasa bir gostergeler ve scriptler ekosistemi var. MT5 istiyorsaniz daha gelismis grafik, ek zaman dilimleri ve piyasa derinligi ozelligi sunuyor. XM Uygulamasi mobil ticareti yonetiyor ve pozisyonlari cihazlar arasında senkronize ediyor. Ciğır acan bir şey yok, ama calısıyor.",
+    "p4": "XM egitim ve etkinliklere gercek para koyuyor, bu olagandisi. Teknik analiz, temel analiz ve platform egitimlerini kapsayan birden fazla dilde gunluk webinarlar. Ayrıca dunya genelinde sehirlerde yuz yuze seminerler ve fuarlar duzenliyorlar - Bangkok, Lagos, Dubai, musterilerinin oldugu her yer. Arastirma ekibi sabah ve haftalik analizler yayinliyor. Hala beceri gelistiren yeni traderlar icin, gercekten faydali seyler.",
+    "p5": "30 $ yatirim bonusu kanca. Kaydolun, kimliginizi dogrulayin, hicbir sey yatirmadan 30 $ islem kredisi alin. 30 $'in kendisini cekemezsiniz, ancak herhangi bir kari cekebilirsiniz (bazi islem hacmi gereksinimlerini karsiladiktan sonra). Gercek parayla bir brokeri test etmenin dusuk riskli bir yolu. Bundan sonra 5 $ minimum yatirim bariyeri dusuk tutuyor.",
+    "p6": "Hesap secenekleri: Mikro hesaplar mikro lotlarla (0.01) islem yapmanıza izin verir, bu ogrenmek veya minimum riskle stratejileri test etmek icin iyi. Standart hesaplar cogu trader icin varsayılan. XM Ultra Low islem basina kucuk komisyonla daha sıkı spreadler sunuyor - aktif traderlar icin daha iyi. Hisse hesapları sahiplik benzeri maruziyetle gercek hisse CFD'lerini islem icin. Ihtiyaci olan traderlar icin Islami swapsiz hesaplar mevcut.",
+    "p7": "Islem uzerine, XM istatistiklerini yayınliyor: emirlerin %99.35'i bir saniyenin altinda gerceklesiyor, requote yok, standart piyasa emirlerinde reddetme yok. Bu rakamlarin buyuk haber olayları sirasinda gecerli olup olmadigi baska bir soru, ancak normal kosullar altinda islem hizli. Kaldirec bazı bolgelerde bazı hesap turleri icin 1:1000'e kadar cikar - AB duzenlenmis brokerlarin izin verdiğinden cok daha yuksek. Negatif bakiye koruması standarttır, yani bir pozisyon patlarsa onlara para borclu kalamazsınız.",
+    "p8": "Spreadler sektorun en sıkıları değil. Standart hesap EUR/USD tipik olarak yaklasik 1.6-1.7 pip civarında calisiyor. XM Ultra Low bunu kucuk komisyonla 0.6-0.8 pip'e indiriyor. Rekabetci ama istisnai degil. Sadece fiyat uzerinde kazanmaya calismıyorlar - bonus yapısı, dusuk minimumlar ve egitim cazibeleri.",
+    "stats": {
+      "founded": "Kurulus",
+      "foundedValue": "2009",
+      "regulators": "Duzenleyiciler",
+      "regulatorsValue": "4 Kuresel",
+      "instruments": "Enstrumanlar",
+      "instrumentsValue": "1.000+",
+      "clients": "Musteriler",
+      "clientsValue": "10M+",
+      "countries": "Ulkeler",
+      "countriesValue": "190+"
+    }
+  },
+  "avafuturesBonusTiers": {
+    "title": "AvaFutures Hosgeldin Bonus Seviyeleri",
+    "deposit": "Yatirim Miktari",
+    "bonus": "Hosgeldin Bonusu",
+    "tiers": [
+      { "min": "$1,000", "max": "$1,999", "bonus": "$200" },
+      { "min": "$2,000", "max": "$2,999", "bonus": "$400" },
+      { "min": "$3,000", "max": "$4,999", "bonus": "$600" },
+      { "min": "$5,000", "max": "$9,999", "bonus": "$1,000" },
+      { "min": "$10,000", "max": "$19,999", "bonus": "$2,000" },
+      { "min": "$20,000", "max": "$49,999", "bonus": "$4,000" },
+      { "min": "$50,000", "max": "$99,999", "bonus": "$10,000" },
+      { "min": "$100,000", "bonus": "Broker ile Iletisime Gecin" }
+    ]
+  },
+  "avafuturesHowTo": {
+    "title": "AvaFutures Partner Kodu Nasil Kullanilir",
+    "steps": [
+      {
+        "title": "Linkimize Tiklayin",
+        "desc": "Resmi AvaFutures kayit sayfasini ziyaret etmek icin butonumuzu kullanin"
+      },
+      {
+        "title": "128979 Kodunu Girin",
+        "desc": "Kayit islemi sirasinda 128979 partner kodunu girin"
+      },
+      {
+        "title": "Bonusunuzu Alin",
+        "desc": "Yatiriminizi tamamlayin ve hosgeldin bonusunuz otomatik olarak hesabiniza yatirilacak"
+      }
+    ]
+  },
+  "avafuturesFaq": [
+    {
+      "q": "AvaFutures nedir?",
+      "a": "AvaTrade'in vadeli islem platformu. CFD'ler yerine gercek vadeli islem sozlesmeleri islem yapiyorsunuz. Buyuk satis noktasi: CFD'lerin kisitlandigi veya yasak oldugu ulkelerde calisiyor, Ispanya gibi."
+    },
+    {
+      "q": "AvaFutures partner kodu nedir?",
+      "a": "128979 - ayni sirket olduklari icin AvaTrade ile ayni kod. Hosgeldin bonusu icin kayit sirasinda girin."
+    },
+    {
+      "q": "Neden AvaTrade yerine AvaFutures kullanayim?",
+      "a": "Iki ana neden. Birincisi, CFD'lerin yasak oldugu Ispanya veya baska bir ulkedeyseniz, vadeli islemler giris yolunuz. Ikincisi, bazi traderlar sadece vadeli islemleri tercih eder - duzenlenmis borsalarda gercek sozlesmeler islem yapiyorsunuz, tezgah ustu urunler degil."
+    },
+    {
+      "q": "Ispanya'dan kullanabilir miyim?",
+      "a": "Evet, var olmasinin buyuk bir nedeni bu. Ispanya'nin CNMV'si perakende traderlara CFD pazarlamasini yasakladi. AvaFutures, Ispanyol traderlarin duzenlenmis vadeli islemler araciligiyla ayni piyasalara erismesine izin veriyor."
+    },
+    {
+      "q": "Hangi piyasalarda islem yapabilirim?",
+      "a": "Endeks vadeli islemleri (S&P 500, Nasdaq, DAX vb.), emtia vadeli islemleri (altin, petrol, dogal gaz), doviz vadeli islemleri, faiz orani vadeli islemleri ve daha kucuk pozisyon boyutlari icin mikro sozlesmeler."
+    },
+    {
+      "q": "Neden TradingView?",
+      "a": "TradingView sektordeki en iyi grafiklerden bazilarina sahip. Cogu trader zaten analiz icin kullanıyor. AvaFutures ile, platformlar arası gec-gel yerine dogrudan TradingView grafiklerinden emir verebilirsiniz."
+    },
+    {
+      "q": "AvaFutures'i kim duzenliyor?",
+      "a": "ABD'de NFA (Ulusal Vadeli Islemler Birligi) ve CFTC (Emtia Vadeli Islemler Ticaret Komisyonu). Her ikisi de sıkı gereksinimleri olan ciddi duzenleyiciler."
+    },
+    {
+      "q": "Minimum yatirim nedir?",
+      "a": "Hesap turune ve islem yapmak istediğiniz vadeli işlemlere gore degişir. Mikro vadeli islemler tam boyutlu sozlesmelerden daha az marjin gerektirir. Islem yapmayi planladiginiza gore ozellikleri icin onlarla iletisime gecin."
+    },
+    {
+      "q": "Vadeli islem deneyimim olmali mi?",
+      "a": "Yardimci olur, ancak gerekli degil. Vadeli islemler CFD'lerden farkli calisir - sozlesme bitis tarihleri, marjin gereksinimleri ve takas var anlasılmasi gereken. Yeniyseniz AvaFutures'in egitim kaynaklari var."
+    },
+    {
+      "q": "Hosgeldin bonusu ne durumda?",
+      "a": "AvaTrade ile ayni kademeli bonus. 1.000 $ yatirin 200 $ alin, 5.000 $ yatirin 1.000 $ alin, daha buyuk yatirimlarda 10.000 $ bonusa kadar cikar. Kayitta 128979 kodunu kullanin."
+    },
+    {
+      "q": "Uzman Danisman veya otomatik ticaret kullanabilir miyim?",
+      "a": "TradingView'in gostergeler ve stratejiler icin kendi script dili var (Pine Script). Tam otomasyon icin, API'leri araciligiyla baglanmaniz gerekebilir."
+    },
+    {
+      "q": "Vadeli islemler CFD'lerden nasil farkli?",
+      "a": "Vadeli islemler standartlaştirilmiş sozlesmeler ve bitis tarihleri ile duzenlenmis borsalarda islem gorur. CFD'ler brokere karsi islem yaptiginiz tezgah ustu urunlerdir. Bazi traderlar fiyatlar gercek borsa ticaretinden geldigi icin vadeli islemlerin daha seffaf oldugunu dusunuyor."
+    }
+  ],
+  "avafuturesAbout": {
+    "title": "AvaFutures Hakkinda",
+    "p1": "AvaFutures, AvaTrade'in vadeli islem bolumu. Ayni ana sirket, farkli urun. AvaTrade CFD'ler ve forex ile ilgilenirken, AvaFutures size CME, NYMEX ve COMEX gibi duzenlenmis borsalarda islem goren gercek vadeli islem sozlesmelerine erisim saglar. Ayrim onemli - vadeli islemler gercek borsa fiyatlandirmasi ve merkezi takas ile standartlaştirilmis sozlesmelerdir, brokerin karsi tarafiniz oldugu tezgah ustu urunler degil.",
+    "p2": "TradingView entegrasyonu ana satis noktasi. Grafik icin zaten TradingView kullaniyorsaniz (ve milyonlarca trader kullaniyor), AvaFutures hesabinizi baglayabilir ve dogrudan grafiklerden emir verebilirsiniz. Seviyelerinizi cizin, emirlerinizi ayarlayin, pozisyonlari yonetin - hepsi TradingView'den ayrilmadan. Is akislarini tamamen TradingView araclari etrafinda olusturan traderlar icin, bu buyuk bir mesele.",
+    "p3": "AvaFutures kismen Avrupa'daki duzenleme degisiklikleri nedeniyle var. Ispanya'nin CNMV'si perakende traderlara CFD pazarlamasini etkili bir sekilde yasakladi. Benzer kisitlamalar Belcika, Fransa ve baska yerlerde ortaya cikti. Vadeli islemler CFD degil - farkli bir duzenleme kategorisi - boylece bu kisitlamalari atliyor. AvaTrade'den kilitlenen Ispanyol traderlar, AvaFutures araciligiyla benzer piyasalara hala erisebilir. Bu bir gecis yolu, ama yasal bir tane.",
+    "p4": "Mevcut vadeli islemler aktif traderlarin istediginin cogunu kapsiyor. Endeks vadeli islemleri: E-mini S&P 500, E-mini Nasdaq, Euro Stoxx 50, DAX. Emtialar: altin, gumus, ham petrol (WTI ve Brent), dogal gaz, bakir, tarimsal urunler. Buyuk ciftlerde doviz vadeli islemleri. Tahvil islem yapiyorsaniz faiz orani vadeli islemleri. Ayrica mikro sozlesmeler de sunuyorlar - E-micro S&P 500, Micro Gold, Micro Crude - marjinin bir kismini gerektirir. Daha kucuk hesaplar veya gercek parayla ancak sinirli riskle stratejileri test etmek icin iyi.",
+    "p5": "Duzenleme ABD'de NFA (Ulusal Vadeli Islemler Birligi) ve CFTC (Emtia Vadeli Islemler Ticaret Komisyonu)'dan geliyor. Bunlar siki sermaye gereksinimleri ve duzenli denetimlerle ciddi duzenleyiciler. AvaTrade'in ana sirketi, kuresel capda dokuz lisansiyla, kurumsal destegi sagliyor. Marjiniz ve islem fonlariniz bankalarda sirketin isletme parasindan ayri, ayriklik hesaplarda oturuyor.",
+    "p6": "Vadeli islemler hakkinda anlasilmasi gereken bir sey: bitis tarihleri var. Suresiz tutabileceginiz forex veya CFD'lerin aksine, vadeli islem sozlesmeleri aylik veya ucaylik sona erer. Pozisyonlari bir sonraki sozlesmeye gecirmeniz veya bitiş oncesi kapatmaniz gerekir. Bazi sozlesmelerde fiziksel teslimat da var (cogu perakende trader buna asla yaklasmasa da). Forex CFD'lerden geliyorsaniz, vadeli islemlerin ogrenme egrisi var. AvaFutures egitim kaynaklari saglar, ancak sozlesme ozellikleri, marjin gereksinimleri ve gecis tarihleri anlamak icin biraz zaman harcamayi bekleyin.",
+    "p7": "Hosgeldin bonus yapisi AvaTrade'i yansitir - yatirim miktarina dayali ayni kademeli sistem. 1.000 $ yatirin ve 200 $, daha buyuk yatirimlarda 10.000 $ bonusa kadar alin. 128979 partner kodu burada da gecerli cunku ayni sirket.",
+    "stats": {
+      "founded": "Kurulus",
+      "foundedValue": "2006",
+      "regulators": "Duzenleyiciler",
+      "regulatorsValue": "NFA/CFTC",
+      "instruments": "Enstrumanlar",
+      "instrumentsValue": "Vadeli Islemler",
+      "platform": "Platform",
+      "platformValue": "TradingView"
+    }
+  },
+  "exnessFeatures": {
+    "title": "Neden Exness ile Islem Yapmalisiniz?",
+    "features": [
+      {
+        "title": "Siki Spreadler",
+        "desc": "Raw Spread hesaplarinda 0.0 pip'ten baslayan"
+      },
+      {
+        "title": "Aninda Cekimler",
+        "desc": "7/24 otomatik isleme - para hesabiniza hizlica duser"
+      },
+      {
+        "title": "7+ Duzenleyici",
+        "desc": "FCA, CySEC, FSCA ve daha fazlasi onlari izliyor"
+      },
+      {
+        "title": "10 $ Minimum",
+        "desc": "Baslamak icin dusuk bariyer"
+      }
+    ]
+  },
+  "exnessHowTo": {
+    "title": "Exness Hesabi Nasil Acilir",
+    "steps": [
+      {
+        "title": "Linkimize Tiklayin",
+        "desc": "Exness kayit sayfasina gidin"
+      },
+      {
+        "title": "Hesap Olusturun",
+        "desc": "Kayit formunu doldurun"
+      },
+      {
+        "title": "Kimlik Dogrulayin",
+        "desc": "Kimlik belgelerinizi yukleyin"
+      },
+      {
+        "title": "Islem Yapmaya Baslayin",
+        "desc": "10 $ veya daha fazla yatirin ve hazirsınız"
+      }
+    ]
+  },
+  "exnessFaq": [
+    {
+      "q": "Exness partner kodu nedir?",
+      "a": "xxv8puyog3. Ortakligimiza baglanmak icin kaydolurken girin. Size bonus vermez (Exness bunlari yapmaz), ancak dugun bir sekilde ayarlanmis olursunuz."
+    },
+    {
+      "q": "Exness'in hosgeldin bonusu var mi?",
+      "a": "Hayir. Exness bonus yapmaz. Satis konusmalari siki spreadler ve aninda cekimler, promosyonel numaralar degil."
+    },
+    {
+      "q": "Minimum yatirim nedir?",
+      "a": "Standart hesaplar icin 10 $. Bazi hesap turleri daha fazla gerektirir."
+    },
+    {
+      "q": "Exness duzenlenmis mi?",
+      "a": "Evet, 7+ otorite tarafindan: FCA (Ingiltere), CySEC (Kibris), FSCA (Guney Afrika), FSA (Seysel Adalari), CBCS (Curacao) ve digerleri. Daha agir duzenlenmis brokerlardan biri."
+    },
+    {
+      "q": "Spreadler gercekten ne kadar siki?",
+      "a": "Raw Spread hesapları EUR/USD gibi majorlerde 0.0 pip'ten baslar, ancak lot basina komisyon odersiniz. Standart hesaplar komisyon olmadan biraz daha genis spreadlere sahip. Her iki sekilde de, cogu brokerla rekabetci."
+    },
+    {
+      "q": "Cekimler ne kadar hizli?",
+      "a": "Cogu yontem icin aninda - e-cuzdanlar, kartlar, kripto. 7/24 calisiyor, tamamen otomatik, islemleri yavalatan insan incelemesi yok. Bu muhtemelen en buyuk satis noktalari."
+    },
+    {
+      "q": "Ne islem yapabilirim?",
+      "a": "100'den fazla forex cifti, metaller, kripto (7/24), enerjiler, hisseler ve endeksler. Iyi bir yelpaze."
+    },
+    {
+      "q": "Hangi platformlar mevcut?",
+      "a": "MT4, MT5, Exness Terminal (web tabanli) ve mobil icin Exness Trade uygulamasi. Hepsi standart seyler."
+    },
+    {
+      "q": "Kaldirec nedir?",
+      "a": "Belirli kosullari karsilarsaniz bazi hesap turlerinde 1:Sinirsiz'a kadar cikar. Daha gercekci olarak, 1:2000 yaygın olarak mevcut. AB duzenlenmis hesaplarin izin verdiğinden cok daha yuksek."
+    },
+    {
+      "q": "Param guvenli mi?",
+      "a": "Musteri fonlari sirket operasyonlarindan ayrılmis. Birden fazla duzenleyici onlari denetliyor. Aylik mali raporlari acik olarak yayinliyorlar, cogu broker bunu yapmiyor."
+    },
+    {
+      "q": "Hangi hesap turleri var?",
+      "a": "Standart (komisyon yok, daha genis spreadler), Standard Cent (cok kucuk pozisyonlar icin), Raw Spread (0.0 pip + komisyon), Zero (ilk 30 enstrumanda 0 spread) ve Pro (aninda islem, siki spreadler)."
+    },
+    {
+      "q": "Swapsiz hesaplari var mi?",
+      "a": "Evet, gecelik ucreti olmayan Islami hesaplar. Talep uzerine mevcut."
+    },
+    {
+      "q": "Neden bonus yok?",
+      "a": "Exness bunun yerine islem kosullarinda rekabet etmeye karar verdi. Daha dusuk spreadler, daha hizli cekimler, daha yuksek kaldirec. Bazi traderlar bunu hacim gereksinimleri olan bonus semalarina tercih ediyor."
+    },
+    {
+      "q": "Exness ne kadar buyuk?",
+      "a": "Aylik 4 trilyon dolardan fazla islem hacmi isliyor. Bu devasa - onlari kuresel olarak en buyuk perakende forex brokerlari arasina koyuyor."
+    },
+    {
+      "q": "Yatirim ucreti var mi?",
+      "a": "Exness yatirimlar veya cekimler icin ucret almaz. Odeme saglayicilarin kendi ucretleri olabilir yine de."
+    }
+  ],
+  "exnessAbout": {
+    "title": "Exness Hakkinda",
+    "p1": "Exness 2008'de karsi bir bahisle basladi: bonuslari atladin, promosyonel numaralari atladin ve tamamen islem kosullarinda rekabet et. Diger brokerlar karmasik sartlarla yatirim bonuslari sallandirirken, Exness siki spreadlere, hizli isleme ve en onemlisi - aninda cekimlere odaklandi. Ciddi traderlarin yine de islem yapmak zorunda kalacaklari bir bonus almaktan ziyade paralarini hizla cekmeyi daha cok onemseyecegini dusunduler.",
+    "p2": "Bu bahis karsiligini verdi. Exness simdi her ay 4 trilyon dolardan fazla islem hacmi isliyor. Bu T ile trilyon. Hacme gore, dunyanin en buyuk perakende forex brokerlarindan biri - nasil olctüğunuze bagli olarak muhtemelen en buyuk. Buyume patlayici oldu, ozellikle Asya, Afrika ve Orta Dogu genelinde guclu marka tanınırlığı olusturdukları gelismekte olan pazarlarda.",
+    "p3": "Duzenleme kurulumu kapsamli: Ingiltere'de FCA (genel olarak en sıkı kabul edilir), Kıbrıs'ta CySEC, Guney Afrika'da FSCA, Seysel Adalarinda FSA, Curacao'da CBCS, BVI'de FSC ve Mauritius'ta FSC. Farkli birimler farkli bolgelere hizmet ediyor. FCA ve CySEC lisansları guvenilirlik icin en onemli. Musteri fonlari buyuk bankalarda ayrılmis hesaplarda, Exness'in isletme sermayesinden tamamen ayri oturuyor.",
+    "p4": "Iste olagandisi bir sey: Exness web sitelerinde detayli aylik mali raporlar yayinliyor. Islem hacmi, musteri sayilari, cekim istatistikleri, sirket finansallari - hepsi acik. Cogu broker bu bilgiyi devlet sirri gibi ele aliyor. Seffaflik ferahlatici ve guven insa ediyor, pesimistler sadece rakamlar iyi gorunduğu icin yayinladıklarını soyleyebilir.",
+    "p5": "Aninda cekim sistemi oldurucu ozellikleri. E-cuzdan, kripto veya kart ile cekim talebi girin ve otomatik olarak islenir. Insan incelemesi yok, arka ofiste birinin onay tiklamasini bekleme yok. Hafta sonları dahil 7/24 calisiyor. E-cuzdan cekimleri kelimenin tam anlamiyla saniyeler icinde duser. Banka transferleri bile sektör standardindan daha hizli isleniyor cunku bir kuyrukta oturmuyorlar. Yavas cekim brokerlariyla ugrasmus traderlar - kendi paralari icin gunler veya haftalar bekleyen - Exness'e geciyor ve bir daha arkaya bakmiyorlar.",
+    "p6": "Spreadlerde, Raw Spread hesabi adina layik yasiyor. EUR/USD likit seanslarda duzenli olarak 0.0 pip gosteriyor. Bunun yerine lot basina komisyon oduyorsunuz (cogu ciftte taraf basina 3.50 $). Standart hesaplar maliyeti biraz daha genis spreadlere yuvarliyor, EUR/USD'de yaklasik 0.9-1.0 pip, komisyon yok. Pro hesaplar 0.1 pip'ten baslayan spreadlerle aninda islem sunuyor. Zero hesaplar zirve saatlerinde ilk 30 enstrumanda 0.0 spreadleri garanti ediyor, komisyonla.",
+    "p7": "Kaldirec Exness'in agresifleştigi yer. Belirli kosullari karsilarsaniz (daha kucuk bakiye, buyuk haberler sirasinda acik pozisyon yok) belirli hesap turlerinde 1:Sinirsiz'a kadar sunuyorlar. Gercekci olarak, cogu trader 1:2000 veya altini kullaniyor, bu hala AB duzenlenmis hesaplarin izin verdiginden cok daha yuksek. Yuksek kaldirec bir arac - sizi kullanmaya zorlamaz - ama isterseniz orada. Negatif bakiye koruması ne olursa olsun onlara para borclu kalamayacaginiz anlamina geliyor.",
+    "p8": "Platform secenekleri standart: MT4, MT5, kendi Exness Terminal'lari (web tabanli, indirme gerekmez) ve iOS ve Android icin mobil uygulamalar. MT4/MT5 Uzman Danismanları ve otomatik ticareti destekliyor. Tescilli veya olagandisi hicbir sey yok - basit tuttular. Odak acikca platform zilleri ve islikleri yerine islem ve islem kosullari uzerinde.",
+    "stats": {
+      "founded": "Kurulus",
+      "foundedValue": "2008",
+      "regulators": "Duzenleyiciler",
+      "regulatorsValue": "7+ Kuresel",
+      "instruments": "Enstrumanlar",
+      "instrumentsValue": "100+",
+      "volume": "Aylik Hacim",
+      "volumeValue": "$4T+"
+    }
+  }
+}
