@@ -4,8 +4,14 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://partnercode.org',
   output: 'static',
+  compressHTML: true,
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: 'viewport'
+  },
   build: {
-    format: 'directory'
+    format: 'directory',
+    inlineStylesheets: 'auto'
   },
   integrations: [
     sitemap({
