@@ -71,6 +71,16 @@ When adding new translatable content:
 
 All affiliate URLs use `?tag=PARTNERCODE` format. Links must include `rel="noopener sponsored"`. The `CodeBox` component handles copy-to-clipboard and redirect functionality.
 
+### TypeScript Path Aliases
+
+```typescript
+@/*           → src/*
+@components/* → src/components/*
+@layouts/*    → src/layouts/*
+@data/*       → src/data/*
+@styles/*     → src/styles/*
+```
+
 ### Styling Conventions
 
 - CSS variables defined in `global.css` (colors, spacing, typography)
