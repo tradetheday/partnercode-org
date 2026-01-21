@@ -6,6 +6,7 @@ import HowToSteps from '../../../components/HowToSteps.astro';
 import FAQ from '../../../components/FAQ.astro';
 import TrustBadges from '../../../components/TrustBadges.astro';
 import SEOSchema from '../../../components/SEOSchema.astro';
+import BrokerCrossLinks from '../../../components/BrokerCrossLinks.astro';
 import { xm } from '../../../data/brokers';
 import { languages, getNonEnglishLanguageCodes } from '../../../data/languages';
 
@@ -73,9 +74,10 @@ const breadcrumbSchema = {
   <SEOSchema type="BreadcrumbList" data={breadcrumbSchema} />
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero hero--broker">
     <div class="container">
       <div class="hero__content">
+        <img src="/logos/xm.webp" alt="XM" class="hero__logo" width="180" height="80" />
         <span class="badge badge-success">{xmContent.badge}</span>
         <h1 class="hero__title">{xmContent.title}</h1>
         <p class="hero__subtitle">{xmContent.subtitle}</p>
@@ -207,7 +209,15 @@ const breadcrumbSchema = {
         <p>{xmAbout.p2}</p>
         {xmAbout.p3 && <p>{xmAbout.p3}</p>}
         {xmAbout.p4 && <p>{xmAbout.p4}</p>}
+
+        <figure class="platform-screenshot">
+          <img src="/screenshots/xm-platform.png" alt="XM trading platform" loading="lazy" />
+        </figure>
+
         {xmAbout.p5 && <p>{xmAbout.p5}</p>}
+        {xmAbout.p6 && <p>{xmAbout.p6}</p>}
+        {xmAbout.p7 && <p>{xmAbout.p7}</p>}
+        {xmAbout.p8 && <p>{xmAbout.p8}</p>}
 
         <div class={`stats-grid ${xmAbout.stats.clients ? 'stats-grid--5' : ''}`}>
           <div class="stat">
@@ -256,6 +266,8 @@ const breadcrumbSchema = {
         title={translations.home?.faqTitle || "FAQ"}
         items={xmFaq}
       />
+
+      <BrokerCrossLinks currentBroker="xm" lang={lang} />
     </div>
   </section>
 

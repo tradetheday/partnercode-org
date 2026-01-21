@@ -279,7 +279,7 @@
     "resources": "Tai Nguyen",
     "aboutUs": "Ve PartnerCode",
     "whatIsPartnerCode": "Ma Doi Tac La Gi?",
-    "disclaimer": "Canh Bao Rui Ro: Giao dich CFD va forex co the khien ban mat tien. Khong giao dich voi nhieu hon muc ban co the mat. Hay tim tu van doc lap neu ban khong chac chan. Ma doi tac cho thuong nhung khong thay doi dieu kien giao dich.",
+    "disclaimer": "Canh Bao Rui Ro: Giao dich CFD, forex va crypto co the khien ban mat tien. Khong giao dich voi nhieu hon muc ban co the mat. Hay tim tu van doc lap neu ban khong chac chan. Ma doi tac cho thuong nhung khong thay doi dieu kien giao dich.",
     "affiliate": "Tiet Lo Lien Ket: Chung toi co the nhan thanh toan khi ban dang ky qua lien ket cua chung toi. Dieu nay khong thay doi thuong cua ban hoac khuyen nghi cua chung toi.",
     "rights": "Bao luu moi quyen."
   },
@@ -512,7 +512,7 @@
   ],
   "avafuturesAbout": {
     "title": "Ve AvaFutures",
-    "p1": "AvaFutures la bo phan giao dich tuong lai cua AvaTrade. Cung cong ty me, san pham khac. Trong khi AvaTrade giao dich CFD va forex, AvaFutures cho ban truy cap vao hop dong tuong lai thuc te giao dich tren cac san giao dich duoc quan ly nhu CME, NYMEX va COMEX. Su khac biet quan trong - tuong lai la hop dong tieu chuan voi gia san giao dich thuc va bu tru trung tam, khong phai san pham OTC noi nha moi gioi la doi tac cua ban.",
+    "p1": "AvaFutures la bo phan giao dich tuong lai cua AvaTrade. Cung cong ty me, san pham khac. Trong khi AvaTrade giao dich CFD, forex va crypto, AvaFutures cho ban truy cap vao hop dong tuong lai thuc te giao dich tren cac san giao dich duoc quan ly nhu CME, NYMEX va COMEX. Su khac biet quan trong - tuong lai la hop dong tieu chuan voi gia san giao dich thuc va bu tru trung tam, khong phai san pham OTC noi nha moi gioi la doi tac cua ban.",
     "p2": "Tich hop TradingView la diem ban chinh. Neu ban da su dung TradingView de ve bieu do (va hang trieu trader lam vay), ban co the ket noi tai khoan AvaFutures va thuc hien giao dich truc tiep tu bieu do. Ve cac muc cua ban, dat lenh, quan ly vi the - tat ca ma khong roi TradingView. Cho trader da xay dung toan bo quy trinh xung quanh cong cu cua TradingView, day la dieu lon.",
     "p3": "AvaFutures ton tai mot phan vi thay doi quy dinh o Chau Au. CNMV cua Tay Ban Nha da cam tiep thi CFD cho trader ban le. Cac han che tuong tu xuat hien o Bi, Phap va noi khac. Tuong lai khong phai CFD - chung la loai quy dinh khac - nen chung vuot qua nhung han che do. Trader Tay Ban Nha bi khoa khoi AvaTrade van co the truy cap thi truong tuong tu thong qua AvaFutures. Do la cach vuot qua, nhung la cach hop phap.",
     "p4": "Tuong lai co san bao gom hau het nhung gi trader tich cuc muon. Tuong lai chi so: E-mini S&P 500, E-mini Nasdaq, Euro Stoxx 50, DAX. Hang hoa: vang, bac, dau tho (WTI va Brent), khi tu nhien, dong, san pham nong nghiep. Tuong lai tien te tren cac cap chinh. Tuong lai lai suat neu ban giao dich trai phieu. Ho cung cung cap hop dong micro - E-micro S&P 500, Micro Gold, Micro Crude - yeu cau mot phan nho ky quy. Tot cho tai khoan nho hon hoac thu nghiem chien luoc voi tien that nhung rui ro han che.",

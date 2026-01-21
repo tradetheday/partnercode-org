@@ -279,7 +279,7 @@
     "resources": "Recursos",
     "aboutUs": "Sobre PartnerCode",
     "whatIsPartnerCode": "O que e um Codigo de Parceiro?",
-    "disclaimer": "Aviso de Risco: Negociar CFDs e forex pode fazer voce perder dinheiro. Nao opere com mais do que voce pode perder. Busque orientacao independente se tiver duvidas. Codigos de parceiro dao bonus mas nao mudam as condicoes de trading.",
+    "disclaimer": "Aviso de Risco: Negociar CFDs, forex e cripto pode fazer voce perder dinheiro. Nao opere com mais do que voce pode perder. Busque orientacao independente se tiver duvidas. Codigos de parceiro dao bonus mas nao mudam as condicoes de trading.",
     "affiliate": "Divulgacao de Afiliados: Podemos receber pagamento quando voce se cadastra atraves de nossos links. Isso nao muda seus bonus nem nossas recomendacoes.",
     "rights": "Todos os direitos reservados."
   },
@@ -512,7 +512,7 @@
   ],
   "avafuturesAbout": {
     "title": "Sobre a AvaFutures",
-    "p1": "AvaFutures e a divisao de trading de futuros da AvaTrade. Mesma empresa mae, produto diferente. Enquanto a AvaTrade lida com CFDs e forex, a AvaFutures da acesso a contratos futuros reais negociados em bolsas regulamentadas como CME, NYMEX e COMEX. A distincao importa - futuros sao contratos padronizados com precos reais de bolsa e compensacao central, nao produtos de balcao onde a corretora e sua contraparte.",
+    "p1": "AvaFutures e a divisao de trading de futuros da AvaTrade. Mesma empresa mae, produto diferente. Enquanto a AvaTrade lida com CFDs, forex e cripto, a AvaFutures da acesso a contratos futuros reais negociados em bolsas regulamentadas como CME, NYMEX e COMEX. A distincao importa - futuros sao contratos padronizados com precos reais de bolsa e compensacao central, nao produtos de balcao onde a corretora e sua contraparte.",
     "p2": "A integracao com TradingView e o principal ponto de venda. Se voce ja usa TradingView para graficos (e milhoes de traders usam), voce pode conectar sua conta AvaFutures e executar operacoes diretamente dos graficos. Desenhe seus niveis, configure suas ordens, gerencie posicoes - tudo sem sair do TradingView. Para traders que construiram todo seu fluxo de trabalho em torno das ferramentas do TradingView, isso e muito importante.",
     "p3": "AvaFutures existe parcialmente por causa de mudancas regulatorias na Europa. A CNMV da Espanha efetivamente proibiu o marketing de CFDs para traders de varejo. Restricoes semelhantes surgiram na Belgica, Franca e outros lugares. Futuros nao sao CFDs - sao uma categoria regulatoria diferente - entao contornam essas restricoes. Traders espanhois que foram bloqueados da AvaTrade ainda podem acessar mercados similares atraves da AvaFutures. E uma saida, mas legitima.",
     "p4": "Os futuros disponiveis cobrem a maior parte do que traders ativos querem. Futuros de indices: E-mini S&P 500, E-mini Nasdaq, Euro Stoxx 50, DAX. Commodities: ouro, prata, petroleo bruto (WTI e Brent), gas natural, cobre, produtos agricolas. Futuros de moedas nos principais pares. Futuros de taxa de juros se voce opera titulos. Eles tambem oferecem contratos micro - E-micro S&P 500, Micro Gold, Micro Crude - que exigem uma fracao da margem. Bom para contas menores ou testar estrategias com dinheiro real mas risco limitado.",

@@ -279,7 +279,7 @@
     "resources": "Bronnen",
     "aboutUs": "Over PartnerCode",
     "whatIsPartnerCode": "Wat is een Partnercode?",
-    "disclaimer": "Risicowaarschuwing: Handelen in CFD's en forex kan je geld kosten. Handel niet met meer dan je kunt veroorloven te verliezen. Vraag onafhankelijk advies als je twijfelt. Partnercodes geven bonussen maar veranderen de handelsvoorwaarden niet.",
+    "disclaimer": "Risicowaarschuwing: Handelen in CFD's, forex en crypto kan je geld kosten. Handel niet met meer dan je kunt veroorloven te verliezen. Vraag onafhankelijk advies als je twijfelt. Partnercodes geven bonussen maar veranderen de handelsvoorwaarden niet.",
     "affiliate": "Affiliate Disclosure: We kunnen worden betaald wanneer je je aanmeldt via onze links. Dit verandert je bonussen of onze aanbevelingen niet.",
     "rights": "Alle rechten voorbehouden."
   },
@@ -512,7 +512,7 @@
   ],
   "avafuturesAbout": {
     "title": "Over AvaFutures",
-    "p1": "AvaFutures is de futures trading divisie van AvaTrade. Hetzelfde moederbedrijf, ander product. Terwijl AvaTrade handelt in CFD's en forex, geeft AvaFutures je toegang tot echte futures contracten verhandeld op gereguleerde beurzen zoals CME, NYMEX en COMEX. Het onderscheid is belangrijk - futures zijn gestandaardiseerde contracten met echte beursprijzen en centrale clearing, geen over-the-counter producten waar de broker je tegenpartij is.",
+    "p1": "AvaFutures is de futures trading divisie van AvaTrade. Hetzelfde moederbedrijf, ander product. Terwijl AvaTrade handelt in CFD's, forex en crypto, geeft AvaFutures je toegang tot echte futures contracten verhandeld op gereguleerde beurzen zoals CME, NYMEX en COMEX. Het onderscheid is belangrijk - futures zijn gestandaardiseerde contracten met echte beursprijzen en centrale clearing, geen over-the-counter producten waar de broker je tegenpartij is.",
     "p2": "De TradingView-integratie is het belangrijkste verkoopargument. Als je TradingView al gebruikt voor charting (en miljoenen handelaren doen dat), kun je je AvaFutures-account verbinden en trades direct vanaf de charts uitvoeren. Teken je niveaus, stel je orders in, beheer posities - allemaal zonder TradingView te verlaten. Voor handelaren die hun hele workflow rond TradingView's tools hebben gebouwd, is dit een grote deal.",
     "p3": "AvaFutures bestaat deels vanwege regelgevingswijzigingen in Europa. De Spaanse CNMV verbood effectief CFD-marketing aan particuliere handelaren. Vergelijkbare beperkingen verschenen in Belgie, Frankrijk en elders. Futures zijn geen CFD's - ze zijn een andere regelgevingscategorie - dus ze omzeilen die beperkingen. Spaanse handelaren die buitengesloten werden van AvaTrade kunnen nog steeds vergelijkbare markten bereiken via AvaFutures. Het is een omweg, maar een legitieme.",
     "p4": "De beschikbare futures dekken het meeste van wat actieve handelaren willen. Index futures: E-mini S&P 500, E-mini Nasdaq, Euro Stoxx 50, DAX. Grondstoffen: goud, zilver, ruwe olie (WTI en Brent), aardgas, koper, landbouwproducten. Valutafutures op grote paren. Rentefutures als je obligaties handelt. Ze bieden ook microcontracten - E-micro S&P 500, Micro Gold, Micro Crude - die een fractie van de margin vereisen. Goed voor kleinere accounts of het testen van strategieen met echt geld maar beperkt risico.",

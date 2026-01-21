@@ -279,7 +279,7 @@
     "resources": "Ressurser",
     "aboutUs": "Om PartnerCode",
     "whatIsPartnerCode": "Hva er en Partnerkode?",
-    "disclaimer": "Risikoadvarsel: Handel med CFD-er og forex kan fore til tap av penger. Ikke handel med mer enn du har rad til a tape. Sok uavhengig radgivning hvis du er usikker. Partnerkoder gir bonuser men endrer ikke handelsvilkar.",
+    "disclaimer": "Risikoadvarsel: Handel med CFD-er, forex og krypto kan fore til tap av penger. Ikke handel med mer enn du har rad til a tape. Sok uavhengig radgivning hvis du er usikker. Partnerkoder gir bonuser men endrer ikke handelsvilkar.",
     "affiliate": "Affiliate-opplysning: Vi kan fa betalt nar du registrerer deg via vare lenker. Dette endrer ikke bonusene dine eller anbefalingene vare.",
     "rights": "Alle rettigheter forbeholdt."
   },
@@ -512,7 +512,7 @@
   ],
   "avafuturesAbout": {
     "title": "Om AvaFutures",
-    "p1": "AvaFutures er AvaTraders futures trading-avdeling. Samme morselskap, forskjellig produkt. Mens AvaTrade handterer CFD-er og forex, gir AvaFutures deg tilgang til faktiske futures-kontrakter handlet pa regulerte borser som CME, NYMEX og COMEX. Forskjellen betyr noe - futures er standardiserte kontrakter med ekte borsprising og sentral clearing, ikke over-the-counter-produkter hvor megleren er din motpart.",
+    "p1": "AvaFutures er AvaTraders futures trading-avdeling. Samme morselskap, forskjellig produkt. Mens AvaTrade handterer CFD-er, forex og krypto, gir AvaFutures deg tilgang til faktiske futures-kontrakter handlet pa regulerte borser som CME, NYMEX og COMEX. Forskjellen betyr noe - futures er standardiserte kontrakter med ekte borsprising og sentral clearing, ikke over-the-counter-produkter hvor megleren er din motpart.",
     "p2": "TradingView-integrasjonen er hovedsalgsargumentet. Hvis du allerede bruker TradingView for kartlegging (og millioner av handlere gjor det), kan du koble til AvaFutures-kontoen din og utfore handler direkte fra diagrammene. Tegn nivaene dine, sett ordrene dine, administrer posisjoner - alt uten a forlate TradingView. For handlere som har bygget hele arbeidsflyten sin rundt TradingViews verktoy, er dette en stor sak.",
     "p3": "AvaFutures eksisterer delvis pa grunn av regulatoriske endringer i Europa. Spanias CNMV forbod effektivt CFD-markedsforing til privatpersoner. Lignende restriksjoner dukket opp i Belgia, Frankrike og andre steder. Futures er ikke CFD-er - de er en annen regulatorisk kategori - sa de omgar disse restriksjonene. Spanske handlere som ble utestengt fra AvaTrade kan fortsatt fa tilgang til lignende markeder gjennom AvaFutures. Det er en omvei, men en legitim en.",
     "p4": "Futuresene som er tilgjengelige dekker det meste av hva aktive handlere onsker. Indeksfutures: E-mini S&P 500, E-mini Nasdaq, Euro Stoxx 50, DAX. Ravarer: gull, solv, raolje (WTI og Brent), naturgass, kobber, landbruksprodukter. Valutafutures pa store par. Rentefutures hvis du handler obligasjoner. De tilbyr ogsa mikrokontrakter - E-micro S&P 500, Micro Gold, Micro Crude - som krever en brodel av marginen. Bra for mindre kontoer eller testing av strategier med ekte penger men begrenset risiko.",

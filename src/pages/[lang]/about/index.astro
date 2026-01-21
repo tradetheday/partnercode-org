@@ -1,0 +1,168 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SEOSchema from '../../../components/SEOSchema.astro';
+import { languages, getNonEnglishLanguageCodes } from '../../../data/languages';
+
+export function getStaticPaths() {
+  const langCodes = getNonEnglishLanguageCodes();
+  return langCodes.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const langConfig = languages.find(l => l.code === lang);
+
+// Dynamic import of translation
+const t = await import(`../../../data/translations/${lang}.json`);
+const translations = t.default || t;
+
+// Use English fallback for about content if not translated yet
+const enT = await import('../../../data/translations/en.json');
+const enTranslations = enT.default || enT;
+
+const aboutContent = translations.aboutPage || enTranslations.aboutPage || {
+  title: 'About PartnerCode.org',
+  whatWeDo: {
+    title: 'What We Do',
+    p1: 'PartnerCode.org exists for one reason: to help traders find working partner codes for reputable brokers. We got tired of searching for codes only to find expired offers, fake bonuses, or shady brokers. So we built something better.',
+    p2: 'Every code on this site has been tested by us. We sign up, enter the code, and verify the bonus actually works. If a code stops working, we remove it. Simple as that.'
+  },
+  whyPartnerCodes: {
+    title: 'Why Partner Codes Matter',
+    p1: 'A partner code is essentially a referral code that gives you a welcome bonus when you sign up with a broker. These bonuses can range from a few dollars to thousands, depending on your deposit size. The codes don\'t cost you anything extra and don\'t affect your trading conditions.',
+    p2: 'The catch? There are countless websites promoting fake codes for unregulated brokers. Some codes are expired. Others never worked in the first place. We cut through that noise.'
+  },
+  standards: {
+    title: 'Our Standards',
+    intro: 'We only list brokers that meet specific criteria:',
+    items: [
+      { title: 'Regulated', desc: 'Every broker we feature holds licenses from recognized financial authorities (FCA, ASIC, CySEC, etc.)' },
+      { title: 'Established', desc: 'No fly-by-night operations. We stick to brokers with proven track records' },
+      { title: 'Verified codes', desc: 'We test each code ourselves before listing it' },
+      { title: 'Real bonuses', desc: 'The bonus terms must be reasonable and actually achievable' }
+    ]
+  },
+  brokers: {
+    title: 'The Brokers We Feature',
+    intro: 'Right now we focus on a handful of brokers we\'ve personally vetted:',
+    items: [
+      { name: 'AvaTrade', desc: 'Multi-regulated broker since 2006, offers bonuses up to $10,000' },
+      { name: 'XM', desc: 'Popular choice with bonuses up to $10,500 and low minimum deposits' },
+      { name: 'AvaFutures', desc: 'Futures trading with TradingView integration' },
+      { name: 'Exness', desc: 'Known for tight spreads and instant withdrawals' }
+    ]
+  },
+  questions: {
+    title: 'Questions?',
+    p1: 'If you have questions about a specific code or broker, check the FAQ section on each broker\'s page. We try to cover the common questions there.'
+  }
+};
+
+// Breadcrumb Schema
+const breadcrumbSchema = {
+  breadcrumbs: [
+    { name: translations.nav?.home || 'Home', url: `https://partnercode.org/${lang}/` },
+    { name: translations.nav?.about || 'About', url: `https://partnercode.org/${lang}/about/` }
+  ]
+};
+
+// WebPage Schema
+const webPageSchema = {
+  pageTitle: translations.meta?.aboutTitle || `About PartnerCode.org | ${translations.meta?.siteName || 'Verified Broker Partner Codes'}`,
+  pageDescription: translations.meta?.aboutDescription || 'Learn about PartnerCode.org - your trusted source for verified broker partner codes. We test every code ourselves to ensure you get real bonuses from regulated brokers.',
+  pageUrl: `https://partnercode.org/${lang}/about/`,
+  pageType: 'AboutPage' as const,
+  inLanguage: lang
+};
+---
+
+<BaseLayout
+  title={translations.meta?.aboutTitle || 'About PartnerCode.org | Verified Broker Partner Codes'}
+  description={translations.meta?.aboutDescription || 'Learn about PartnerCode.org - your trusted source for verified broker partner codes. We test every code ourselves to ensure you get real bonuses from regulated brokers.'}
+  lang={lang}
+  canonicalPath={`/${lang}/about/`}
+>
+  <SEOSchema type="BreadcrumbList" data={breadcrumbSchema} />
+  <SEOSchema type="WebPage" data={webPageSchema} />
+
+  <section class="section">
+    <div class="container">
+      <div class="about-page">
+        <h1>{aboutContent.title}</h1>
+
+        <div class="about-content">
+          <h2>{aboutContent.whatWeDo.title}</h2>
+          <p>{aboutContent.whatWeDo.p1}</p>
+          <p>{aboutContent.whatWeDo.p2}</p>
+
+          <h2>{aboutContent.whyPartnerCodes.title}</h2>
+          <p>{aboutContent.whyPartnerCodes.p1}</p>
+          <p>{aboutContent.whyPartnerCodes.p2}</p>
+
+          <h2>{aboutContent.standards.title}</h2>
+          <p>{aboutContent.standards.intro}</p>
+          <ul>
+            {aboutContent.standards.items.map((item: {title: string, desc: string}) => (
+              <li><strong>{item.title}</strong> - {item.desc}</li>
+            ))}
+          </ul>
+
+          <h2>{aboutContent.brokers.title}</h2>
+          <p>{aboutContent.brokers.intro}</p>
+          <ul>
+            {aboutContent.brokers.items.map((item: {name: string, desc: string}) => (
+              <li><a href={`/${lang}/${item.name.toLowerCase().replace(' ', '')}/`}>{item.name}</a> - {item.desc}</li>
+            ))}
+          </ul>
+
+          <h2>{aboutContent.questions.title}</h2>
+          <p>{aboutContent.questions.p1}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .about-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-page h1 {
+    margin-bottom: var(--space-8);
+  }
+
+  .about-content h2 {
+    margin-top: var(--space-8);
+    margin-bottom: var(--space-4);
+    font-size: var(--text-xl);
+  }
+
+  .about-content h2:first-child {
+    margin-top: 0;
+  }
+
+  .about-content p {
+    margin-bottom: var(--space-4);
+    line-height: var(--leading-relaxed);
+  }
+
+  .about-content ul {
+    margin: var(--space-4) 0;
+    padding-left: var(--space-6);
+  }
+
+  .about-content li {
+    margin-bottom: var(--space-2);
+    line-height: var(--leading-relaxed);
+  }
+
+  .about-content a {
+    color: var(--color-primary-600);
+    text-decoration: underline;
+  }
+
+  .about-content a:hover {
+    color: var(--color-primary-700);
+  }
+</style>

@@ -280,7 +280,7 @@
     "resources": "Zasoby",
     "aboutUs": "O PartnerCode",
     "whatIsPartnerCode": "Czym jest Kod Partnerski?",
-    "disclaimer": "Ostrzezenie o Ryzyku: Handel CFD i forex moze spowodowac utrate pieniedzy. Nie handluj wiecej niz mozesz sobie pozwolic stracic. Zasiegaj niezaleznej porady jesli nie jestes pewien. Kody partnerskie daja bonusy, ale nie zmieniaja warunkow handlowych.",
+    "disclaimer": "Ostrzezenie o Ryzyku: Handel CFD, forex i krypto moze spowodowac utrate pieniedzy. Nie handluj wiecej niz mozesz sobie pozwolic stracic. Zasiegaj niezaleznej porady jesli nie jestes pewien. Kody partnerskie daja bonusy, ale nie zmieniaja warunkow handlowych.",
     "affiliate": "Ujawnienie Partnerskie: Mozemy otrzymac wynagrodzenie, gdy zarejestrujesz sie przez nasze linki. To nie zmienia Twoich bonusow ani naszych rekomendacji.",
     "rights": "Wszelkie prawa zastrzezone."
   },
@@ -514,7 +514,7 @@
   ],
   "avafuturesAbout": {
     "title": "O AvaFutures",
-    "p1": "AvaFutures to dzial handlu futures AvaTrade. Ta sama firma macierzysta, inny produkt. Podczas gdy AvaTrade zajmuje sie CFD i forex, AvaFutures daje dostep do faktycznych kontraktow futures handlowanych na regulowanych gieldach jak CME, NYMEX i COMEX. Roznica ma znaczenie - futures to standaryzowane kontrakty z prawdziwymi cenami gieldowymi i centralnym rozliczaniem, nie produkty pozagieldowe, gdzie broker jest Twoja strona przeciwna.",
+    "p1": "AvaFutures to dzial handlu futures AvaTrade. Ta sama firma macierzysta, inny produkt. Podczas gdy AvaTrade zajmuje sie CFD, forex i krypto, AvaFutures daje dostep do faktycznych kontraktow futures handlowanych na regulowanych gieldach jak CME, NYMEX i COMEX. Roznica ma znaczenie - futures to standaryzowane kontrakty z prawdziwymi cenami gieldowymi i centralnym rozliczaniem, nie produkty pozagieldowe, gdzie broker jest Twoja strona przeciwna.",
     "p2": "Integracja z TradingView to glowna zaleta. Jesli juz uzywasz TradingView do wykresow (a miliony traderow tak robi), mozesz polaczyc swoje konto AvaFutures i realizowac transakcje bezposrednio z wykresow. Rysuj swoje poziomy, ustawiaj zlecenia, zarzadzaj pozycjami - wszystko bez opuszczania TradingView. Dla traderow, ktorzy zbudowali caly swoj workflow wokol narzedzi TradingView, to duza sprawa.",
     "p3": "AvaFutures istnieje czesciowo z powodu zmian regulacyjnych w Europie. Hiszpanski CNMV skutecznie zakazal marketingu CFD dla detalicznych traderow. Podobne ograniczenia pojawily sie w Belgii, Francji i gdzie indziej. Futures to nie CFD - to inna kategoria regulacyjna - wiec omijaja te ograniczenia. Hiszpanscy traderzy, ktorzy zostali odcieci od AvaTrade, nadal moga miec dostep do podobnych rynkow przez AvaFutures. To obejscie, ale legalne.",
     "p4": "Dostepne futures pokrywaja wiekszosc tego, czego chca aktywni traderzy. Futures na indeksy: E-mini S&P 500, E-mini Nasdaq, Euro Stoxx 50, DAX. Surowce: zloto, srebro, ropa naftowa (WTI i Brent), gaz ziemny, miedz, produkty rolne. Futures walutowe na glowne pary. Futures na stopy procentowe jesli handlujesz obligacjami. Oferuja tez mikrokontrakty - E-micro S&P 500, Micro Gold, Micro Crude - ktore wymagaja ulamka depozytu. Dobre dla mniejszych kont lub testowania strategii z prawdziwymi pieniedzmi ale ograniczonym ryzykiem.",

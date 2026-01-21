@@ -9,6 +9,7 @@ import AvailabilityNotice from '../../../components/AvailabilityNotice.astro';
 import SEOSchema from '../../../components/SEOSchema.astro';
 import SpainNotice from '../../../components/SpainNotice.astro';
 import SpainDetector from '../../../components/SpainDetector.astro';
+import BrokerCrossLinks from '../../../components/BrokerCrossLinks.astro';
 import { avatrade, avafutures } from '../../../data/brokers';
 import { languages, getNonEnglishLanguageCodes } from '../../../data/languages';
 
@@ -79,9 +80,10 @@ const breadcrumbSchema = {
   )}
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero hero--broker">
     <div class="container">
       <div class="hero__content">
+        <img src="/logos/avatrade.svg" alt="AvaTrade" class="hero__logo" width="191" height="37" />
         <span class="badge badge-success">{translations.avatrade.badge}</span>
         <h1 class="hero__title">{translations.avatrade.title}</h1>
         <p class="hero__subtitle">{translations.avatrade.subtitle}</p>
@@ -158,7 +160,15 @@ const breadcrumbSchema = {
         <p>{translations.about.p2}</p>
         {translations.about.p3 && <p>{translations.about.p3}</p>}
         {translations.about.p4 && <p>{translations.about.p4}</p>}
+
+        <figure class="platform-screenshot">
+          <img src="/screenshots/avatrade-platform.png" alt="AvaTrade trading platform" loading="lazy" />
+        </figure>
+
         {translations.about.p5 && <p>{translations.about.p5}</p>}
+        {translations.about.p6 && <p>{translations.about.p6}</p>}
+        {translations.about.p7 && <p>{translations.about.p7}</p>}
+        {translations.about.p8 && <p>{translations.about.p8}</p>}
 
         <div class={`stats-grid ${translations.about.stats.clients ? 'stats-grid--5' : ''}`}>
           <div class="stat">
@@ -207,6 +217,8 @@ const breadcrumbSchema = {
         title={translations.home?.faqTitle || "FAQ"}
         items={translations.faq}
       />
+
+      <BrokerCrossLinks currentBroker="avatrade" lang={lang} />
     </div>
   </section>
 

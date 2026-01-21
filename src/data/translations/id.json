@@ -279,7 +279,7 @@
     "resources": "Sumber Daya",
     "aboutUs": "Tentang PartnerCode",
     "whatIsPartnerCode": "Apa itu Kode Partner?",
-    "disclaimer": "Peringatan Risiko: Trading CFD dan forex bisa membuat Anda rugi uang. Jangan trading dengan lebih dari yang Anda mampu untuk kehilangan. Dapatkan saran independen jika Anda tidak yakin. Kode partner memberikan bonus tetapi tidak mengubah kondisi trading.",
+    "disclaimer": "Peringatan Risiko: Trading CFD, forex dan crypto bisa membuat Anda rugi uang. Jangan trading dengan lebih dari yang Anda mampu untuk kehilangan. Dapatkan saran independen jika Anda tidak yakin. Kode partner memberikan bonus tetapi tidak mengubah kondisi trading.",
     "affiliate": "Pengungkapan Afiliasi: Kami mungkin dibayar saat Anda mendaftar melalui tautan kami. Ini tidak mengubah bonus atau rekomendasi kami.",
     "rights": "Hak cipta dilindungi."
   },
@@ -512,7 +512,7 @@
   ],
   "avafuturesAbout": {
     "title": "Tentang AvaFutures",
-    "p1": "AvaFutures adalah divisi trading futures dari AvaTrade. Perusahaan induk sama, produk berbeda. Sementara AvaTrade berurusan dengan CFD dan forex, AvaFutures memberi Anda akses ke kontrak futures sungguhan yang diperdagangkan di bursa teregulasi seperti CME, NYMEX, dan COMEX. Perbedaan ini penting - futures adalah kontrak standar dengan harga bursa nyata dan kliring sentral, bukan produk over-the-counter di mana broker adalah counterparty Anda.",
+    "p1": "AvaFutures adalah divisi trading futures dari AvaTrade. Perusahaan induk sama, produk berbeda. Sementara AvaTrade berurusan dengan CFD, forex dan crypto, AvaFutures memberi Anda akses ke kontrak futures sungguhan yang diperdagangkan di bursa teregulasi seperti CME, NYMEX, dan COMEX. Perbedaan ini penting - futures adalah kontrak standar dengan harga bursa nyata dan kliring sentral, bukan produk over-the-counter di mana broker adalah counterparty Anda.",
     "p2": "Integrasi TradingView adalah nilai jual utama. Jika Anda sudah menggunakan TradingView untuk charting (dan jutaan trader melakukannya), Anda bisa menghubungkan akun AvaFutures Anda dan mengeksekusi trade langsung dari chart. Gambar level Anda, atur order, kelola posisi - semua tanpa meninggalkan TradingView. Bagi trader yang membangun seluruh workflow mereka di sekitar alat TradingView, ini sangat berarti.",
     "p3": "AvaFutures ada sebagian karena perubahan regulasi di Eropa. CNMV Spanyol secara efektif melarang pemasaran CFD ke trader ritel. Pembatasan serupa muncul di Belgia, Prancis, dan tempat lain. Futures bukan CFD - kategori regulasi berbeda - jadi mereka melewati pembatasan tersebut. Trader Spanyol yang terkunci dari AvaTrade masih bisa mengakses pasar serupa melalui AvaFutures. Ini solusi, tapi yang sah.",
     "p4": "Futures yang tersedia mencakup sebagian besar yang diinginkan trader aktif. Futures indeks: E-mini S&P 500, E-mini Nasdaq, Euro Stoxx 50, DAX. Komoditas: emas, perak, minyak mentah (WTI dan Brent), gas alam, tembaga, produk pertanian. Futures mata uang pada pasangan utama. Futures suku bunga jika Anda trading obligasi. Mereka juga menawarkan kontrak mikro - E-micro S&P 500, Micro Gold, Micro Crude - yang membutuhkan sebagian kecil dari margin. Bagus untuk akun lebih kecil atau menguji strategi dengan uang sungguhan tapi risiko terbatas.",

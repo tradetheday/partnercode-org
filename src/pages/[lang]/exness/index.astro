@@ -4,6 +4,7 @@ import HowToSteps from '../../../components/HowToSteps.astro';
 import FAQ from '../../../components/FAQ.astro';
 import TrustBadges from '../../../components/TrustBadges.astro';
 import SEOSchema from '../../../components/SEOSchema.astro';
+import BrokerCrossLinks from '../../../components/BrokerCrossLinks.astro';
 import { exness } from '../../../data/brokers';
 import { languages, getNonEnglishLanguageCodes } from '../../../data/languages';
 
@@ -70,9 +71,10 @@ const breadcrumbSchema = {
   <SEOSchema type="BreadcrumbList" data={breadcrumbSchema} />
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero hero--broker">
     <div class="container">
       <div class="hero__content">
+        <img src="/logos/exness.png" alt="Exness" class="hero__logo hero__logo--large hero__logo--trimmed hero__logo--yellow-dark" width="400" height="115" />
         <span class="badge badge-accent">{exnessContent.badge}</span>
         <h1 class="hero__title">{exnessContent.title}</h1>
         <p class="hero__subtitle">{exnessContent.subtitle}</p>
@@ -177,8 +179,19 @@ const breadcrumbSchema = {
         <h2>{exnessAbout.title}</h2>
         <p>{exnessAbout.p1}</p>
         <p>{exnessAbout.p2}</p>
+        {exnessAbout.p3 && <p>{exnessAbout.p3}</p>}
 
-        <div class="stats-grid">
+        <figure class="platform-screenshot">
+          <img src="/screenshots/exness-platform.png" alt="Exness trading platform" loading="lazy" />
+        </figure>
+
+        {exnessAbout.p4 && <p>{exnessAbout.p4}</p>}
+        {exnessAbout.p5 && <p>{exnessAbout.p5}</p>}
+        {exnessAbout.p6 && <p>{exnessAbout.p6}</p>}
+        {exnessAbout.p7 && <p>{exnessAbout.p7}</p>}
+        {exnessAbout.p8 && <p>{exnessAbout.p8}</p>}
+
+        <div class="stats-grid stats-grid--4">
           <div class="stat">
             <span class="stat__label">{exnessAbout.stats.founded}</span>
             <span class="stat__value">{exnessAbout.stats.foundedValue}</span>
@@ -191,6 +204,12 @@ const breadcrumbSchema = {
             <span class="stat__label">{exnessAbout.stats.instruments}</span>
             <span class="stat__value">{exnessAbout.stats.instrumentsValue}</span>
           </div>
+          {exnessAbout.stats.volume && (
+            <div class="stat">
+              <span class="stat__label">{exnessAbout.stats.volume}</span>
+              <span class="stat__value">{exnessAbout.stats.volumeValue}</span>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -213,6 +232,8 @@ const breadcrumbSchema = {
         title={translations.home?.faqTitle || "FAQ"}
         items={exnessFaq}
       />
+
+      <BrokerCrossLinks currentBroker="exness" lang={lang} />
     </div>
   </section>
 
