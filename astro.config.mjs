@@ -5,10 +5,7 @@ export default defineConfig({
   site: 'https://partnercode.org',
   output: 'static',
   compressHTML: true,
-  prefetch: {
-    prefetchAll: true,
-    defaultStrategy: 'viewport'
-  },
+  prefetch: false,
   build: {
     format: 'directory',
     inlineStylesheets: 'always'
