@@ -1,7 +1,8 @@
 # Cloudflare Pages Redirects
 # https://developers.cloudflare.com/pages/configuration/redirects/
 
-# Redirect www to non-www (handled by Cloudflare, but good to have)
-# https://www.partnercode.org/* https://partnercode.org/:splat 301
+# Redirect www to non-www (301 permanent)
+https://www.partnercode.org/* https://partnercode.org/:splat 301
 
-# Trailing slash normalization (Astro handles this with directory format)
+# Redirect any http://www to https://non-www
+http://www.partnercode.org/* https://partnercode.org/:splat 301
