@@ -20,6 +20,7 @@
   },
   "home": {
     "badge": "2026 年 1 月驗證有效",
+    "verifiedPrefix": "已驗證且有效",
     "title": "2026年券商合作夥伴代碼",
     "subtitle": "AvaTrade、XM、AvaFutures 和 Exness 可用的合作夥伴代碼，獎勵金額高達 $14,000 美元。",
     "cta": "領取 AvaTrade 獎勵",

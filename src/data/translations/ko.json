@@ -20,6 +20,7 @@
   },
   "home": {
     "badge": "2026년 1월 검증됨",
+    "verifiedPrefix": "검증 완료 및 작동 중",
     "title": "2026년 브로커 파트너 코드",
     "subtitle": "AvaTrade, XM, AvaFutures, Exness의 검증된 파트너 코드. 최대 $14,000 보너스.",
     "cta": "AvaTrade 보너스 받기",

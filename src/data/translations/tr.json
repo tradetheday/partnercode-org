@@ -20,6 +20,7 @@
   },
   "home": {
     "badge": "Ocak 2026'da Dogrulandi",
+    "verifiedPrefix": "Dogrulanmis ve Calisiyor",
     "title": "Broker Partner Kodlari 2026",
     "subtitle": "AvaTrade, XM, AvaFutures ve Exness icin calisan partner kodlari. 14.000 $'a kadar bonus.",
     "cta": "AvaTrade Bonusu Al",

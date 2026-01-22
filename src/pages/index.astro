@@ -6,8 +6,10 @@ import FAQ from '../components/FAQ.astro';
 import TrustBadges from '../components/TrustBadges.astro';
 import SEOSchema from '../components/SEOSchema.astro';
 import { avatrade, avafutures, xm } from '../data/brokers';
+import { getMonthYear } from '../utils/date';
 
 const lang = 'en';
+const verifiedDate = getMonthYear(lang);
 const t = await import('../data/translations/en.json');
 const translations = t.default || t;
 
@@ -104,7 +106,7 @@ const brokerCards = [
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
               <path d="M9 12l2 2 4-4"/>
             </svg>
-            Verified & Working - January 2026
+            Verified & Working - {verifiedDate}
           </span>
         </div>
       </div>
@@ -343,7 +345,7 @@ const brokerCards = [
   }
 
   .btn-success {
-    background: var(--color-success-500);
+    background: var(--color-success-700);
     color: #fff;
   }
 
@@ -353,11 +355,12 @@ const brokerCards = [
 
   .btn-accent {
     background: var(--color-accent-500);
-    color: #fff;
+    color: var(--color-accent-900);
   }
 
   .btn-accent:hover {
-    background: var(--color-accent-600);
+    background: var(--color-accent-400);
+    color: var(--color-accent-900);
   }
 
   .cta-section {

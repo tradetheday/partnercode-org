@@ -20,6 +20,7 @@
   },
   "home": {
     "badge": "2026年1月验证",
+    "verifiedPrefix": "已验证且有效",
     "title": "2026年经纪商合作伙伴代码",
     "subtitle": "AvaTrade、XM、AvaFutures和Exness的有效合作伙伴代码。奖金最高可达$14,000。",
     "cta": "获取AvaTrade奖金",

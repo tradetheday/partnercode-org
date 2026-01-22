@@ -20,6 +20,7 @@
   },
   "home": {
     "badge": "2026年1月検証済み",
+    "verifiedPrefix": "検証済み・有効",
     "title": "2026年ブローカーパートナーコード",
     "subtitle": "AvaTrade、XM、AvaFutures、Exnessの有効なパートナーコード。最大$14,000のボーナス。",
     "cta": "AvaTradeボーナスを獲得",
