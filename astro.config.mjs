@@ -12,6 +12,7 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
+      filter: (page) => !page.includes('/about/'),
       i18n: {
         defaultLocale: 'en',
         locales: {
