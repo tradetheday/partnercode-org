@@ -688,6 +688,10 @@
       "a": "Exness doesn't charge for deposits or withdrawals. Payment providers might have their own fees though."
     }
   ],
+  "socialProof": {
+    "signup": "Someone from {country} signed up with {broker}",
+    "timeAgo": "{minutes} min ago"
+  },
   "exnessAbout": {
     "title": "About Exness",
     "p1": "Exness started in 2008 with a contrarian bet: skip the bonuses, skip the promotional gimmicks, and compete purely on trading conditions. While other brokers dangled deposit bonuses with complicated terms, Exness focused on tight spreads, fast execution, and most importantly - instant withdrawals. They figured serious traders would care more about getting their money out quickly than getting a bonus they'd have to trade through anyway.",

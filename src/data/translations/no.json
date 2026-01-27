@@ -701,6 +701,10 @@
       "a": "Exness tar ikke gebyr for innskudd eller uttak. Betalingsleverandorer kan ha egne gebyrer."
     }
   ],
+  "socialProof": {
+    "signup": "Noen fra {country} registrerte seg nettopp med {broker}",
+    "timeAgo": "{minutes} min siden"
+  },
   "exnessAbout": {
     "title": "Om Exness",
     "p1": "Exness startet i 2008 med et kontrarisk veddemal: dropp bonusene, dropp kampanjegimmickene, og konkurrer rent pa handelsvilkar. Mens andre meglere lokket med innskuddsbonuser med kompliserte vilkar, fokuserte Exness pa stramme spreads, rask utforelse og viktigst - ojeblikkelige uttak. De regnet med at seriose handlere ville bry seg mer om a fa ut pengene sine raskt enn a fa en bonus de uansett matte handle gjennom.",

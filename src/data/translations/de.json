@@ -703,6 +703,10 @@
       "a": "Exness erhebt keine Gebühren für Ein- oder Auszahlungen. Zahlungsanbieter könnten allerdings eigene Gebühren haben."
     }
   ],
+  "socialProof": {
+    "signup": "Jemand aus {country} hat sich gerade bei {broker} angemeldet",
+    "timeAgo": "vor {minutes} Min."
+  },
   "exnessAbout": {
     "title": "Über Exness",
     "p1": "Exness startete 2008 mit einer konträren Wette: Verzichte auf die Boni, verzichte auf die Werbegimmicks und konkurriere rein bei den Handelsbedingungen. Während andere Broker Einzahlungsboni mit komplizierten Bedingungen lockten, konzentrierte sich Exness auf enge Spreads, schnelle Ausführung und am wichtigsten - sofortige Auszahlungen. Sie dachten, ernsthaften Tradern wäre es wichtiger, ihr Geld schnell herauszubekommen, als einen Bonus zu bekommen, den sie sowieso durchhandeln müssten.",

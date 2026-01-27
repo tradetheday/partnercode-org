@@ -703,6 +703,10 @@
       "a": "Exness non addebita commissioni per depositi o prelievi. I fornitori di pagamento potrebbero avere le proprie commissioni pero."
     }
   ],
+  "socialProof": {
+    "signup": "Qualcuno da {country} si e appena registrato con {broker}",
+    "timeAgo": "{minutes} min fa"
+  },
   "exnessAbout": {
     "title": "Informazioni su Exness",
     "p1": "Exness e iniziato nel 2008 con una scommessa controcorrente: saltare i bonus, saltare i trucchi promozionali, e competere puramente sulle condizioni di trading. Mentre altri broker sventolavano bonus sui depositi con termini complicati, Exness si e concentrato su spread stretti, esecuzione veloce e soprattutto - prelievi istantanei. Hanno pensato che i trader seri si sarebbero preoccupati piu di tirare fuori i loro soldi velocemente che di ottenere un bonus che avrebbero dovuto tradare comunque.",

@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import SocialProof from '../components/SocialProof.astro';
 import { languages } from '../data/languages';
 import '../styles/global.css';
 
@@ -174,6 +175,8 @@ const canonicalUrl = lang === 'en'
   </main>
 
   <Footer lang={lang} />
+
+  <SocialProof lang={lang} />
 
   <!-- Copy to clipboard functionality -->
   <script>

@@ -703,6 +703,10 @@
       "a": "Exness nie pobiera oplat za depozyty ani wyplaty. Dostawcy platnosci moga jednak miec wlasne oplaty."
     }
   ],
+  "socialProof": {
+    "signup": "Ktos z {country} wlasnie zarejestrowal sie w {broker}",
+    "timeAgo": "{minutes} min temu"
+  },
   "exnessAbout": {
     "title": "O Exness",
     "p1": "Exness zaczal w 2008 roku z przekornym zakladem: pominac bonusy, pominac promocyjne sztuczki i konkurowac czysto warunkami handlowymi. Podczas gdy inni brokerzy machali bonusami od depozytu ze skomplikowanymi warunkami, Exness skupil sie na ciaslych spreadach, szybkiej realizacji i co najwazniejsze - natychmiastowych wyplatach. Zalozyli, ze powazni traderzy beda bardziej przejmowac sie szybkim wyciaganiem swoich pieniedzy niz otrzymaniem bonusu, przez ktory i tak musieliby przekrecic wolumen.",

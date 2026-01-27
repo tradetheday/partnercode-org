@@ -701,6 +701,10 @@
       "a": "Exness rekent geen kosten voor stortingen of opnames. Betaalproviders kunnen echter eigen kosten hebben."
     }
   ],
+  "socialProof": {
+    "signup": "Iemand uit {country} heeft zich net aangemeld bij {broker}",
+    "timeAgo": "{minutes} min geleden"
+  },
   "exnessAbout": {
     "title": "Over Exness",
     "p1": "Exness begon in 2008 met een tegendraadse gok: sla de bonussen over, sla de promotionele gimmicks over en concurreer puur op handelsvoorwaarden. Terwijl andere brokers stortingsbonussen met ingewikkelde voorwaarden lieten bungelen, richtte Exness zich op strakke spreads, snelle uitvoering en vooral - directe opnames. Ze dachten dat serieuze handelaren meer zouden geven om snel hun geld eruit krijgen dan om een bonus waar ze doorheen moesten handelen.",

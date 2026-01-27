@@ -701,6 +701,10 @@
       "a": "Exness tar inte ut avgifter for insattningar eller uttag. Betalningsleverantorer kan dock ha sina egna avgifter."
     }
   ],
+  "socialProof": {
+    "signup": "Nagon fran {country} registrerade sig just med {broker}",
+    "timeAgo": "{minutes} min sedan"
+  },
   "exnessAbout": {
     "title": "Om Exness",
     "p1": "Exness startade 2008 med en motstridig satsning: skippa bonusarna, skippa kampanjknepen och konkurrera helt pa handelsvillkor. Medan andra maklare lockade med insattningsbonusar med komplicerade villkor, fokuserade Exness pa tata spreadar, snabb exekvering och viktigast - omedelbara uttag. De raaknade med att seriosa handlare skulle bry sig mer om att fa ut sina pengar snabbt an att fa en bonus de skulle behova handla igenom anda.",

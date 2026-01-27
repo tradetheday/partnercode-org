@@ -1,0 +1,391 @@
+---
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
+
+// Import translations
+import en from '../data/translations/en.json';
+import fr from '../data/translations/fr.json';
+import es from '../data/translations/es.json';
+import de from '../data/translations/de.json';
+import it from '../data/translations/it.json';
+import pt from '../data/translations/pt.json';
+import nl from '../data/translations/nl.json';
+import pl from '../data/translations/pl.json';
+import ar from '../data/translations/ar.json';
+import tr from '../data/translations/tr.json';
+import ru from '../data/translations/ru.json';
+import zhCN from '../data/translations/zh-CN.json';
+import zhTW from '../data/translations/zh-TW.json';
+import ja from '../data/translations/ja.json';
+import ko from '../data/translations/ko.json';
+import th from '../data/translations/th.json';
+import vi from '../data/translations/vi.json';
+import id from '../data/translations/id.json';
+import hi from '../data/translations/hi.json';
+import sv from '../data/translations/sv.json';
+import no from '../data/translations/no.json';
+import da from '../data/translations/da.json';
+
+const translationsMap: Record<string, any> = {
+  en, fr, es, de, it, pt, nl, pl, ar, tr, ru,
+  'zh-CN': zhCN, 'zh-TW': zhTW, ja, ko, th, vi, id, hi, sv, no, da
+};
+
+const translations = translationsMap[lang] || en;
+const socialProof = translations.socialProof || en.socialProof;
+---
+
+<div class="social-proof" id="social-proof" aria-live="polite" aria-atomic="true">
+  <button class="social-proof__close" aria-label="Close notification" type="button">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 1L13 13M1 13L13 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+  </button>
+  <div class="social-proof__content">
+    <span class="social-proof__flag" id="social-proof-flag"></span>
+    <div class="social-proof__text">
+      <span class="social-proof__message" id="social-proof-message"></span>
+      <span class="social-proof__time" id="social-proof-time"></span>
+    </div>
+  </div>
+</div>
+
+<script define:vars={{ lang, socialProof }}>
+  // Signups pool - biased towards AvaTrade, then AvaFutures
+  // Note: Spain (ES) only shows AvaFutures due to CNMV CFD restrictions
+  const signups = [
+    // AvaTrade - most frequent (no Spain)
+    { countryCode: 'DE', broker: 'AvaTrade', minutesAgo: 2 },
+    { countryCode: 'IT', broker: 'AvaTrade', minutesAgo: 3 },
+    { countryCode: 'GB', broker: 'AvaTrade', minutesAgo: 4 },
+    { countryCode: 'ZA', broker: 'AvaTrade', minutesAgo: 2 },
+    { countryCode: 'FR', broker: 'AvaTrade', minutesAgo: 5 },
+    { countryCode: 'AE', broker: 'AvaTrade', minutesAgo: 2 },
+    { countryCode: 'AU', broker: 'AvaTrade', minutesAgo: 3 },
+    { countryCode: 'NL', broker: 'AvaTrade', minutesAgo: 4 },
+    { countryCode: 'SE', broker: 'AvaTrade', minutesAgo: 6 },
+    { countryCode: 'AT', broker: 'AvaTrade', minutesAgo: 3 },
+    { countryCode: 'PT', broker: 'AvaTrade', minutesAgo: 2 },
+    { countryCode: 'KR', broker: 'AvaTrade', minutesAgo: 4 },
+    { countryCode: 'SG', broker: 'AvaTrade', minutesAgo: 5 },
+    { countryCode: 'CH', broker: 'AvaTrade', minutesAgo: 3 },
+    // AvaFutures - secondary (includes Spain)
+    { countryCode: 'ES', broker: 'AvaFutures', minutesAgo: 3 },
+    { countryCode: 'DE', broker: 'AvaFutures', minutesAgo: 5 },
+    { countryCode: 'IT', broker: 'AvaFutures', minutesAgo: 4 },
+    { countryCode: 'FR', broker: 'AvaFutures', minutesAgo: 6 },
+    { countryCode: 'GB', broker: 'AvaFutures', minutesAgo: 7 },
+    { countryCode: 'AU', broker: 'AvaFutures', minutesAgo: 4 },
+    // XM - less frequent
+    { countryCode: 'BR', broker: 'XM', minutesAgo: 5 },
+    { countryCode: 'PL', broker: 'XM', minutesAgo: 6 },
+    { countryCode: 'JP', broker: 'XM', minutesAgo: 8 },
+    // Exness - occasional
+    { countryCode: 'NO', broker: 'Exness', minutesAgo: 4 },
+    { countryCode: 'CA', broker: 'Exness', minutesAgo: 7 },
+  ];
+
+  // Country flags mapping
+  const flags = {
+    DE: '🇩🇪', IT: '🇮🇹', GB: '🇬🇧', ZA: '🇿🇦', FR: '🇫🇷',
+    AE: '🇦🇪', CA: '🇨🇦', AU: '🇦🇺', CH: '🇨🇭', SG: '🇸🇬',
+    NL: '🇳🇱', BR: '🇧🇷', SE: '🇸🇪', NO: '🇳🇴', PL: '🇵🇱',
+    AT: '🇦🇹', BE: '🇧🇪', PT: '🇵🇹', JP: '🇯🇵', KR: '🇰🇷',
+    ES: '🇪🇸'
+  };
+
+  // Localized country names for all 21 languages
+  const countryNames = {
+    en: { DE: 'Germany', IT: 'Italy', GB: 'United Kingdom', ZA: 'South Africa', FR: 'France', AE: 'UAE', CA: 'Canada', AU: 'Australia', CH: 'Switzerland', SG: 'Singapore', NL: 'Netherlands', BR: 'Brazil', SE: 'Sweden', NO: 'Norway', PL: 'Poland', AT: 'Austria', BE: 'Belgium', PT: 'Portugal', JP: 'Japan', KR: 'South Korea', ES: 'Spain' },
+    fr: { DE: 'Allemagne', IT: 'Italie', GB: 'Royaume-Uni', ZA: 'Afrique du Sud', FR: 'France', AE: 'EAU', CA: 'Canada', AU: 'Australie', CH: 'Suisse', SG: 'Singapour', NL: 'Pays-Bas', BR: 'Brésil', SE: 'Suède', NO: 'Norvège', PL: 'Pologne', AT: 'Autriche', BE: 'Belgique', PT: 'Portugal', JP: 'Japon', KR: 'Corée du Sud', ES: 'Espagne' },
+    es: { DE: 'Alemania', IT: 'Italia', GB: 'Reino Unido', ZA: 'Sudáfrica', FR: 'Francia', AE: 'EAU', CA: 'Canadá', AU: 'Australia', CH: 'Suiza', SG: 'Singapur', NL: 'Países Bajos', BR: 'Brasil', SE: 'Suecia', NO: 'Noruega', PL: 'Polonia', AT: 'Austria', BE: 'Bélgica', PT: 'Portugal', JP: 'Japón', KR: 'Corea del Sur', ES: 'España' },
+    de: { DE: 'Deutschland', IT: 'Italien', GB: 'Vereinigtes Königreich', ZA: 'Südafrika', FR: 'Frankreich', AE: 'VAE', CA: 'Kanada', AU: 'Australien', CH: 'Schweiz', SG: 'Singapur', NL: 'Niederlande', BR: 'Brasilien', SE: 'Schweden', NO: 'Norwegen', PL: 'Polen', AT: 'Österreich', BE: 'Belgien', PT: 'Portugal', JP: 'Japan', KR: 'Südkorea', ES: 'Spanien' },
+    it: { DE: 'Germania', IT: 'Italia', GB: 'Regno Unito', ZA: 'Sudafrica', FR: 'Francia', AE: 'EAU', CA: 'Canada', AU: 'Australia', CH: 'Svizzera', SG: 'Singapore', NL: 'Paesi Bassi', BR: 'Brasile', SE: 'Svezia', NO: 'Norvegia', PL: 'Polonia', AT: 'Austria', BE: 'Belgio', PT: 'Portogallo', JP: 'Giappone', KR: 'Corea del Sud', ES: 'Spagna' },
+    pt: { DE: 'Alemanha', IT: 'Itália', GB: 'Reino Unido', ZA: 'África do Sul', FR: 'França', AE: 'EAU', CA: 'Canadá', AU: 'Austrália', CH: 'Suíça', SG: 'Singapura', NL: 'Países Baixos', BR: 'Brasil', SE: 'Suécia', NO: 'Noruega', PL: 'Polónia', AT: 'Áustria', BE: 'Bélgica', PT: 'Portugal', JP: 'Japão', KR: 'Coreia do Sul', ES: 'Espanha' },
+    nl: { DE: 'Duitsland', IT: 'Italië', GB: 'Verenigd Koninkrijk', ZA: 'Zuid-Afrika', FR: 'Frankrijk', AE: 'VAE', CA: 'Canada', AU: 'Australië', CH: 'Zwitserland', SG: 'Singapore', NL: 'Nederland', BR: 'Brazilië', SE: 'Zweden', NO: 'Noorwegen', PL: 'Polen', AT: 'Oostenrijk', BE: 'België', PT: 'Portugal', JP: 'Japan', KR: 'Zuid-Korea', ES: 'Spanje' },
+    pl: { DE: 'Niemcy', IT: 'Włochy', GB: 'Wielka Brytania', ZA: 'Republika Południowej Afryki', FR: 'Francja', AE: 'ZEA', CA: 'Kanada', AU: 'Australia', CH: 'Szwajcaria', SG: 'Singapur', NL: 'Holandia', BR: 'Brazylia', SE: 'Szwecja', NO: 'Norwegia', PL: 'Polska', AT: 'Austria', BE: 'Belgia', PT: 'Portugalia', JP: 'Japonia', KR: 'Korea Południowa', ES: 'Hiszpania' },
+    ar: { DE: 'ألمانيا', IT: 'إيطاليا', GB: 'المملكة المتحدة', ZA: 'جنوب أفريقيا', FR: 'فرنسا', AE: 'الإمارات', CA: 'كندا', AU: 'أستراليا', CH: 'سويسرا', SG: 'سنغافورة', NL: 'هولندا', BR: 'البرازيل', SE: 'السويد', NO: 'النرويج', PL: 'بولندا', AT: 'النمسا', BE: 'بلجيكا', PT: 'البرتغال', JP: 'اليابان', KR: 'كوريا الجنوبية', ES: 'إسبانيا' },
+    tr: { DE: 'Almanya', IT: 'İtalya', GB: 'Birleşik Krallık', ZA: 'Güney Afrika', FR: 'Fransa', AE: 'BAE', CA: 'Kanada', AU: 'Avustralya', CH: 'İsviçre', SG: 'Singapur', NL: 'Hollanda', BR: 'Brezilya', SE: 'İsveç', NO: 'Norveç', PL: 'Polonya', AT: 'Avusturya', BE: 'Belçika', PT: 'Portekiz', JP: 'Japonya', KR: 'Güney Kore', ES: 'İspanya' },
+    ru: { DE: 'Германия', IT: 'Италия', GB: 'Великобритания', ZA: 'ЮАР', FR: 'Франция', AE: 'ОАЭ', CA: 'Канада', AU: 'Австралия', CH: 'Швейцария', SG: 'Сингапур', NL: 'Нидерланды', BR: 'Бразилия', SE: 'Швеция', NO: 'Норвегия', PL: 'Польша', AT: 'Австрия', BE: 'Бельгия', PT: 'Португалия', JP: 'Япония', KR: 'Южная Корея', ES: 'Испания' },
+    'zh-CN': { DE: '德国', IT: '意大利', GB: '英国', ZA: '南非', FR: '法国', AE: '阿联酋', CA: '加拿大', AU: '澳大利亚', CH: '瑞士', SG: '新加坡', NL: '荷兰', BR: '巴西', SE: '瑞典', NO: '挪威', PL: '波兰', AT: '奥地利', BE: '比利时', PT: '葡萄牙', JP: '日本', KR: '韩国', ES: '西班牙' },
+    'zh-TW': { DE: '德國', IT: '義大利', GB: '英國', ZA: '南非', FR: '法國', AE: '阿聯酋', CA: '加拿大', AU: '澳洲', CH: '瑞士', SG: '新加坡', NL: '荷蘭', BR: '巴西', SE: '瑞典', NO: '挪威', PL: '波蘭', AT: '奧地利', BE: '比利時', PT: '葡萄牙', JP: '日本', KR: '韓國', ES: '西班牙' },
+    ja: { DE: 'ドイツ', IT: 'イタリア', GB: 'イギリス', ZA: '南アフリカ', FR: 'フランス', AE: 'UAE', CA: 'カナダ', AU: 'オーストラリア', CH: 'スイス', SG: 'シンガポール', NL: 'オランダ', BR: 'ブラジル', SE: 'スウェーデン', NO: 'ノルウェー', PL: 'ポーランド', AT: 'オーストリア', BE: 'ベルギー', PT: 'ポルトガル', JP: '日本', KR: '韓国', ES: 'スペイン' },
+    ko: { DE: '독일', IT: '이탈리아', GB: '영국', ZA: '남아프리카', FR: '프랑스', AE: 'UAE', CA: '캐나다', AU: '호주', CH: '스위스', SG: '싱가포르', NL: '네덜란드', BR: '브라질', SE: '스웨덴', NO: '노르웨이', PL: '폴란드', AT: '오스트리아', BE: '벨기에', PT: '포르투갈', JP: '일본', KR: '한국', ES: '스페인' },
+    th: { DE: 'เยอรมนี', IT: 'อิตาลี', GB: 'สหราชอาณาจักร', ZA: 'แอฟริกาใต้', FR: 'ฝรั่งเศส', AE: 'ยูเออี', CA: 'แคนาดา', AU: 'ออสเตรเลีย', CH: 'สวิตเซอร์แลนด์', SG: 'สิงคโปร์', NL: 'เนเธอร์แลนด์', BR: 'บราซิล', SE: 'สวีเดน', NO: 'นอร์เวย์', PL: 'โปแลนด์', AT: 'ออสเตรีย', BE: 'เบลเยียม', PT: 'โปรตุเกส', JP: 'ญี่ปุ่น', KR: 'เกาหลีใต้', ES: 'สเปน' },
+    vi: { DE: 'Đức', IT: 'Ý', GB: 'Anh', ZA: 'Nam Phi', FR: 'Pháp', AE: 'UAE', CA: 'Canada', AU: 'Úc', CH: 'Thụy Sĩ', SG: 'Singapore', NL: 'Hà Lan', BR: 'Brazil', SE: 'Thụy Điển', NO: 'Na Uy', PL: 'Ba Lan', AT: 'Áo', BE: 'Bỉ', PT: 'Bồ Đào Nha', JP: 'Nhật Bản', KR: 'Hàn Quốc', ES: 'Tây Ban Nha' },
+    id: { DE: 'Jerman', IT: 'Italia', GB: 'Inggris', ZA: 'Afrika Selatan', FR: 'Prancis', AE: 'UEA', CA: 'Kanada', AU: 'Australia', CH: 'Swiss', SG: 'Singapura', NL: 'Belanda', BR: 'Brasil', SE: 'Swedia', NO: 'Norwegia', PL: 'Polandia', AT: 'Austria', BE: 'Belgia', PT: 'Portugal', JP: 'Jepang', KR: 'Korea Selatan', ES: 'Spanyol' },
+    hi: { DE: 'जर्मनी', IT: 'इटली', GB: 'यूनाइटेड किंगडम', ZA: 'दक्षिण अफ्रीका', FR: 'फ्रांस', AE: 'यूएई', CA: 'कनाडा', AU: 'ऑस्ट्रेलिया', CH: 'स्विट्जरलैंड', SG: 'सिंगापुर', NL: 'नीदरलैंड', BR: 'ब्राजील', SE: 'स्वीडन', NO: 'नॉर्वे', PL: 'पोलैंड', AT: 'ऑस्ट्रिया', BE: 'बेल्जियम', PT: 'पुर्तगाल', JP: 'जापान', KR: 'दक्षिण कोरिया', ES: 'स्पेन' },
+    sv: { DE: 'Tyskland', IT: 'Italien', GB: 'Storbritannien', ZA: 'Sydafrika', FR: 'Frankrike', AE: 'Förenade Arabemiraten', CA: 'Kanada', AU: 'Australien', CH: 'Schweiz', SG: 'Singapore', NL: 'Nederländerna', BR: 'Brasilien', SE: 'Sverige', NO: 'Norge', PL: 'Polen', AT: 'Österrike', BE: 'Belgien', PT: 'Portugal', JP: 'Japan', KR: 'Sydkorea', ES: 'Spanien' },
+    no: { DE: 'Tyskland', IT: 'Italia', GB: 'Storbritannia', ZA: 'Sør-Afrika', FR: 'Frankrike', AE: 'De forente arabiske emirater', CA: 'Canada', AU: 'Australia', CH: 'Sveits', SG: 'Singapore', NL: 'Nederland', BR: 'Brasil', SE: 'Sverige', NO: 'Norge', PL: 'Polen', AT: 'Østerrike', BE: 'Belgia', PT: 'Portugal', JP: 'Japan', KR: 'Sør-Korea', ES: 'Spania' },
+    da: { DE: 'Tyskland', IT: 'Italien', GB: 'Storbritannien', ZA: 'Sydafrika', FR: 'Frankrig', AE: 'De Forenede Arabiske Emirater', CA: 'Canada', AU: 'Australien', CH: 'Schweiz', SG: 'Singapore', NL: 'Holland', BR: 'Brasilien', SE: 'Sverige', NO: 'Norge', PL: 'Polen', AT: 'Østrig', BE: 'Belgien', PT: 'Portugal', JP: 'Japan', KR: 'Sydkorea', ES: 'Spanien' }
+  };
+
+  const STORAGE_KEY = 'socialProofState';
+  const MAX_NOTIFICATIONS = 5;
+  const MIN_INTERVAL = 15000; // 15 seconds
+  const MAX_INTERVAL = 20000; // 20 seconds
+  const DISPLAY_DURATION = 4000; // 4 seconds
+  const INITIAL_DELAY = 5000; // 5 seconds before first notification
+
+  // Get session state from localStorage
+  function getState() {
+    try {
+      const stored = localStorage.getItem(STORAGE_KEY);
+      if (stored) {
+        const state = JSON.parse(stored);
+        // Reset if it's a new session (more than 30 minutes since last activity)
+        if (Date.now() - state.lastActivity > 30 * 60 * 1000) {
+          return { count: 0, dismissed: false, lastActivity: Date.now(), lastIndex: -1 };
+        }
+        return state;
+      }
+    } catch (e) {}
+    return { count: 0, dismissed: false, lastActivity: Date.now(), lastIndex: -1 };
+  }
+
+  // Save session state
+  function saveState(state) {
+    try {
+      state.lastActivity = Date.now();
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {}
+  }
+
+  // Get a random signup (avoiding repeat of last shown)
+  function getRandomSignup(lastIndex) {
+    let index;
+    do {
+      index = Math.floor(Math.random() * signups.length);
+    } while (index === lastIndex && signups.length > 1);
+    return { signup: signups[index], index };
+  }
+
+  // Show notification
+  function showNotification(signup) {
+    const container = document.getElementById('social-proof');
+    const flagEl = document.getElementById('social-proof-flag');
+    const messageEl = document.getElementById('social-proof-message');
+    const timeEl = document.getElementById('social-proof-time');
+
+    if (!container || !flagEl || !messageEl || !timeEl) return;
+
+    const countryName = (countryNames[lang] || countryNames.en)[signup.countryCode];
+    const flag = flags[signup.countryCode];
+
+    // Build message from translation template
+    const message = (socialProof.signup || 'Someone from {country} signed up with {broker}')
+      .replace('{country}', countryName)
+      .replace('{broker}', signup.broker);
+
+    const time = (socialProof.timeAgo || '{minutes} min ago')
+      .replace('{minutes}', signup.minutesAgo);
+
+    flagEl.textContent = flag;
+    messageEl.textContent = message;
+    timeEl.textContent = time;
+
+    container.classList.add('visible');
+
+    // Auto-dismiss after display duration
+    setTimeout(() => {
+      container.classList.remove('visible');
+    }, DISPLAY_DURATION);
+  }
+
+  // Initialize
+  function init() {
+    const container = document.getElementById('social-proof');
+    if (!container) return;
+
+    const state = getState();
+
+    // Don't show if user dismissed or max reached
+    if (state.dismissed || state.count >= MAX_NOTIFICATIONS) {
+      return;
+    }
+
+    // Close button handler
+    const closeBtn = container.querySelector('.social-proof__close');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', () => {
+        container.classList.remove('visible');
+        state.dismissed = true;
+        saveState(state);
+      });
+    }
+
+    // Schedule notifications
+    function scheduleNext() {
+      const currentState = getState();
+      if (currentState.dismissed || currentState.count >= MAX_NOTIFICATIONS) {
+        return;
+      }
+
+      const interval = MIN_INTERVAL + Math.random() * (MAX_INTERVAL - MIN_INTERVAL);
+
+      setTimeout(() => {
+        const { signup, index } = getRandomSignup(currentState.lastIndex);
+        showNotification(signup);
+
+        currentState.count++;
+        currentState.lastIndex = index;
+        saveState(currentState);
+
+        scheduleNext();
+      }, interval);
+    }
+
+    // Start after initial delay
+    setTimeout(() => {
+      const { signup, index } = getRandomSignup(state.lastIndex);
+      showNotification(signup);
+
+      state.count++;
+      state.lastIndex = index;
+      saveState(state);
+
+      scheduleNext();
+    }, INITIAL_DELAY);
+  }
+
+  // Run on DOM ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+</script>
+
+<style>
+  .social-proof {
+    position: fixed;
+    bottom: var(--space-4);
+    left: var(--space-4);
+    max-width: 280px;
+    z-index: 40;
+    padding: var(--space-3);
+    background: var(--color-bg);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--color-border);
+    transform: translateX(calc(-100% - var(--space-8)));
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .social-proof.visible {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .social-proof__close {
+    position: absolute;
+    top: var(--space-2);
+    right: var(--space-2);
+    padding: var(--space-1);
+    background: transparent;
+    border: none;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+    transition: color var(--transition-fast), background var(--transition-fast);
+    line-height: 1;
+  }
+
+  .social-proof__close:hover {
+    color: var(--color-text);
+    background: var(--color-bg-secondary);
+  }
+
+  .social-proof__content {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+  }
+
+  .social-proof__flag {
+    font-size: 1.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .social-proof__text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    padding-right: var(--space-4);
+  }
+
+  .social-proof__message {
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    line-height: var(--leading-snug);
+  }
+
+  .social-proof__time {
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+  }
+
+  @media (min-width: 768px) {
+    .social-proof {
+      max-width: 320px;
+      bottom: var(--space-6);
+      left: var(--space-6);
+      padding: var(--space-4);
+    }
+
+    .social-proof__flag {
+      font-size: 1.75rem;
+    }
+
+    .social-proof__message {
+      font-size: var(--text-base);
+    }
+  }
+
+  /* RTL support */
+  :global([dir="rtl"]) .social-proof {
+    left: auto;
+    right: var(--space-4);
+    transform: translateX(calc(100% + var(--space-8)));
+  }
+
+  :global([dir="rtl"]) .social-proof.visible {
+    transform: translateX(0);
+  }
+
+  :global([dir="rtl"]) .social-proof__close {
+    right: auto;
+    left: var(--space-2);
+  }
+
+  :global([dir="rtl"]) .social-proof__text {
+    padding-right: 0;
+    padding-left: var(--space-4);
+  }
+
+  @media (min-width: 768px) {
+    :global([dir="rtl"]) .social-proof {
+      right: var(--space-6);
+    }
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .social-proof {
+      transition: opacity 0.1s ease;
+      transform: translateX(0);
+    }
+
+    .social-proof:not(.visible) {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+</style>

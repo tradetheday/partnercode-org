@@ -701,6 +701,10 @@
       "a": "Exness khong tinh phi nap hoac rut tien. Tuy nhien, nha cung cap thanh toan co the co phi rieng."
     }
   ],
+  "socialProof": {
+    "signup": "Ai do tu {country} vua dang ky voi {broker}",
+    "timeAgo": "{minutes} phut truoc"
+  },
   "exnessAbout": {
     "title": "Ve Exness",
     "p1": "Exness bat dau vao nam 2008 voi mot cuoc dat cuoc nguoc dong: bo qua thuong, bo qua chieu tro khuyen mai, va canh tranh thuan tuy bang dieu kien giao dich. Trong khi cac nha moi gioi khac lung lay thuong nap voi dieu khoan phuc tap, Exness tap trung vao spread chat, thuc hien nhanh va quan trong nhat - rut tien ngay lap tuc. Ho cho rang trader nghiem tuc se quan tam den viec lay tien ra nhanh hon la nhan thuong ma ho phai giao dich qua.",

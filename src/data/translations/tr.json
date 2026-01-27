@@ -701,6 +701,10 @@
       "a": "Exness yatirimlar veya cekimler icin ucret almaz. Odeme saglayicilarin kendi ucretleri olabilir yine de."
     }
   ],
+  "socialProof": {
+    "signup": "{country} dan biri az once {broker} ile kaydoldu",
+    "timeAgo": "{minutes} dk once"
+  },
   "exnessAbout": {
     "title": "Exness Hakkinda",
     "p1": "Exness 2008'de karsi bir bahisle basladi: bonuslari atladin, promosyonel numaralari atladin ve tamamen islem kosullarinda rekabet et. Diger brokerlar karmasik sartlarla yatirim bonuslari sallandirirken, Exness siki spreadlere, hizli isleme ve en onemlisi - aninda cekimlere odaklandi. Ciddi traderlarin yine de islem yapmak zorunda kalacaklari bir bonus almaktan ziyade paralarini hizla cekmeyi daha cok onemseyecegini dusunduler.",

@@ -701,6 +701,10 @@
       "a": "Exness opkraever ikke for indbetalinger eller udbetalinger. Betalingsudbydere kan dog have deres egne gebyrer."
     }
   ],
+  "socialProof": {
+    "signup": "En fra {country} tilmeldte sig lige {broker}",
+    "timeAgo": "{minutes} min siden"
+  },
   "exnessAbout": {
     "title": "Om Exness",
     "p1": "Exness startede i 2008 med et modsat vaeddemal: spring bonusserne over, spring kampagnegimmicks over, og konkurrer rent pa handelsvilkar. Mens andre maglere dinglede indbetalingsbonusser med komplicerede vilkar, fokuserede Exness pa lave spreads, hurtig eksekvering og vigtigst af alt - ojeblikkelige udbetalinger. De regnede med, at serpose handlere ville bekymre sig mere om at fa deres penge ud hurtigt end at fa en bonus, de skulle handle igennem alligevel.",

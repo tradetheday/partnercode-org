@@ -701,6 +701,10 @@
       "a": "Exness tidak mengenakan biaya untuk deposit atau penarikan. Penyedia pembayaran mungkin memiliki biaya sendiri."
     }
   ],
+  "socialProof": {
+    "signup": "Seseorang dari {country} baru saja mendaftar dengan {broker}",
+    "timeAgo": "{minutes} menit lalu"
+  },
   "exnessAbout": {
     "title": "Tentang Exness",
     "p1": "Exness dimulai pada tahun 2008 dengan taruhan kontrarian: lewati bonus, lewati gimmick promosi, dan bersaing murni pada kondisi trading. Sementara broker lain menggoyangkan bonus deposit dengan syarat rumit, Exness fokus pada spread ketat, eksekusi cepat, dan yang paling penting - penarikan instan. Mereka berpikir trader serius akan lebih peduli tentang mendapatkan uang mereka keluar dengan cepat daripada mendapat bonus yang harus mereka tradingkan.",

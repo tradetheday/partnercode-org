@@ -703,6 +703,10 @@
       "a": "Exness no cobra por depositos o retiros. Los proveedores de pago pueden tener sus propias comisiones sin embargo."
     }
   ],
+  "socialProof": {
+    "signup": "Alguien de {country} acaba de registrarse con {broker}",
+    "timeAgo": "hace {minutes} min"
+  },
   "exnessAbout": {
     "title": "Sobre Exness",
     "p1": "Exness comenzo en 2008 con una apuesta contraria: saltarse los bonos, saltarse los trucos promocionales, y competir puramente en condiciones de trading. Mientras otros brokers ofrecian bonos por deposito con terminos complicados, Exness se enfoco en spreads ajustados, ejecucion rapida, y lo mas importante - retiros instantaneos. Calcularon que los traders serios se preocuparian mas por sacar su dinero rapidamente que por obtener un bono que tendrian que operar de todas formas.",

@@ -703,6 +703,10 @@
       "a": "Exness ne facture pas les depots ou retraits. Les fournisseurs de paiement peuvent avoir leurs propres frais cependant."
     }
   ],
+  "socialProof": {
+    "signup": "Quelqu'un de {country} vient de s'inscrire avec {broker}",
+    "timeAgo": "il y a {minutes} min"
+  },
   "exnessAbout": {
     "title": "A Propos d'Exness",
     "p1": "Exness a demarre en 2008 avec un pari a contre-courant: sauter les bonus, sauter les gadgets promotionnels, et concurrencer purement sur les conditions de trading. Alors que d'autres courtiers faisaient miroiter des bonus de depot avec des conditions compliquees, Exness s'est concentre sur les spreads serres, l'execution rapide et surtout - les retraits instantanes. Ils ont parie que les traders serieux se soucieraient plus de recuperer leur argent rapidement que d'obtenir un bonus qu'ils devraient de toute facon trader pour debloquer.",

@@ -701,6 +701,10 @@
       "a": "Exness nao cobra por depositos ou saques. Provedores de pagamento podem ter suas proprias taxas."
     }
   ],
+  "socialProof": {
+    "signup": "Alguem de {country} acabou de se registrar com {broker}",
+    "timeAgo": "ha {minutes} min"
+  },
   "exnessAbout": {
     "title": "Sobre a Exness",
     "p1": "Exness comecou em 2008 com uma aposta contraria: pular os bonus, pular os truques promocionais e competir puramente em condicoes de trading. Enquanto outras corretoras balancavam bonus de deposito com termos complicados, Exness focou em spreads apertados, execucao rapida e mais importante - saques instantaneos. Eles imaginaram que traders serios se importariam mais em retirar seu dinheiro rapidamente do que em ganhar um bonus pelo qual teriam que operar de qualquer forma.",
