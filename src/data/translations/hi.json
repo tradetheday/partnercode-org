@@ -702,7 +702,11 @@
     }
   ],
   "socialProof": {
-    "signup": "{country} से किसी ने अभी {broker} के साथ साइन अप किया",
+    "messages": [
+      "{country} से किसी ने अभी {broker} के साथ साइन अप किया",
+      "{country} से नया {broker} ट्रेडर",
+      "{country} का ट्रेडर {broker} में शामिल हुआ"
+    ],
     "timeAgo": "{minutes} मिनट पहले"
   },
   "exnessAbout": {

@@ -124,11 +124,11 @@ const socialProof = translations.socialProof || en.socialProof;
   };
 
   const STORAGE_KEY = 'socialProofState';
-  const MAX_NOTIFICATIONS = 5;
-  const MIN_INTERVAL = 15000; // 15 seconds
-  const MAX_INTERVAL = 20000; // 20 seconds
+  const MAX_NOTIFICATIONS = 3;
+  const MIN_INTERVAL = 30000; // 30 seconds
+  const MAX_INTERVAL = 60000; // 60 seconds
   const DISPLAY_DURATION = 4000; // 4 seconds
-  const INITIAL_DELAY = 5000; // 5 seconds before first notification
+  const INITIAL_DELAY = 8000; // 8 seconds before first notification
 
   // Get session state from localStorage
   function getState() {
@@ -175,8 +175,14 @@ const socialProof = translations.socialProof || en.socialProof;
     const countryName = (countryNames[lang] || countryNames.en)[signup.countryCode];
     const flag = flags[signup.countryCode];
 
-    // Build message from translation template
-    const message = (socialProof.signup || 'Someone from {country} signed up with {broker}')
+    // Build message from random translation template
+    const messages = socialProof.messages || [
+      'Someone from {country} signed up with {broker}',
+      'New {broker} trader from {country}',
+      '{country} trader joined {broker}'
+    ];
+    const template = messages[Math.floor(Math.random() * messages.length)];
+    const message = template
       .replace('{country}', countryName)
       .replace('{broker}', signup.broker);
 

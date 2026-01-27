@@ -702,7 +702,11 @@
     }
   ],
   "socialProof": {
-    "signup": "Noen fra {country} registrerte seg nettopp med {broker}",
+    "messages": [
+      "Noen fra {country} registrerte seg nettopp med {broker}",
+      "Ny {broker}-handler fra {country}",
+      "Handler fra {country} ble med i {broker}"
+    ],
     "timeAgo": "{minutes} min siden"
   },
   "exnessAbout": {

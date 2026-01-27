@@ -702,7 +702,11 @@
     }
   ],
   "socialProof": {
-    "signup": "شخص من {country} سجل للتو مع {broker}",
+    "messages": [
+      "شخص من {country} سجل للتو مع {broker}",
+      "متداول {broker} جديد من {country}",
+      "متداول من {country} انضم الى {broker}"
+    ],
     "timeAgo": "منذ {minutes} دقيقة"
   },
   "exnessAbout": {

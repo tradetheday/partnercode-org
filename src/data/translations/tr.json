@@ -702,7 +702,11 @@
     }
   ],
   "socialProof": {
-    "signup": "{country} dan biri az once {broker} ile kaydoldu",
+    "messages": [
+      "{country} dan biri az once {broker} ile kaydoldu",
+      "{country} dan yeni {broker} traderi",
+      "{country} traderi {broker} a katildi"
+    ],
     "timeAgo": "{minutes} dk once"
   },
   "exnessAbout": {

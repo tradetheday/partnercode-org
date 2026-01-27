@@ -704,7 +704,11 @@
     }
   ],
   "socialProof": {
-    "signup": "Qualcuno da {country} si e appena registrato con {broker}",
+    "messages": [
+      "Qualcuno da {country} si e appena registrato con {broker}",
+      "Nuovo trader {broker} da {country}",
+      "Trader da {country} si e unito a {broker}"
+    ],
     "timeAgo": "{minutes} min fa"
   },
   "exnessAbout": {

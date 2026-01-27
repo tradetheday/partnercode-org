@@ -702,7 +702,11 @@
     }
   ],
   "socialProof": {
-    "signup": "Ai do tu {country} vua dang ky voi {broker}",
+    "messages": [
+      "Ai do tu {country} vua dang ky voi {broker}",
+      "Trader {broker} moi tu {country}",
+      "Trader tu {country} da tham gia {broker}"
+    ],
     "timeAgo": "{minutes} phut truoc"
   },
   "exnessAbout": {

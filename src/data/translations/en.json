@@ -689,7 +689,11 @@
     }
   ],
   "socialProof": {
-    "signup": "Someone from {country} signed up with {broker}",
+    "messages": [
+      "Someone from {country} signed up with {broker}",
+      "New {broker} trader from {country}",
+      "{country} trader joined {broker}"
+    ],
     "timeAgo": "{minutes} min ago"
   },
   "exnessAbout": {

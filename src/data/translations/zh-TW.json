@@ -702,7 +702,11 @@
     }
   ],
   "socialProof": {
-    "signup": "來自{country}的用戶剛剛註冊了{broker}",
+    "messages": [
+      "來自{country}的用戶剛剛註冊了{broker}",
+      "{country}新交易者加入{broker}",
+      "{country}交易者選擇了{broker}"
+    ],
     "timeAgo": "{minutes}分鐘前"
   },
   "exnessAbout": {

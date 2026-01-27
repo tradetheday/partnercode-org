@@ -702,7 +702,11 @@
     }
   ],
   "socialProof": {
-    "signup": "{country}에서 누군가 {broker}에 가입했습니다",
+    "messages": [
+      "{country}에서 누군가 {broker}에 가입했습니다",
+      "{country}의 새로운 {broker} 트레이더",
+      "{country} 트레이더가 {broker}에 합류"
+    ],
     "timeAgo": "{minutes}분 전"
   },
   "exnessAbout": {

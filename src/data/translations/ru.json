@@ -702,7 +702,11 @@
     }
   ],
   "socialProof": {
-    "signup": "Кто-то из {country} только что зарегистрировался в {broker}",
+    "messages": [
+      "Кто-то из {country} только что зарегистрировался в {broker}",
+      "Новый трейдер {broker} из {country}",
+      "Трейдер из {country} присоединился к {broker}"
+    ],
     "timeAgo": "{minutes} мин назад"
   },
   "exnessAbout": {

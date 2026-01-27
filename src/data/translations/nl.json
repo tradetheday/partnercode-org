@@ -702,7 +702,11 @@
     }
   ],
   "socialProof": {
-    "signup": "Iemand uit {country} heeft zich net aangemeld bij {broker}",
+    "messages": [
+      "Iemand uit {country} heeft zich net aangemeld bij {broker}",
+      "Nieuwe {broker} trader uit {country}",
+      "Trader uit {country} is lid geworden van {broker}"
+    ],
     "timeAgo": "{minutes} min geleden"
   },
   "exnessAbout": {

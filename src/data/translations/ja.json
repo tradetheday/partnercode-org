@@ -702,7 +702,11 @@
     }
   ],
   "socialProof": {
-    "signup": "{country}の方が{broker}に登録しました",
+    "messages": [
+      "{country}の方が{broker}に登録しました",
+      "{country}から新しい{broker}トレーダー",
+      "{country}のトレーダーが{broker}に参加"
+    ],
     "timeAgo": "{minutes}分前"
   },
   "exnessAbout": {

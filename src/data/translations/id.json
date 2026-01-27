@@ -702,7 +702,11 @@
     }
   ],
   "socialProof": {
-    "signup": "Seseorang dari {country} baru saja mendaftar dengan {broker}",
+    "messages": [
+      "Seseorang dari {country} baru saja mendaftar dengan {broker}",
+      "Trader {broker} baru dari {country}",
+      "Trader dari {country} bergabung dengan {broker}"
+    ],
     "timeAgo": "{minutes} menit lalu"
   },
   "exnessAbout": {
