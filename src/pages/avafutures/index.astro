@@ -8,6 +8,7 @@ import TrustBadges from '../../components/TrustBadges.astro';
 import SEOSchema from '../../components/SEOSchema.astro';
 import BrokerCrossLinks from '../../components/BrokerCrossLinks.astro';
 import { avafutures } from '../../data/brokers';
+import { verificationDates, publishDate } from '../../data/freshness';
 
 const lang = 'en';
 const t = await import('../../data/translations/en.json');
@@ -51,6 +52,14 @@ const breadcrumbSchema = {
   <SEOSchema type="PartnerCode" data={partnerCodeSchema} />
   <SEOSchema type="FAQPage" data={faqSchema} />
   <SEOSchema type="BreadcrumbList" data={breadcrumbSchema} />
+  <SEOSchema type="WebPage" data={{
+    pageTitle: translations.meta.avafuturesTitle,
+    pageDescription: translations.meta.avafuturesDescription,
+    pageUrl: 'https://partnercode.org/avafutures/',
+    inLanguage: 'en',
+    datePublished: publishDate,
+    dateModified: verificationDates.avafutures
+  }} />
 
   <!-- Hero Section -->
   <section class="hero hero--broker">

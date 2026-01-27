@@ -8,6 +8,7 @@ import TrustBadges from '../../../components/TrustBadges.astro';
 import SEOSchema from '../../../components/SEOSchema.astro';
 import BrokerCrossLinks from '../../../components/BrokerCrossLinks.astro';
 import { avafutures } from '../../../data/brokers';
+import { verificationDates, publishDate } from '../../../data/freshness';
 import { languages, getNonEnglishLanguageCodes } from '../../../data/languages';
 
 export function getStaticPaths() {
@@ -71,6 +72,14 @@ const breadcrumbSchema = {
   <SEOSchema type="PartnerCode" data={partnerCodeSchema} />
   <SEOSchema type="FAQPage" data={faqSchema} />
   <SEOSchema type="BreadcrumbList" data={breadcrumbSchema} />
+  <SEOSchema type="WebPage" data={{
+    pageTitle: metaAvafutures.avafuturesTitle,
+    pageDescription: metaAvafutures.avafuturesDescription,
+    pageUrl: `https://partnercode.org/${lang}/avafutures/`,
+    inLanguage: lang,
+    datePublished: publishDate,
+    dateModified: verificationDates.avafutures
+  }} />
 
   <!-- Hero Section -->
   <section class="hero hero--broker">
