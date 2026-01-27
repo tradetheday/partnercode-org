@@ -317,6 +317,43 @@
     "available": "A AvaTrade esta disponivel na sua regiao.",
     "notAvailable": "A AvaTrade pode nao estar disponivel no seu pais. Verifique a disponibilidade antes de se cadastrar."
   },
+  "aboutPage": {
+    "title": "Sobre o PartnerCode.org",
+    "whatWeDo": {
+      "title": "O Que Fazemos",
+      "p1": "O PartnerCode.org existe por uma unica razao: ajudar traders a encontrar codigos de parceiro funcionais para corretoras confiaveis. Estavamos cansados de procurar codigos so para encontrar ofertas expiradas, bonus falsos ou corretoras duvidosas. Entao construimos algo melhor.",
+      "p2": "Cada codigo neste site foi testado por nos. Nos cadastramos, inserimos o codigo e verificamos se o bonus realmente funciona. Se um codigo parar de funcionar, nos o removemos. Simples assim."
+    },
+    "whyPartnerCodes": {
+      "title": "Por Que os Codigos de Parceiro Importam",
+      "p1": "Um codigo de parceiro e essencialmente um codigo de indicacao que te da um bonus de boas-vindas quando voce se cadastra em uma corretora. Esses bonus podem variar de alguns dolares a milhares, dependendo do tamanho do seu deposito. Os codigos nao custam nada extra e nao afetam suas condicoes de negociacao.",
+      "p2": "O problema? Existem inumeros sites promovendo codigos falsos para corretoras nao regulamentadas. Alguns codigos estao expirados. Outros nunca funcionaram. Nos filtramos esse ruido."
+    },
+    "standards": {
+      "title": "Nossos Padroes",
+      "intro": "So listamos corretoras que atendem a criterios especificos:",
+      "items": [
+        { "title": "Regulamentadas", "desc": "Cada corretora que apresentamos possui licencas de autoridades financeiras reconhecidas (FCA, ASIC, CySEC, etc.)" },
+        { "title": "Estabelecidas", "desc": "Nada de operacoes efemeras. Ficamos com corretoras com historicos comprovados" },
+        { "title": "Codigos verificados", "desc": "Testamos cada codigo nos mesmos antes de lista-lo" },
+        { "title": "Bonus reais", "desc": "Os termos do bonus devem ser razoaveis e realmente alcancaveis" }
+      ]
+    },
+    "brokers": {
+      "title": "As Corretoras Que Apresentamos",
+      "intro": "Por enquanto, focamos em um punhado de corretoras que verificamos pessoalmente:",
+      "items": [
+        { "name": "AvaTrade", "desc": "Corretora multi-regulamentada desde 2006, oferece bonus ate $10.000" },
+        { "name": "XM", "desc": "Opcao popular com bonus ate $10.500 e depositos minimos baixos" },
+        { "name": "AvaFutures", "desc": "Negociacao de futuros com integracao TradingView" },
+        { "name": "Exness", "desc": "Conhecida por spreads apertados e saques instantaneos" }
+      ]
+    },
+    "questions": {
+      "title": "Perguntas?",
+      "p1": "Se voce tem perguntas sobre um codigo ou corretora especifica, confira a secao FAQ na pagina de cada corretora. Tentamos cobrir as perguntas comuns la."
+    }
+  },
   "xmBonusTiers": {
     "title": "Niveis de Bonus de Boas-vindas XM",
     "deposit": "Valor do Deposito",

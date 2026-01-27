@@ -319,6 +319,43 @@
     "available": "AvaTrade ist in Ihrer Region verfügbar.",
     "notAvailable": "AvaTrade ist möglicherweise in Ihrem Land nicht verfügbar. Bitte überprüfen Sie die Verfügbarkeit vor der Anmeldung."
   },
+  "aboutPage": {
+    "title": "Über PartnerCode.org",
+    "whatWeDo": {
+      "title": "Was Wir Tun",
+      "p1": "PartnerCode.org existiert aus einem einzigen Grund: Tradern zu helfen, funktionierende Partner-Codes für seriöse Broker zu finden. Wir hatten es satt, nach Codes zu suchen und nur abgelaufene Angebote, gefälschte Boni oder dubiose Broker zu finden. Also haben wir etwas Besseres gebaut.",
+      "p2": "Jeder Code auf dieser Seite wurde von uns getestet. Wir melden uns an, geben den Code ein und überprüfen, ob der Bonus tatsächlich funktioniert. Wenn ein Code nicht mehr funktioniert, entfernen wir ihn. So einfach ist das."
+    },
+    "whyPartnerCodes": {
+      "title": "Warum Partner-Codes Wichtig Sind",
+      "p1": "Ein Partner-Code ist im Wesentlichen ein Empfehlungscode, der Ihnen einen Willkommensbonus gibt, wenn Sie sich bei einem Broker anmelden. Diese Boni können von wenigen Euro bis zu Tausenden reichen, abhängig von Ihrer Einzahlungshöhe. Die Codes kosten Sie nichts extra und beeinflussen Ihre Trading-Bedingungen nicht.",
+      "p2": "Der Haken? Es gibt unzählige Websites, die gefälschte Codes für unregulierte Broker bewerben. Einige Codes sind abgelaufen. Andere haben nie funktioniert. Wir filtern diesen Lärm heraus."
+    },
+    "standards": {
+      "title": "Unsere Standards",
+      "intro": "Wir listen nur Broker, die bestimmte Kriterien erfüllen:",
+      "items": [
+        { "title": "Reguliert", "desc": "Jeder Broker, den wir vorstellen, besitzt Lizenzen von anerkannten Finanzbehörden (FCA, ASIC, CySEC, etc.)" },
+        { "title": "Etabliert", "desc": "Keine kurzlebigen Operationen. Wir bleiben bei Brokern mit nachgewiesener Erfolgsbilanz" },
+        { "title": "Verifizierte Codes", "desc": "Wir testen jeden Code selbst, bevor wir ihn auflisten" },
+        { "title": "Echte Boni", "desc": "Die Bonusbedingungen müssen vernünftig und tatsächlich erreichbar sein" }
+      ]
+    },
+    "brokers": {
+      "title": "Die Broker, Die Wir Vorstellen",
+      "intro": "Derzeit konzentrieren wir uns auf eine Handvoll Broker, die wir persönlich geprüft haben:",
+      "items": [
+        { "name": "AvaTrade", "desc": "Multi-regulierter Broker seit 2006, bietet Boni bis zu 10.000 $" },
+        { "name": "XM", "desc": "Beliebte Wahl mit Boni bis zu 10.500 $ und niedrigen Mindesteinzahlungen" },
+        { "name": "AvaFutures", "desc": "Futures-Trading mit TradingView-Integration" },
+        { "name": "Exness", "desc": "Bekannt für enge Spreads und sofortige Auszahlungen" }
+      ]
+    },
+    "questions": {
+      "title": "Fragen?",
+      "p1": "Wenn Sie Fragen zu einem bestimmten Code oder Broker haben, schauen Sie sich den FAQ-Bereich auf der jeweiligen Broker-Seite an. Wir versuchen, die häufigen Fragen dort zu behandeln."
+    }
+  },
   "xmBonusTiers": {
     "title": "XM Willkommensbonus-Stufen",
     "deposit": "Einzahlungsbetrag",

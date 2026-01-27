@@ -317,6 +317,43 @@
     "available": "AvaTrade bolgenizde mevcuttur.",
     "notAvailable": "AvaTrade ulkenizde mevcut olmayabilir. Lutfen kaydolmadan once musaitligi dogrulayin."
   },
+  "aboutPage": {
+    "title": "PartnerCode.org Hakkinda",
+    "whatWeDo": {
+      "title": "Ne Yapiyoruz",
+      "p1": "PartnerCode.org tek bir nedenden dolayi var: yatirimcilara guvenilir brokerlar icin calisan partner kodlari bulmalarinda yardimci olmak. Kod aramaktan ve sadece suresi dolmus teklifler, sahte bonuslar veya suphelibrokerlara bulmaktan biktik. Bu yuzden daha iyi bir sey insa ettik.",
+      "p2": "Bu sitedeki her kod tarafimizdan test edilmistir. Kaydoluyoruz, kodu giriyoruz ve bonusun gercekten calistigini dogruluyoruz. Bir kod calismayı durdurursa, onu kaldiriyoruz. Bu kadar basit."
+    },
+    "whyPartnerCodes": {
+      "title": "Partner Kodlari Neden Onemli",
+      "p1": "Partner kodu esasen bir broker'a kaydoldugunuzda size hosgeldin bonusu veren bir yonlendirme kodudur. Bu bonuslar, yatirim miktariniza bagli olarak birkac dolardan binlercesine kadar degisebilir. Kodlar size ekstra bir maliyet getirmez ve islem kosullarinizi etkilemez.",
+      "p2": "Sorun ne? Duzenlenmemis brokerlar icin sahte kodlari taniyan sayisiz web sitesi var. Bazi kodlarin suresi dolmus. Digerleri hic calismadi. Biz bu gurultuyu filtreliyoruz."
+    },
+    "standards": {
+      "title": "Standartlarimiz",
+      "intro": "Sadece belirli kriterleri karsilayan brokerlari listeliyoruz:",
+      "items": [
+        { "title": "Duzenlenmis", "desc": "Sunduğumuz her broker, taninmis finansal otoritelerden (FCA, ASIC, CySEC, vb.) lisanslara sahiptir" },
+        { "title": "Koklu", "desc": "Gecici operasyonlar yok. Kanitlanmis gecmise sahip brokerlarla kaliyoruz" },
+        { "title": "Dogrulanmis kodlar", "desc": "Her kodu listelemeden once kendimiz test ediyoruz" },
+        { "title": "Gercek bonuslar", "desc": "Bonus kosullari makul ve gercekten ulasilabilir olmali" }
+      ]
+    },
+    "brokers": {
+      "title": "Sunduğumuz Brokerlar",
+      "intro": "Su anda kisisel olarak dogruladigimiz bir avuc brokera odaklaniyoruz:",
+      "items": [
+        { "name": "AvaTrade", "desc": "2006'dan beri coklu duzenlenmis broker, $10,000'a kadar bonus sunuyor" },
+        { "name": "XM", "desc": "$10,500'a kadar bonuslar ve dusuk minimum depozitolarla populer secim" },
+        { "name": "AvaFutures", "desc": "TradingView entegrasyonlu vadeli islem ticareti" },
+        { "name": "Exness", "desc": "Dar spreadler ve aninda cekim ile taninir" }
+      ]
+    },
+    "questions": {
+      "title": "Sorular?",
+      "p1": "Belirli bir kod veya broker hakkinda sorulariniz varsa, her broker sayfasindaki SSS bolumune bakin. Yaygin sorulari orada ele almaya calisiyoruz."
+    }
+  },
   "xmBonusTiers": {
     "title": "XM Hosgeldin Bonus Seviyeleri",
     "deposit": "Yatirim Miktari",

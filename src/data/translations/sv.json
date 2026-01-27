@@ -317,6 +317,43 @@
     "available": "AvaTrade ar tillganglig i din region.",
     "notAvailable": "AvaTrade kanske inte ar tillganglig i ditt land. Var vanlig verifiera tillgangligheten innan du registrerar dig."
   },
+  "aboutPage": {
+    "title": "Om PartnerCode.org",
+    "whatWeDo": {
+      "title": "Vad Vi Gor",
+      "p1": "PartnerCode.org finns av en enda anledning: att hjalpa handlare hitta fungerande partnerkoder for valrenommerade maklare. Vi var trotta pa att soka efter koder bara for att hitta utgangna erbjudanden, falska bonusar eller tvivelaktiga maklare. Sa vi byggde nagot battre.",
+      "p2": "Varje kod pa denna webbplats har testats av oss. Vi registrerar oss, anger koden och verifierar att bonusen faktiskt fungerar. Om en kod slutar fungera tar vi bort den. Sa enkelt ar det."
+    },
+    "whyPartnerCodes": {
+      "title": "Varfor Partnerkoder Ar Viktiga",
+      "p1": "En partnerkod ar i princip en hänvisningskod som ger dig en välkomstbonus när du registrerar dig hos en mäklare. Dessa bonusar kan variera från några få dollar till tusentals, beroende på din insättningsstorlek. Koderna kostar dig inget extra och påverkar inte dina handelsvillkor.",
+      "p2": "Problemet? Det finns otaliga webbplatser som marknadsför falska koder för oreglerade mäklare. Vissa koder är utgångna. Andra har aldrig fungerat. Vi filtrerar bort det bruset."
+    },
+    "standards": {
+      "title": "Våra Standarder",
+      "intro": "Vi listar endast mäklare som uppfyller specifika kriterier:",
+      "items": [
+        { "title": "Reglerade", "desc": "Varje mäklare vi presenterar har licenser från erkända finansiella myndigheter (FCA, ASIC, CySEC, etc.)" },
+        { "title": "Etablerade", "desc": "Inga tillfälliga verksamheter. Vi håller oss till mäklare med bevisade meritlistor" },
+        { "title": "Verifierade koder", "desc": "Vi testar varje kod själva innan vi listar den" },
+        { "title": "Riktiga bonusar", "desc": "Bonusvillkoren måste vara rimliga och faktiskt uppnåeliga" }
+      ]
+    },
+    "brokers": {
+      "title": "Mäklarna Vi Presenterar",
+      "intro": "Just nu fokuserar vi på en handfull mäklare som vi personligen har verifierat:",
+      "items": [
+        { "name": "AvaTrade", "desc": "Multireglerad mäklare sedan 2006, erbjuder bonusar upp till $10 000" },
+        { "name": "XM", "desc": "Populärt val med bonusar upp till $10 500 och låga minimiinsättningar" },
+        { "name": "AvaFutures", "desc": "Terminshandel med TradingView-integration" },
+        { "name": "Exness", "desc": "Känd för snäva spreadar och omedelbara uttag" }
+      ]
+    },
+    "questions": {
+      "title": "Frågor?",
+      "p1": "Om du har frågor om en specifik kod eller mäklare, kolla FAQ-sektionen på varje mäklarsida. Vi försöker täcka de vanliga frågorna där."
+    }
+  },
   "xmBonusTiers": {
     "title": "XM Valkomstbonus Nivaer",
     "deposit": "Insattningsbelopp",

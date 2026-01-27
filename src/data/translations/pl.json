@@ -318,6 +318,43 @@
     "available": "AvaTrade jest dostepny w Twoim regionie.",
     "notAvailable": "AvaTrade moze nie byc dostepny w Twoim kraju. Prosimy o sprawdzenie dostepnosci przed rejestracja."
   },
+  "aboutPage": {
+    "title": "O PartnerCode.org",
+    "whatWeDo": {
+      "title": "Co Robimy",
+      "p1": "PartnerCode.org istnieje z jednego powodu: pomagac traderom znalezc dzialajace kody partnerskie dla renomowanych brokerow. Mielismy dosc szukania kodow tylko po to, by znajdowac wygasle oferty, falszywe bonusy lub podejrzanych brokerow. Wiec zbudowalismy cos lepszego.",
+      "p2": "Kazdy kod na tej stronie zostal przez nas przetestowany. Rejestrujemy sie, wpisujemy kod i sprawdzamy, czy bonus naprawde dziala. Jesli kod przestaje dzialac, usuwamy go. To takie proste."
+    },
+    "whyPartnerCodes": {
+      "title": "Dlaczego Kody Partnerskie Sa Wazne",
+      "p1": "Kod partnerski to w zasadzie kod polecajacy, ktory daje ci bonus powitalny przy rejestracji u brokera. Te bonusy moga wahac sie od kilku dolarow do tysiecy, w zaleznosci od wielkosci twojego depozytu. Kody nic cie nie kosztuja i nie wplywaja na twoje warunki handlowe.",
+      "p2": "Problem? Istnieja niezliczone strony promujace falszywe kody dla nieregulowanych brokerow. Niektore kody sa wygasle. Inne nigdy nie dzialaly. My przebijamy sie przez ten szum."
+    },
+    "standards": {
+      "title": "Nasze Standardy",
+      "intro": "Wymieniamy tylko brokerow, ktorzy spelniaja okreslone kryteria:",
+      "items": [
+        { "title": "Regulowani", "desc": "Kazdy broker, ktorego prezentujemy, posiada licencje od uznanych organow finansowych (FCA, ASIC, CySEC, itp.)" },
+        { "title": "Ugruntowani", "desc": "Zadnych efemerycznych operacji. Trzymamy sie brokerow z udokumentowanymi osiagnieciami" },
+        { "title": "Zweryfikowane kody", "desc": "Testujemy kazdy kod sami przed umieszczeniem go na liscie" },
+        { "title": "Prawdziwe bonusy", "desc": "Warunki bonusu musza byc rozsadne i faktycznie osiagalne" }
+      ]
+    },
+    "brokers": {
+      "title": "Brokerzy, Ktorych Prezentujemy",
+      "intro": "Obecnie koncentrujemy sie na kilku brokerach, ktorych osobiscie zweryfikowalismy:",
+      "items": [
+        { "name": "AvaTrade", "desc": "Wielokrotnie regulowany broker od 2006 roku, oferuje bonusy do $10,000" },
+        { "name": "XM", "desc": "Popularny wybor z bonusami do $10,500 i niskimi minimalnymi depozytami" },
+        { "name": "AvaFutures", "desc": "Handel kontraktami futures z integracja TradingView" },
+        { "name": "Exness", "desc": "Znany z ciaslych spreadow i natychmiastowych wyplat" }
+      ]
+    },
+    "questions": {
+      "title": "Pytania?",
+      "p1": "Jesli masz pytania dotyczace konkretnego kodu lub brokera, sprawdz sekcje FAQ na stronie kazdego brokera. Staramysie tam odpowiedziec na czeste pytania."
+    }
+  },
   "xmBonusTiers": {
     "title": "Poziomy Bonusu Powitalnego XM",
     "deposit": "Kwota Depozytu",

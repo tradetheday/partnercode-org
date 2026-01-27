@@ -317,6 +317,43 @@
     "available": "AvaTrade er tilgangelig i din region.",
     "notAvailable": "AvaTrade er muligvis ikke tilgangelig i dit land. Verificer venligst tilgaengeligheden, for du tilmelder dig."
   },
+  "aboutPage": {
+    "title": "Om PartnerCode.org",
+    "whatWeDo": {
+      "title": "Hvad Vi Gor",
+      "p1": "PartnerCode.org eksisterer af en grund: at hjaelpe handlende med at finde fungerende partnerkoder til velrenommerede maeglere. Vi var traette af at soge efter koder kun for at finde udlobne tilbud, falske bonusser eller tvivlsomme maeglere. Sa vi byggede noget bedre.",
+      "p2": "Hver kode pa denne hjemmeside er testet af os. Vi tilmelder os, indtaster koden og verificerer, at bonussen faktisk virker. Hvis en kode holder op med at virke, fjerner vi den. Sa enkelt er det."
+    },
+    "whyPartnerCodes": {
+      "title": "Hvorfor Partnerkoder Er Vigtige",
+      "p1": "En partnerkode er i bund og grund en henvisningskode, der giver dig en velkomstbonus, nar du tilmelder dig hos en maegler. Disse bonusser kan variere fra nogle fa dollars til tusindvis, afhaengig af dit indskudsbelob. Koderne koster dig ikke noget ekstra og pavirker ikke dine handelsbetingelser.",
+      "p2": "Problemet? Der er utallige hjemmesider, der promoverer falske koder til uregulerede maeglere. Nogle koder er udlobet. Andre har aldrig virket. Vi filtrerer den stoj fra."
+    },
+    "standards": {
+      "title": "Vores Standarder",
+      "intro": "Vi lister kun maeglere, der opfylder specifikke kriterier:",
+      "items": [
+        { "title": "Regulerede", "desc": "Hver maegler, vi praesenterer, har licenser fra anerkendte finansielle myndigheder (FCA, ASIC, CySEC, osv.)" },
+        { "title": "Etablerede", "desc": "Ingen kortvarige operationer. Vi holder os til maeglere med dokumenterede resultater" },
+        { "title": "Verificerede koder", "desc": "Vi tester hver kode selv, for vi lister den" },
+        { "title": "Rigtige bonusser", "desc": "Bonusbetingelserne skal vaere rimelige og faktisk opnaelige" }
+      ]
+    },
+    "brokers": {
+      "title": "Maeglerne Vi Praesenterer",
+      "intro": "I ojeblikket fokuserer vi pa en handfuld maeglere, vi personligt har verificeret:",
+      "items": [
+        { "name": "AvaTrade", "desc": "Multireguleret maegler siden 2006, tilbyder bonusser op til $10.000" },
+        { "name": "XM", "desc": "Populaert valg med bonusser op til $10.500 og lave minimumsindskud" },
+        { "name": "AvaFutures", "desc": "Futures-handel med TradingView-integration" },
+        { "name": "Exness", "desc": "Kendt for strappe spreads og ojeblikkeligt udbetaling" }
+      ]
+    },
+    "questions": {
+      "title": "Sporgsmal?",
+      "p1": "Hvis du har sporgsmal om en specifik kode eller maegler, tjek FAQ-sektionen pa hver maeglerside. Vi proever at daekke de almindelige sporgsmal der."
+    }
+  },
   "xmBonusTiers": {
     "title": "XM Velkomstbonus Niveauer",
     "deposit": "Indbetalingsbelob",

@@ -319,6 +319,43 @@
     "available": "AvaTrade esta disponible en tu region.",
     "notAvailable": "AvaTrade puede no estar disponible en tu pais. Por favor verifica la disponibilidad antes de registrarte."
   },
+  "aboutPage": {
+    "title": "Acerca de PartnerCode.org",
+    "whatWeDo": {
+      "title": "Lo Que Hacemos",
+      "p1": "PartnerCode.org existe por una sola razon: ayudar a los traders a encontrar codigos de socio funcionales para brokers de confianza. Nos cansamos de buscar codigos solo para encontrar ofertas expiradas, bonos falsos o brokers sospechosos. Asi que construimos algo mejor.",
+      "p2": "Cada codigo en este sitio ha sido probado por nosotros. Nos registramos, ingresamos el codigo y verificamos que el bono realmente funcione. Si un codigo deja de funcionar, lo eliminamos. Asi de simple."
+    },
+    "whyPartnerCodes": {
+      "title": "Por Que Importan los Codigos de Socio",
+      "p1": "Un codigo de socio es esencialmente un codigo de referido que te da un bono de bienvenida cuando te registras con un broker. Estos bonos pueden ir desde unos pocos dolares hasta miles, dependiendo del tamaño de tu deposito. Los codigos no te cuestan nada extra y no afectan tus condiciones de trading.",
+      "p2": "El problema? Hay innumerables sitios web promoviendo codigos falsos para brokers no regulados. Algunos codigos estan expirados. Otros nunca funcionaron. Nosotros filtramos ese ruido."
+    },
+    "standards": {
+      "title": "Nuestros Estandares",
+      "intro": "Solo listamos brokers que cumplen criterios especificos:",
+      "items": [
+        { "title": "Regulados", "desc": "Cada broker que presentamos tiene licencias de autoridades financieras reconocidas (FCA, ASIC, CySEC, etc.)" },
+        { "title": "Establecidos", "desc": "Nada de operaciones efimeras. Nos quedamos con brokers con trayectorias probadas" },
+        { "title": "Codigos verificados", "desc": "Probamos cada codigo nosotros mismos antes de listarlo" },
+        { "title": "Bonos reales", "desc": "Los terminos del bono deben ser razonables y realmente alcanzables" }
+      ]
+    },
+    "brokers": {
+      "title": "Los Brokers Que Presentamos",
+      "intro": "Por ahora nos enfocamos en un puñado de brokers que hemos verificado personalmente:",
+      "items": [
+        { "name": "AvaTrade", "desc": "Broker multi-regulado desde 2006, ofrece bonos hasta $10,000" },
+        { "name": "XM", "desc": "Opcion popular con bonos hasta $10,500 y depositos minimos bajos" },
+        { "name": "AvaFutures", "desc": "Trading de futuros con integracion TradingView" },
+        { "name": "Exness", "desc": "Conocido por spreads ajustados y retiros instantaneos" }
+      ]
+    },
+    "questions": {
+      "title": "Preguntas?",
+      "p1": "Si tienes preguntas sobre un codigo o broker especifico, revisa la seccion de FAQ en la pagina de cada broker. Intentamos cubrir las preguntas comunes ahi."
+    }
+  },
   "xmBonusTiers": {
     "title": "Niveles de Bono de Bienvenida XM",
     "deposit": "Monto de Deposito",

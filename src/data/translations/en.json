@@ -304,6 +304,43 @@
     "available": "AvaTrade is available in your region.",
     "notAvailable": "AvaTrade may not be available in your country. Please verify availability before signing up."
   },
+  "aboutPage": {
+    "title": "About PartnerCode.org",
+    "whatWeDo": {
+      "title": "What We Do",
+      "p1": "PartnerCode.org exists for one reason: to help traders find working partner codes for reputable brokers. We got tired of searching for codes only to find expired offers, fake bonuses, or shady brokers. So we built something better.",
+      "p2": "Every code on this site has been tested by us. We sign up, enter the code, and verify the bonus actually works. If a code stops working, we remove it. Simple as that."
+    },
+    "whyPartnerCodes": {
+      "title": "Why Partner Codes Matter",
+      "p1": "A partner code is essentially a referral code that gives you a welcome bonus when you sign up with a broker. These bonuses can range from a few dollars to thousands, depending on your deposit size. The codes don't cost you anything extra and don't affect your trading conditions.",
+      "p2": "The catch? There are countless websites promoting fake codes for unregulated brokers. Some codes are expired. Others never worked in the first place. We cut through that noise."
+    },
+    "standards": {
+      "title": "Our Standards",
+      "intro": "We only list brokers that meet specific criteria:",
+      "items": [
+        { "title": "Regulated", "desc": "Every broker we feature holds licenses from recognized financial authorities (FCA, ASIC, CySEC, etc.)" },
+        { "title": "Established", "desc": "No fly-by-night operations. We stick to brokers with proven track records" },
+        { "title": "Verified codes", "desc": "We test each code ourselves before listing it" },
+        { "title": "Real bonuses", "desc": "The bonus terms must be reasonable and actually achievable" }
+      ]
+    },
+    "brokers": {
+      "title": "The Brokers We Feature",
+      "intro": "Right now we focus on a handful of brokers we've personally vetted:",
+      "items": [
+        { "name": "AvaTrade", "desc": "Multi-regulated broker since 2006, offers bonuses up to $10,000" },
+        { "name": "XM", "desc": "Popular choice with bonuses up to $10,500 and low minimum deposits" },
+        { "name": "AvaFutures", "desc": "Futures trading with TradingView integration" },
+        { "name": "Exness", "desc": "Known for tight spreads and instant withdrawals" }
+      ]
+    },
+    "questions": {
+      "title": "Questions?",
+      "p1": "If you have questions about a specific code or broker, check the FAQ section on each broker's page. We try to cover the common questions there."
+    }
+  },
   "xmBonusTiers": {
     "title": "XM Welcome Bonus Tiers",
     "deposit": "Deposit Amount",

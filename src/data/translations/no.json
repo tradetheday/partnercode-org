@@ -317,6 +317,43 @@
     "available": "AvaTrade er tilgjengelig i din region.",
     "notAvailable": "AvaTrade er kanskje ikke tilgjengelig i ditt land. Vennligst verifiser tilgjengeligheten for du registrerer deg."
   },
+  "aboutPage": {
+    "title": "Om PartnerCode.org",
+    "whatWeDo": {
+      "title": "Hva Vi Gjor",
+      "p1": "PartnerCode.org eksisterer av en grunn: a hjelpe tradere med a finne fungerende partnerkoder for anerkjente meglere. Vi var lei av a soke etter koder bare for a finne utgatte tilbud, falske bonuser eller tvilsomme meglere. Sa vi bygde noe bedre.",
+      "p2": "Hver kode pa dette nettstedet er testet av oss. Vi registrerer oss, legger inn koden og verifiserer at bonusen faktisk fungerer. Hvis en kode slutter a fungere, fjerner vi den. Sa enkelt er det."
+    },
+    "whyPartnerCodes": {
+      "title": "Hvorfor Partnerkoder Er Viktige",
+      "p1": "En partnerkode er i bunn og grunn en henvisningskode som gir deg en velkomstbonus nar du registrerer deg hos en megler. Disse bonusene kan variere fra noen fa dollar til tusenvis, avhengig av innskuddsbelopet ditt. Kodene koster deg ikke noe ekstra og pavirker ikke handelsvilkarene dine.",
+      "p2": "Problemet? Det finnes utallige nettsteder som promoterer falske koder for uregulerte meglere. Noen koder er utgatt. Andre har aldri fungert. Vi filtrerer bort den stoyen."
+    },
+    "standards": {
+      "title": "Vare Standarder",
+      "intro": "Vi lister kun meglere som oppfyller spesifikke kriterier:",
+      "items": [
+        { "title": "Regulerte", "desc": "Hver megler vi presenterer har lisenser fra anerkjente finansmyndigheter (FCA, ASIC, CySEC, osv.)" },
+        { "title": "Etablerte", "desc": "Ingen kortvarige operasjoner. Vi holder oss til meglere med dokumenterte resultater" },
+        { "title": "Verifiserte koder", "desc": "Vi tester hver kode selv for vi lister den" },
+        { "title": "Ekte bonuser", "desc": "Bonusvilkarene ma vare rimelige og faktisk oppnaelige" }
+      ]
+    },
+    "brokers": {
+      "title": "Meglerne Vi Presenterer",
+      "intro": "For oyeblikket fokuserer vi pa en håndfull meglere vi personlig har verifisert:",
+      "items": [
+        { "name": "AvaTrade", "desc": "Multiregulert megler siden 2006, tilbyr bonuser opp til $10 000" },
+        { "name": "XM", "desc": "Populært valg med bonuser opp til $10 500 og lave minimumsinnskudd" },
+        { "name": "AvaFutures", "desc": "Futures-handel med TradingView-integrasjon" },
+        { "name": "Exness", "desc": "Kjent for stramme spreader og umiddelbare uttak" }
+      ]
+    },
+    "questions": {
+      "title": "Sporsmal?",
+      "p1": "Hvis du har sporsmal om en spesifikk kode eller megler, sjekk FAQ-seksjonen pa hver meglerside. Vi proever a dekke de vanlige sporsmalene der."
+    }
+  },
   "xmBonusTiers": {
     "title": "XM Velkomstbonus Nivaer",
     "deposit": "Innskuddsbelop",

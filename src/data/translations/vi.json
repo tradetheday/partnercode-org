@@ -317,6 +317,43 @@
     "available": "AvaTrade co san tai khu vuc cua ban.",
     "notAvailable": "AvaTrade co the khong co san tai quoc gia cua ban. Vui long xac minh truoc khi dang ky."
   },
+  "aboutPage": {
+    "title": "Ve PartnerCode.org",
+    "whatWeDo": {
+      "title": "Chung Toi Lam Gi",
+      "p1": "PartnerCode.org ton tai vi mot ly do duy nhat: giup cac nha giao dich tim ma doi tac hoat dong cho cac san moi gioi uy tin. Chung toi da chan tim kiem ma chi de tim thay cac uu dai het han, tien thuong gia hoac cac san moi gioi dang ngo. Vi vay chung toi da xay dung mot thu tot hon.",
+      "p2": "Moi ma tren trang web nay da duoc chung toi kiem tra. Chung toi dang ky, nhap ma va xac minh rang tien thuong thuc su hoat dong. Neu ma ngung hoat dong, chung toi se xoa no. Don gian nhu vay."
+    },
+    "whyPartnerCodes": {
+      "title": "Tai Sao Ma Doi Tac Quan Trong",
+      "p1": "Ma doi tac ve co ban la ma gioi thieu cung cap cho ban tien thuong chao mung khi ban dang ky voi mot san moi gioi. Nhung khoan tien thuong nay co the tu vai do la den hang ngan, tuy thuoc vao so tien nap cua ban. Ma khong ton them chi phi va khong anh huong den dieu kien giao dich cua ban.",
+      "p2": "Van de la gi? Co vo so trang web quang cao ma gia cho cac san moi gioi khong duoc quan ly. Mot so ma da het han. Nhung ma khac chua bao gio hoat dong. Chung toi loc bo nhung tieng on do."
+    },
+    "standards": {
+      "title": "Tieu Chuan Cua Chung Toi",
+      "intro": "Chung toi chi liet ke cac san moi gioi dap ung cac tieu chi cu the:",
+      "items": [
+        { "title": "Duoc quan ly", "desc": "Moi san moi gioi ma chung toi gioi thieu deu co giay phep tu cac co quan tai chinh duoc cong nhan (FCA, ASIC, CySEC, v.v.)" },
+        { "title": "Da duoc thiet lap", "desc": "Khong co hoat dong tam thoi. Chung toi chi chon cac san moi gioi co thanh tich da duoc chung minh" },
+        { "title": "Ma da xac minh", "desc": "Chung toi tu kiem tra moi ma truoc khi liet ke" },
+        { "title": "Tien thuong thuc", "desc": "Dieu khoan tien thuong phai hop ly va thuc su co the dat duoc" }
+      ]
+    },
+    "brokers": {
+      "title": "Cac San Moi Gioi Chung Toi Gioi Thieu",
+      "intro": "Hien tai chung toi tap trung vao mot so san moi gioi ma chung toi da ca nhan xac minh:",
+      "items": [
+        { "name": "AvaTrade", "desc": "San moi gioi da quan ly tu 2006, cung cap tien thuong len den $10,000" },
+        { "name": "XM", "desc": "Lua chon pho bien voi tien thuong len den $10,500 va nap toi thieu thap" },
+        { "name": "AvaFutures", "desc": "Giao dich hop dong tuong lai voi tich hop TradingView" },
+        { "name": "Exness", "desc": "Noi tieng voi spread thap va rut tien ngay lap tuc" }
+      ]
+    },
+    "questions": {
+      "title": "Cau Hoi?",
+      "p1": "Neu ban co cau hoi ve mot ma hoac san moi gioi cu the, hay kiem tra phan FAQ tren trang cua moi san moi gioi. Chung toi co gang bao quat cac cau hoi pho bien o do."
+    }
+  },
   "xmBonusTiers": {
     "title": "Cap Do Thuong Chao Mung XM",
     "deposit": "So Tien Nap",

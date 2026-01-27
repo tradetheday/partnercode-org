@@ -317,6 +317,43 @@
     "available": "AvaTrade tersedia di wilayah Anda.",
     "notAvailable": "AvaTrade mungkin tidak tersedia di negara Anda. Silakan verifikasi ketersediaan sebelum mendaftar."
   },
+  "aboutPage": {
+    "title": "Tentang PartnerCode.org",
+    "whatWeDo": {
+      "title": "Apa Yang Kami Lakukan",
+      "p1": "PartnerCode.org ada karena satu alasan: membantu trader menemukan kode partner yang berfungsi untuk broker terpercaya. Kami bosan mencari kode hanya untuk menemukan penawaran kedaluwarsa, bonus palsu, atau broker yang meragukan. Jadi kami membangun sesuatu yang lebih baik.",
+      "p2": "Setiap kode di situs ini telah diuji oleh kami. Kami mendaftar, memasukkan kode, dan memverifikasi bahwa bonus benar-benar berfungsi. Jika kode berhenti berfungsi, kami menghapusnya. Sesederhana itu."
+    },
+    "whyPartnerCodes": {
+      "title": "Mengapa Kode Partner Penting",
+      "p1": "Kode partner pada dasarnya adalah kode referral yang memberi Anda bonus selamat datang saat mendaftar di broker. Bonus ini bisa berkisar dari beberapa dolar hingga ribuan, tergantung pada jumlah deposit Anda. Kode tidak memerlukan biaya tambahan dan tidak memengaruhi kondisi trading Anda.",
+      "p2": "Masalahnya? Ada banyak sekali situs web yang mempromosikan kode palsu untuk broker yang tidak teregulasi. Beberapa kode sudah kedaluwarsa. Yang lain tidak pernah berfungsi. Kami menyaring kebisingan itu."
+    },
+    "standards": {
+      "title": "Standar Kami",
+      "intro": "Kami hanya mencantumkan broker yang memenuhi kriteria tertentu:",
+      "items": [
+        { "title": "Teregulasi", "desc": "Setiap broker yang kami tampilkan memiliki lisensi dari otoritas keuangan yang diakui (FCA, ASIC, CySEC, dll.)" },
+        { "title": "Mapan", "desc": "Tidak ada operasi yang sebentar saja. Kami tetap dengan broker yang memiliki rekam jejak terbukti" },
+        { "title": "Kode terverifikasi", "desc": "Kami menguji setiap kode sendiri sebelum mencantumkannya" },
+        { "title": "Bonus nyata", "desc": "Ketentuan bonus harus masuk akal dan benar-benar dapat dicapai" }
+      ]
+    },
+    "brokers": {
+      "title": "Broker Yang Kami Tampilkan",
+      "intro": "Saat ini kami fokus pada beberapa broker yang telah kami verifikasi secara pribadi:",
+      "items": [
+        { "name": "AvaTrade", "desc": "Broker multi-regulasi sejak 2006, menawarkan bonus hingga $10.000" },
+        { "name": "XM", "desc": "Pilihan populer dengan bonus hingga $10.500 dan deposit minimum rendah" },
+        { "name": "AvaFutures", "desc": "Trading futures dengan integrasi TradingView" },
+        { "name": "Exness", "desc": "Dikenal dengan spread ketat dan penarikan instan" }
+      ]
+    },
+    "questions": {
+      "title": "Pertanyaan?",
+      "p1": "Jika Anda memiliki pertanyaan tentang kode atau broker tertentu, periksa bagian FAQ di halaman setiap broker. Kami mencoba mencakup pertanyaan umum di sana."
+    }
+  },
   "xmBonusTiers": {
     "title": "Tingkat Bonus Selamat Datang XM",
     "deposit": "Jumlah Deposit",

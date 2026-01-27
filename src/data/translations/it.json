@@ -319,6 +319,43 @@
     "available": "AvaTrade e disponibile nella tua regione.",
     "notAvailable": "AvaTrade potrebbe non essere disponibile nel tuo paese. Per favore verifica la disponibilita prima di registrarti."
   },
+  "aboutPage": {
+    "title": "Chi Siamo - PartnerCode.org",
+    "whatWeDo": {
+      "title": "Cosa Facciamo",
+      "p1": "PartnerCode.org esiste per un solo motivo: aiutare i trader a trovare codici partner funzionanti per broker affidabili. Eravamo stanchi di cercare codici per trovare solo offerte scadute, bonus falsi o broker loschi. Cosi abbiamo costruito qualcosa di meglio.",
+      "p2": "Ogni codice su questo sito e stato testato da noi. Ci registriamo, inseriamo il codice e verifichiamo che il bonus funzioni davvero. Se un codice smette di funzionare, lo rimuoviamo. Semplice cosi."
+    },
+    "whyPartnerCodes": {
+      "title": "Perche i Codici Partner Sono Importanti",
+      "p1": "Un codice partner e essenzialmente un codice di riferimento che ti da un bonus di benvenuto quando ti registri con un broker. Questi bonus possono variare da pochi euro a migliaia, a seconda dell'importo del tuo deposito. I codici non ti costano nulla in piu e non influenzano le tue condizioni di trading.",
+      "p2": "Il problema? Ci sono innumerevoli siti web che promuovono codici falsi per broker non regolamentati. Alcuni codici sono scaduti. Altri non hanno mai funzionato. Noi filtriamo tutto questo rumore."
+    },
+    "standards": {
+      "title": "I Nostri Standard",
+      "intro": "Elenchiamo solo broker che soddisfano criteri specifici:",
+      "items": [
+        { "title": "Regolamentati", "desc": "Ogni broker che presentiamo possiede licenze da autorita finanziarie riconosciute (FCA, ASIC, CySEC, ecc.)" },
+        { "title": "Consolidati", "desc": "Niente operazioni effimere. Ci atteniamo a broker con track record comprovati" },
+        { "title": "Codici verificati", "desc": "Testiamo ogni codice noi stessi prima di elencarlo" },
+        { "title": "Bonus reali", "desc": "I termini del bonus devono essere ragionevoli e realmente raggiungibili" }
+      ]
+    },
+    "brokers": {
+      "title": "I Broker Che Presentiamo",
+      "intro": "Al momento ci concentriamo su una manciata di broker che abbiamo verificato personalmente:",
+      "items": [
+        { "name": "AvaTrade", "desc": "Broker multi-regolamentato dal 2006, offre bonus fino a $10.000" },
+        { "name": "XM", "desc": "Scelta popolare con bonus fino a $10.500 e depositi minimi bassi" },
+        { "name": "AvaFutures", "desc": "Trading di futures con integrazione TradingView" },
+        { "name": "Exness", "desc": "Conosciuto per spread stretti e prelievi istantanei" }
+      ]
+    },
+    "questions": {
+      "title": "Domande?",
+      "p1": "Se hai domande su un codice o broker specifico, controlla la sezione FAQ sulla pagina di ogni broker. Cerchiamo di coprire le domande comuni li."
+    }
+  },
   "xmBonusTiers": {
     "title": "Livelli Bonus di Benvenuto XM",
     "deposit": "Importo Deposito",

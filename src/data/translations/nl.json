@@ -317,6 +317,43 @@
     "available": "AvaTrade is beschikbaar in jouw regio.",
     "notAvailable": "AvaTrade is mogelijk niet beschikbaar in jouw land. Controleer de beschikbaarheid voordat je je aanmeldt."
   },
+  "aboutPage": {
+    "title": "Over PartnerCode.org",
+    "whatWeDo": {
+      "title": "Wat We Doen",
+      "p1": "PartnerCode.org bestaat om een reden: traders helpen werkende partnercodes te vinden voor gerenommeerde brokers. We waren het zat om naar codes te zoeken en alleen verlopen aanbiedingen, nepbonussen of louche brokers te vinden. Dus hebben we iets beters gebouwd.",
+      "p2": "Elke code op deze site is door ons getest. We melden ons aan, voeren de code in en controleren of de bonus echt werkt. Als een code stopt met werken, verwijderen we hem. Zo simpel is het."
+    },
+    "whyPartnerCodes": {
+      "title": "Waarom Partnercodes Belangrijk Zijn",
+      "p1": "Een partnercode is in wezen een verwijzingscode die je een welkomstbonus geeft wanneer je je aanmeldt bij een broker. Deze bonussen kunnen varieren van enkele euro's tot duizenden, afhankelijk van je stortingsbedrag. De codes kosten je niets extra en beinvloeden je handelsvoorwaarden niet.",
+      "p2": "Het probleem? Er zijn talloze websites die nepcodes promoten voor ongereguleerde brokers. Sommige codes zijn verlopen. Andere hebben nooit gewerkt. Wij filteren die ruis eruit."
+    },
+    "standards": {
+      "title": "Onze Standaarden",
+      "intro": "We vermelden alleen brokers die aan specifieke criteria voldoen:",
+      "items": [
+        { "title": "Gereguleerd", "desc": "Elke broker die we presenteren heeft licenties van erkende financiele autoriteiten (FCA, ASIC, CySEC, etc.)" },
+        { "title": "Gevestigd", "desc": "Geen vluchtige operaties. We houden het bij brokers met bewezen trackrecords" },
+        { "title": "Geverifieerde codes", "desc": "We testen elke code zelf voordat we hem vermelden" },
+        { "title": "Echte bonussen", "desc": "De bonusvoorwaarden moeten redelijk en daadwerkelijk haalbaar zijn" }
+      ]
+    },
+    "brokers": {
+      "title": "De Brokers Die We Presenteren",
+      "intro": "Momenteel richten we ons op een handvol brokers die we persoonlijk hebben gecontroleerd:",
+      "items": [
+        { "name": "AvaTrade", "desc": "Multi-gereguleerde broker sinds 2006, biedt bonussen tot $10.000" },
+        { "name": "XM", "desc": "Populaire keuze met bonussen tot $10.500 en lage minimale stortingen" },
+        { "name": "AvaFutures", "desc": "Futures trading met TradingView integratie" },
+        { "name": "Exness", "desc": "Bekend om strakke spreads en directe opnames" }
+      ]
+    },
+    "questions": {
+      "title": "Vragen?",
+      "p1": "Als je vragen hebt over een specifieke code of broker, bekijk dan de FAQ-sectie op de pagina van elke broker. We proberen de veelgestelde vragen daar te behandelen."
+    }
+  },
   "xmBonusTiers": {
     "title": "XM Welkomstbonus Niveaus",
     "deposit": "Stortingsbedrag",
