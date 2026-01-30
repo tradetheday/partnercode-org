@@ -3,7 +3,7 @@
     "homeTitle": "Codes Partenaires - Bonus de Bienvenue Courtiers 2026",
     "homeDescription": "Codes partenaires fonctionnels pour AvaTrade, XM, AvaFutures, Exness. Jusqu'a 14 000 $ de bonus. Tous les codes verifies janvier 2026.",
     "avatradeTitle": "Code Partenaire AvaTrade 128979 - Bonus de Bienvenue 2026",
-    "avatradeDescription": "Le code partenaire AvaTrade 128979 vous donne jusqu'a 14 000 $ de bonus. Verifie janvier 2026. Entrez le code lors de l'inscription.",
+    "avatradeDescription": "Saisissez le code partenaire AvaTrade 128979 lors de votre inscription pour obtenir jusqu'à 14 000 $ de bonus. Vérifié en janvier 2026.",
     "avafuturesTitle": "Code Partenaire AvaFutures 128979 - Bonus Trading Futures 2026",
     "avafuturesDescription": "Code partenaire AvaFutures 128979 pour un bonus jusqu'a 10 000 $. Tradez les futures sur TradingView. Fonctionne en Espagne ou les CFD sont interdits.",
     "xmTitle": "Code Partenaire XM QK44F - 30 $ Gratuits + 100% Bonus 2026",
@@ -176,14 +176,45 @@
     "deposit": "Montant du Depot",
     "bonus": "Bonus de Bienvenue",
     "tiers": [
-      { "min": "$1,000", "max": "$1,999", "bonus": "$200" },
-      { "min": "$2,000", "max": "$2,999", "bonus": "$400" },
-      { "min": "$3,000", "max": "$4,999", "bonus": "$600" },
-      { "min": "$5,000", "max": "$9,999", "bonus": "$1,000" },
-      { "min": "$10,000", "max": "$19,999", "bonus": "$2,000" },
-      { "min": "$20,000", "max": "$49,999", "bonus": "$4,000" },
-      { "min": "$50,000", "max": "$99,999", "bonus": "$10,000" },
-      { "min": "$100,000", "bonus": "Contacter le Courtier" }
+      {
+        "min": "$1,000",
+        "max": "$1,999",
+        "bonus": "$200"
+      },
+      {
+        "min": "$2,000",
+        "max": "$2,999",
+        "bonus": "$400"
+      },
+      {
+        "min": "$3,000",
+        "max": "$4,999",
+        "bonus": "$600"
+      },
+      {
+        "min": "$5,000",
+        "max": "$9,999",
+        "bonus": "$1,000"
+      },
+      {
+        "min": "$10,000",
+        "max": "$19,999",
+        "bonus": "$2,000"
+      },
+      {
+        "min": "$20,000",
+        "max": "$49,999",
+        "bonus": "$4,000"
+      },
+      {
+        "min": "$50,000",
+        "max": "$99,999",
+        "bonus": "$10,000"
+      },
+      {
+        "min": "$100,000",
+        "bonus": "Contacter le Courtier"
+      }
     ]
   },
   "howTo": {
@@ -313,7 +344,9 @@
     "whatIsPartnerCode": "Qu'est-ce qu'un Code Partenaire?",
     "disclaimer": "Avertissement sur les Risques: Le trading de CFD, forex et crypto peut vous faire perdre de l'argent. Ne tradez pas avec plus que ce que vous pouvez vous permettre de perdre. Demandez conseil a un professionnel independant si vous n'etes pas sur. Les codes partenaires donnent des bonus mais ne changent pas les conditions de trading.",
     "affiliate": "Divulgation d'Affiliation: Nous pouvons etre remuneres lorsque vous vous inscrivez via nos liens. Cela ne change pas vos bonus ni nos recommandations.",
-    "rights": "Tous droits reserves."
+    "rights": "Tous droits reserves.",
+    "privacy": "Politique de Confidentialité",
+    "riskWarning": "Avertissement sur les Risques"
   },
   "availability": {
     "available": "AvaTrade est disponible dans votre region.",
@@ -335,20 +368,44 @@
       "title": "Nos Standards",
       "intro": "Nous ne listons que les courtiers qui repondent a des criteres specifiques:",
       "items": [
-        { "title": "Reglementes", "desc": "Chaque courtier que nous presentons detient des licences d'autorites financieres reconnues (FCA, ASIC, CySEC, etc.)" },
-        { "title": "Etablis", "desc": "Pas d'operations ephemeres. Nous nous en tenons aux courtiers avec des historiques prouves" },
-        { "title": "Codes verifies", "desc": "Nous testons chaque code nous-memes avant de le lister" },
-        { "title": "Vrais bonus", "desc": "Les conditions de bonus doivent etre raisonnables et reellement realisables" }
+        {
+          "title": "Reglementes",
+          "desc": "Chaque courtier que nous presentons detient des licences d'autorites financieres reconnues (FCA, ASIC, CySEC, etc.)"
+        },
+        {
+          "title": "Etablis",
+          "desc": "Pas d'operations ephemeres. Nous nous en tenons aux courtiers avec des historiques prouves"
+        },
+        {
+          "title": "Codes verifies",
+          "desc": "Nous testons chaque code nous-memes avant de le lister"
+        },
+        {
+          "title": "Vrais bonus",
+          "desc": "Les conditions de bonus doivent etre raisonnables et reellement realisables"
+        }
       ]
     },
     "brokers": {
       "title": "Les Courtiers Que Nous Presentons",
       "intro": "Pour l'instant, nous nous concentrons sur une poignee de courtiers que nous avons personnellement verifies:",
       "items": [
-        { "name": "AvaTrade", "desc": "Courtier multi-reglemente depuis 2006, offre des bonus jusqu'a 10 000 $" },
-        { "name": "XM", "desc": "Choix populaire avec des bonus jusqu'a 10 500 $ et des depots minimums bas" },
-        { "name": "AvaFutures", "desc": "Trading de futures avec integration TradingView" },
-        { "name": "Exness", "desc": "Connu pour ses spreads serres et ses retraits instantanes" }
+        {
+          "name": "AvaTrade",
+          "desc": "Courtier multi-reglemente depuis 2006, offre des bonus jusqu'a 10 000 $"
+        },
+        {
+          "name": "XM",
+          "desc": "Choix populaire avec des bonus jusqu'a 10 500 $ et des depots minimums bas"
+        },
+        {
+          "name": "AvaFutures",
+          "desc": "Trading de futures avec integration TradingView"
+        },
+        {
+          "name": "Exness",
+          "desc": "Connu pour ses spreads serres et ses retraits instantanes"
+        }
       ]
     },
     "questions": {
@@ -361,9 +418,20 @@
     "deposit": "Montant du Depot",
     "bonus": "Bonus",
     "tiers": [
-      { "min": "$5", "max": "$500", "bonus": "100% (jusqu'a $500)" },
-      { "min": "$501", "max": "$5,000", "bonus": "50% (jusqu'a $2,500)" },
-      { "min": "$5,001", "bonus": "20% (jusqu'a $10,600)" }
+      {
+        "min": "$5",
+        "max": "$500",
+        "bonus": "100% (jusqu'a $500)"
+      },
+      {
+        "min": "$501",
+        "max": "$5,000",
+        "bonus": "50% (jusqu'a $2,500)"
+      },
+      {
+        "min": "$5,001",
+        "bonus": "20% (jusqu'a $10,600)"
+      }
     ],
     "noDeposit": {
       "title": "Bonus de 30 $ Sans Depot",
@@ -502,14 +570,45 @@
     "deposit": "Montant du Depot",
     "bonus": "Bonus de Bienvenue",
     "tiers": [
-      { "min": "$1,000", "max": "$1,999", "bonus": "$200" },
-      { "min": "$2,000", "max": "$2,999", "bonus": "$400" },
-      { "min": "$3,000", "max": "$4,999", "bonus": "$600" },
-      { "min": "$5,000", "max": "$9,999", "bonus": "$1,000" },
-      { "min": "$10,000", "max": "$19,999", "bonus": "$2,000" },
-      { "min": "$20,000", "max": "$49,999", "bonus": "$4,000" },
-      { "min": "$50,000", "max": "$99,999", "bonus": "$10,000" },
-      { "min": "$100,000", "bonus": "Contacter le Courtier" }
+      {
+        "min": "$1,000",
+        "max": "$1,999",
+        "bonus": "$200"
+      },
+      {
+        "min": "$2,000",
+        "max": "$2,999",
+        "bonus": "$400"
+      },
+      {
+        "min": "$3,000",
+        "max": "$4,999",
+        "bonus": "$600"
+      },
+      {
+        "min": "$5,000",
+        "max": "$9,999",
+        "bonus": "$1,000"
+      },
+      {
+        "min": "$10,000",
+        "max": "$19,999",
+        "bonus": "$2,000"
+      },
+      {
+        "min": "$20,000",
+        "max": "$49,999",
+        "bonus": "$4,000"
+      },
+      {
+        "min": "$50,000",
+        "max": "$99,999",
+        "bonus": "$10,000"
+      },
+      {
+        "min": "$100,000",
+        "bonus": "Contacter le Courtier"
+      }
     ]
   },
   "avafuturesHowTo": {
@@ -730,6 +829,289 @@
       "instrumentsValue": "100+",
       "volume": "Volume Mensuel",
       "volumeValue": "$4T+"
+    }
+  },
+  "privacyPage": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : Janvier 2025",
+    "shortVersion": {
+      "title": "La Version Courte",
+      "content": "Nous collectons un minimum de données, ne vendons vos informations à personne et utilisons les cookies uniquement pour les fonctionnalités de base du site et les analyses. Si vous cliquez vers un courtier, sa politique de confidentialité s'applique."
+    },
+    "whatWeCollect": {
+      "title": "Ce Que Nous Collectons",
+      "autoCollect": {
+        "title": "Informations que vous ne nous donnez pas activement",
+        "intro": "Lorsque vous visitez PartnerCode.org, nous collectons automatiquement :",
+        "items": [
+          {
+            "title": "Données analytiques de base",
+            "desc": "Pages que vous visitez, durée de votre visite, pays depuis lequel vous naviguez et appareil/navigateur utilisé."
+          },
+          {
+            "title": "Informations de référence",
+            "desc": "Comment vous nous avez trouvés (moteur de recherche, lien direct, etc.)"
+          },
+          {
+            "title": "Détection de pays",
+            "desc": "Nous utilisons la géolocalisation de Cloudflare pour détecter votre pays pour la conformité réglementaire."
+          }
+        ],
+        "analytics": "Nous utilisons Cloudflare Web Analytics, qui est axé sur la confidentialité et n'utilise pas de cookies pour le suivi."
+      },
+      "geoBlocking": {
+        "title": "Blocage Géographique Réglementaire",
+        "intro": "Nous utilisons la géolocalisation basée sur l'IP pour respecter les réglementations financières :",
+        "spain": {
+          "title": "Espagne (réglementations CNMV)",
+          "desc": "Les visiteurs espagnols sont automatiquement redirigés des pages de courtiers CFD vers des alternatives de trading de futures, car le marketing des CFD aux investisseurs particuliers est restreint en Espagne."
+        },
+        "note": "Cette détection se fait au niveau du réseau via Cloudflare. Nous ne stockons pas votre adresse IP et ne l'utilisons à aucune autre fin."
+      },
+      "voluntary": {
+        "title": "Informations que vous pourriez nous donner",
+        "content": "Actuellement, nous n'avons pas de formulaires de contact, de comptes ou de newsletters. Si nous les ajoutons à l'avenir, nous mettrons à jour cette politique."
+      }
+    },
+    "cookies": {
+      "title": "Cookies",
+      "intro": "Nous utilisons un minimum de cookies :",
+      "items": [
+        {
+          "title": "Cookies essentiels",
+          "desc": "Pour les fonctionnalités de base du site comme mémoriser votre préférence de langue"
+        },
+        {
+          "title": "Analyses",
+          "desc": "Cloudflare Web Analytics n'utilise pas de cookies"
+        }
+      ],
+      "noAds": "Nous n'utilisons pas de cookies publicitaires et ne vendons pas de données aux annonceurs."
+    },
+    "affiliateLinks": {
+      "title": "Liens d'Affiliation",
+      "intro": "Lorsque vous cliquez sur un lien vers un courtier (AvaTrade, XM, AvaFutures, Exness), vous quittez notre site. Ce sont des liens d'affiliation :",
+      "items": [
+        "La politique de confidentialité du courtier s'applique, pas la nôtre",
+        "Le courtier peut utiliser des cookies et collecter des données selon ses propres politiques",
+        "Nous n'avons pas accès aux informations que vous fournissez au courtier"
+      ]
+    },
+    "howWeUse": {
+      "title": "Comment Nous Utilisons Vos Informations",
+      "intro": "Les données analytiques que nous collectons sont utilisées pour :",
+      "items": [
+        "Comprendre quelles pages et courtiers sont les plus populaires",
+        "Améliorer les performances du site et l'expérience utilisateur",
+        "Résoudre les problèmes techniques",
+        "Décider quel contenu ajouter ou mettre à jour"
+      ],
+      "noIdentify": "Nous n'utilisons pas ces données pour identifier des individus, créer des profils ou cibler la publicité."
+    },
+    "whoWeShare": {
+      "title": "Avec Qui Nous Partageons les Données",
+      "intro": "Nous ne vendons pas vos données. Point. Les seules parties ayant accès sont :",
+      "items": [
+        {
+          "title": "Cloudflare",
+          "desc": "Notre fournisseur d'hébergement et d'analyses."
+        },
+        {
+          "title": "GitHub",
+          "desc": "Où notre code est hébergé (aucune donnée utilisateur n'y est stockée)"
+        }
+      ]
+    },
+    "dataRetention": {
+      "title": "Conservation des Données",
+      "content": "Les données analytiques sont agrégées et anonymisées. Nous ne stockons pas de dossiers utilisateurs individuels."
+    },
+    "yourRights": {
+      "title": "Vos Droits",
+      "intro": "Selon l'endroit où vous vivez (surtout si vous êtes dans l'UE, au Royaume-Uni ou en Californie), vous avez des droits concernant vos données personnelles :",
+      "items": [
+        "Droit de savoir quelles données nous avons sur vous",
+        "Droit de supprimer vos données",
+        "Droit de refuser la collecte de données"
+      ],
+      "note": "Comme nous ne collectons pas d'identifiants personnels, ces droits sont largement sans objet pour notre site."
+    },
+    "children": {
+      "title": "Confidentialité des Enfants",
+      "content": "Ce site n'est pas destiné aux personnes de moins de 18 ans. Le trading implique des risques financiers et est réservé aux adultes."
+    },
+    "changes": {
+      "title": "Modifications de Cette Politique",
+      "content": "Si nous apportons des changements significatifs à la gestion des données, nous mettrons à jour cette page et la date de 'dernière mise à jour'."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "Questions sur cette politique de confidentialité ? Le site est exploité de manière indépendante. Pour les préoccupations de confidentialité, la meilleure approche est d'utiliser les outils de confidentialité du navigateur."
+    }
+  },
+  "riskWarningPage": {
+    "title": "Avertissement sur les Risques",
+    "lastUpdated": "Dernière mise à jour : Janvier 2025",
+    "importantBox": {
+      "label": "Important :",
+      "content": "Le trading de CFD, forex, futures et autres produits à effet de levier comporte un niveau de risque élevé et peut ne pas convenir à tous les investisseurs. Vous pourriez perdre plus que votre investissement initial. Ne tradez qu'avec de l'argent que vous pouvez vous permettre de perdre."
+    },
+    "reality": {
+      "title": "La Réalité du Trading",
+      "p1": "Soyons directs : la plupart des traders particuliers perdent de l'argent. Ce n'est pas de la spéculation - c'est ce que les courtiers eux-mêmes rapportent. Selon le courtier et le produit, entre 60 et 80% des comptes d'investisseurs particuliers perdent de l'argent en tradant des CFD et du forex.",
+      "p2": "Les codes partenaires et les bonus de bienvenue ne changent pas cette réalité fondamentale. Un bonus peut vous donner plus de capital pour commencer, mais il ne rend pas le trading rentable plus facile."
+    },
+    "whatYouTrade": {
+      "title": "Ce Que Vous Tradez Réellement",
+      "cfds": {
+        "title": "CFD (Contrats sur la Différence)",
+        "intro": "Lorsque vous tradez des CFD, vous ne possédez pas l'actif sous-jacent. Vous spéculez sur les mouvements de prix. Les risques clés incluent :",
+        "items": [
+          {
+            "title": "L'effet de levier amplifie les pertes",
+            "desc": "Un effet de levier de 10:1 signifie qu'un mouvement défavorable de 10% anéantit entièrement votre position"
+          },
+          {
+            "title": "Frais de nuit",
+            "desc": "Garder des positions coûte de l'argent, réduisant tout gain"
+          },
+          {
+            "title": "Risque de gap",
+            "desc": "Les marchés peuvent ouvrir à des prix significativement différents de leur clôture"
+          },
+          {
+            "title": "Risque de contrepartie",
+            "desc": "Vous tradez contre le courtier, qui profite quand vous perdez"
+          }
+        ]
+      },
+      "forex": {
+        "title": "Trading Forex",
+        "intro": "Les marchés des devises sont très liquides mais aussi très volatils. Les risques incluent :",
+        "items": [
+          {
+            "title": "Marchés 24 heures",
+            "desc": "Les prix bougent pendant que vous dormez"
+          },
+          {
+            "title": "Événements économiques",
+            "desc": "Les décisions de taux d'intérêt, les données sur l'emploi et les événements politiques peuvent provoquer des mouvements soudains et importants"
+          },
+          {
+            "title": "Effet de levier élevé",
+            "desc": "Souvent 30:1 ou plus, ce qui signifie que de petits mouvements ont de grandes conséquences"
+          }
+        ]
+      },
+      "futures": {
+        "title": "Trading de Futures",
+        "intro": "Les contrats futures ont des dates d'expiration et leurs propres risques :",
+        "items": [
+          {
+            "title": "Expiration du contrat",
+            "desc": "Vous devez clôturer ou rouler les positions avant l'expiration"
+          },
+          {
+            "title": "Appels de marge",
+            "desc": "Si le marché va contre vous, vous devrez peut-être déposer plus de fonds immédiatement"
+          },
+          {
+            "title": "Risque de liquidité",
+            "desc": "Certains contrats sont peu négociés, rendant difficile la sortie de positions"
+          }
+        ]
+      }
+    },
+    "leverage": {
+      "title": "L'Effet de Levier : L'Épée à Double Tranchant",
+      "p1": "L'effet de levier vous permet de contrôler de grandes positions avec de petits dépôts. Les courtiers présentent l'effet de levier comme un avantage, mais c'est aussi la principale raison pour laquelle les traders font exploser leurs comptes.",
+      "p2": "Exemple : Avec un effet de levier de 100:1, un dépôt de 1 000 $ contrôle 100 000 $ sur le marché. Un mouvement de 1% contre vous perd 1 000 $ - tout votre dépôt. Disparu en quelques minutes.",
+      "p3": "Certaines juridictions (comme l'UE et le Royaume-Uni) ont plafonné l'effet de levier pour les particuliers afin de protéger les traders."
+    },
+    "bonuses": {
+      "title": "À Propos des Bonus",
+      "intro": "Les bonus de bienvenue et les promotions de codes partenaires sont des outils marketing. Ce n'est pas de l'argent gratuit. Avant d'accepter un bonus :",
+      "items": [
+        {
+          "title": "Lisez les conditions",
+          "desc": "La plupart des bonus exigent un certain volume de trading avant retrait"
+        },
+        {
+          "title": "Comprenez les exigences",
+          "desc": "Les exigences de volume peuvent être substantielles"
+        },
+        {
+          "title": "Connaissez les limites de temps",
+          "desc": "Les bonus expirent généralement si les conditions ne sont pas remplies"
+        },
+        {
+          "title": "Vérifiez les règles de retrait",
+          "desc": "Certains bonus limitent comment et quand vous pouvez retirer des fonds"
+        }
+      ],
+      "warning": "Un bonus peut être utile si vous alliez trader de toute façon, mais ne laissez pas un bonus vous tenter de trader plus ou plus risqué que vous ne le feriez normalement."
+    },
+    "regulation": {
+      "title": "La Réglementation Compte (Mais N'est Pas Tout)",
+      "intro": "Les courtiers que nous listons sont réglementés par des autorités reconnues (FCA, ASIC, CySEC, etc.). La réglementation offre certaines protections :",
+      "items": [
+        "Fonds clients séparés",
+        "Protection contre le solde négatif (dans certaines juridictions)",
+        "Mécanismes de résolution des litiges",
+        "Régimes d'indemnisation financière (jusqu'à certaines limites)"
+      ],
+      "warning": "Cependant, la réglementation ne vous protège pas des pertes de trading. Vous pouvez perdre tout votre dépôt en tradant avec un courtier entièrement réglementé si le marché va contre vous."
+    },
+    "beforeYouTrade": {
+      "title": "Avant de Trader",
+      "intro": "Demandez-vous honnêtement :",
+      "items": [
+        "Puis-je me permettre de perdre cet argent entièrement ?",
+        "Est-ce que je comprends comment ce produit fonctionne ?",
+        "Ai-je pratiqué avec un compte démo ?",
+        "Ai-je un plan de trading et une stratégie de gestion des risques ?",
+        "Est-ce que je trade sur la base d'une analyse ou d'une émotion ?"
+      ],
+      "advice": "Si vous n'êtes pas sûr de l'une de ces questions, envisagez de demander un conseil financier indépendant avant de trader."
+    },
+    "countryRestrictions": {
+      "title": "Restrictions par Pays",
+      "intro": "Certains produits ne sont pas disponibles partout :",
+      "items": [
+        {
+          "country": "Espagne",
+          "desc": "Le trading de CFD est restreint. Les résidents espagnols devraient considérer les produits futures comme AvaFutures."
+        },
+        {
+          "country": "États-Unis",
+          "desc": "Le trading de CFD n'est pas autorisé pour les résidents américains."
+        },
+        {
+          "country": "Belgique",
+          "desc": "Les options binaires et certains CFD sont interdits aux investisseurs particuliers."
+        }
+      ],
+      "check": "Vérifiez toujours qu'un courtier et un produit sont disponibles et légaux dans votre pays avant de vous inscrire."
+    },
+    "ourRole": {
+      "title": "Notre Rôle",
+      "intro": "PartnerCode.org fournit des informations sur les codes partenaires de courtiers et les bonus. Nous ne sommes pas :",
+      "items": [
+        "Conseillers financiers",
+        "Autorisés à fournir des conseils en investissement",
+        "Responsables de vos décisions de trading ou de leurs résultats"
+      ],
+      "disclosure": "Nous recevons une compensation lorsque vous vous inscrivez via nos liens. Cela crée un conflit d'intérêts dont vous devez être conscient."
+    },
+    "gettingHelp": {
+      "title": "Obtenir de l'Aide",
+      "intro": "Si le trading cause du stress financier ou si vous pensez avoir un problème de jeu, cherchez de l'aide :",
+      "items": [
+        "Fixez des limites strictes à votre trading",
+        "Envisagez les options d'auto-exclusion si disponibles",
+        "Parlez à un conseiller financier",
+        "Contactez les services d'aide aux joueurs dans votre pays"
+      ]
     }
   }
 }

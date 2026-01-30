@@ -3,7 +3,7 @@
     "homeTitle": "Partnercodes - Broker Willkommensboni 2026",
     "homeDescription": "Funktionierende Partnercodes für AvaTrade, XM, AvaFutures, Exness. Boni bis zu $14.000. Alle Codes verifiziert Januar 2026.",
     "avatradeTitle": "AvaTrade Partnercode 128979 - Willkommensbonus 2026",
-    "avatradeDescription": "AvaTrade Partnercode 128979 gibt Ihnen bis zu $14.000 Bonus. Verifiziert Januar 2026. Geben Sie den Code bei der Anmeldung ein.",
+    "avatradeDescription": "Mit dem AvaTrade Partnercode 128979 sichern Sie sich bis zu $14.000 Willkommensbonus. Einfach bei der Kontoeröffnung eingeben. Stand: Januar 2026.",
     "avafuturesTitle": "AvaFutures Partnercode 128979 - Futures Trading Bonus 2026",
     "avafuturesDescription": "AvaFutures Partnercode 128979 für bis zu $10.000 Bonus. Handeln Sie Futures auf TradingView. Funktioniert in Spanien, wo CFDs verboten sind.",
     "xmTitle": "XM Partnercode QK44F - $30 Gratis + 100% Bonus 2026",
@@ -176,14 +176,45 @@
     "deposit": "Einzahlungsbetrag",
     "bonus": "Willkommensbonus",
     "tiers": [
-      { "min": "$1.000", "max": "$1.999", "bonus": "$200" },
-      { "min": "$2.000", "max": "$2.999", "bonus": "$400" },
-      { "min": "$3.000", "max": "$4.999", "bonus": "$600" },
-      { "min": "$5.000", "max": "$9.999", "bonus": "$1.000" },
-      { "min": "$10.000", "max": "$19.999", "bonus": "$2.000" },
-      { "min": "$20.000", "max": "$49.999", "bonus": "$4.000" },
-      { "min": "$50.000", "max": "$99.999", "bonus": "$10.000" },
-      { "min": "$100.000", "bonus": "Broker Kontaktieren" }
+      {
+        "min": "$1.000",
+        "max": "$1.999",
+        "bonus": "$200"
+      },
+      {
+        "min": "$2.000",
+        "max": "$2.999",
+        "bonus": "$400"
+      },
+      {
+        "min": "$3.000",
+        "max": "$4.999",
+        "bonus": "$600"
+      },
+      {
+        "min": "$5.000",
+        "max": "$9.999",
+        "bonus": "$1.000"
+      },
+      {
+        "min": "$10.000",
+        "max": "$19.999",
+        "bonus": "$2.000"
+      },
+      {
+        "min": "$20.000",
+        "max": "$49.999",
+        "bonus": "$4.000"
+      },
+      {
+        "min": "$50.000",
+        "max": "$99.999",
+        "bonus": "$10.000"
+      },
+      {
+        "min": "$100.000",
+        "bonus": "Broker Kontaktieren"
+      }
     ]
   },
   "howTo": {
@@ -313,7 +344,9 @@
     "whatIsPartnerCode": "Was ist ein Partnercode?",
     "disclaimer": "Risikowarnung: Der Handel mit CFDs, Forex und Krypto kann Ihr Geld verlieren. Handeln Sie nicht mit mehr, als Sie sich leisten können zu verlieren. Holen Sie sich unabhängige Beratung, wenn Sie unsicher sind. Partnercodes geben Boni, ändern aber nicht die Handelsbedingungen.",
     "affiliate": "Affiliate-Offenlegung: Wir erhalten möglicherweise eine Vergütung, wenn Sie sich über unsere Links anmelden. Dies ändert nicht Ihre Boni oder unsere Empfehlungen.",
-    "rights": "Alle Rechte vorbehalten."
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "riskWarning": "Risikowarnung"
   },
   "availability": {
     "available": "AvaTrade ist in Ihrer Region verfügbar.",
@@ -335,20 +368,44 @@
       "title": "Unsere Standards",
       "intro": "Wir listen nur Broker, die bestimmte Kriterien erfüllen:",
       "items": [
-        { "title": "Reguliert", "desc": "Jeder Broker, den wir vorstellen, besitzt Lizenzen von anerkannten Finanzbehörden (FCA, ASIC, CySEC, etc.)" },
-        { "title": "Etabliert", "desc": "Keine kurzlebigen Operationen. Wir bleiben bei Brokern mit nachgewiesener Erfolgsbilanz" },
-        { "title": "Verifizierte Codes", "desc": "Wir testen jeden Code selbst, bevor wir ihn auflisten" },
-        { "title": "Echte Boni", "desc": "Die Bonusbedingungen müssen vernünftig und tatsächlich erreichbar sein" }
+        {
+          "title": "Reguliert",
+          "desc": "Jeder Broker, den wir vorstellen, besitzt Lizenzen von anerkannten Finanzbehörden (FCA, ASIC, CySEC, etc.)"
+        },
+        {
+          "title": "Etabliert",
+          "desc": "Keine kurzlebigen Operationen. Wir bleiben bei Brokern mit nachgewiesener Erfolgsbilanz"
+        },
+        {
+          "title": "Verifizierte Codes",
+          "desc": "Wir testen jeden Code selbst, bevor wir ihn auflisten"
+        },
+        {
+          "title": "Echte Boni",
+          "desc": "Die Bonusbedingungen müssen vernünftig und tatsächlich erreichbar sein"
+        }
       ]
     },
     "brokers": {
       "title": "Die Broker, Die Wir Vorstellen",
       "intro": "Derzeit konzentrieren wir uns auf eine Handvoll Broker, die wir persönlich geprüft haben:",
       "items": [
-        { "name": "AvaTrade", "desc": "Multi-regulierter Broker seit 2006, bietet Boni bis zu 10.000 $" },
-        { "name": "XM", "desc": "Beliebte Wahl mit Boni bis zu 10.500 $ und niedrigen Mindesteinzahlungen" },
-        { "name": "AvaFutures", "desc": "Futures-Trading mit TradingView-Integration" },
-        { "name": "Exness", "desc": "Bekannt für enge Spreads und sofortige Auszahlungen" }
+        {
+          "name": "AvaTrade",
+          "desc": "Multi-regulierter Broker seit 2006, bietet Boni bis zu 10.000 $"
+        },
+        {
+          "name": "XM",
+          "desc": "Beliebte Wahl mit Boni bis zu 10.500 $ und niedrigen Mindesteinzahlungen"
+        },
+        {
+          "name": "AvaFutures",
+          "desc": "Futures-Trading mit TradingView-Integration"
+        },
+        {
+          "name": "Exness",
+          "desc": "Bekannt für enge Spreads und sofortige Auszahlungen"
+        }
       ]
     },
     "questions": {
@@ -361,9 +418,20 @@
     "deposit": "Einzahlungsbetrag",
     "bonus": "Bonus",
     "tiers": [
-      { "min": "$5", "max": "$500", "bonus": "100% (bis zu $500)" },
-      { "min": "$501", "max": "$5.000", "bonus": "50% (bis zu $2.500)" },
-      { "min": "$5.001", "bonus": "20% (bis zu $10.600)" }
+      {
+        "min": "$5",
+        "max": "$500",
+        "bonus": "100% (bis zu $500)"
+      },
+      {
+        "min": "$501",
+        "max": "$5.000",
+        "bonus": "50% (bis zu $2.500)"
+      },
+      {
+        "min": "$5.001",
+        "bonus": "20% (bis zu $10.600)"
+      }
     ],
     "noDeposit": {
       "title": "$30 Bonus Ohne Einzahlung",
@@ -502,14 +570,45 @@
     "deposit": "Einzahlungsbetrag",
     "bonus": "Willkommensbonus",
     "tiers": [
-      { "min": "$1.000", "max": "$1.999", "bonus": "$200" },
-      { "min": "$2.000", "max": "$2.999", "bonus": "$400" },
-      { "min": "$3.000", "max": "$4.999", "bonus": "$600" },
-      { "min": "$5.000", "max": "$9.999", "bonus": "$1.000" },
-      { "min": "$10.000", "max": "$19.999", "bonus": "$2.000" },
-      { "min": "$20.000", "max": "$49.999", "bonus": "$4.000" },
-      { "min": "$50.000", "max": "$99.999", "bonus": "$10.000" },
-      { "min": "$100.000", "bonus": "Broker Kontaktieren" }
+      {
+        "min": "$1.000",
+        "max": "$1.999",
+        "bonus": "$200"
+      },
+      {
+        "min": "$2.000",
+        "max": "$2.999",
+        "bonus": "$400"
+      },
+      {
+        "min": "$3.000",
+        "max": "$4.999",
+        "bonus": "$600"
+      },
+      {
+        "min": "$5.000",
+        "max": "$9.999",
+        "bonus": "$1.000"
+      },
+      {
+        "min": "$10.000",
+        "max": "$19.999",
+        "bonus": "$2.000"
+      },
+      {
+        "min": "$20.000",
+        "max": "$49.999",
+        "bonus": "$4.000"
+      },
+      {
+        "min": "$50.000",
+        "max": "$99.999",
+        "bonus": "$10.000"
+      },
+      {
+        "min": "$100.000",
+        "bonus": "Broker Kontaktieren"
+      }
     ]
   },
   "avafuturesHowTo": {
@@ -730,6 +829,289 @@
       "instrumentsValue": "100+",
       "volume": "Monatliches Volumen",
       "volumeValue": "$4B+"
+    }
+  },
+  "privacyPage": {
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert: Januar 2025",
+    "shortVersion": {
+      "title": "Die Kurzversion",
+      "content": "Wir sammeln minimale Daten, verkaufen Ihre Informationen an niemanden und verwenden Cookies nur für grundlegende Website-Funktionalität und Analysen. Wenn Sie zu einem Broker durchklicken, gilt deren Datenschutzrichtlinie."
+    },
+    "whatWeCollect": {
+      "title": "Was Wir Sammeln",
+      "autoCollect": {
+        "title": "Informationen, die Sie uns nicht aktiv geben",
+        "intro": "Wenn Sie PartnerCode.org besuchen, sammeln wir automatisch:",
+        "items": [
+          {
+            "title": "Grundlegende Analysedaten",
+            "desc": "Welche Seiten Sie besuchen, wie lange Sie bleiben, aus welchem Land Sie surfen und welches Gerät/Browser Sie verwenden."
+          },
+          {
+            "title": "Verweisinformationen",
+            "desc": "Wie Sie uns gefunden haben (Suchmaschine, direkter Link, etc.)"
+          },
+          {
+            "title": "Ländererkennung",
+            "desc": "Wir nutzen Cloudflares Geolokalisierung zur Ländererkennung für regulatorische Compliance."
+          }
+        ],
+        "analytics": "Wir verwenden Cloudflare Web Analytics, das datenschutzorientiert ist und keine Cookies für Tracking verwendet."
+      },
+      "geoBlocking": {
+        "title": "Regulatorische Geo-Blockierung",
+        "intro": "Wir nutzen IP-basierte Geolokalisierung zur Einhaltung von Finanzvorschriften:",
+        "spain": {
+          "title": "Spanien (CNMV-Vorschriften)",
+          "desc": "Spanische Besucher werden automatisch von CFD-Broker-Seiten zu Futures-Handelsalternativen weitergeleitet, da CFD-Marketing an Privatanleger in Spanien eingeschränkt ist."
+        },
+        "note": "Diese Erkennung erfolgt auf Netzwerkebene über Cloudflare. Wir speichern Ihre IP-Adresse nicht und verwenden sie für keinen anderen Zweck."
+      },
+      "voluntary": {
+        "title": "Informationen, die Sie uns geben könnten",
+        "content": "Derzeit haben wir keine Kontaktformulare, Konten oder Newsletter. Wenn wir diese in Zukunft hinzufügen, werden wir diese Richtlinie aktualisieren."
+      }
+    },
+    "cookies": {
+      "title": "Cookies",
+      "intro": "Wir verwenden minimale Cookies:",
+      "items": [
+        {
+          "title": "Essentielle Cookies",
+          "desc": "Für grundlegende Website-Funktionalität wie das Merken Ihrer Spracheinstellung"
+        },
+        {
+          "title": "Analysen",
+          "desc": "Cloudflare Web Analytics verwendet keine Cookies"
+        }
+      ],
+      "noAds": "Wir verwenden keine Werbe-Cookies und verkaufen keine Daten an Werbetreibende."
+    },
+    "affiliateLinks": {
+      "title": "Affiliate-Links",
+      "intro": "Wenn Sie auf einen Broker-Link klicken (AvaTrade, XM, AvaFutures, Exness), verlassen Sie unsere Seite. Dies sind Affiliate-Links:",
+      "items": [
+        "Die Datenschutzrichtlinie des Brokers gilt, nicht unsere",
+        "Der Broker kann Cookies verwenden und Daten gemäß seinen eigenen Richtlinien sammeln",
+        "Wir haben keinen Zugang zu Informationen, die Sie dem Broker geben"
+      ]
+    },
+    "howWeUse": {
+      "title": "Wie Wir Ihre Informationen Verwenden",
+      "intro": "Die von uns gesammelten Analysedaten werden verwendet für:",
+      "items": [
+        "Verstehen, welche Seiten und Broker am beliebtesten sind",
+        "Verbesserung der Website-Leistung und Benutzererfahrung",
+        "Behebung technischer Probleme",
+        "Entscheidung, welche Inhalte hinzugefügt oder aktualisiert werden sollen"
+      ],
+      "noIdentify": "Wir verwenden diese Daten nicht, um Einzelpersonen zu identifizieren, Profile zu erstellen oder Werbung zu schalten."
+    },
+    "whoWeShare": {
+      "title": "Mit Wem Wir Daten Teilen",
+      "intro": "Wir verkaufen Ihre Daten nicht. Punkt. Die einzigen Parteien mit Zugang sind:",
+      "items": [
+        {
+          "title": "Cloudflare",
+          "desc": "Unser Hosting- und Analyseanbieter."
+        },
+        {
+          "title": "GitHub",
+          "desc": "Wo unser Code gehostet wird (keine Benutzerdaten dort gespeichert)"
+        }
+      ]
+    },
+    "dataRetention": {
+      "title": "Datenspeicherung",
+      "content": "Analysedaten werden aggregiert und anonymisiert. Wir speichern keine individuellen Benutzeraufzeichnungen."
+    },
+    "yourRights": {
+      "title": "Ihre Rechte",
+      "intro": "Je nachdem, wo Sie leben (besonders in der EU, UK oder Kalifornien), haben Sie Rechte bezüglich Ihrer persönlichen Daten:",
+      "items": [
+        "Recht zu wissen, welche Daten wir über Sie haben",
+        "Recht auf Löschung Ihrer Daten",
+        "Recht auf Opt-out bei Datensammlung"
+      ],
+      "note": "Da wir keine persönlichen Identifikatoren sammeln, sind diese Rechte für unsere Seite größtenteils irrelevant."
+    },
+    "children": {
+      "title": "Datenschutz für Kinder",
+      "content": "Diese Seite ist nicht für Personen unter 18 Jahren bestimmt. Trading beinhaltet finanzielles Risiko und ist nur für Erwachsene."
+    },
+    "changes": {
+      "title": "Änderungen an dieser Richtlinie",
+      "content": "Wenn wir wesentliche Änderungen an der Datenverarbeitung vornehmen, aktualisieren wir diese Seite und das Datum 'Zuletzt aktualisiert'."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "content": "Fragen zu dieser Datenschutzrichtlinie? Die Seite wird unabhängig betrieben. Bei Datenschutzbedenken ist der beste Ansatz, Browser-Datenschutztools zu verwenden."
+    }
+  },
+  "riskWarningPage": {
+    "title": "Risikowarnung",
+    "lastUpdated": "Zuletzt aktualisiert: Januar 2025",
+    "importantBox": {
+      "label": "Wichtig:",
+      "content": "Der Handel mit CFDs, Forex, Futures und anderen gehebelten Produkten birgt ein hohes Risiko und ist möglicherweise nicht für alle Anleger geeignet. Sie könnten mehr als Ihre ursprüngliche Investition verlieren. Handeln Sie nur mit Geld, dessen Verlust Sie sich leisten können."
+    },
+    "reality": {
+      "title": "Die Realität des Tradings",
+      "p1": "Lassen Sie uns direkt sein: Die meisten Privatanleger verlieren Geld. Das ist keine Spekulation - das berichten die Broker selbst. Je nach Broker und Produkt verlieren zwischen 60-80% der Privatanlegerkonten Geld beim Handel mit CFDs und Forex.",
+      "p2": "Partnercodes und Willkommensboni ändern diese grundlegende Realität nicht. Ein Bonus gibt Ihnen vielleicht mehr Kapital zum Start, macht profitables Trading aber nicht einfacher."
+    },
+    "whatYouTrade": {
+      "title": "Was Sie Wirklich Handeln",
+      "cfds": {
+        "title": "CFDs (Differenzkontrakte)",
+        "intro": "Wenn Sie CFDs handeln, besitzen Sie den Basiswert nicht. Sie spekulieren auf Preisbewegungen. Hauptrisiken sind:",
+        "items": [
+          {
+            "title": "Hebel verstärkt Verluste",
+            "desc": "Ein Hebel von 10:1 bedeutet, dass eine 10%ige Gegenbewegung Ihre Position komplett auslöscht"
+          },
+          {
+            "title": "Übernachtgebühren",
+            "desc": "Das Halten von Positionen kostet Geld und schmälert Gewinne"
+          },
+          {
+            "title": "Gap-Risiko",
+            "desc": "Märkte können zu deutlich anderen Preisen öffnen als sie geschlossen haben"
+          },
+          {
+            "title": "Kontrahentenrisiko",
+            "desc": "Sie handeln gegen den Broker, der profitiert wenn Sie verlieren"
+          }
+        ]
+      },
+      "forex": {
+        "title": "Forex-Handel",
+        "intro": "Devisenmärkte sind hochliquide aber auch hochvolatil. Risiken umfassen:",
+        "items": [
+          {
+            "title": "24-Stunden-Märkte",
+            "desc": "Preise bewegen sich während Sie schlafen"
+          },
+          {
+            "title": "Wirtschaftsereignisse",
+            "desc": "Zinsentscheidungen, Beschäftigungsdaten und politische Ereignisse können plötzliche, große Bewegungen verursachen"
+          },
+          {
+            "title": "Hoher Hebel",
+            "desc": "Oft 30:1 oder höher, was bedeutet, dass kleine Bewegungen große Konsequenzen haben"
+          }
+        ]
+      },
+      "futures": {
+        "title": "Futures-Handel",
+        "intro": "Futures-Kontrakte haben Verfallsdaten und eigene Risiken:",
+        "items": [
+          {
+            "title": "Kontraktverfall",
+            "desc": "Sie müssen Positionen vor Verfall schließen oder rollen"
+          },
+          {
+            "title": "Margin Calls",
+            "desc": "Wenn sich der Markt gegen Sie bewegt, müssen Sie möglicherweise sofort mehr Geld einzahlen"
+          },
+          {
+            "title": "Liquiditätsrisiko",
+            "desc": "Einige Kontrakte werden wenig gehandelt, was den Ausstieg erschwert"
+          }
+        ]
+      }
+    },
+    "leverage": {
+      "title": "Hebel: Das Zweischneidige Schwert",
+      "p1": "Hebel ermöglicht es Ihnen, große Positionen mit kleinen Einzahlungen zu kontrollieren. Broker bewerben Hebel als Vorteil, aber er ist auch der Hauptgrund, warum Trader ihre Konten sprengen.",
+      "p2": "Beispiel: Mit 100:1 Hebel kontrolliert eine $1.000 Einzahlung $100.000 am Markt. Eine 1%ige Gegenbewegung verliert $1.000 - Ihre gesamte Einzahlung. In Minuten weg.",
+      "p3": "Einige Jurisdiktionen (wie EU und UK) haben den Retail-Hebel zum Schutz der Trader begrenzt."
+    },
+    "bonuses": {
+      "title": "Über Boni",
+      "intro": "Willkommensboni und Partnercode-Promotionen sind Marketing-Tools. Sie sind kein Gratissgeld. Bevor Sie einen Bonus akzeptieren:",
+      "items": [
+        {
+          "title": "Lesen Sie die Bedingungen",
+          "desc": "Die meisten Boni erfordern ein bestimmtes Handelsvolumen vor Auszahlung"
+        },
+        {
+          "title": "Verstehen Sie die Anforderungen",
+          "desc": "Volumenanforderungen können erheblich sein"
+        },
+        {
+          "title": "Kennen Sie die Zeitlimits",
+          "desc": "Boni verfallen typischerweise, wenn Bedingungen nicht erfüllt werden"
+        },
+        {
+          "title": "Prüfen Sie die Auszahlungsregeln",
+          "desc": "Einige Boni beschränken, wie und wann Sie Geld abheben können"
+        }
+      ],
+      "warning": "Ein Bonus kann nützlich sein, wenn Sie sowieso handeln wollten, aber lassen Sie sich nicht von einem Bonus verleiten, mehr oder riskanter zu handeln als Sie es sonst tun würden."
+    },
+    "regulation": {
+      "title": "Regulierung ist Wichtig (Aber Nicht Alles)",
+      "intro": "Die Broker, die wir listen, sind von anerkannten Behörden reguliert (FCA, ASIC, CySEC, etc.). Regulierung bietet gewissen Schutz:",
+      "items": [
+        "Segregierte Kundengelder",
+        "Negativsaldoschutz (in einigen Jurisdiktionen)",
+        "Streitbeilegungsmechanismen",
+        "Finanzielle Entschädigungsregelungen (bis zu bestimmten Grenzen)"
+      ],
+      "warning": "Regulierung schützt Sie jedoch nicht vor Handelsverlusten. Sie können Ihre gesamte Einzahlung bei einem vollständig regulierten Broker verlieren, wenn sich der Markt gegen Sie bewegt."
+    },
+    "beforeYouTrade": {
+      "title": "Bevor Sie Handeln",
+      "intro": "Fragen Sie sich ehrlich:",
+      "items": [
+        "Kann ich es mir leisten, dieses Geld komplett zu verlieren?",
+        "Verstehe ich, wie dieses Produkt funktioniert?",
+        "Habe ich mit einem Demokonto geübt?",
+        "Habe ich einen Handelsplan und eine Risikomanagement-Strategie?",
+        "Handle ich auf Basis von Analyse oder Emotion?"
+      ],
+      "advice": "Wenn Sie bei einem davon unsicher sind, erwägen Sie, unabhängige Finanzberatung einzuholen, bevor Sie handeln."
+    },
+    "countryRestrictions": {
+      "title": "Länderspezifische Beschränkungen",
+      "intro": "Einige Produkte sind nicht überall verfügbar:",
+      "items": [
+        {
+          "country": "Spanien",
+          "desc": "CFD-Handel ist eingeschränkt. Spanische Einwohner sollten Futures-Produkte wie AvaFutures in Betracht ziehen."
+        },
+        {
+          "country": "USA",
+          "desc": "CFD-Handel ist für US-Einwohner nicht gestattet."
+        },
+        {
+          "country": "Belgien",
+          "desc": "Binäre Optionen und bestimmte CFDs sind für Privatanleger verboten."
+        }
+      ],
+      "check": "Prüfen Sie immer, ob ein Broker und Produkt in Ihrem Land verfügbar und legal sind, bevor Sie sich anmelden."
+    },
+    "ourRole": {
+      "title": "Unsere Rolle",
+      "intro": "PartnerCode.org stellt Informationen über Broker-Partnercodes und Boni bereit. Wir sind nicht:",
+      "items": [
+        "Finanzberater",
+        "Lizenziert zur Anlageberatung",
+        "Verantwortlich für Ihre Handelsentscheidungen oder Ergebnisse"
+      ],
+      "disclosure": "Wir erhalten Vergütung, wenn Sie sich über unsere Links anmelden. Dies schafft einen Interessenkonflikt, dessen Sie sich bewusst sein sollten."
+    },
+    "gettingHelp": {
+      "title": "Hilfe Bekommen",
+      "intro": "Wenn Trading finanziellen Stress verursacht oder Sie glauben, ein Spielproblem zu haben, suchen Sie Hilfe:",
+      "items": [
+        "Setzen Sie strenge Limits für Ihr Trading",
+        "Erwägen Sie Selbstausschluss-Optionen, falls verfügbar",
+        "Sprechen Sie mit einem Finanzberater",
+        "Kontaktieren Sie Spielsucht-Beratungsstellen in Ihrem Land"
+      ]
     }
   }
 }

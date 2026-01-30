@@ -2,8 +2,8 @@
   "meta": {
     "homeTitle": "Partner Kodlari - Broker Hosgeldin Bonuslari 2026",
     "homeDescription": "AvaTrade, XM, AvaFutures, Exness icin calisan partner kodlari. 14.000 $'a kadar bonus. Tum kodlar Ocak 2026'da dogrulandi.",
-    "avatradeTitle": "AvaTrade Partner Kodu 128979 - Hosgeldin Bonusu 2026",
-    "avatradeDescription": "AvaTrade partner kodu 128979 ile 14.000 $'a kadar bonus alin. Ocak 2026'da dogrulandi. Kayit sirasinda kodu girin.",
+    "avatradeTitle": "AvaTrade Partner Kodu 128979 - Hoş Geldin Bonusu 2026",
+    "avatradeDescription": "Hesap açarken AvaTrade partner kodu 128979'u girin ve 14.000 $'a kadar hoş geldin bonusu kazanın. Bu kodu her ay kontrol ediyoruz — son doğrulama Ocak 2026.",
     "avafuturesTitle": "AvaFutures Partner Kodu 128979 - Vadeli Islem Bonusu 2026",
     "avafuturesDescription": "AvaFutures partner kodu 128979 ile 10.000 $'a kadar bonus. TradingView uzerinde vadeli islem yapin. CFD'lerin yasak oldugu Ispanya'da calisir.",
     "xmTitle": "XM Partner Kodu QK44F - 30 $ Ucretsiz + %100 Bonus 2026",
@@ -174,14 +174,45 @@
     "deposit": "Yatirim Miktari",
     "bonus": "Hosgeldin Bonusu",
     "tiers": [
-      { "min": "$1,000", "max": "$1,999", "bonus": "$200" },
-      { "min": "$2,000", "max": "$2,999", "bonus": "$400" },
-      { "min": "$3,000", "max": "$4,999", "bonus": "$600" },
-      { "min": "$5,000", "max": "$9,999", "bonus": "$1,000" },
-      { "min": "$10,000", "max": "$19,999", "bonus": "$2,000" },
-      { "min": "$20,000", "max": "$49,999", "bonus": "$4,000" },
-      { "min": "$50,000", "max": "$99,999", "bonus": "$10,000" },
-      { "min": "$100,000", "bonus": "Broker ile Iletisime Gecin" }
+      {
+        "min": "$1,000",
+        "max": "$1,999",
+        "bonus": "$200"
+      },
+      {
+        "min": "$2,000",
+        "max": "$2,999",
+        "bonus": "$400"
+      },
+      {
+        "min": "$3,000",
+        "max": "$4,999",
+        "bonus": "$600"
+      },
+      {
+        "min": "$5,000",
+        "max": "$9,999",
+        "bonus": "$1,000"
+      },
+      {
+        "min": "$10,000",
+        "max": "$19,999",
+        "bonus": "$2,000"
+      },
+      {
+        "min": "$20,000",
+        "max": "$49,999",
+        "bonus": "$4,000"
+      },
+      {
+        "min": "$50,000",
+        "max": "$99,999",
+        "bonus": "$10,000"
+      },
+      {
+        "min": "$100,000",
+        "bonus": "Broker ile Iletisime Gecin"
+      }
     ]
   },
   "howTo": {
@@ -311,7 +342,9 @@
     "whatIsPartnerCode": "Partner Kodu Nedir?",
     "disclaimer": "Risk Uyarisi: CFD, forex ve kripto ticareti paranizi kaybettirebilir. Kaybetmeyi goze alamayacaginizdan fazlasini riske atmayin. Emin degilseniz bagimsiz tavsiye alin. Partner kodlari bonuslar verir ancak islem kosullarini degistirmez.",
     "affiliate": "Affiliate Aciklamasi: Linklerimiz uzerinden kaydoldugunuzda odeme alabiliriz. Bu bonuslarinizi veya onerilerimizi degistirmez.",
-    "rights": "Tum haklari saklidir."
+    "rights": "Tum haklari saklidir.",
+    "privacy": "Gizlilik Politikası",
+    "riskWarning": "Risk Uyarısı"
   },
   "availability": {
     "available": "AvaTrade bolgenizde mevcuttur.",
@@ -333,20 +366,44 @@
       "title": "Standartlarimiz",
       "intro": "Sadece belirli kriterleri karsilayan brokerlari listeliyoruz:",
       "items": [
-        { "title": "Duzenlenmis", "desc": "Sunduğumuz her broker, taninmis finansal otoritelerden (FCA, ASIC, CySEC, vb.) lisanslara sahiptir" },
-        { "title": "Koklu", "desc": "Gecici operasyonlar yok. Kanitlanmis gecmise sahip brokerlarla kaliyoruz" },
-        { "title": "Dogrulanmis kodlar", "desc": "Her kodu listelemeden once kendimiz test ediyoruz" },
-        { "title": "Gercek bonuslar", "desc": "Bonus kosullari makul ve gercekten ulasilabilir olmali" }
+        {
+          "title": "Duzenlenmis",
+          "desc": "Sunduğumuz her broker, taninmis finansal otoritelerden (FCA, ASIC, CySEC, vb.) lisanslara sahiptir"
+        },
+        {
+          "title": "Koklu",
+          "desc": "Gecici operasyonlar yok. Kanitlanmis gecmise sahip brokerlarla kaliyoruz"
+        },
+        {
+          "title": "Dogrulanmis kodlar",
+          "desc": "Her kodu listelemeden once kendimiz test ediyoruz"
+        },
+        {
+          "title": "Gercek bonuslar",
+          "desc": "Bonus kosullari makul ve gercekten ulasilabilir olmali"
+        }
       ]
     },
     "brokers": {
       "title": "Sunduğumuz Brokerlar",
       "intro": "Su anda kisisel olarak dogruladigimiz bir avuc brokera odaklaniyoruz:",
       "items": [
-        { "name": "AvaTrade", "desc": "2006'dan beri coklu duzenlenmis broker, $10,000'a kadar bonus sunuyor" },
-        { "name": "XM", "desc": "$10,500'a kadar bonuslar ve dusuk minimum depozitolarla populer secim" },
-        { "name": "AvaFutures", "desc": "TradingView entegrasyonlu vadeli islem ticareti" },
-        { "name": "Exness", "desc": "Dar spreadler ve aninda cekim ile taninir" }
+        {
+          "name": "AvaTrade",
+          "desc": "2006'dan beri coklu duzenlenmis broker, $10,000'a kadar bonus sunuyor"
+        },
+        {
+          "name": "XM",
+          "desc": "$10,500'a kadar bonuslar ve dusuk minimum depozitolarla populer secim"
+        },
+        {
+          "name": "AvaFutures",
+          "desc": "TradingView entegrasyonlu vadeli islem ticareti"
+        },
+        {
+          "name": "Exness",
+          "desc": "Dar spreadler ve aninda cekim ile taninir"
+        }
       ]
     },
     "questions": {
@@ -359,9 +416,20 @@
     "deposit": "Yatirim Miktari",
     "bonus": "Bonus",
     "tiers": [
-      { "min": "$5", "max": "$500", "bonus": "%100 (500 $'a kadar)" },
-      { "min": "$501", "max": "$5,000", "bonus": "%50 (2.500 $'a kadar)" },
-      { "min": "$5,001", "bonus": "%20 (10.600 $'a kadar)" }
+      {
+        "min": "$5",
+        "max": "$500",
+        "bonus": "%100 (500 $'a kadar)"
+      },
+      {
+        "min": "$501",
+        "max": "$5,000",
+        "bonus": "%50 (2.500 $'a kadar)"
+      },
+      {
+        "min": "$5,001",
+        "bonus": "%20 (10.600 $'a kadar)"
+      }
     ],
     "noDeposit": {
       "title": "30 $ Yatirim Bonusu Yok",
@@ -500,14 +568,45 @@
     "deposit": "Yatirim Miktari",
     "bonus": "Hosgeldin Bonusu",
     "tiers": [
-      { "min": "$1,000", "max": "$1,999", "bonus": "$200" },
-      { "min": "$2,000", "max": "$2,999", "bonus": "$400" },
-      { "min": "$3,000", "max": "$4,999", "bonus": "$600" },
-      { "min": "$5,000", "max": "$9,999", "bonus": "$1,000" },
-      { "min": "$10,000", "max": "$19,999", "bonus": "$2,000" },
-      { "min": "$20,000", "max": "$49,999", "bonus": "$4,000" },
-      { "min": "$50,000", "max": "$99,999", "bonus": "$10,000" },
-      { "min": "$100,000", "bonus": "Broker ile Iletisime Gecin" }
+      {
+        "min": "$1,000",
+        "max": "$1,999",
+        "bonus": "$200"
+      },
+      {
+        "min": "$2,000",
+        "max": "$2,999",
+        "bonus": "$400"
+      },
+      {
+        "min": "$3,000",
+        "max": "$4,999",
+        "bonus": "$600"
+      },
+      {
+        "min": "$5,000",
+        "max": "$9,999",
+        "bonus": "$1,000"
+      },
+      {
+        "min": "$10,000",
+        "max": "$19,999",
+        "bonus": "$2,000"
+      },
+      {
+        "min": "$20,000",
+        "max": "$49,999",
+        "bonus": "$4,000"
+      },
+      {
+        "min": "$50,000",
+        "max": "$99,999",
+        "bonus": "$10,000"
+      },
+      {
+        "min": "$100,000",
+        "bonus": "Broker ile Iletisime Gecin"
+      }
     ]
   },
   "avafuturesHowTo": {
@@ -728,6 +827,289 @@
       "instrumentsValue": "100+",
       "volume": "Aylik Hacim",
       "volumeValue": "$4T+"
+    }
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2025",
+    "shortVersion": {
+      "title": "The Short Version",
+      "content": "We collect minimal data, don't sell your information to anyone, and use cookies only for basic site functionality and analytics. If you click through to a broker, their privacy policy applies once you're on their site."
+    },
+    "whatWeCollect": {
+      "title": "What We Collect",
+      "autoCollect": {
+        "title": "Information You Don't Actively Give Us",
+        "intro": "When you visit PartnerCode.org, we automatically collect:",
+        "items": [
+          {
+            "title": "Basic analytics data",
+            "desc": "Pages you visit, how long you stay, what country you're browsing from, and what device/browser you're using. This helps us understand what's working and what isn't."
+          },
+          {
+            "title": "Referral information",
+            "desc": "How you found us (search engine, direct link, etc.)"
+          },
+          {
+            "title": "Country detection",
+            "desc": "We use Cloudflare's geolocation to detect your country for regulatory compliance (see below)."
+          }
+        ],
+        "analytics": "We use Cloudflare Web Analytics, which is privacy-focused and doesn't use cookies for tracking. It doesn't collect personal identifiers."
+      },
+      "geoBlocking": {
+        "title": "Regulatory Geo-Blocking",
+        "intro": "We use IP-based geolocation to comply with financial regulations:",
+        "spain": {
+          "title": "Spain (CNMV regulations)",
+          "desc": "Spanish visitors are automatically redirected away from CFD broker pages to futures trading alternatives, as CFD marketing to retail investors is restricted in Spain."
+        },
+        "note": "This detection happens at the network level through Cloudflare. We don't store your IP address or use it for any other purpose. The redirect is automatic and designed to ensure we don't promote products that aren't available in your jurisdiction."
+      },
+      "voluntary": {
+        "title": "Information You Might Give Us",
+        "content": "Currently, we don't have contact forms, accounts, or newsletters. If we add these in the future, we'll update this policy and only collect what's necessary."
+      }
+    },
+    "cookies": {
+      "title": "Cookies",
+      "intro": "We use minimal cookies:",
+      "items": [
+        {
+          "title": "Essential cookies",
+          "desc": "For basic site functionality like remembering your language preference"
+        },
+        {
+          "title": "Analytics",
+          "desc": "Cloudflare Web Analytics doesn't use cookies, but if we add other analytics tools, they may use anonymized cookies"
+        }
+      ],
+      "noAds": "We don't use advertising cookies or sell data to advertisers."
+    },
+    "affiliateLinks": {
+      "title": "Affiliate Links",
+      "intro": "When you click a link to a broker (AvaTrade, XM, AvaFutures, Exness), you're leaving our site. These are affiliate links, meaning we may receive compensation if you sign up. Once you click through:",
+      "items": [
+        "The broker's privacy policy applies, not ours",
+        "The broker may use cookies and collect data according to their own policies",
+        "We don't have access to any information you provide to the broker"
+      ]
+    },
+    "howWeUse": {
+      "title": "How We Use Your Information",
+      "intro": "The analytics data we collect is used to:",
+      "items": [
+        "Understand which pages and brokers are most popular",
+        "Improve site performance and user experience",
+        "Fix technical issues",
+        "Decide what content to add or update"
+      ],
+      "noIdentify": "We don't use this data to identify individuals, build profiles, or target advertising."
+    },
+    "whoWeShare": {
+      "title": "Who We Share Data With",
+      "intro": "We don't sell your data. Period. The only parties with access to any data are:",
+      "items": [
+        {
+          "title": "Cloudflare",
+          "desc": "Our hosting and analytics provider. They have their own privacy-focused policies."
+        },
+        {
+          "title": "GitHub",
+          "desc": "Where our code is hosted (no user data is stored there)"
+        }
+      ]
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "Analytics data is aggregated and anonymized. We don't store individual user records. Cloudflare retains analytics data according to their policies."
+    },
+    "yourRights": {
+      "title": "Your Rights",
+      "intro": "Depending on where you live (especially if you're in the EU, UK, or California), you have rights regarding your personal data:",
+      "items": [
+        "Right to know what data we have about you (for us, it's essentially nothing identifiable)",
+        "Right to delete your data",
+        "Right to opt out of data collection"
+      ],
+      "note": "Since we don't collect personal identifiers, these rights are largely moot for our site. But if you have concerns, you can disable JavaScript or use a privacy-focused browser to prevent any analytics collection."
+    },
+    "children": {
+      "title": "Children's Privacy",
+      "content": "This site is not intended for anyone under 18. Trading involves financial risk and is only for adults. We don't knowingly collect data from minors."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "content": "If we make significant changes to how we handle data, we'll update this page and the \"last updated\" date. We won't make changes that reduce your privacy without notice."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "Questions about this privacy policy? The site is operated independently. For privacy concerns, the best approach is to use browser privacy tools since we don't collect identifiable data anyway."
+    }
+  },
+  "riskWarningPage": {
+    "title": "Risk Warning",
+    "lastUpdated": "Last updated: January 2025",
+    "importantBox": {
+      "label": "Important:",
+      "content": "Trading CFDs, forex, futures, and other leveraged products carries a high level of risk and may not be suitable for all investors. You could lose more than your initial investment. Only trade with money you can afford to lose."
+    },
+    "reality": {
+      "title": "The Reality of Trading",
+      "p1": "Let's be direct: most retail traders lose money. This isn't speculation - it's what brokers themselves report. Depending on the broker and product, between 60-80% of retail investor accounts lose money when trading CFDs and forex.",
+      "p2": "Partner codes and welcome bonuses don't change this fundamental reality. A bonus might give you more capital to start with, but it doesn't make profitable trading any easier."
+    },
+    "whatYouTrade": {
+      "title": "What You're Actually Trading",
+      "cfds": {
+        "title": "CFDs (Contracts for Difference)",
+        "intro": "When you trade CFDs, you don't own the underlying asset. You're speculating on price movements. Key risks include:",
+        "items": [
+          {
+            "title": "Leverage amplifies losses",
+            "desc": "A 10:1 leverage means a 10% adverse move wipes out your position entirely"
+          },
+          {
+            "title": "Overnight fees",
+            "desc": "Holding positions costs money, eating into any gains"
+          },
+          {
+            "title": "Gap risk",
+            "desc": "Markets can open at significantly different prices than they closed"
+          },
+          {
+            "title": "Counterparty risk",
+            "desc": "You're trading against the broker, who profits when you lose"
+          }
+        ]
+      },
+      "forex": {
+        "title": "Forex Trading",
+        "intro": "Currency markets are highly liquid but also highly volatile. Risks include:",
+        "items": [
+          {
+            "title": "24-hour markets",
+            "desc": "Prices move while you sleep"
+          },
+          {
+            "title": "Economic events",
+            "desc": "Interest rate decisions, employment data, and political events can cause sudden, large moves"
+          },
+          {
+            "title": "High leverage",
+            "desc": "Often 30:1 or higher, meaning small moves have big consequences"
+          }
+        ]
+      },
+      "futures": {
+        "title": "Futures Trading",
+        "intro": "Futures contracts have expiration dates and their own set of risks:",
+        "items": [
+          {
+            "title": "Contract expiry",
+            "desc": "You must close or roll positions before expiration"
+          },
+          {
+            "title": "Margin calls",
+            "desc": "If the market moves against you, you may need to deposit more funds immediately"
+          },
+          {
+            "title": "Liquidity risk",
+            "desc": "Some contracts are thinly traded, making it hard to exit positions"
+          }
+        ]
+      }
+    },
+    "leverage": {
+      "title": "Leverage: The Double-Edged Sword",
+      "p1": "Leverage lets you control large positions with small deposits. Brokers advertise leverage as a benefit, but it's also the primary reason traders blow up their accounts.",
+      "p2": "Example: With 100:1 leverage, a $1,000 deposit controls $100,000 in the market. A 1% move against you loses $1,000 - your entire deposit. Gone in minutes.",
+      "p3": "Some jurisdictions (like the EU and UK) have capped retail leverage to protect traders. If a broker offers extremely high leverage, consider why they're doing so and who really benefits."
+    },
+    "bonuses": {
+      "title": "About Bonuses",
+      "intro": "Welcome bonuses and partner code promotions are marketing tools. They're not free money. Before accepting any bonus:",
+      "items": [
+        {
+          "title": "Read the terms",
+          "desc": "Most bonuses require trading a certain volume before withdrawal"
+        },
+        {
+          "title": "Understand the requirements",
+          "desc": "Volume requirements can be substantial (often 10,000x the bonus amount or more)"
+        },
+        {
+          "title": "Know the time limits",
+          "desc": "Bonuses typically expire if conditions aren't met within a certain period"
+        },
+        {
+          "title": "Check withdrawal rules",
+          "desc": "Some bonuses restrict how and when you can withdraw funds"
+        }
+      ],
+      "warning": "A bonus can be useful if you were going to trade anyway, but don't let a bonus tempt you into trading more or riskier than you otherwise would."
+    },
+    "regulation": {
+      "title": "Regulation Matters (But Isn't Everything)",
+      "intro": "The brokers we list are regulated by recognized authorities (FCA, ASIC, CySEC, etc.). Regulation provides some protections:",
+      "items": [
+        "Segregated client funds",
+        "Negative balance protection (in some jurisdictions)",
+        "Dispute resolution mechanisms",
+        "Financial compensation schemes (up to certain limits)"
+      ],
+      "warning": "However, regulation doesn't protect you from trading losses. You can lose your entire deposit trading with a fully regulated broker if the market moves against you."
+    },
+    "beforeYouTrade": {
+      "title": "Before You Trade",
+      "intro": "Ask yourself honestly:",
+      "items": [
+        "Can I afford to lose this money entirely?",
+        "Do I understand how this product works?",
+        "Have I practiced with a demo account?",
+        "Do I have a trading plan and risk management strategy?",
+        "Am I trading based on analysis or emotion?"
+      ],
+      "advice": "If you're unsure about any of these, consider seeking independent financial advice before trading."
+    },
+    "countryRestrictions": {
+      "title": "Country-Specific Restrictions",
+      "intro": "Some products aren't available everywhere:",
+      "items": [
+        {
+          "country": "Spain",
+          "desc": "CFD trading is restricted. Spanish residents should consider futures products like AvaFutures instead."
+        },
+        {
+          "country": "United States",
+          "desc": "CFD trading is not permitted for US residents. US traders have access to forex through CFTC-regulated brokers and futures markets."
+        },
+        {
+          "country": "Belgium",
+          "desc": "Binary options and certain CFDs are banned for retail investors."
+        }
+      ],
+      "check": "Always check that a broker and product are available and legal in your country before signing up."
+    },
+    "ourRole": {
+      "title": "Our Role",
+      "intro": "PartnerCode.org provides information about broker partner codes and bonuses. We are not:",
+      "items": [
+        "Financial advisors",
+        "Licensed to provide investment advice",
+        "Responsible for your trading decisions or outcomes"
+      ],
+      "disclosure": "We receive compensation when you sign up through our links. This creates a conflict of interest you should be aware of. We try to be honest about the risks, but ultimately you're responsible for your own trading decisions."
+    },
+    "gettingHelp": {
+      "title": "Getting Help",
+      "intro": "If trading is causing financial stress or you feel you may have a gambling problem, seek help:",
+      "items": [
+        "Set strict limits on your trading",
+        "Consider self-exclusion options if available",
+        "Talk to a financial counselor",
+        "Contact gambling support services in your country"
+      ]
     }
   }
 }

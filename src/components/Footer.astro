@@ -55,6 +55,11 @@ const currentYear = new Date().getFullYear();
     </div>
 
     <div class="footer__bottom">
+      <div class="footer__legal">
+        <a href={lang === 'en' ? '/privacy/' : `/${lang}/privacy/`}>{t.footer?.privacy || 'Privacy Policy'}</a>
+        <span class="footer__legal-sep">|</span>
+        <a href={lang === 'en' ? '/risk-warning/' : `/${lang}/risk-warning/`}>{t.footer?.riskWarning || 'Risk Warning'}</a>
+      </div>
       <p>&copy; {currentYear} PartnerCode.org. {t.footer?.rights || 'All rights reserved.'}</p>
     </div>
   </div>
@@ -164,5 +169,26 @@ const currentYear = new Date().getFullYear();
     font-size: var(--text-sm);
     color: var(--color-neutral-400);
     margin: 0;
+  }
+
+  .footer__legal {
+    margin-bottom: var(--space-3);
+  }
+
+  .footer__legal a {
+    font-size: var(--text-xs);
+    color: var(--color-neutral-500);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+
+  .footer__legal a:hover {
+    color: var(--color-neutral-300);
+  }
+
+  .footer__legal-sep {
+    color: var(--color-neutral-600);
+    margin: 0 var(--space-2);
+    font-size: var(--text-xs);
   }
 </style>

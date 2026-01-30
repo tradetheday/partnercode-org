@@ -57,6 +57,8 @@ src/
 
 **Broker data** (`src/data/brokers.ts`): Partner codes, affiliate URLs, bonus tiers, regulators, country restrictions. Single source of truth - translations only contain display text.
 
+**Freshness dates** (`src/data/freshness.ts`): Verification dates for each broker. Update monthly - automatically populates sitemap `<lastmod>` tags and JSON-LD `dateModified` in WebPage schemas.
+
 **Translations** (`src/data/translations/*.json`): Each file mirrors the same structure with keys for `meta`, `nav`, `home`, `avatrade`, `xm`, `avafutures`, `exness`, `footer`, FAQs, etc.
 
 ### Adding Translations
@@ -71,6 +73,13 @@ src/
 - **CodeBox.astro** - Copy-to-clipboard partner code with redirect
 - **SpainDetector.astro** / **SpainNotice.astro** - Spain CFD restriction handling (redirects to AvaFutures)
 - **FAQ.astro** - Accordion FAQ with optional schema generation (`generateSchema` prop)
+- **SocialProof.astro** - Social proof notifications (AvaTrade-biased, Spain shows AvaFutures only, max 3 per session)
+
+### Legal Pages
+
+- Privacy Policy (`/privacy/`, `/[lang]/privacy/`) and Risk Warning (`/risk-warning/`, `/[lang]/risk-warning/`)
+- Noindex but follow - pass `noindex={true}` to BaseLayout
+- Excluded from sitemap via filter in `astro.config.mjs`
 
 ### Cloudflare Configuration
 

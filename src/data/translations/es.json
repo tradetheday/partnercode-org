@@ -2,8 +2,8 @@
   "meta": {
     "homeTitle": "Codigos Partner - Bonos de Bienvenida de Brokers 2026",
     "homeDescription": "Codigos partner verificados para AvaTrade, XM, AvaFutures, Exness. Hasta $14,000 en bonos. Todos los codigos verificados enero 2026.",
-    "avatradeTitle": "Codigo Partner AvaTrade 128979 - Bono de Bienvenida 2026",
-    "avatradeDescription": "El codigo partner de AvaTrade 128979 te da hasta $14,000 de bono. Verificado enero 2026. Ingresa el codigo al registrarte.",
+    "avatradeTitle": "Código Partner AvaTrade 128979 - Bono de Bienvenida 2026",
+    "avatradeDescription": "Introduce el código partner de AvaTrade 128979 al abrir tu cuenta y recibe hasta $14.000 en bonos. Código comprobado en enero de 2026.",
     "avafuturesTitle": "Codigo Partner AvaFutures 128979 - Bono Trading de Futuros 2026",
     "avafuturesDescription": "Codigo partner AvaFutures 128979 para hasta $10,000 de bono. Opera futuros en TradingView. Funciona en Espana donde los CFDs estan prohibidos.",
     "xmTitle": "Codigo Partner XM QK44F - $30 Gratis + 100% Bono 2026",
@@ -176,14 +176,45 @@
     "deposit": "Monto de Deposito",
     "bonus": "Bono de Bienvenida",
     "tiers": [
-      { "min": "$1,000", "max": "$1,999", "bonus": "$200" },
-      { "min": "$2,000", "max": "$2,999", "bonus": "$400" },
-      { "min": "$3,000", "max": "$4,999", "bonus": "$600" },
-      { "min": "$5,000", "max": "$9,999", "bonus": "$1,000" },
-      { "min": "$10,000", "max": "$19,999", "bonus": "$2,000" },
-      { "min": "$20,000", "max": "$49,999", "bonus": "$4,000" },
-      { "min": "$50,000", "max": "$99,999", "bonus": "$10,000" },
-      { "min": "$100,000", "bonus": "Contactar Broker" }
+      {
+        "min": "$1,000",
+        "max": "$1,999",
+        "bonus": "$200"
+      },
+      {
+        "min": "$2,000",
+        "max": "$2,999",
+        "bonus": "$400"
+      },
+      {
+        "min": "$3,000",
+        "max": "$4,999",
+        "bonus": "$600"
+      },
+      {
+        "min": "$5,000",
+        "max": "$9,999",
+        "bonus": "$1,000"
+      },
+      {
+        "min": "$10,000",
+        "max": "$19,999",
+        "bonus": "$2,000"
+      },
+      {
+        "min": "$20,000",
+        "max": "$49,999",
+        "bonus": "$4,000"
+      },
+      {
+        "min": "$50,000",
+        "max": "$99,999",
+        "bonus": "$10,000"
+      },
+      {
+        "min": "$100,000",
+        "bonus": "Contactar Broker"
+      }
     ]
   },
   "howTo": {
@@ -313,7 +344,9 @@
     "whatIsPartnerCode": "Que es un Codigo Partner?",
     "disclaimer": "Advertencia de Riesgo: Operar CFDs, forex y criptomonedas puede hacerte perder dinero. No operes con mas de lo que puedes permitirte perder. Busca asesoramiento independiente si no estas seguro. Los codigos partner dan bonos pero no cambian las condiciones de trading.",
     "affiliate": "Divulgacion de Afiliados: Podemos recibir pago cuando te registras a traves de nuestros enlaces. Esto no cambia tus bonos ni nuestras recomendaciones.",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "riskWarning": "Advertencia de Riesgo"
   },
   "availability": {
     "available": "AvaTrade esta disponible en tu region.",
@@ -335,20 +368,44 @@
       "title": "Nuestros Estandares",
       "intro": "Solo listamos brokers que cumplen criterios especificos:",
       "items": [
-        { "title": "Regulados", "desc": "Cada broker que presentamos tiene licencias de autoridades financieras reconocidas (FCA, ASIC, CySEC, etc.)" },
-        { "title": "Establecidos", "desc": "Nada de operaciones efimeras. Nos quedamos con brokers con trayectorias probadas" },
-        { "title": "Codigos verificados", "desc": "Probamos cada codigo nosotros mismos antes de listarlo" },
-        { "title": "Bonos reales", "desc": "Los terminos del bono deben ser razonables y realmente alcanzables" }
+        {
+          "title": "Regulados",
+          "desc": "Cada broker que presentamos tiene licencias de autoridades financieras reconocidas (FCA, ASIC, CySEC, etc.)"
+        },
+        {
+          "title": "Establecidos",
+          "desc": "Nada de operaciones efimeras. Nos quedamos con brokers con trayectorias probadas"
+        },
+        {
+          "title": "Codigos verificados",
+          "desc": "Probamos cada codigo nosotros mismos antes de listarlo"
+        },
+        {
+          "title": "Bonos reales",
+          "desc": "Los terminos del bono deben ser razonables y realmente alcanzables"
+        }
       ]
     },
     "brokers": {
       "title": "Los Brokers Que Presentamos",
       "intro": "Por ahora nos enfocamos en un puñado de brokers que hemos verificado personalmente:",
       "items": [
-        { "name": "AvaTrade", "desc": "Broker multi-regulado desde 2006, ofrece bonos hasta $10,000" },
-        { "name": "XM", "desc": "Opcion popular con bonos hasta $10,500 y depositos minimos bajos" },
-        { "name": "AvaFutures", "desc": "Trading de futuros con integracion TradingView" },
-        { "name": "Exness", "desc": "Conocido por spreads ajustados y retiros instantaneos" }
+        {
+          "name": "AvaTrade",
+          "desc": "Broker multi-regulado desde 2006, ofrece bonos hasta $10,000"
+        },
+        {
+          "name": "XM",
+          "desc": "Opcion popular con bonos hasta $10,500 y depositos minimos bajos"
+        },
+        {
+          "name": "AvaFutures",
+          "desc": "Trading de futuros con integracion TradingView"
+        },
+        {
+          "name": "Exness",
+          "desc": "Conocido por spreads ajustados y retiros instantaneos"
+        }
       ]
     },
     "questions": {
@@ -361,9 +418,20 @@
     "deposit": "Monto de Deposito",
     "bonus": "Bono",
     "tiers": [
-      { "min": "$5", "max": "$500", "bonus": "100% (hasta $500)" },
-      { "min": "$501", "max": "$5,000", "bonus": "50% (hasta $2,500)" },
-      { "min": "$5,001", "bonus": "20% (hasta $10,600)" }
+      {
+        "min": "$5",
+        "max": "$500",
+        "bonus": "100% (hasta $500)"
+      },
+      {
+        "min": "$501",
+        "max": "$5,000",
+        "bonus": "50% (hasta $2,500)"
+      },
+      {
+        "min": "$5,001",
+        "bonus": "20% (hasta $10,600)"
+      }
     ],
     "noDeposit": {
       "title": "Bono de $30 Sin Deposito",
@@ -502,14 +570,45 @@
     "deposit": "Monto de Deposito",
     "bonus": "Bono de Bienvenida",
     "tiers": [
-      { "min": "$1,000", "max": "$1,999", "bonus": "$200" },
-      { "min": "$2,000", "max": "$2,999", "bonus": "$400" },
-      { "min": "$3,000", "max": "$4,999", "bonus": "$600" },
-      { "min": "$5,000", "max": "$9,999", "bonus": "$1,000" },
-      { "min": "$10,000", "max": "$19,999", "bonus": "$2,000" },
-      { "min": "$20,000", "max": "$49,999", "bonus": "$4,000" },
-      { "min": "$50,000", "max": "$99,999", "bonus": "$10,000" },
-      { "min": "$100,000", "bonus": "Contactar Broker" }
+      {
+        "min": "$1,000",
+        "max": "$1,999",
+        "bonus": "$200"
+      },
+      {
+        "min": "$2,000",
+        "max": "$2,999",
+        "bonus": "$400"
+      },
+      {
+        "min": "$3,000",
+        "max": "$4,999",
+        "bonus": "$600"
+      },
+      {
+        "min": "$5,000",
+        "max": "$9,999",
+        "bonus": "$1,000"
+      },
+      {
+        "min": "$10,000",
+        "max": "$19,999",
+        "bonus": "$2,000"
+      },
+      {
+        "min": "$20,000",
+        "max": "$49,999",
+        "bonus": "$4,000"
+      },
+      {
+        "min": "$50,000",
+        "max": "$99,999",
+        "bonus": "$10,000"
+      },
+      {
+        "min": "$100,000",
+        "bonus": "Contactar Broker"
+      }
     ]
   },
   "avafuturesHowTo": {
@@ -738,5 +837,288 @@
     "avafuturesSubtitle": "AvaFutures ofrece trading de futuros para residentes espanoles",
     "avafuturesCta": "Abrir Cuenta en AvaFutures",
     "avafuturesCode": "Usa el mismo codigo partner 128979"
+  },
+  "privacyPage": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Enero 2025",
+    "shortVersion": {
+      "title": "La Versión Corta",
+      "content": "Recopilamos datos mínimos, no vendemos tu información a nadie y usamos cookies solo para funcionalidad básica del sitio y análisis. Si haces clic en un enlace de broker, su política de privacidad se aplica una vez que estés en su sitio."
+    },
+    "whatWeCollect": {
+      "title": "Qué Recopilamos",
+      "autoCollect": {
+        "title": "Información que No Nos Das Activamente",
+        "intro": "Cuando visitas PartnerCode.org, recopilamos automáticamente:",
+        "items": [
+          {
+            "title": "Datos analíticos básicos",
+            "desc": "Páginas que visitas, cuánto tiempo te quedas, desde qué país navegas y qué dispositivo/navegador usas."
+          },
+          {
+            "title": "Información de referencia",
+            "desc": "Cómo nos encontraste (motor de búsqueda, enlace directo, etc.)"
+          },
+          {
+            "title": "Detección de país",
+            "desc": "Usamos la geolocalización de Cloudflare para detectar tu país por cumplimiento regulatorio."
+          }
+        ],
+        "analytics": "Usamos Cloudflare Web Analytics, que está enfocado en la privacidad y no usa cookies para rastreo."
+      },
+      "geoBlocking": {
+        "title": "Bloqueo Geográfico Regulatorio",
+        "intro": "Usamos geolocalización basada en IP para cumplir con regulaciones financieras:",
+        "spain": {
+          "title": "España (regulaciones CNMV)",
+          "desc": "Los visitantes españoles son redirigidos automáticamente de las páginas de brokers CFD a alternativas de trading de futuros, ya que el marketing de CFDs a inversores minoristas está restringido en España."
+        },
+        "note": "Esta detección ocurre a nivel de red a través de Cloudflare. No almacenamos tu dirección IP ni la usamos para ningún otro propósito."
+      },
+      "voluntary": {
+        "title": "Información que Podrías Darnos",
+        "content": "Actualmente, no tenemos formularios de contacto, cuentas ni newsletters. Si los añadimos en el futuro, actualizaremos esta política."
+      }
+    },
+    "cookies": {
+      "title": "Cookies",
+      "intro": "Usamos cookies mínimas:",
+      "items": [
+        {
+          "title": "Cookies esenciales",
+          "desc": "Para funcionalidad básica del sitio como recordar tu preferencia de idioma"
+        },
+        {
+          "title": "Analíticas",
+          "desc": "Cloudflare Web Analytics no usa cookies"
+        }
+      ],
+      "noAds": "No usamos cookies de publicidad ni vendemos datos a anunciantes."
+    },
+    "affiliateLinks": {
+      "title": "Enlaces de Afiliados",
+      "intro": "Cuando haces clic en un enlace a un broker (AvaTrade, XM, AvaFutures, Exness), estás saliendo de nuestro sitio. Estos son enlaces de afiliados:",
+      "items": [
+        "Se aplica la política de privacidad del broker, no la nuestra",
+        "El broker puede usar cookies y recopilar datos según sus propias políticas",
+        "No tenemos acceso a la información que proporcionas al broker"
+      ]
+    },
+    "howWeUse": {
+      "title": "Cómo Usamos Tu Información",
+      "intro": "Los datos analíticos que recopilamos se usan para:",
+      "items": [
+        "Entender qué páginas y brokers son más populares",
+        "Mejorar el rendimiento del sitio y la experiencia del usuario",
+        "Solucionar problemas técnicos",
+        "Decidir qué contenido añadir o actualizar"
+      ],
+      "noIdentify": "No usamos estos datos para identificar individuos, crear perfiles ni dirigir publicidad."
+    },
+    "whoWeShare": {
+      "title": "Con Quién Compartimos Datos",
+      "intro": "No vendemos tus datos. Punto. Las únicas partes con acceso son:",
+      "items": [
+        {
+          "title": "Cloudflare",
+          "desc": "Nuestro proveedor de hosting y análisis."
+        },
+        {
+          "title": "GitHub",
+          "desc": "Donde está alojado nuestro código (no se almacenan datos de usuario allí)"
+        }
+      ]
+    },
+    "dataRetention": {
+      "title": "Retención de Datos",
+      "content": "Los datos analíticos se agregan y anonimizan. No almacenamos registros individuales de usuarios."
+    },
+    "yourRights": {
+      "title": "Tus Derechos",
+      "intro": "Dependiendo de dónde vivas (especialmente si estás en la UE, Reino Unido o California), tienes derechos sobre tus datos personales:",
+      "items": [
+        "Derecho a saber qué datos tenemos sobre ti",
+        "Derecho a eliminar tus datos",
+        "Derecho a optar por no participar en la recopilación de datos"
+      ],
+      "note": "Como no recopilamos identificadores personales, estos derechos son en gran medida irrelevantes para nuestro sitio."
+    },
+    "children": {
+      "title": "Privacidad de Menores",
+      "content": "Este sitio no está destinado a menores de 18 años. El trading implica riesgo financiero y es solo para adultos."
+    },
+    "changes": {
+      "title": "Cambios en Esta Política",
+      "content": "Si hacemos cambios significativos en cómo manejamos los datos, actualizaremos esta página y la fecha de \"última actualización\"."
+    },
+    "contact": {
+      "title": "Contacto",
+      "content": "¿Preguntas sobre esta política de privacidad? El sitio opera de forma independiente. Para preocupaciones de privacidad, lo mejor es usar herramientas de privacidad del navegador."
+    }
+  },
+  "riskWarningPage": {
+    "title": "Advertencia de Riesgo",
+    "lastUpdated": "Última actualización: Enero 2025",
+    "importantBox": {
+      "label": "Importante:",
+      "content": "Operar con CFDs, forex, futuros y otros productos apalancados conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversores. Podrías perder más de tu inversión inicial. Opera solo con dinero que puedas permitirte perder."
+    },
+    "reality": {
+      "title": "La Realidad del Trading",
+      "p1": "Seamos directos: la mayoría de los traders minoristas pierden dinero. Esto no es especulación - es lo que los propios brokers reportan. Dependiendo del broker y producto, entre el 60-80% de las cuentas de inversores minoristas pierden dinero al operar con CFDs y forex.",
+      "p2": "Los códigos partner y bonos de bienvenida no cambian esta realidad fundamental. Un bono puede darte más capital para empezar, pero no hace que el trading rentable sea más fácil."
+    },
+    "whatYouTrade": {
+      "title": "Lo Que Realmente Estás Operando",
+      "cfds": {
+        "title": "CFDs (Contratos por Diferencia)",
+        "intro": "Cuando operas con CFDs, no posees el activo subyacente. Estás especulando sobre movimientos de precios. Los riesgos clave incluyen:",
+        "items": [
+          {
+            "title": "El apalancamiento amplifica las pérdidas",
+            "desc": "Un apalancamiento de 10:1 significa que un movimiento adverso del 10% elimina tu posición completamente"
+          },
+          {
+            "title": "Comisiones nocturnas",
+            "desc": "Mantener posiciones cuesta dinero, reduciendo cualquier ganancia"
+          },
+          {
+            "title": "Riesgo de gap",
+            "desc": "Los mercados pueden abrir a precios significativamente diferentes a los que cerraron"
+          },
+          {
+            "title": "Riesgo de contraparte",
+            "desc": "Estás operando contra el broker, que se beneficia cuando pierdes"
+          }
+        ]
+      },
+      "forex": {
+        "title": "Trading de Forex",
+        "intro": "Los mercados de divisas son altamente líquidos pero también muy volátiles. Los riesgos incluyen:",
+        "items": [
+          {
+            "title": "Mercados 24 horas",
+            "desc": "Los precios se mueven mientras duermes"
+          },
+          {
+            "title": "Eventos económicos",
+            "desc": "Decisiones de tasas de interés, datos de empleo y eventos políticos pueden causar movimientos grandes y repentinos"
+          },
+          {
+            "title": "Alto apalancamiento",
+            "desc": "A menudo 30:1 o superior, lo que significa que pequeños movimientos tienen grandes consecuencias"
+          }
+        ]
+      },
+      "futures": {
+        "title": "Trading de Futuros",
+        "intro": "Los contratos de futuros tienen fechas de vencimiento y su propio conjunto de riesgos:",
+        "items": [
+          {
+            "title": "Vencimiento del contrato",
+            "desc": "Debes cerrar o rodar posiciones antes del vencimiento"
+          },
+          {
+            "title": "Llamadas de margen",
+            "desc": "Si el mercado se mueve en tu contra, puede que necesites depositar más fondos inmediatamente"
+          },
+          {
+            "title": "Riesgo de liquidez",
+            "desc": "Algunos contratos tienen poca negociación, dificultando salir de posiciones"
+          }
+        ]
+      }
+    },
+    "leverage": {
+      "title": "Apalancamiento: La Espada de Doble Filo",
+      "p1": "El apalancamiento te permite controlar posiciones grandes con depósitos pequeños. Los brokers publicitan el apalancamiento como un beneficio, pero también es la razón principal por la que los traders explotan sus cuentas.",
+      "p2": "Ejemplo: Con apalancamiento 100:1, un depósito de $1,000 controla $100,000 en el mercado. Un movimiento del 1% en tu contra pierde $1,000 - todo tu depósito. Desaparecido en minutos.",
+      "p3": "Algunas jurisdicciones (como la UE y Reino Unido) han limitado el apalancamiento minorista para proteger a los traders."
+    },
+    "bonuses": {
+      "title": "Sobre los Bonos",
+      "intro": "Los bonos de bienvenida y promociones de códigos partner son herramientas de marketing. No son dinero gratis. Antes de aceptar cualquier bono:",
+      "items": [
+        {
+          "title": "Lee los términos",
+          "desc": "La mayoría de bonos requieren operar cierto volumen antes del retiro"
+        },
+        {
+          "title": "Entiende los requisitos",
+          "desc": "Los requisitos de volumen pueden ser sustanciales"
+        },
+        {
+          "title": "Conoce los límites de tiempo",
+          "desc": "Los bonos típicamente expiran si no se cumplen las condiciones"
+        },
+        {
+          "title": "Verifica las reglas de retiro",
+          "desc": "Algunos bonos restringen cómo y cuándo puedes retirar fondos"
+        }
+      ],
+      "warning": "Un bono puede ser útil si ibas a operar de todos modos, pero no dejes que un bono te tiente a operar más o más arriesgado de lo que harías normalmente."
+    },
+    "regulation": {
+      "title": "La Regulación Importa (Pero No Es Todo)",
+      "intro": "Los brokers que listamos están regulados por autoridades reconocidas (FCA, ASIC, CySEC, etc.). La regulación proporciona algunas protecciones:",
+      "items": [
+        "Fondos de clientes segregados",
+        "Protección contra saldo negativo (en algunas jurisdicciones)",
+        "Mecanismos de resolución de disputas",
+        "Esquemas de compensación financiera (hasta ciertos límites)"
+      ],
+      "warning": "Sin embargo, la regulación no te protege de pérdidas de trading. Puedes perder todo tu depósito operando con un broker completamente regulado si el mercado se mueve en tu contra."
+    },
+    "beforeYouTrade": {
+      "title": "Antes de Operar",
+      "intro": "Pregúntate honestamente:",
+      "items": [
+        "¿Puedo permitirme perder este dinero completamente?",
+        "¿Entiendo cómo funciona este producto?",
+        "¿He practicado con una cuenta demo?",
+        "¿Tengo un plan de trading y estrategia de gestión de riesgo?",
+        "¿Estoy operando basándome en análisis o emoción?"
+      ],
+      "advice": "Si no estás seguro de alguna de estas, considera buscar asesoramiento financiero independiente antes de operar."
+    },
+    "countryRestrictions": {
+      "title": "Restricciones por País",
+      "intro": "Algunos productos no están disponibles en todas partes:",
+      "items": [
+        {
+          "country": "España",
+          "desc": "El trading de CFDs está restringido. Los residentes españoles deberían considerar productos de futuros como AvaFutures."
+        },
+        {
+          "country": "Estados Unidos",
+          "desc": "El trading de CFDs no está permitido para residentes de EE.UU."
+        },
+        {
+          "country": "Bélgica",
+          "desc": "Las opciones binarias y ciertos CFDs están prohibidos para inversores minoristas."
+        }
+      ],
+      "check": "Siempre verifica que un broker y producto estén disponibles y sean legales en tu país antes de registrarte."
+    },
+    "ourRole": {
+      "title": "Nuestro Rol",
+      "intro": "PartnerCode.org proporciona información sobre códigos partner de brokers y bonos. No somos:",
+      "items": [
+        "Asesores financieros",
+        "Licenciados para proporcionar asesoramiento de inversión",
+        "Responsables de tus decisiones de trading o resultados"
+      ],
+      "disclosure": "Recibimos compensación cuando te registras a través de nuestros enlaces. Esto crea un conflicto de interés del que debes estar consciente."
+    },
+    "gettingHelp": {
+      "title": "Obtener Ayuda",
+      "intro": "Si el trading está causando estrés financiero o sientes que puedes tener un problema de juego, busca ayuda:",
+      "items": [
+        "Establece límites estrictos en tu trading",
+        "Considera opciones de autoexclusión si están disponibles",
+        "Habla con un consejero financiero",
+        "Contacta servicios de apoyo para juego en tu país"
+      ]
+    }
   }
 }
